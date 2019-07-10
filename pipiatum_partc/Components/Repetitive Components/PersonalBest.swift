@@ -13,12 +13,12 @@ class PersonalBest: UIView {
     //MARK: Initialization
     override required init(frame: CGRect) {
         super.init(frame: frame)
-        SetUpComponent(componentName: "PersonalBestTable", superView: self)
+        SetUpComponent(componentName: "PersonalBestView", superView: self)
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        SetUpComponent(componentName: "PersonalBestTable", superView: self)
+        SetUpComponent(componentName: "PersonalBestView", superView: self)
     }
 
 }

@@ -33,12 +33,15 @@
 		D87CF7AF22CE06F9000B6E42 /* ConfigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */; };
 		D87CF7B022CE06F9000B6E42 /* ConfigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */; };
 		D87CF7B122CE06F9000B6E42 /* ConfigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */; };
-		D88C498922D5A08C001A6663 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreen.swift */; };
-		D88C498A22D5A08C001A6663 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreen.swift */; };
-		D88C498B22D5A08C001A6663 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreen.swift */; };
-		D88C498D22D5A255001A6663 /* MC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498C22D5A255001A6663 /* MC.swift */; };
-		D88C498E22D5A255001A6663 /* MC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498C22D5A255001A6663 /* MC.swift */; };
-		D88C498F22D5A255001A6663 /* MC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498C22D5A255001A6663 /* MC.swift */; };
+		D88C498922D5A08C001A6663 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreenView.swift */; };
+		D88C498A22D5A08C001A6663 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreenView.swift */; };
+		D88C498B22D5A08C001A6663 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreenView.swift */; };
+		D88C498D22D5A255001A6663 /* MCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498C22D5A255001A6663 /* MCView.swift */; };
+		D88C498E22D5A255001A6663 /* MCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498C22D5A255001A6663 /* MCView.swift */; };
+		D88C498F22D5A255001A6663 /* MCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498C22D5A255001A6663 /* MCView.swift */; };
+		D88C499122D5E682001A6663 /* PersonalBestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88C499022D5E682001A6663 /* PersonalBestView.xib */; };
+		D88C499222D5E682001A6663 /* PersonalBestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88C499022D5E682001A6663 /* PersonalBestView.xib */; };
+		D88C499322D5E682001A6663 /* PersonalBestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88C499022D5E682001A6663 /* PersonalBestView.xib */; };
 		D88D0D3222D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */; };
 		D88D0D3322D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */; };
 		D88D0D3422D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */; };
@@ -50,8 +53,6 @@
 		D88DA85B22BC7D24002CFC39 /* MenuBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DA85522BC789C002CFC39 /* MenuBanner.swift */; };
 		D88DA85F22BC87FA002CFC39 /* SetUpComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DA85E22BC87FA002CFC39 /* SetUpComponent.swift */; };
 		D88DA86022BC87FA002CFC39 /* SetUpComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DA85E22BC87FA002CFC39 /* SetUpComponent.swift */; };
-		D88F9A8122C0DA9C00B8E5F3 /* BasicTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88F9A8022C0DA9C00B8E5F3 /* BasicTable.xib */; };
-		D88F9A8222C0DA9C00B8E5F3 /* BasicTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88F9A8022C0DA9C00B8E5F3 /* BasicTable.xib */; };
 		D895078622C3613B006DB1B1 /* BasicButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */; };
 		D895078722C3613B006DB1B1 /* BasicButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */; };
 		D895078A22C3652E006DB1B1 /* UIColor_init.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078922C3652E006DB1B1 /* UIColor_init.swift */; };
@@ -98,7 +99,6 @@
 		D8965DD222CDCDA9007D32BB /* PersonalBestTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFF22C4B24B00872829 /* PersonalBestTable.xib */; };
 		D8965DD322CDCDA9007D32BB /* SubMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D895078C22C37D02006DB1B1 /* SubMenu.xib */; };
 		D8965DD422CDCDA9007D32BB /* MenuBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88DA85122BC7588002CFC39 /* MenuBanner.xib */; };
-		D8965DD522CDCDA9007D32BB /* BasicTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88F9A8022C0DA9C00B8E5F3 /* BasicTable.xib */; };
 		D8965DD622CDCDA9007D32BB /* PracticeMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D8822C1C28D00606571 /* PracticeMenu.storyboard */; };
 		D8965DD722CDCDA9007D32BB /* GrammarSmartMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D8522C1C27F00606571 /* GrammarSmartMenu.storyboard */; };
 		D8965DD822CDCDA9007D32BB /* PersonalBestMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */; };
@@ -108,9 +108,9 @@
 		D8965DDD22CDCDA9007D32BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84CA71122BA3ECE00E7B16F /* Main.storyboard */; };
 		D8965DDE22CDCDA9007D32BB /* Laterbase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89ADED222C5FFCF00810E23 /* Laterbase.storyboard */; };
 		D8965DDF22CDCDA9007D32BB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D9122C1C2AF00606571 /* Settings.storyboard */; };
-		D89933C822CEF3E500F8E760 /* ResultScreenComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenComponent.xib */; };
-		D89933C922CEF3E500F8E760 /* ResultScreenComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenComponent.xib */; };
-		D89933CA22CEF3E500F8E760 /* ResultScreenComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenComponent.xib */; };
+		D89933C822CEF3E500F8E760 /* ResultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */; };
+		D89933C922CEF3E500F8E760 /* ResultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */; };
+		D89933CA22CEF3E500F8E760 /* ResultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */; };
 		D89ADECD22C5F0BB00810E23 /* MCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89ADECC22C5F0BB00810E23 /* MCView.xib */; };
 		D89ADECE22C5F0BB00810E23 /* MCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89ADECC22C5F0BB00810E23 /* MCView.xib */; };
 		D89ADED022C5FFB600810E23 /* GSTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89ADECF22C5FFB600810E23 /* GSTest.storyboard */; };
@@ -205,14 +205,14 @@
 		D84CA73E22BA3F7300E7B16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/nathan/Documents/pipiatum_partc/pipiatum_partc_level1/Info.plist; sourceTree = "<absolute>"; };
 		D87CF7AA22CE02DC000B6E42 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigButton.swift; sourceTree = "<group>"; };
-		D88C498822D5A08C001A6663 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
-		D88C498C22D5A255001A6663 /* MC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC.swift; sourceTree = "<group>"; };
+		D88C498822D5A08C001A6663 /* ResultScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenView.swift; sourceTree = "<group>"; };
+		D88C498C22D5A255001A6663 /* MCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCView.swift; sourceTree = "<group>"; };
+		D88C499022D5E682001A6663 /* PersonalBestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalBestView.xib; sourceTree = "<group>"; };
 		D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSubMenuViewController.swift; sourceTree = "<group>"; };
 		D88DA84E22BC751B002CFC39 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D88DA85122BC7588002CFC39 /* MenuBanner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBanner.xib; sourceTree = "<group>"; };
 		D88DA85522BC789C002CFC39 /* MenuBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBanner.swift; sourceTree = "<group>"; };
 		D88DA85E22BC87FA002CFC39 /* SetUpComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpComponent.swift; sourceTree = "<group>"; };
-		D88F9A8022C0DA9C00B8E5F3 /* BasicTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicTable.xib; sourceTree = "<group>"; };
 		D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonComponent.swift; sourceTree = "<group>"; };
 		D895078922C3652E006DB1B1 /* UIColor_init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_init.swift; sourceTree = "<group>"; };
 		D895078C22C37D02006DB1B1 /* SubMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubMenu.xib; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 		D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalBestMenu.storyboard; sourceTree = "<group>"; };
 		D89C2D9122C1C2AF00606571 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		D8D0ECF922C49F3100872829 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
-		D8D0ECFC22C4AD1A00872829 /* ResultScreenComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenComponent.xib; sourceTree = "<group>"; };
+		D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenView.xib; sourceTree = "<group>"; };
 		D8D0ECFF22C4B24B00872829 /* PersonalBestTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalBestTable.xib; sourceTree = "<group>"; };
 		D8D0ED0222C4BC9000872829 /* PersonalBest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBest.swift; sourceTree = "<group>"; };
 		D8D4415722BB6C16007419C9 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
@@ -385,7 +385,6 @@
 			isa = PBXGroup;
 			children = (
 				D88DA85122BC7588002CFC39 /* MenuBanner.xib */,
-				D8D0ECFC22C4AD1A00872829 /* ResultScreenComponent.xib */,
 				D89ADEE422C602FE00810E23 /* Repetitive Layouts */,
 			);
 			path = Layouts;
@@ -485,10 +484,11 @@
 		D89ADEE422C602FE00810E23 /* Repetitive Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				D88F9A8022C0DA9C00B8E5F3 /* BasicTable.xib */,
 				D89ADECC22C5F0BB00810E23 /* MCView.xib */,
 				D895078C22C37D02006DB1B1 /* SubMenu.xib */,
+				D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */,
 				D8D0ECFF22C4B24B00872829 /* PersonalBestTable.xib */,
+				D88C499022D5E682001A6663 /* PersonalBestView.xib */,
 			);
 			path = "Repetitive Layouts";
 			sourceTree = "<group>";
@@ -498,8 +498,8 @@
 			children = (
 				D895078F22C37D55006DB1B1 /* SubMenu.swift */,
 				D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */,
-				D88C498C22D5A255001A6663 /* MC.swift */,
-				D88C498822D5A08C001A6663 /* ResultScreen.swift */,
+				D88C498C22D5A255001A6663 /* MCView.swift */,
+				D88C498822D5A08C001A6663 /* ResultScreenView.swift */,
 				D8D0ED0222C4BC9000872829 /* PersonalBest.swift */,
 			);
 			path = "Repetitive Components";
@@ -709,17 +709,17 @@
 			files = (
 				D84CA71B22BA3EDC00E7B16F /* LaunchScreen.storyboard in Resources */,
 				D84CA71822BA3EDC00E7B16F /* Assets.xcassets in Resources */,
+				D88C499122D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D8D0ED0022C4B24B00872829 /* PersonalBestTable.xib in Resources */,
 				D895078D22C37D02006DB1B1 /* SubMenu.xib in Resources */,
 				D88DA85222BC7588002CFC39 /* MenuBanner.xib in Resources */,
-				D88F9A8122C0DA9C00B8E5F3 /* BasicTable.xib in Resources */,
 				D89C2D8922C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
 				D89C2D8622C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D89C2D8F22C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
 				D89C2D8C22C1C29900606571 /* TestMenu.storyboard in Resources */,
 				D89ADECD22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED022C5FFB600810E23 /* GSTest.storyboard in Resources */,
-				D89933C822CEF3E500F8E760 /* ResultScreenComponent.xib in Resources */,
+				D89933C822CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D84CA71322BA3ECE00E7B16F /* Main.storyboard in Resources */,
 				D89ADED322C5FFCF00810E23 /* Laterbase.storyboard in Resources */,
 				D89C2D9222C1C2AF00606571 /* Settings.storyboard in Resources */,
@@ -742,14 +742,14 @@
 				D8D0ED0122C4B24B00872829 /* PersonalBestTable.xib in Resources */,
 				D895078E22C37D02006DB1B1 /* SubMenu.xib in Resources */,
 				D88DA85922BC7D1A002CFC39 /* MenuBanner.xib in Resources */,
-				D88F9A8222C0DA9C00B8E5F3 /* BasicTable.xib in Resources */,
 				D89C2D8A22C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
 				D89C2D8722C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
+				D88C499222D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D89C2D9022C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
 				D89C2D8D22C1C29900606571 /* TestMenu.storyboard in Resources */,
 				D89ADECE22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED122C5FFB600810E23 /* GSTest.storyboard in Resources */,
-				D89933C922CEF3E500F8E760 /* ResultScreenComponent.xib in Resources */,
+				D89933C922CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8F6359D22CF323400AB0CCC /* PracticeMenu.plist in Resources */,
 				D84CA73922BA3F7300E7B16F /* Main.storyboard in Resources */,
 				D89ADED422C5FFCF00810E23 /* Laterbase.storyboard in Resources */,
@@ -766,14 +766,14 @@
 				D8965DD222CDCDA9007D32BB /* PersonalBestTable.xib in Resources */,
 				D8965DD322CDCDA9007D32BB /* SubMenu.xib in Resources */,
 				D8965DD422CDCDA9007D32BB /* MenuBanner.xib in Resources */,
-				D8965DD522CDCDA9007D32BB /* BasicTable.xib in Resources */,
 				D8965DD622CDCDA9007D32BB /* PracticeMenu.storyboard in Resources */,
 				D8965DD722CDCDA9007D32BB /* GrammarSmartMenu.storyboard in Resources */,
+				D88C499322D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D8965DD822CDCDA9007D32BB /* PersonalBestMenu.storyboard in Resources */,
 				D8965DDA22CDCDA9007D32BB /* TestMenu.storyboard in Resources */,
 				D8965DDB22CDCDA9007D32BB /* MCView.xib in Resources */,
 				D8965DDC22CDCDA9007D32BB /* GSTest.storyboard in Resources */,
-				D89933CA22CEF3E500F8E760 /* ResultScreenComponent.xib in Resources */,
+				D89933CA22CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8F6359E22CF323400AB0CCC /* PracticeMenu.plist in Resources */,
 				D8965DDD22CDCDA9007D32BB /* Main.storyboard in Resources */,
 				D8965DDE22CDCDA9007D32BB /* Laterbase.storyboard in Resources */,
@@ -790,7 +790,7 @@
 			files = (
 				D8D4415822BB6C16007419C9 /* CoreDataStack.swift in Sources */,
 				D8965DA922CD9A67007D32BB /* ScriptFontButton.swift in Sources */,
-				D88C498922D5A08C001A6663 /* ResultScreen.swift in Sources */,
+				D88C498922D5A08C001A6663 /* ResultScreenView.swift in Sources */,
 				D8965DA722CD9A5A007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -814,7 +814,7 @@
 				D845F29922D3175D000D6F1D /* SubMenuButton.swift in Sources */,
 				D89ADF0622C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0922C606BD00810E23 /* AboutUsViewController.swift in Sources */,
-				D88C498D22D5A255001A6663 /* MC.swift in Sources */,
+				D88C498D22D5A255001A6663 /* MCView.swift in Sources */,
 				D89ADF0D22C60A3000810E23 /* PBMenuViewController.swift in Sources */,
 				D89ADEF122C6050F00810E23 /* TestMenuViewController.swift in Sources */,
 				D845F29522D31674000D6F1D /* TempArrayData.swift in Sources */,
@@ -844,7 +844,7 @@
 			files = (
 				D84CA73322BA3F7300E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DAC22CD9A6E007D32BB /* ScriptFontButton.swift in Sources */,
-				D88C498A22D5A08C001A6663 /* ResultScreen.swift in Sources */,
+				D88C498A22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
 				D8965DAA22CD9A6B007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359922CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -868,7 +868,7 @@
 				D845F29A22D3175D000D6F1D /* SubMenuButton.swift in Sources */,
 				D89ADF0722C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0A22C606BD00810E23 /* AboutUsViewController.swift in Sources */,
-				D88C498E22D5A255001A6663 /* MC.swift in Sources */,
+				D88C498E22D5A255001A6663 /* MCView.swift in Sources */,
 				D89ADF0E22C60A3000810E23 /* PBMenuViewController.swift in Sources */,
 				D89ADEF222C6050F00810E23 /* TestMenuViewController.swift in Sources */,
 				D845F29622D31674000D6F1D /* TempArrayData.swift in Sources */,
@@ -890,7 +890,7 @@
 			files = (
 				D8965DB022CDCDA9007D32BB /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DB122CDCDA9007D32BB /* ScriptFontButton.swift in Sources */,
-				D88C498B22D5A08C001A6663 /* ResultScreen.swift in Sources */,
+				D88C498B22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
 				D8965DB222CDCDA9007D32BB /* StandardFontButton.swift in Sources */,
 				D8965DB322CDCDA9007D32BB /* LBViewController.swift in Sources */,
 				D8F6359A22CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -914,7 +914,7 @@
 				D845F29B22D3175D000D6F1D /* SubMenuButton.swift in Sources */,
 				D8965DC322CDCDA9007D32BB /* SettingsViewController.swift in Sources */,
 				D8965DC422CDCDA9007D32BB /* AboutUsViewController.swift in Sources */,
-				D88C498F22D5A255001A6663 /* MC.swift in Sources */,
+				D88C498F22D5A255001A6663 /* MCView.swift in Sources */,
 				D8965DC522CDCDA9007D32BB /* PBMenuViewController.swift in Sources */,
 				D8965DC622CDCDA9007D32BB /* TestMenuViewController.swift in Sources */,
 				D845F29722D31674000D6F1D /* TempArrayData.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ResultScreen.swift
+//  ResultScreenView.swift
 //  pipiatum_partc
 //
 //  Created by Nathan Kong on 10/7/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ResultScreen: UIView {
+class ResultScreenView: UIView {
 
     //MARK: Initialization
     override required init(frame: CGRect) {

@@ -70,7 +70,7 @@ class SubMenuStack: UIStackView {
     
     private func linkToVC(button: SubMenuButton) {
         //TODO
-        
+        button.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: .touchUpInside)
     }
     
 }

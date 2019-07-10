@@ -29,19 +29,15 @@
                     <rect key="frame" x="19" y="275" width="337.5" height="284"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBL-8I-g5G" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="337.5" height="59.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="337.5" height="84.5"/>
                             <state key="normal" title="Button"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G1-xv-dnh" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="74.5" width="337.5" height="60"/>
+                            <rect key="frame" x="0.0" y="99.5" width="337.5" height="84.5"/>
                             <state key="normal" title="Button"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-DM-CA7" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="149.5" width="337.5" height="59.5"/>
-                            <state key="normal" title="Button"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4t-xS-Pdm" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="224" width="337.5" height="60"/>
+                            <rect key="frame" x="0.0" y="199" width="337.5" height="85"/>
                             <state key="normal" title="Button"/>
                         </button>
                     </subviews>

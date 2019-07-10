@@ -23,14 +23,16 @@ class PracticeMenuViewController: BasicSubMenuViewController {
         
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func button_clicked(_ sender: SubMenuButton) {
+        self.performSegue(withIdentifier: "PRACTICE", sender: self)
     }
-    */
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PRACTICE" {
+            if let destination = segue.destination as? PracticeViewController {
+                print("Going to Practice View!")
+            }
+        }
+    }
 
 }
