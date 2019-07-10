@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubMenu" customModule="pipiatum_partc" customModuleProvider="target">
+            <connections>
+                <outlet property="subMenuImage" destination="Zg4-2i-5ZH" id="ZQP-o8-lN1"/>
+                <outlet property="subMenuStackHeight" destination="Eth-qd-0wV" id="Exg-XI-rIH"/>
+                <outlet property="subMenuStackView" destination="ttw-Ne-hxe" id="6Fh-CU-6T1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4i8-Yk-ugA" userLabel="SubViewBanner">
+                    <rect key="frame" x="0.0" y="20" width="375" height="152"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zg4-2i-5ZH">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                            </accessibility>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.2470588235" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstItem="Zg4-2i-5ZH" firstAttribute="centerY" secondItem="4i8-Yk-ugA" secondAttribute="centerY" id="7G5-NQ-74J"/>
+                        <constraint firstItem="Zg4-2i-5ZH" firstAttribute="centerX" secondItem="4i8-Yk-ugA" secondAttribute="centerX" id="M3i-oF-NPy"/>
+                        <constraint firstItem="Zg4-2i-5ZH" firstAttribute="height" secondItem="4i8-Yk-ugA" secondAttribute="height" id="oEo-sX-k1l"/>
+                        <constraint firstItem="Zg4-2i-5ZH" firstAttribute="width" secondItem="4i8-Yk-ugA" secondAttribute="width" id="xrP-ww-U8K"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVl-DD-3NO" userLabel="SubViewContent">
+                    <rect key="frame" x="0.0" y="172" width="375" height="495"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpr-eZ-BxA" userLabel="SubMenuScroll">
+                            <rect key="frame" x="37.5" y="49.5" width="300" height="396"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ttw-Ne-hxe" userLabel="SubMenuStack" customClass="SubMenuStack" customModule="pipiatum_partc" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="500"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="500" id="Eth-qd-0wV"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="width" secondItem="vpr-eZ-BxA" secondAttribute="width" id="2Md-BY-oml"/>
+                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="top" secondItem="vpr-eZ-BxA" secondAttribute="top" id="FMS-1g-9aN" userLabel="SubMenuStack.top"/>
+                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="leading" secondItem="vpr-eZ-BxA" secondAttribute="leading" id="Nox-1c-918" userLabel="SubMenuStack.leading"/>
+                                <constraint firstAttribute="trailing" secondItem="ttw-Ne-hxe" secondAttribute="trailing" id="Plt-nW-qr5" userLabel="SubMenuStack.trailing"/>
+                                <constraint firstAttribute="bottom" secondItem="ttw-Ne-hxe" secondAttribute="bottom" id="bor-q6-SqE" userLabel="SubMenuStack.bottom"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.099831648170948029" green="0.33341634273529053" blue="0.63660579919815063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="centerX" secondItem="CVl-DD-3NO" secondAttribute="centerX" id="CPN-AW-2o4"/>
+                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="width" secondItem="CVl-DD-3NO" secondAttribute="width" multiplier="0.8" id="e2e-Aw-PYq"/>
+                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="centerY" secondItem="CVl-DD-3NO" secondAttribute="centerY" id="gxX-zh-7Nk"/>
+                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="height" secondItem="CVl-DD-3NO" secondAttribute="height" multiplier="0.8" id="nfx-ar-nym">
+                            <variation key="heightClass=compact-widthClass=compact" constant="30"/>
+                            <variation key="heightClass=compact-widthClass=regular" constant="30"/>
+                        </constraint>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4i8-Yk-ugA" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="centerY" multiplier="0.5" id="3sm-f3-93H"/>
+                <constraint firstItem="4i8-Yk-ugA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="8Om-in-xwQ"/>
+                <constraint firstAttribute="trailing" secondItem="4i8-Yk-ugA" secondAttribute="trailing" id="RqF-ks-TYv"/>
+                <constraint firstItem="4i8-Yk-ugA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wsg-1T-Fz8"/>
+                <constraint firstItem="CVl-DD-3NO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XeK-aW-uTu"/>
+                <constraint firstAttribute="bottom" secondItem="CVl-DD-3NO" secondAttribute="bottom" id="boO-pa-WiY"/>
+                <constraint firstItem="CVl-DD-3NO" firstAttribute="top" secondItem="4i8-Yk-ugA" secondAttribute="bottom" id="ePt-8n-78O"/>
+                <constraint firstAttribute="trailing" secondItem="CVl-DD-3NO" secondAttribute="trailing" id="uKY-D2-RWK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="50.724637681159422" y="43.206521739130437"/>
+        </view>
+    </objects>
+</document>

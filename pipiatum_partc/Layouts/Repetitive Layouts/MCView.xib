@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RrY-S4-Mz8">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-8L-pM5" userLabel="MC Question">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                    <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w80-rD-Naz" userLabel="Footer View">
+                    <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                    <color key="backgroundColor" red="0.08952534943819046" green="0.30681169033050537" blue="0.58090364933013916" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="q1a-MV-M8k" userLabel="MC Choice Stack">
+                    <rect key="frame" x="19" y="275" width="337.5" height="284"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBL-8I-g5G" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="337.5" height="59.5"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G1-xv-dnh" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="74.5" width="337.5" height="60"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-DM-CA7" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="149.5" width="337.5" height="59.5"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4t-xS-Pdm" customClass="BasicButtonComponent" customModule="pipiatum_partc" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="224" width="337.5" height="60"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <variation key="heightClass=regular-widthClass=compact" spacing="15"/>
+                    <variation key="heightClass=regular-widthClass=regular" spacing="20"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="w80-rD-Naz" firstAttribute="top" secondItem="q1a-MV-M8k" secondAttribute="bottom" constant="8" symbolic="YES" id="298-ip-z7s"/>
+                <constraint firstItem="q1a-MV-M8k" firstAttribute="top" secondItem="fgZ-8L-pM5" secondAttribute="bottom" constant="8" symbolic="YES" id="CnM-d9-V9y">
+                    <variation key="heightClass=regular-widthClass=regular" constant="8" symbolic="YES"/>
+                </constraint>
+                <constraint firstItem="fgZ-8L-pM5" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.4" id="Ecq-Iz-GwG">
+                    <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
+                </constraint>
+                <constraint firstItem="q1a-MV-M8k" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" multiplier="0.9" id="FPg-pn-8co"/>
+                <constraint firstItem="w80-rD-Naz" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="GmB-RL-C2L"/>
+                <constraint firstItem="fgZ-8L-pM5" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="KzY-Kh-qmJ"/>
+                <constraint firstItem="q1a-MV-M8k" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="Qw5-fd-LuO"/>
+                <constraint firstItem="w80-rD-Naz" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.15" id="SWX-Lh-MKj"/>
+                <constraint firstAttribute="bottom" secondItem="w80-rD-Naz" secondAttribute="bottom" id="bcS-Am-Qkc"/>
+                <constraint firstItem="w80-rD-Naz" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="jKD-lj-Qun"/>
+                <constraint firstItem="fgZ-8L-pM5" firstAttribute="top" secondItem="RrY-S4-Mz8" secondAttribute="top" id="jVS-gr-OUJ"/>
+                <constraint firstItem="fgZ-8L-pM5" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="u0p-ip-97f"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="5DR-Qj-ctJ"/>
+            <point key="canvasLocation" x="-127" y="148"/>
+        </view>
+    </objects>
+</document>

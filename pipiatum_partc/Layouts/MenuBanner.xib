@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1026" height="468"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kw0-05-2hf">
+                    <rect key="frame" x="51.5" y="47" width="923" height="374"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pipiatum_title" translatesAutoresizingMaskIntoConstraints="NO" id="vk5-WR-eJf">
+                            <rect key="frame" x="0.0" y="0.0" width="461.5" height="374"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="New Main Menu Img - Battle no border" translatesAutoresizingMaskIntoConstraints="NO" id="A8Q-r2-PMl">
+                            <rect key="frame" x="461.5" y="0.0" width="461.5" height="374"/>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.074509803921568626" green="0.24705882352941178" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kw0-05-2hf" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="D7a-En-Prj"/>
+                <constraint firstItem="kw0-05-2hf" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="NHR-FL-HLG"/>
+                <constraint firstItem="kw0-05-2hf" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="OXG-n1-sc4"/>
+                <constraint firstItem="kw0-05-2hf" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="pTL-Ca-zLC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-17.600000000000001" y="-297.75112443778113"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="New Main Menu Img - Battle no border" width="873" height="724"/>
+        <image name="Pipiatum_title" width="562" height="298"/>
+    </resources>
+</document>
