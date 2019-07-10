@@ -25,6 +25,8 @@ class BasicButtonComponent: UIButton {
     }
     
     func setUpButton() {
+        isExclusiveTouch = true
+        
         //Rounding the corners
         layer.cornerRadius = 10
         
