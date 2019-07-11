@@ -47,33 +47,30 @@
                     <rect key="frame" x="0.0" y="172" width="375" height="495"/>
                     <subviews>
                         <scrollView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpr-eZ-BxA" userLabel="SubMenuScroll">
-                            <rect key="frame" x="37.5" y="49.5" width="300" height="396"/>
+                            <rect key="frame" x="0.0" y="24.5" width="375" height="445.5"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ttw-Ne-hxe" userLabel="SubMenuStack" customClass="SubMenuStack" customModule="pipiatum_partc" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="300" height="500"/>
+                                    <rect key="frame" x="37.5" y="0.0" width="300" height="400"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="500" id="Eth-qd-0wV"/>
+                                        <constraint firstAttribute="height" constant="400" id="Eth-qd-0wV"/>
                                     </constraints>
                                 </stackView>
                             </subviews>
                             <constraints>
-                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="width" secondItem="vpr-eZ-BxA" secondAttribute="width" id="2Md-BY-oml"/>
+                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="width" secondItem="vpr-eZ-BxA" secondAttribute="width" multiplier="0.8" id="2Md-BY-oml"/>
                                 <constraint firstItem="ttw-Ne-hxe" firstAttribute="top" secondItem="vpr-eZ-BxA" secondAttribute="top" id="FMS-1g-9aN" userLabel="SubMenuStack.top"/>
-                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="leading" secondItem="vpr-eZ-BxA" secondAttribute="leading" id="Nox-1c-918" userLabel="SubMenuStack.leading"/>
                                 <constraint firstAttribute="trailing" secondItem="ttw-Ne-hxe" secondAttribute="trailing" id="Plt-nW-qr5" userLabel="SubMenuStack.trailing"/>
                                 <constraint firstAttribute="bottom" secondItem="ttw-Ne-hxe" secondAttribute="bottom" id="bor-q6-SqE" userLabel="SubMenuStack.bottom"/>
+                                <constraint firstItem="ttw-Ne-hxe" firstAttribute="centerX" secondItem="vpr-eZ-BxA" secondAttribute="centerX" id="piY-bc-KvR"/>
                             </constraints>
                         </scrollView>
                     </subviews>
                     <color key="backgroundColor" red="0.099831648170948029" green="0.33341634273529053" blue="0.63660579919815063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="vpr-eZ-BxA" firstAttribute="centerX" secondItem="CVl-DD-3NO" secondAttribute="centerX" id="CPN-AW-2o4"/>
-                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="width" secondItem="CVl-DD-3NO" secondAttribute="width" multiplier="0.8" id="e2e-Aw-PYq"/>
+                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="width" secondItem="CVl-DD-3NO" secondAttribute="width" id="e2e-Aw-PYq"/>
                         <constraint firstItem="vpr-eZ-BxA" firstAttribute="centerY" secondItem="CVl-DD-3NO" secondAttribute="centerY" id="gxX-zh-7Nk"/>
-                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="height" secondItem="CVl-DD-3NO" secondAttribute="height" multiplier="0.8" id="nfx-ar-nym">
-                            <variation key="heightClass=compact-widthClass=compact" constant="30"/>
-                            <variation key="heightClass=compact-widthClass=regular" constant="30"/>
-                        </constraint>
+                        <constraint firstItem="vpr-eZ-BxA" firstAttribute="height" secondItem="CVl-DD-3NO" secondAttribute="height" multiplier="0.9" id="nfx-ar-nym"/>
                     </constraints>
                 </view>
             </subviews>

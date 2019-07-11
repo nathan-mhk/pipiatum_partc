@@ -20,7 +20,7 @@ class SubMenuStack: UIStackView {
     }
     
     //Standard button height for all of the buttons in subMenu
-    let btnHeight = 60
+    var btnHeight = CGFloat(60)
     
     //TODO: Change buttons type?
     func setUpButtonStack(buttons: Array<Any>, stackHeight: NSLayoutConstraint) {
@@ -40,15 +40,19 @@ class SubMenuStack: UIStackView {
         }
     }
     
-    
     //Set the height constraint of the subMenuStackView
     //TODO: Change buttons type?
     private func setStackHeight(buttons: Array<Any>, stackHeight: NSLayoutConstraint) {
-        let totalSpacing = self.spacing * CGFloat(buttons.count - 1)
-        let totalButtonsHeight = CGFloat(btnHeight * buttons.count)
+        let buttonCount = CGFloat(buttons.count)
+        let totalSpacing = self.spacing * (buttonCount - 1.0)
+        
+        btnHeight = (self.frame.height - totalSpacing) / buttonCount
+        btnHeight = btnHeight < 55.0 ? 55.0 : btnHeight
+        btnHeight = btnHeight > 70.0 ? 70.0 : btnHeight
+        
+        let totalButtonsHeight = btnHeight * buttonCount
         stackHeight.constant = totalButtonsHeight + totalSpacing
     }
-    
     
     //Add buttons into subMenuStackView
     private func addButtons(buttons: Array<Any>) {
