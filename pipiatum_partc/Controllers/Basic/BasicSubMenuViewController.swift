@@ -46,4 +46,11 @@ class BasicSubMenuViewController: BasicViewController {
         subMenu.setBtnStack(buttons: buttons)
     }
     
+    
+    //MARK: MUST OVERRIDE
+    func linkViewController() {
+    }
+    
+    @objc func buttonSegue() {
+    }
 }
