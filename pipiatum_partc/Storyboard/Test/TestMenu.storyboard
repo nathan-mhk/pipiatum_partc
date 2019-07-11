@@ -33,7 +33,7 @@
         <scene sceneID="0BU-QK-WP2">
             <objects>
                 <viewController id="7UZ-Sr-4aA" customClass="TestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ga8-2N-gYr" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="Ga8-2N-gYr" customClass="MC" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

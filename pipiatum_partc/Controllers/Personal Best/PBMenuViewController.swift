@@ -18,25 +18,16 @@ class PBMenuViewController: BasicSubMenuViewController {
         // Do any additional setup after loading the view.
         pbMenu.id = "pb"
         setUpSubMenu(subMenu: pbMenu, readjust: false)
-        linkViewController()
     }
 
-    override func linkViewController() {
-        let buttons = self.view.getAllSubViews() as [SubMenuButton]
-        for button in buttons {
-            button.addTarget(self, action: #selector(buttonSegue), for: .touchUpInside)
-        }
-    }
-    
-    @objc override func buttonSegue() {
-        subMenuButtonSegue(segueID: "PERSONALBEST", viewController: self)
-    }
-    
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "PERSONALBEST" {
-            if let destination = segue.destination as? PBViewController {
-                print("Going to PB View!")
-            }
-        }
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
     }
+    */
+
 }
