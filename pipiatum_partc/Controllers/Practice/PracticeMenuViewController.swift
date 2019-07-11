@@ -16,23 +16,31 @@ class PracticeMenuViewController: BasicSubMenuViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        practiceMenu.id = "practice"
-        setUpSubMenu(subMenu: practiceMenu, readjust: false)
         //TODO:
         //Pass the plist to practiceMenu.setUpSubMenu
+        practiceMenu.id = "practice"
+        setUpSubMenu(subMenu: practiceMenu, readjust: false)
+        linkViewController()
         
-    }
-
-    @IBAction func button_clicked(_ sender: SubMenuButton) {
-        self.performSegue(withIdentifier: "PRACTICE", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PRACTICE" {
             if let destination = segue.destination as? PracticeViewController {
-                print("Going to Practice View!")
+                //print("Going to Practice View!")
             }
         }
+    }
+    
+    func linkViewController() {
+        let buttons = self.view.getAllSubViews() as [SubMenuButton]
+        for button in buttons {
+            button.addTarget(self, action: #selector(buttonSegue), for: .touchUpInside)
+        }
+    }
+    
+    @objc func buttonSegue() {
+        subMenuButtonSegue(segueID: "PRACTICE", viewController: self)
     }
 
 }

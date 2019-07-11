@@ -19,13 +19,11 @@ class SubMenuButton: BasicButtonComponent {
         super.init(coder: aDecoder)
         setUpButton()
     }
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    class func newButton() -> SubMenuButton {
+        let newButton = SubMenuButton.init(type: .system)
+        newButton.setUpButton()
+        return newButton
     }
-    */
 
 }

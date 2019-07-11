@@ -54,7 +54,7 @@ class SubMenuStack: UIStackView {
     private func addButtons(buttons: Array<Any>) {
         for button in buttons {
             //Probably just = BasicButtonComponent()
-            let subMenuButton = SubMenuButton()
+            let subMenuButton = SubMenuButton.newButton()
             
             //TODO: Change buttons type?
             subMenuButton.setTitle(button as? String, for: .normal)
@@ -62,15 +62,9 @@ class SubMenuStack: UIStackView {
             subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
             subMenuButton.translatesAutoresizingMaskIntoConstraints = false
             subMenuButton.heightAnchor.constraint(equalToConstant: CGFloat(btnHeight)).isActive = true
-            linkToVC(button: subMenuButton)
             
             self.addArrangedSubview(subMenuButton)
         }
-    }
-    
-    private func linkToVC(button: SubMenuButton) {
-        //TODO
-        button.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: .touchUpInside)
     }
     
 }

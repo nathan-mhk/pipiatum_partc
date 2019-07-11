@@ -111,6 +111,12 @@
 		D89933C822CEF3E500F8E760 /* ResultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */; };
 		D89933C922CEF3E500F8E760 /* ResultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */; };
 		D89933CA22CEF3E500F8E760 /* ResultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */; };
+		D899BB2B22D6DC5A00BAF86D /* buttonSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BB2A22D6DC5A00BAF86D /* buttonSegue.swift */; };
+		D899BB2C22D6DC5A00BAF86D /* buttonSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BB2A22D6DC5A00BAF86D /* buttonSegue.swift */; };
+		D899BB2D22D6DC5A00BAF86D /* buttonSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BB2A22D6DC5A00BAF86D /* buttonSegue.swift */; };
+		D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BB2E22D6EE2000BAF86D /* UIView.swift */; };
+		D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BB2E22D6EE2000BAF86D /* UIView.swift */; };
+		D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BB2E22D6EE2000BAF86D /* UIView.swift */; };
 		D89ADECD22C5F0BB00810E23 /* MCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89ADECC22C5F0BB00810E23 /* MCView.xib */; };
 		D89ADECE22C5F0BB00810E23 /* MCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89ADECC22C5F0BB00810E23 /* MCView.xib */; };
 		D89ADED022C5FFB600810E23 /* GSTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89ADECF22C5FFB600810E23 /* GSTest.storyboard */; };
@@ -221,6 +227,8 @@
 		D8965DA822CD9A67007D32BB /* ScriptFontButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptFontButton.swift; sourceTree = "<group>"; };
 		D8965DE322CDCDA9007D32BB /* pipiatum_partc_level1_WCAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipiatum_partc_level1_WCAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8965DE422CDCDAA007D32BB /* Info_WCAL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info_WCAL.plist; path = /Users/nathan/Documents/pipiatum_partc/Info_WCAL.plist; sourceTree = "<absolute>"; };
+		D899BB2A22D6DC5A00BAF86D /* buttonSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonSegue.swift; sourceTree = "<group>"; };
+		D899BB2E22D6EE2000BAF86D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		D89ADECC22C5F0BB00810E23 /* MCView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MCView.xib; sourceTree = "<group>"; };
 		D89ADECF22C5FFB600810E23 /* GSTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GSTest.storyboard; sourceTree = "<group>"; };
 		D89ADED222C5FFCF00810E23 /* Laterbase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Laterbase.storyboard; sourceTree = "<group>"; };
@@ -363,6 +371,7 @@
 				D87CF7AA22CE02DC000B6E42 /* AppConfig.swift */,
 				D88DA85E22BC87FA002CFC39 /* SetUpComponent.swift */,
 				D8F635A322CF492600AB0CCC /* PlistUtil.swift */,
+				D899BB2A22D6DC5A00BAF86D /* buttonSegue.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -416,6 +425,7 @@
 			isa = PBXGroup;
 			children = (
 				D895078922C3652E006DB1B1 /* UIColor_init.swift */,
+				D899BB2E22D6EE2000BAF86D /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -799,6 +809,7 @@
 				D895079022C37D55006DB1B1 /* SubMenu.swift in Sources */,
 				D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */,
 				D84CA71622BA3ECE00E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
+				D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */,
 				D89ADF0022C606A100810E23 /* TestViewController.swift in Sources */,
 				D89ADEF422C6056500810E23 /* LBResultScrnViewController.swift in Sources */,
 				D89ADEFD22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */,
@@ -821,6 +832,7 @@
 				D8F635A422CF492600AB0CCC /* PlistUtil.swift in Sources */,
 				D89ADEFA22C6068200810E23 /* PracticeViewController.swift in Sources */,
 				D895078A22C3652E006DB1B1 /* UIColor_init.swift in Sources */,
+				D899BB2B22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D88DA85622BC789C002CFC39 /* MenuBanner.swift in Sources */,
 				D89ADF0322C606AB00810E23 /* TestResultScrnViewController.swift in Sources */,
 				D89ADEE222C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
@@ -853,6 +865,7 @@
 				D895079122C37D55006DB1B1 /* SubMenu.swift in Sources */,
 				D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */,
 				D84CA73422BA3F7300E7B16F /* AppDelegate.swift in Sources */,
+				D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */,
 				D89ADF0122C606A100810E23 /* TestViewController.swift in Sources */,
 				D89ADEF522C6056500810E23 /* LBResultScrnViewController.swift in Sources */,
 				D89ADEFE22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */,
@@ -875,6 +888,7 @@
 				D8F635A522CF492600AB0CCC /* PlistUtil.swift in Sources */,
 				D89ADEFB22C6068200810E23 /* PracticeViewController.swift in Sources */,
 				D895078B22C3652E006DB1B1 /* UIColor_init.swift in Sources */,
+				D899BB2C22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D88DA85B22BC7D24002CFC39 /* MenuBanner.swift in Sources */,
 				D89ADF0422C606AB00810E23 /* TestResultScrnViewController.swift in Sources */,
 				D89ADEE322C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
@@ -899,6 +913,7 @@
 				D8965DB622CDCDA9007D32BB /* SubMenu.swift in Sources */,
 				D8965DB722CDCDA9007D32BB /* MenuButton.swift in Sources */,
 				D8965DB822CDCDA9007D32BB /* AppDelegate.swift in Sources */,
+				D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */,
 				D8965DB922CDCDA9007D32BB /* TestViewController.swift in Sources */,
 				D8965DBA22CDCDA9007D32BB /* LBResultScrnViewController.swift in Sources */,
 				D8965DBB22CDCDA9007D32BB /* PracticeResultScrnViewController.swift in Sources */,
@@ -921,6 +936,7 @@
 				D8F635A622CF492600AB0CCC /* PlistUtil.swift in Sources */,
 				D8965DC722CDCDA9007D32BB /* PracticeViewController.swift in Sources */,
 				D8965DC822CDCDA9007D32BB /* UIColor_init.swift in Sources */,
+				D899BB2D22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D8965DCA22CDCDA9007D32BB /* MenuBanner.swift in Sources */,
 				D8965DCB22CDCDA9007D32BB /* TestResultScrnViewController.swift in Sources */,
 				D8965DCC22CDCDA9007D32BB /* GSTestResultScrnViewController.swift in Sources */,

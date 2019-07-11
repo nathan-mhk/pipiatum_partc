@@ -14,7 +14,6 @@ class BasicButtonComponent: UIButton {
         
         super.init(frame: frame)
         setUpButton()
-        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -25,6 +24,7 @@ class BasicButtonComponent: UIButton {
     }
     
     func setUpButton() {
+        //Prevent multitouch
         isExclusiveTouch = true
         
         //Rounding the corners
