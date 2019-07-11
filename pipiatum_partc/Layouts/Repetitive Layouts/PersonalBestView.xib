@@ -16,17 +16,17 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="5" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eqv-ZO-iKn" userLabel="pbTableView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tS-eL-e9n" customClass="PBTable" customModule="pipiatum_partc" customModuleProvider="target">
                     <rect key="frame" x="37.5" y="33.5" width="300" height="333.5"/>
-                    <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </tableView>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="eqv-ZO-iKn" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="6VL-G1-CHY"/>
-                <constraint firstItem="eqv-ZO-iKn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.6" id="YF1-w8-nVR"/>
-                <constraint firstItem="eqv-ZO-iKn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xvx-Ky-0JG"/>
-                <constraint firstItem="eqv-ZO-iKn" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="z05-5x-bHD"/>
+                <constraint firstItem="6tS-eL-e9n" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DPe-Qb-ssi"/>
+                <constraint firstItem="6tS-eL-e9n" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.6" id="QfV-Vq-v7L"/>
+                <constraint firstItem="6tS-eL-e9n" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="gBs-1d-c8Y"/>
+                <constraint firstItem="6tS-eL-e9n" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="xH0-ey-bgo"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

@@ -14,12 +14,15 @@
         <scene sceneID="90z-e2-jWa">
             <objects>
                 <viewController title="Laterbase" id="9qB-nW-cOf" userLabel="LB View Controller" customClass="LBViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uaO-Yf-ETC">
+                    <view key="view" contentMode="scaleToFill" id="uaO-Yf-ETC" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eYQ-fD-eUh"/>
                     </view>
+                    <connections>
+                        <segue destination="erO-IH-qT3" kind="show" identifier="LB_RESULT" id="iRF-7h-YOp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ipq-mD-wEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -29,7 +32,7 @@
         <scene sceneID="qjm-c5-jZE">
             <objects>
                 <viewController id="erO-IH-qT3" userLabel="LB Result Scrn View Controller" customClass="LBResultScrnViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1e5-ql-qbU">
+                    <view key="view" contentMode="scaleToFill" id="1e5-ql-qbU" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

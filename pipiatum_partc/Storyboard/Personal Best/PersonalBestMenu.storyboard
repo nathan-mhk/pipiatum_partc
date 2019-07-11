@@ -36,19 +36,7 @@
                     <view key="view" contentMode="scaleToFill" id="6gO-nk-4WH" customClass="PersonalBest" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rzx-Qh-Xdl" customClass="PersonalBest" customModule="pipiatum_partc" customModuleProvider="target">
-                                <rect key="frame" x="20" y="40" width="335" height="607"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="RXw-59-MVK" firstAttribute="bottom" secondItem="rzx-Qh-Xdl" secondAttribute="bottom" constant="20" id="47t-Vg-tLA"/>
-                            <constraint firstItem="rzx-Qh-Xdl" firstAttribute="leading" secondItem="RXw-59-MVK" secondAttribute="leading" constant="20" id="RPc-WO-vVx"/>
-                            <constraint firstItem="rzx-Qh-Xdl" firstAttribute="top" secondItem="RXw-59-MVK" secondAttribute="top" constant="20" id="pvv-Li-L6Y"/>
-                            <constraint firstItem="RXw-59-MVK" firstAttribute="trailing" secondItem="rzx-Qh-Xdl" secondAttribute="trailing" constant="20" id="qqh-wJ-eI2"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RXw-59-MVK"/>
                     </view>
                 </viewController>

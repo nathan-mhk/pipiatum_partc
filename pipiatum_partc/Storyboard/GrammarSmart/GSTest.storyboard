@@ -14,12 +14,15 @@
         <scene sceneID="vdO-4z-h9Z">
             <objects>
                 <viewController id="C2y-Al-RMk" userLabel="GS Test View Controller" customClass="GSTestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HWp-lZ-4Q9">
+                    <view key="view" contentMode="scaleToFill" id="HWp-lZ-4Q9" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qeh-5J-KSR"/>
                     </view>
+                    <connections>
+                        <segue destination="SGg-Ys-s0Q" kind="show" identifier="GS_RESULT" id="8Vl-XZ-7Ba"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l91-Zb-f8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -29,7 +32,7 @@
         <scene sceneID="UDO-tb-UxA">
             <objects>
                 <viewController id="SGg-Ys-s0Q" userLabel="GSTest Result Scrn View Controller" customClass="GSTestResultScrnViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W8H-zx-wnE">
+                    <view key="view" contentMode="scaleToFill" id="W8H-zx-wnE" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -38,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kp5-ss-5tc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="72"/>
+            <point key="canvasLocation" x="895" y="72"/>
         </scene>
     </scenes>
 </document>
