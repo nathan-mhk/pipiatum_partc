@@ -20,6 +20,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xTT-jb-053"/>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="itemsPlistName" value="PracticeMenu"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="practiceMenu" destination="lak-sx-PWt" id="eV4-Uc-Q6q"/>
                         <segue destination="YDC-F3-yup" kind="show" identifier="PRACTICE" id="t89-Mt-OLH"/>

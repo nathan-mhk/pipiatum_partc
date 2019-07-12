@@ -9,8 +9,7 @@
 import UIKit
 
 class SubMenuStack: UIStackView {
-    
-    //MARK: Initialization
+
     override required init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -22,16 +21,14 @@ class SubMenuStack: UIStackView {
     //Standard button height for all of the buttons in subMenu
     var btnHeight = CGFloat(60)
     
-    //TODO: Change buttons type?
-    func setUpButtonStack(buttons: Array<Any>, stackHeight: NSLayoutConstraint) {
+    //MARK: Set Up Functions
+    func setUpButtonStack(buttons: Array<String>, stackHeight: NSLayoutConstraint) {
         
         //cleanSubViews()
         setStackHeight(buttons: buttons, stackHeight: stackHeight)
         addButtons(buttons: buttons)
     }
     
-    
-    //MARK: Set Up Functions
     //Clean up existing subviews(buttons)
     private func cleanSubViews() {
         //Clean up existing subviews(buttons)
@@ -41,8 +38,7 @@ class SubMenuStack: UIStackView {
     }
     
     //Set the height constraint of the subMenuStackView
-    //TODO: Change buttons type?
-    private func setStackHeight(buttons: Array<Any>, stackHeight: NSLayoutConstraint) {
+    private func setStackHeight(buttons: Array<String>, stackHeight: NSLayoutConstraint) {
         let buttonCount = CGFloat(buttons.count)
         let totalSpacing = self.spacing * (buttonCount - 1.0)
         
@@ -55,13 +51,12 @@ class SubMenuStack: UIStackView {
     }
     
     //Add buttons into subMenuStackView
-    private func addButtons(buttons: Array<Any>) {
+    private func addButtons(buttons: Array<String>) {
         for button in buttons {
             //Probably just = BasicButtonComponent()
             let subMenuButton = SubMenuButton.newButton()
             
-            //TODO: Change buttons type?
-            subMenuButton.setTitle(button as? String, for: .normal)
+            subMenuButton.setTitle(button, for: .normal)
             subMenuButton.titleLabel?.textAlignment = .center
             subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
             subMenuButton.translatesAutoresizingMaskIntoConstraints = false

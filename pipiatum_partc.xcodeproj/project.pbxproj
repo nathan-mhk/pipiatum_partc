@@ -170,6 +170,15 @@
 		D89C2D9022C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */; };
 		D89C2D9222C1C2AF00606571 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D9122C1C2AF00606571 /* Settings.storyboard */; };
 		D89C2D9322C1C2AF00606571 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D9122C1C2AF00606571 /* Settings.storyboard */; };
+		D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
+		D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
+		D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
+		D8A7BAE422D83DC90054A570 /* TestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAE222D83DC90054A570 /* TestMenu.plist */; };
+		D8A7BAE522D83DC90054A570 /* TestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAE222D83DC90054A570 /* TestMenu.plist */; };
+		D8A7BAE822D8442B0054A570 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAE722D8442B0054A570 /* PracticeMC.plist */; };
+		D8A7BAE922D8442B0054A570 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAE722D8442B0054A570 /* PracticeMC.plist */; };
+		D8A7BAEB22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */; };
+		D8A7BAEC22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */; };
 		D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ED0322C4BC9000872829 /* PersonalBest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ED0222C4BC9000872829 /* PersonalBest.swift */; };
@@ -258,6 +267,10 @@
 		D89C2D8B22C1C29900606571 /* TestMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestMenu.storyboard; sourceTree = "<group>"; };
 		D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalBestMenu.storyboard; sourceTree = "<group>"; };
 		D89C2D9122C1C2AF00606571 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuItem.swift; sourceTree = "<group>"; };
+		D8A7BAE222D83DC90054A570 /* TestMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestMenu.plist; sourceTree = "<group>"; };
+		D8A7BAE722D8442B0054A570 /* PracticeMC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PracticeMC.plist; sourceTree = "<group>"; };
+		D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PersonalBestMenu.plist; sourceTree = "<group>"; };
 		D8D0ECF922C49F3100872829 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenView.xib; sourceTree = "<group>"; };
 		D8D0ED0222C4BC9000872829 /* PersonalBest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBest.swift; sourceTree = "<group>"; };
@@ -325,6 +338,7 @@
 			children = (
 				D895078822C36507006DB1B1 /* Extensions */,
 				D84CA74022BA417A00E7B16F /* Components */,
+				D8A7BADD22D8394F0054A570 /* Model */,
 				D84CA74222BA422600E7B16F /* Controllers */,
 				D84CA74422BA442B00E7B16F /* Layouts */,
 				D88DA85D22BC7D43002CFC39 /* Storyboard */,
@@ -351,6 +365,7 @@
 		D84CA73F22BA3F9C00E7B16F /* pipiatum_partc_level1 */ = {
 			isa = PBXGroup;
 			children = (
+				D8A7BAE622D844030054A570 /* Learning Materials */,
 				D8F6359B22CF31D900AB0CCC /* Config */,
 				D84CA73E22BA3F7300E7B16F /* Info.plist */,
 				D8965DE422CDCDAA007D32BB /* Info_WCAL.plist */,
@@ -597,10 +612,28 @@
 			path = Basic;
 			sourceTree = "<group>";
 		};
+		D8A7BADD22D8394F0054A570 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8A7BAE622D844030054A570 /* Learning Materials */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7BAE722D8442B0054A570 /* PracticeMC.plist */,
+			);
+			path = "Learning Materials";
+			sourceTree = "<group>";
+		};
 		D8F6359B22CF31D900AB0CCC /* Config */ = {
 			isa = PBXGroup;
 			children = (
 				D8F6359C22CF323400AB0CCC /* PracticeMenu.plist */,
+				D8A7BAE222D83DC90054A570 /* TestMenu.plist */,
+				D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -764,8 +797,11 @@
 				D89C2D8D22C1C29900606571 /* TestMenu.storyboard in Resources */,
 				D89ADECE22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED122C5FFB600810E23 /* GSTest.storyboard in Resources */,
+				D8A7BAE822D8442B0054A570 /* PracticeMC.plist in Resources */,
 				D89933C922CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8F6359D22CF323400AB0CCC /* PracticeMenu.plist in Resources */,
+				D8A7BAEB22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */,
+				D8A7BAE422D83DC90054A570 /* TestMenu.plist in Resources */,
 				D84CA73922BA3F7300E7B16F /* Main.storyboard in Resources */,
 				D89ADED422C5FFCF00810E23 /* Laterbase.storyboard in Resources */,
 				D89C2D9322C1C2AF00606571 /* Settings.storyboard in Resources */,
@@ -788,8 +824,11 @@
 				D8965DDA22CDCDA9007D32BB /* TestMenu.storyboard in Resources */,
 				D8965DDB22CDCDA9007D32BB /* MCView.xib in Resources */,
 				D8965DDC22CDCDA9007D32BB /* GSTest.storyboard in Resources */,
+				D8A7BAE922D8442B0054A570 /* PracticeMC.plist in Resources */,
 				D89933CA22CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8F6359E22CF323400AB0CCC /* PracticeMenu.plist in Resources */,
+				D8A7BAEC22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */,
+				D8A7BAE522D83DC90054A570 /* TestMenu.plist in Resources */,
 				D8965DDD22CDCDA9007D32BB /* Main.storyboard in Resources */,
 				D8965DDE22CDCDA9007D32BB /* Laterbase.storyboard in Resources */,
 				D8965DDF22CDCDA9007D32BB /* Settings.storyboard in Resources */,
@@ -841,6 +880,7 @@
 				D899BB2B22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D88DA85622BC789C002CFC39 /* MenuBanner.swift in Sources */,
 				D89ADF0322C606AB00810E23 /* TestResultScrnViewController.swift in Sources */,
+				D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D89ADEE222C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
 				D88DA84F22BC751B002CFC39 /* MenuViewController.swift in Sources */,
 				D88D0D3222D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
@@ -898,6 +938,7 @@
 				D899BB2C22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D88DA85B22BC7D24002CFC39 /* MenuBanner.swift in Sources */,
 				D89ADF0422C606AB00810E23 /* TestResultScrnViewController.swift in Sources */,
+				D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D89ADEE322C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
 				D88DA85022BC756C002CFC39 /* MenuViewController.swift in Sources */,
 				D88D0D3322D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
@@ -947,6 +988,7 @@
 				D899BB2D22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D8965DCA22CDCDA9007D32BB /* MenuBanner.swift in Sources */,
 				D8965DCB22CDCDA9007D32BB /* TestResultScrnViewController.swift in Sources */,
+				D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D8965DCC22CDCDA9007D32BB /* GSTestResultScrnViewController.swift in Sources */,
 				D8965DCD22CDCDA9007D32BB /* MenuViewController.swift in Sources */,
 				D88D0D3422D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,

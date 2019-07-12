@@ -10,7 +10,6 @@ import UIKit
 
 class ResultScreenView: UIView {
 
-    //MARK: Initialization
     override required init(frame: CGRect) {
         super.init(frame: frame)
         SetUpComponent(componentName: "ResultScreenView", superView: self)

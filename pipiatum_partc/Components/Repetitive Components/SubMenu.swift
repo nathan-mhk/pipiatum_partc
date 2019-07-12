@@ -14,7 +14,6 @@ class SubMenu: UIView {
     @IBOutlet weak var subMenuStackView: SubMenuStack!
     @IBOutlet weak var subMenuStackHeight: NSLayoutConstraint!
     
-    //MARK: Initialization
     override required init(frame: CGRect) {
         super.init(frame: frame)
         SetUpComponent(componentName: "SubMenu", superView: self)
@@ -28,14 +27,12 @@ class SubMenu: UIView {
     var id = ""
     
     //MARK: Set Up Functions
-    
     //Set up the image of the subMenu by the given name
     func setImage(imgName: String) {
         subMenuImage.image = UIImage(named: imgName)
     }
     
-    //TODO: Change buttons type
-    func setBtnStack(buttons: Array<Any>) {
+    func setBtnStack(buttons: Array<String>) {
         subMenuStackView.setUpButtonStack(buttons: buttons, stackHeight: subMenuStackHeight)
     }
 }

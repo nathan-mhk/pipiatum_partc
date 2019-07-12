@@ -10,7 +10,6 @@ import UIKit
 
 class MenuBanner: UIView {
     
-    //MARK: Initialization
     override required init(frame: CGRect) {
         super.init(frame: frame)
         SetUpComponent(componentName: "MenuBanner", superView: self)

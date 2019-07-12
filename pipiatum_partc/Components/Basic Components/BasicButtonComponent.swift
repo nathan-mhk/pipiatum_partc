@@ -11,15 +11,12 @@ import UIKit
 class BasicButtonComponent: UIButton {
 
     override required init(frame: CGRect) {
-        
         super.init(frame: frame)
         setUpButton()
     }
     
     required init?(coder aDecoder: NSCoder) {
-        
         super.init(coder: aDecoder)
-        
         setUpButton()
     }
     

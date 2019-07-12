@@ -20,6 +20,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vrl-kd-Cle"/>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="itemsPlistName" value="TestMenu"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="testMenu" destination="dur-5t-ccN" id="4cr-EZ-YBB"/>
                         <segue destination="7UZ-Sr-4aA" kind="show" identifier="TEST" id="aTK-pK-hSf"/>

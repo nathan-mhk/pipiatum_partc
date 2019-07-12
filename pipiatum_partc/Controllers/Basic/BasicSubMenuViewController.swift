@@ -9,43 +9,65 @@
 import UIKit
 
 class BasicSubMenuViewController: BasicViewController {
+    
+    @IBInspectable var itemsPlistName: String? {
+        didSet {
+            #if !TARGET_INTERFACE_BUILDER
+                loadPlistData()
+            #endif
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-    func setUpSubMenu(subMenu: SubMenu, readjust: Bool) {
+    //Array of sub menu items, containing the attributes of each sub menu item (ID, Name, Dir)
+    //Will be modified inside loadPlistToArray
+    var buttons: Array<SubMenuItem> = Array()
+    
+    //MARK: Set Up Functions
+    //Load plist in buttons array
+    func loadPlistData() {
+        if let plistName = self.itemsPlistName {
+            if let plist = PlistUtil.load(named: plistName) {
+                if let subMenuContents = plist.value(forKey: "MenuItems") as? [NSDictionary] {
+                    for subMenuContent in subMenuContents {
+                        if let subMenuItem = SubMenuItem(menuContent: subMenuContent) {
+                            buttons.append(subMenuItem)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    func setUpSubMenu(subMenu: SubMenu) {
         var imgName: String = ""
         
-        //TODO: plist array, change buttons type?
-        var buttons: Array<Any> = Array()
+        var subMenuButtons: Array<String> = Array()
+        for item in buttons {
+            subMenuButtons.append(item.Name)
+        }
         
         switch subMenu.id {
         case "practice":
             //To be replaced by practice menu sticker
             imgName = "SettingSticker"
-            buttons = practiceArray
             break
         case "test":
             imgName = "SettingSticker"
-            buttons = testArray
             break
         case "pb":
             imgName = "SettingSticker"
-            buttons = pbArray
             break
         default:
             break
         }
-        
-        if !readjust {
-            subMenu.setImage(imgName: imgName)
-        }
-        subMenu.setBtnStack(buttons: buttons)
+        subMenu.setImage(imgName: imgName)
+        subMenu.setBtnStack(buttons: subMenuButtons)
     }
-    
     
     //MARK: MUST OVERRIDE
     func linkViewController() {
@@ -53,4 +75,5 @@ class BasicSubMenuViewController: BasicViewController {
     
     @objc func buttonSegue() {
     }
+    
 }

@@ -20,6 +20,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vay-29-ljV"/>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="itemsPlistName" value="PersonalBestMenu"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="pbMenu" destination="0jE-ni-xn4" id="llz-27-hpH"/>
                         <segue destination="pAW-aD-GEL" kind="show" identifier="PERSONALBEST" id="NF9-yN-pmR"/>

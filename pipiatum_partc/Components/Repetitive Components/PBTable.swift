@@ -10,7 +10,6 @@ import UIKit
 
 class PBTable: UIView {
 
-    //MARK: Initialization
     override required init(frame: CGRect) {
         super.init(frame: frame)
         SetUpComponent(componentName: "pbTable", superView: self)

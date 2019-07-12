@@ -14,10 +14,8 @@ class PBMenuViewController: BasicSubMenuViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         pbMenu.id = "pb"
-        setUpSubMenu(subMenu: pbMenu, readjust: false)
+        setUpSubMenu(subMenu: pbMenu)
         linkViewController()
     }
 
@@ -39,4 +37,5 @@ class PBMenuViewController: BasicSubMenuViewController {
             }
         }
     }
+    
 }

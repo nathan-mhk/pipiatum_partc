@@ -14,12 +14,8 @@ class PracticeMenuViewController: BasicSubMenuViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        //TODO:
-        //Pass the plist to practiceMenu.setUpSubMenu
         practiceMenu.id = "practice"
-        setUpSubMenu(subMenu: practiceMenu, readjust: false)
+        setUpSubMenu(subMenu: practiceMenu)
         linkViewController()
     }
     

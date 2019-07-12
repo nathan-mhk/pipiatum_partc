@@ -14,10 +14,8 @@ class TestMenuViewController: BasicSubMenuViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         testMenu.id = "test"
-        setUpSubMenu(subMenu: testMenu, readjust: false)
+        setUpSubMenu(subMenu: testMenu)
         linkViewController()
     }
     

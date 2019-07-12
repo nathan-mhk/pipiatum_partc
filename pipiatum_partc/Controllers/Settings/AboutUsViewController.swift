@@ -16,8 +16,6 @@ class AboutUsViewController: BasicViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -31,7 +29,6 @@ class AboutUsViewController: BasicViewController {
             self.updateContentHeight()
         }
     }
-    
 
     private func computeContentHeight() -> CGFloat {
         let viewRect = aboutUsContentView.frame
