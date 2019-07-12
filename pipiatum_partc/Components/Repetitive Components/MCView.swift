@@ -12,12 +12,12 @@ class MCView: UIView {
 
     override required init(frame: CGRect) {
         super.init(frame: frame)
-        SetUpComponent(componentName: "MCView", superView: self)
+        setUpComponent(componentName: "MCView", superView: self)
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        SetUpComponent(componentName: "MCView", superView: self)
+        setUpComponent(componentName: "MCView", superView: self)
     }
 
 }

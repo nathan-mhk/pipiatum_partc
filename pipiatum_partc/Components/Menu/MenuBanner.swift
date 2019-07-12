@@ -12,12 +12,12 @@ class MenuBanner: UIView {
     
     override required init(frame: CGRect) {
         super.init(frame: frame)
-        SetUpComponent(componentName: "MenuBanner", superView: self)
+        setUpComponent(componentName: "MenuBanner", superView: self)
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        SetUpComponent(componentName: "MenuBanner", superView: self)
+        setUpComponent(componentName: "MenuBanner", superView: self)
     }
     
 }

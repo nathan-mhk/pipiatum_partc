@@ -12,12 +12,12 @@ class ResultScreenView: UIView {
 
     override required init(frame: CGRect) {
         super.init(frame: frame)
-        SetUpComponent(componentName: "ResultScreenView", superView: self)
+        setUpComponent(componentName: "ResultScreenView", superView: self)
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        SetUpComponent(componentName: "ResultScreenView", superView: self)
+        setUpComponent(componentName: "ResultScreenView", superView: self)
     }
 
 }
