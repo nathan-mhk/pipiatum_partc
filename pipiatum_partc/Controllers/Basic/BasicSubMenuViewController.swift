@@ -24,7 +24,7 @@ class BasicSubMenuViewController: BasicViewController {
     }
     
     //Array of sub menu items, containing the attributes of each sub menu item (ID, Name, Dir)
-    //Will be modified inside loadPlistToArray
+    //Will be modified inside loadPlistData
     var buttons: Array<SubMenuItem> = Array()
     
     //MARK: Set Up Functions
@@ -73,7 +73,7 @@ class BasicSubMenuViewController: BasicViewController {
     func linkViewController() {
     }
     
-    @objc func buttonSegue() {
+    @objc func buttonSegue(sender: SubMenuButton) {
     }
     
 }

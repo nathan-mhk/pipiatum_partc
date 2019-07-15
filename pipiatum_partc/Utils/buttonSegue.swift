@@ -8,6 +8,6 @@
 
 import UIKit
 
-func subMenuButtonSegue(segueID: String, viewController: BasicSubMenuViewController) {
-    viewController.performSegue(withIdentifier: segueID, sender: viewController)
+func subMenuButtonSegue(segueID: String, viewController: BasicSubMenuViewController, sender: SubMenuButton) {
+    viewController.performSegue(withIdentifier: segueID, sender: sender)
 }

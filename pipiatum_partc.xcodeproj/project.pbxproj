@@ -170,6 +170,9 @@
 		D89C2D9022C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */; };
 		D89C2D9222C1C2AF00606571 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D9122C1C2AF00606571 /* Settings.storyboard */; };
 		D89C2D9322C1C2AF00606571 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C2D9122C1C2AF00606571 /* Settings.storyboard */; };
+		D8A5446A22DC20C200D32E8C /* BasicMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */; };
+		D8A5446B22DC20C200D32E8C /* BasicMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */; };
+		D8A5446C22DC20C200D32E8C /* BasicMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */; };
 		D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
 		D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
 		D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
@@ -267,6 +270,7 @@
 		D89C2D8B22C1C29900606571 /* TestMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestMenu.storyboard; sourceTree = "<group>"; };
 		D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalBestMenu.storyboard; sourceTree = "<group>"; };
 		D89C2D9122C1C2AF00606571 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMCViewController.swift; sourceTree = "<group>"; };
 		D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuItem.swift; sourceTree = "<group>"; };
 		D8A7BAE222D83DC90054A570 /* TestMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestMenu.plist; sourceTree = "<group>"; };
 		D8A7BAE722D8442B0054A570 /* PracticeMC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PracticeMC.plist; sourceTree = "<group>"; };
@@ -608,6 +612,7 @@
 				D89ADF1322C60D7C00810E23 /* BasicViewController.swift */,
 				D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */,
 				D8F6359722CF088700AB0CCC /* BasicNavController.swift */,
+				D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -849,6 +854,7 @@
 				D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */,
 				D8D0ED0322C4BC9000872829 /* PersonalBest.swift in Sources */,
+				D8A5446A22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
 				D89ADEDC22C6029C00810E23 /* GSTestMenuViewController.swift in Sources */,
 				D895079022C37D55006DB1B1 /* SubMenu.swift in Sources */,
 				D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */,
@@ -907,6 +913,7 @@
 				D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359922CF088700AB0CCC /* BasicNavController.swift in Sources */,
 				D8D0ED0422C4BC9000872829 /* PersonalBest.swift in Sources */,
+				D8A5446B22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
 				D89ADEDD22C6029C00810E23 /* GSTestMenuViewController.swift in Sources */,
 				D895079122C37D55006DB1B1 /* SubMenu.swift in Sources */,
 				D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */,
@@ -957,6 +964,7 @@
 				D8965DB322CDCDA9007D32BB /* LBViewController.swift in Sources */,
 				D8F6359A22CF088700AB0CCC /* BasicNavController.swift in Sources */,
 				D8965DB422CDCDA9007D32BB /* PersonalBest.swift in Sources */,
+				D8A5446C22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
 				D8965DB522CDCDA9007D32BB /* GSTestMenuViewController.swift in Sources */,
 				D8965DB622CDCDA9007D32BB /* SubMenu.swift in Sources */,
 				D8965DB722CDCDA9007D32BB /* MenuButton.swift in Sources */,

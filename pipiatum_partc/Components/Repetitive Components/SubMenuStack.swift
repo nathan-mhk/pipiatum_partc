@@ -52,10 +52,12 @@ class SubMenuStack: UIStackView {
     
     //Add buttons into subMenuStackView
     private func addButtons(buttons: Array<String>) {
+        var arrayIndex = 0
         for button in buttons {
             //Probably just = BasicButtonComponent()
             let subMenuButton = SubMenuButton.newButton()
             
+            subMenuButton.tag = arrayIndex
             subMenuButton.setTitle(button, for: .normal)
             subMenuButton.titleLabel?.textAlignment = .center
             subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -63,6 +65,7 @@ class SubMenuStack: UIStackView {
             subMenuButton.heightAnchor.constraint(equalToConstant: CGFloat(btnHeight)).isActive = true
             
             self.addArrangedSubview(subMenuButton)
+            arrayIndex += 1
         }
     }
     

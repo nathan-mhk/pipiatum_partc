@@ -22,18 +22,22 @@ class PracticeMenuViewController: BasicSubMenuViewController {
     override func linkViewController() {
         let buttons = self.view.getAllSubViews() as [SubMenuButton]
         for button in buttons {
-            button.addTarget(self, action: #selector(buttonSegue), for: .touchUpInside)
+            //TODO: Fix this
+            button.addTarget(self, action: #selector(buttonSegue(sender:)), for: .touchUpInside)
         }
     }
     
-    @objc override func buttonSegue() {
-        subMenuButtonSegue(segueID: "PRACTICE", viewController: self)
+    @objc override func buttonSegue(sender: SubMenuButton) {
+        subMenuButtonSegue(segueID: "PRACTICE", viewController: self, sender: sender)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PRACTICE" {
             if let destination = segue.destination as? PracticeViewController {
-                print("Going to Practice View!")
+                if let subMenuButton = sender as? SubMenuButton {
+                    print("Going to Practice View from button \(buttons[subMenuButton.tag].Name)")
+                }
+                
             }
         }
     }
