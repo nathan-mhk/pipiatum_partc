@@ -29,14 +29,6 @@ class SubMenuStack: UIStackView {
         addButtons(buttons: buttons)
     }
     
-    //Clean up existing subviews(buttons)
-    private func cleanSubViews() {
-        //Clean up existing subviews(buttons)
-        for subview in self.subviews {
-            subview.removeFromSuperview()
-        }
-    }
-    
     //Set the height constraint of the subMenuStackView
     private func setStackHeight(buttons: Array<String>, stackHeight: NSLayoutConstraint) {
         let buttonCount = CGFloat(buttons.count)
@@ -54,7 +46,6 @@ class SubMenuStack: UIStackView {
     private func addButtons(buttons: Array<String>) {
         var arrayIndex = 0
         for button in buttons {
-            //Probably just = BasicButtonComponent()
             let subMenuButton = SubMenuButton.newButton()
             
             subMenuButton.tag = arrayIndex

@@ -22,7 +22,6 @@ class PracticeMenuViewController: BasicSubMenuViewController {
     override func linkViewController() {
         let buttons = self.view.getAllSubViews() as [SubMenuButton]
         for button in buttons {
-            //TODO: Fix this
             button.addTarget(self, action: #selector(buttonSegue(sender:)), for: .touchUpInside)
         }
     }
@@ -37,7 +36,6 @@ class PracticeMenuViewController: BasicSubMenuViewController {
                 if let subMenuButton = sender as? SubMenuButton {
                     print("Going to Practice View from button \(buttons[subMenuButton.tag].Name)")
                 }
-                
             }
         }
     }

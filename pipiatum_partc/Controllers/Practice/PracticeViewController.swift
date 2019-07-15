@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PracticeViewController: BasicViewController {
+class PracticeViewController: BasicMCViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

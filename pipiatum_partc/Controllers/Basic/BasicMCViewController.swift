@@ -8,11 +8,10 @@
 
 import UIKit
 
-class BasicMCViewController: UIViewController {
+class BasicMCViewController: BasicViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
 }

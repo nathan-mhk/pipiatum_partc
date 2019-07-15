@@ -47,14 +47,18 @@
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZF-b3-iz1" userLabel="MenuBtnsBackground">
+                                <rect key="frame" x="0.0" y="151" width="375" height="452"/>
+                                <color key="backgroundColor" red="0.099831648170948029" green="0.33341634273529053" blue="0.63660579919815063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6N0-6D-fdM" userLabel="MenuButtonsView">
                                 <rect key="frame" x="0.0" y="151" width="375" height="452"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-Yx-fhd" userLabel="MenuButtonStack">
-                                        <rect key="frame" x="37.5" y="45" width="300" height="362"/>
+                                        <rect key="frame" x="37.5" y="33.5" width="300" height="384.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3J-F7-Sbb" userLabel="GrammarSmartsButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="56.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="61"/>
                                                 <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Grammar Smarts">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -64,7 +68,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiI-d0-ZGg" userLabel="PracticeButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="76.5" width="300" height="56"/>
+                                                <rect key="frame" x="0.0" y="81" width="300" height="61"/>
                                                 <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Practice">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -74,7 +78,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHz-de-lVF" userLabel="TestButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="152.5" width="300" height="56.5"/>
+                                                <rect key="frame" x="0.0" y="162" width="300" height="61"/>
                                                 <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Test">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -84,7 +88,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax0-Ml-3NP" userLabel="PBButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="229" width="300" height="56.5"/>
+                                                <rect key="frame" x="0.0" y="243" width="300" height="60.5"/>
                                                 <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Personal Best">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,7 +98,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrD-EL-l6e" userLabel="SettingsButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="305.5" width="300" height="56.5"/>
+                                                <rect key="frame" x="0.0" y="323.5" width="300" height="61"/>
                                                 <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Settings">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,22 +112,22 @@
                                         <variation key="heightClass=compact-widthClass=regular" spacing="8"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vocab" translatesAutoresizingMaskIntoConstraints="NO" id="Re3-4e-CsZ" userLabel="gsIcon">
-                                        <rect key="frame" x="65" y="49" width="50" height="48"/>
+                                        <rect key="frame" x="63" y="38" width="54" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Re3-4e-CsZ" secondAttribute="height" multiplier="246:236" id="BMY-cQ-rKL"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mylb" translatesAutoresizingMaskIntoConstraints="NO" id="Bp8-NM-1gY" userLabel="practiceIcon">
-                                        <rect key="frame" x="65" y="125.5" width="50" height="48"/>
+                                        <rect key="frame" x="63" y="119" width="54" height="52"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="allin" translatesAutoresizingMaskIntoConstraints="NO" id="1TF-3d-Ca2" userLabel="testIcon">
-                                        <rect key="frame" x="65" y="202" width="50" height="48"/>
+                                        <rect key="frame" x="63" y="200" width="54" height="52"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vocab" translatesAutoresizingMaskIntoConstraints="NO" id="QQo-Q5-SF8" userLabel="pbIcon">
-                                        <rect key="frame" x="65" y="278.5" width="50" height="47.5"/>
+                                        <rect key="frame" x="63" y="281" width="54" height="51.5"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="he4-lM-VZq" userLabel="settingsIcon">
-                                        <rect key="frame" x="65" y="354.5" width="50" height="48"/>
+                                        <rect key="frame" x="63" y="362" width="54" height="51.5"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.099831648170948029" green="0.33341634273529053" blue="0.63660579919815063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -138,7 +142,7 @@
                                     <constraint firstItem="1TF-3d-Ca2" firstAttribute="height" secondItem="Re3-4e-CsZ" secondAttribute="height" id="WO5-jT-B4D" userLabel="NoNeedChange"/>
                                     <constraint firstItem="Bp8-NM-1gY" firstAttribute="centerY" secondItem="LiI-d0-ZGg" secondAttribute="centerY" id="WV7-jC-5XN" userLabel="NoNeedChange"/>
                                     <constraint firstItem="Bp8-NM-1gY" firstAttribute="centerX" secondItem="Re3-4e-CsZ" secondAttribute="centerX" id="WvZ-Ob-fRp" userLabel="NoNeedChange"/>
-                                    <constraint firstItem="lNA-Yx-fhd" firstAttribute="height" secondItem="6N0-6D-fdM" secondAttribute="height" multiplier="0.8" id="XBZ-yQ-JV7" userLabel="MenuButtonStack.height">
+                                    <constraint firstItem="lNA-Yx-fhd" firstAttribute="height" secondItem="6N0-6D-fdM" secondAttribute="height" multiplier="0.85" id="XBZ-yQ-JV7" userLabel="MenuButtonStack.height">
                                         <variation key="heightClass=compact-widthClass=compact" constant="30"/>
                                         <variation key="heightClass=compact-widthClass=regular" constant="30"/>
                                     </constraint>
@@ -161,12 +165,16 @@
                         <constraints>
                             <constraint firstItem="6N0-6D-fdM" firstAttribute="top" secondItem="Yhe-CF-9Tb" secondAttribute="bottom" id="0B4-My-5U8"/>
                             <constraint firstItem="Yhe-CF-9Tb" firstAttribute="top" secondItem="Jyu-bn-rK7" secondAttribute="top" id="8H6-uO-kEs"/>
+                            <constraint firstItem="LZF-b3-iz1" firstAttribute="leading" secondItem="6N0-6D-fdM" secondAttribute="leading" id="8HP-ig-gBE"/>
                             <constraint firstItem="Yhe-CF-9Tb" firstAttribute="trailing" secondItem="Jyu-bn-rK7" secondAttribute="trailing" id="9T5-pj-CKv"/>
+                            <constraint firstItem="LZF-b3-iz1" firstAttribute="top" secondItem="6N0-6D-fdM" secondAttribute="top" id="DUO-VY-efi"/>
                             <constraint firstItem="Yhe-CF-9Tb" firstAttribute="leading" secondItem="Jyu-bn-rK7" secondAttribute="leading" id="J10-9n-Vta"/>
+                            <constraint firstItem="LZF-b3-iz1" firstAttribute="trailing" secondItem="6N0-6D-fdM" secondAttribute="trailing" id="MIe-zl-uUD"/>
                             <constraint firstItem="6N0-6D-fdM" firstAttribute="trailing" secondItem="4d7-ky-stR" secondAttribute="trailing" id="Q5v-uj-EG4"/>
                             <constraint firstItem="Yhe-CF-9Tb" firstAttribute="bottom" secondItem="Jyu-bn-rK7" secondAttribute="centerY" multiplier="0.5" id="bPf-Sy-S0F"/>
                             <constraint firstItem="6N0-6D-fdM" firstAttribute="leading" secondItem="4d7-ky-stR" secondAttribute="leading" id="fQe-Qg-Whx"/>
-                            <constraint firstItem="6N0-6D-fdM" firstAttribute="bottom" secondItem="4d7-ky-stR" secondAttribute="bottom" id="jgS-q9-Qci"/>
+                            <constraint firstAttribute="bottom" secondItem="LZF-b3-iz1" secondAttribute="bottom" id="jeZ-Tz-3gd"/>
+                            <constraint firstItem="6N0-6D-fdM" firstAttribute="bottom" secondItem="Jyu-bn-rK7" secondAttribute="bottom" id="jgS-q9-Qci"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jyu-bn-rK7"/>
                     </view>

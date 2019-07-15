@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80A51FF22DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */; };
+		D80A520022DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */; };
+		D80A520122DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */; };
 		D845F29522D31674000D6F1D /* TempArrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29422D31674000D6F1D /* TempArrayData.swift */; };
 		D845F29622D31674000D6F1D /* TempArrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29422D31674000D6F1D /* TempArrayData.swift */; };
 		D845F29722D31674000D6F1D /* TempArrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29422D31674000D6F1D /* TempArrayData.swift */; };
-		D845F29922D3175D000D6F1D /* SubMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29822D3175D000D6F1D /* SubMenuButton.swift */; };
-		D845F29A22D3175D000D6F1D /* SubMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29822D3175D000D6F1D /* SubMenuButton.swift */; };
-		D845F29B22D3175D000D6F1D /* SubMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29822D3175D000D6F1D /* SubMenuButton.swift */; };
 		D845F2A122D31E8F000D6F1D /* SubMenuStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */; };
 		D845F2A222D31E8F000D6F1D /* SubMenuStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */; };
 		D845F2A322D31E8F000D6F1D /* SubMenuStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */; };
@@ -173,6 +173,9 @@
 		D8A5446A22DC20C200D32E8C /* BasicMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */; };
 		D8A5446B22DC20C200D32E8C /* BasicMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */; };
 		D8A5446C22DC20C200D32E8C /* BasicMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */; };
+		D8A5446E22DC27CE00D32E8C /* SubMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */; };
+		D8A5446F22DC27CE00D32E8C /* SubMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */; };
+		D8A5447022DC27CE00D32E8C /* SubMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */; };
 		D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
 		D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
 		D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */; };
@@ -209,8 +212,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBtnStack.swift; sourceTree = "<group>"; };
 		D845F29422D31674000D6F1D /* TempArrayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempArrayData.swift; sourceTree = "<group>"; };
-		D845F29822D3175D000D6F1D /* SubMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuButton.swift; sourceTree = "<group>"; };
 		D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuStack.swift; sourceTree = "<group>"; };
 		D84CA70A22BA3ECE00E7B16F /* pipiatum_partc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipiatum_partc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84CA70D22BA3ECE00E7B16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -271,6 +274,7 @@
 		D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalBestMenu.storyboard; sourceTree = "<group>"; };
 		D89C2D9122C1C2AF00606571 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMCViewController.swift; sourceTree = "<group>"; };
+		D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubMenuButton.swift; sourceTree = "<group>"; };
 		D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuItem.swift; sourceTree = "<group>"; };
 		D8A7BAE222D83DC90054A570 /* TestMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestMenu.plist; sourceTree = "<group>"; };
 		D8A7BAE722D8442B0054A570 /* PracticeMC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PracticeMC.plist; sourceTree = "<group>"; };
@@ -456,10 +460,10 @@
 		D8965DA522CD9A22007D32BB /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */,
 				D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */,
 				D8965DA622CD9A5A007D32BB /* StandardFontButton.swift */,
 				D8965DA822CD9A67007D32BB /* ScriptFontButton.swift */,
-				D845F29822D3175D000D6F1D /* SubMenuButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -517,8 +521,8 @@
 		D89ADEE422C602FE00810E23 /* Repetitive Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				D89ADECC22C5F0BB00810E23 /* MCView.xib */,
 				D895078C22C37D02006DB1B1 /* SubMenu.xib */,
+				D89ADECC22C5F0BB00810E23 /* MCView.xib */,
 				D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */,
 				D88C499022D5E682001A6663 /* PersonalBestView.xib */,
 				D899BB3222D7182200BAF86D /* pbTable.xib */,
@@ -532,6 +536,7 @@
 				D895078F22C37D55006DB1B1 /* SubMenu.swift */,
 				D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */,
 				D88C498C22D5A255001A6663 /* MCView.swift */,
+				D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */,
 				D88C498822D5A08C001A6663 /* ResultScreenView.swift */,
 				D8D0ED0222C4BC9000872829 /* PersonalBest.swift */,
 				D899BB3622D718D100BAF86D /* PBTable.swift */,
@@ -610,8 +615,8 @@
 			isa = PBXGroup;
 			children = (
 				D89ADF1322C60D7C00810E23 /* BasicViewController.swift */,
-				D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */,
 				D8F6359722CF088700AB0CCC /* BasicNavController.swift */,
+				D88D0D3122D4448C00F5C8FC /* BasicSubMenuViewController.swift */,
 				D8A5446922DC20C200D32E8C /* BasicMCViewController.swift */,
 			);
 			path = Basic;
@@ -850,6 +855,7 @@
 				D8D4415822BB6C16007419C9 /* CoreDataStack.swift in Sources */,
 				D8965DA922CD9A67007D32BB /* ScriptFontButton.swift in Sources */,
 				D88C498922D5A08C001A6663 /* ResultScreenView.swift in Sources */,
+				D80A51FF22DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */,
 				D8965DA722CD9A5A007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -873,7 +879,6 @@
 				D87CF7AB22CE02DC000B6E42 /* AppConfig.swift in Sources */,
 				D845F2A122D31E8F000D6F1D /* SubMenuStack.swift in Sources */,
 				D89ADEF722C6067800810E23 /* PracticeMenuViewController.swift in Sources */,
-				D845F29922D3175D000D6F1D /* SubMenuButton.swift in Sources */,
 				D89ADF0622C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0922C606BD00810E23 /* AboutUsViewController.swift in Sources */,
 				D88C498D22D5A255001A6663 /* MCView.swift in Sources */,
@@ -889,6 +894,7 @@
 				D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D89ADEE222C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
 				D88DA84F22BC751B002CFC39 /* MenuViewController.swift in Sources */,
+				D8A5446E22DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3222D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
 				D87CF7AF22CE06F9000B6E42 /* ConfigButton.swift in Sources */,
 			);
@@ -909,6 +915,7 @@
 				D84CA73322BA3F7300E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DAC22CD9A6E007D32BB /* ScriptFontButton.swift in Sources */,
 				D88C498A22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
+				D80A520022DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */,
 				D8965DAA22CD9A6B007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359922CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -932,7 +939,6 @@
 				D87CF7AC22CE02DC000B6E42 /* AppConfig.swift in Sources */,
 				D845F2A222D31E8F000D6F1D /* SubMenuStack.swift in Sources */,
 				D89ADEF822C6067800810E23 /* PracticeMenuViewController.swift in Sources */,
-				D845F29A22D3175D000D6F1D /* SubMenuButton.swift in Sources */,
 				D89ADF0722C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0A22C606BD00810E23 /* AboutUsViewController.swift in Sources */,
 				D88C498E22D5A255001A6663 /* MCView.swift in Sources */,
@@ -948,6 +954,7 @@
 				D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D89ADEE322C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
 				D88DA85022BC756C002CFC39 /* MenuViewController.swift in Sources */,
+				D8A5446F22DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3322D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
 				D87CF7B022CE06F9000B6E42 /* ConfigButton.swift in Sources */,
 			);
@@ -960,6 +967,7 @@
 				D8965DB022CDCDA9007D32BB /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DB122CDCDA9007D32BB /* ScriptFontButton.swift in Sources */,
 				D88C498B22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
+				D80A520122DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */,
 				D8965DB222CDCDA9007D32BB /* StandardFontButton.swift in Sources */,
 				D8965DB322CDCDA9007D32BB /* LBViewController.swift in Sources */,
 				D8F6359A22CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -983,7 +991,6 @@
 				D87CF7AD22CE02DC000B6E42 /* AppConfig.swift in Sources */,
 				D845F2A322D31E8F000D6F1D /* SubMenuStack.swift in Sources */,
 				D8965DC222CDCDA9007D32BB /* PracticeMenuViewController.swift in Sources */,
-				D845F29B22D3175D000D6F1D /* SubMenuButton.swift in Sources */,
 				D8965DC322CDCDA9007D32BB /* SettingsViewController.swift in Sources */,
 				D8965DC422CDCDA9007D32BB /* AboutUsViewController.swift in Sources */,
 				D88C498F22D5A255001A6663 /* MCView.swift in Sources */,
@@ -999,6 +1006,7 @@
 				D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D8965DCC22CDCDA9007D32BB /* GSTestResultScrnViewController.swift in Sources */,
 				D8965DCD22CDCDA9007D32BB /* MenuViewController.swift in Sources */,
+				D8A5447022DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3422D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
 				D87CF7B122CE06F9000B6E42 /* ConfigButton.swift in Sources */,
 			);

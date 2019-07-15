@@ -10,6 +10,8 @@ import UIKit
 
 class MCView: UIView {
 
+    @IBOutlet weak var UtilityBtnStack: UtilityBtnStack!
+    
     override required init(frame: CGRect) {
         super.init(frame: frame)
         setUpComponent(componentName: "MCView", superView: self)
@@ -18,6 +20,10 @@ class MCView: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUpComponent(componentName: "MCView", superView: self)
+    }
+    
+    private func setUpButtons() {
+        
     }
 
 }
