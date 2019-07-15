@@ -9,8 +9,6 @@
 import UIKit
 
 class MCView: UIView {
-
-    @IBOutlet weak var UtilityBtnStack: UtilityBtnStack!
     
     override required init(frame: CGRect) {
         super.init(frame: frame)

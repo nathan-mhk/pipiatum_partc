@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D80A51FF22DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */; };
-		D80A520022DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */; };
-		D80A520122DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */; };
+		D80A520722DC721D00C896A8 /* MCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A520622DC721D00C896A8 /* MCDelegate.swift */; };
+		D80A520822DC721D00C896A8 /* MCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A520622DC721D00C896A8 /* MCDelegate.swift */; };
+		D80A520922DC721D00C896A8 /* MCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A520622DC721D00C896A8 /* MCDelegate.swift */; };
 		D845F29522D31674000D6F1D /* TempArrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29422D31674000D6F1D /* TempArrayData.swift */; };
 		D845F29622D31674000D6F1D /* TempArrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29422D31674000D6F1D /* TempArrayData.swift */; };
 		D845F29722D31674000D6F1D /* TempArrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F29422D31674000D6F1D /* TempArrayData.swift */; };
@@ -212,7 +212,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBtnStack.swift; sourceTree = "<group>"; };
+		D80A520622DC721D00C896A8 /* MCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCDelegate.swift; sourceTree = "<group>"; };
 		D845F29422D31674000D6F1D /* TempArrayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempArrayData.swift; sourceTree = "<group>"; };
 		D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuStack.swift; sourceTree = "<group>"; };
 		D84CA70A22BA3ECE00E7B16F /* pipiatum_partc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipiatum_partc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,6 +320,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D80A520222DC712400C896A8 /* Sub Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D895078F22C37D55006DB1B1 /* SubMenu.swift */,
+				D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */,
+				D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */,
+			);
+			path = "Sub Menu";
+			sourceTree = "<group>";
+		};
+		D80A520322DC715B00C896A8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */,
+				D8965DA622CD9A5A007D32BB /* StandardFontButton.swift */,
+				D8965DA822CD9A67007D32BB /* ScriptFontButton.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D80A520422DC718500C896A8 /* MC */ = {
+			isa = PBXGroup;
+			children = (
+				D88C498C22D5A255001A6663 /* MCView.swift */,
+				D80A520622DC721D00C896A8 /* MCDelegate.swift */,
+			);
+			path = MC;
+			sourceTree = "<group>";
+		};
+		D80A520522DC71A900C896A8 /* Personal Best */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0ED0222C4BC9000872829 /* PersonalBest.swift */,
+				D899BB3622D718D100BAF86D /* PBTable.swift */,
+			);
+			path = "Personal Best";
+			sourceTree = "<group>";
+		};
 		D84CA70122BA3ECE00E7B16F = {
 			isa = PBXGroup;
 			children = (
@@ -386,8 +424,11 @@
 			children = (
 				D895078422C36116006DB1B1 /* Basic Components */,
 				D89ADEE622C6039600810E23 /* Menu */,
-				D89ADEE522C6037000810E23 /* Repetitive Components */,
-				D8965DA522CD9A22007D32BB /* Buttons */,
+				D80A520222DC712400C896A8 /* Sub Menu */,
+				D80A520422DC718500C896A8 /* MC */,
+				D80A520522DC71A900C896A8 /* Personal Best */,
+				D89ADEE522C6037000810E23 /* Result Screen */,
+				D80A520322DC715B00C896A8 /* Settings */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -457,17 +498,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		D8965DA522CD9A22007D32BB /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				D8A5446D22DC27CE00D32E8C /* SubMenuButton.swift */,
-				D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */,
-				D8965DA622CD9A5A007D32BB /* StandardFontButton.swift */,
-				D8965DA822CD9A67007D32BB /* ScriptFontButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
 		D89ADED522C6010A00810E23 /* GrammarSmart */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,18 +560,12 @@
 			path = "Repetitive Layouts";
 			sourceTree = "<group>";
 		};
-		D89ADEE522C6037000810E23 /* Repetitive Components */ = {
+		D89ADEE522C6037000810E23 /* Result Screen */ = {
 			isa = PBXGroup;
 			children = (
-				D895078F22C37D55006DB1B1 /* SubMenu.swift */,
-				D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */,
-				D88C498C22D5A255001A6663 /* MCView.swift */,
-				D80A51FE22DC6AD600C896A8 /* UtilityBtnStack.swift */,
 				D88C498822D5A08C001A6663 /* ResultScreenView.swift */,
-				D8D0ED0222C4BC9000872829 /* PersonalBest.swift */,
-				D899BB3622D718D100BAF86D /* PBTable.swift */,
 			);
-			path = "Repetitive Components";
+			path = "Result Screen";
 			sourceTree = "<group>";
 		};
 		D89ADEE622C6039600810E23 /* Menu */ = {
@@ -855,7 +879,6 @@
 				D8D4415822BB6C16007419C9 /* CoreDataStack.swift in Sources */,
 				D8965DA922CD9A67007D32BB /* ScriptFontButton.swift in Sources */,
 				D88C498922D5A08C001A6663 /* ResultScreenView.swift in Sources */,
-				D80A51FF22DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */,
 				D8965DA722CD9A5A007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -866,6 +889,7 @@
 				D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */,
 				D84CA71622BA3ECE00E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */,
+				D80A520722DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D89ADF0022C606A100810E23 /* TestViewController.swift in Sources */,
 				D89ADEF422C6056500810E23 /* LBResultScrnViewController.swift in Sources */,
 				D89ADEFD22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */,
@@ -915,7 +939,6 @@
 				D84CA73322BA3F7300E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DAC22CD9A6E007D32BB /* ScriptFontButton.swift in Sources */,
 				D88C498A22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
-				D80A520022DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */,
 				D8965DAA22CD9A6B007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359922CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -926,6 +949,7 @@
 				D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */,
 				D84CA73422BA3F7300E7B16F /* AppDelegate.swift in Sources */,
 				D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */,
+				D80A520822DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D89ADF0122C606A100810E23 /* TestViewController.swift in Sources */,
 				D89ADEF522C6056500810E23 /* LBResultScrnViewController.swift in Sources */,
 				D89ADEFE22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */,
@@ -967,7 +991,6 @@
 				D8965DB022CDCDA9007D32BB /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DB122CDCDA9007D32BB /* ScriptFontButton.swift in Sources */,
 				D88C498B22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
-				D80A520122DC6AD600C896A8 /* UtilityBtnStack.swift in Sources */,
 				D8965DB222CDCDA9007D32BB /* StandardFontButton.swift in Sources */,
 				D8965DB322CDCDA9007D32BB /* LBViewController.swift in Sources */,
 				D8F6359A22CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -978,6 +1001,7 @@
 				D8965DB722CDCDA9007D32BB /* MenuButton.swift in Sources */,
 				D8965DB822CDCDA9007D32BB /* AppDelegate.swift in Sources */,
 				D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */,
+				D80A520922DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D8965DB922CDCDA9007D32BB /* TestViewController.swift in Sources */,
 				D8965DBA22CDCDA9007D32BB /* LBResultScrnViewController.swift in Sources */,
 				D8965DBB22CDCDA9007D32BB /* PracticeResultScrnViewController.swift in Sources */,
