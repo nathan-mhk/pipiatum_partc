@@ -14,4 +14,6 @@ class BasicMCViewController: BasicViewController {
         super.viewDidLoad()
     }
     
+    var senderTag: Int = 0
+    
 }

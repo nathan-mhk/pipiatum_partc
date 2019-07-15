@@ -34,7 +34,8 @@ class PracticeMenuViewController: BasicSubMenuViewController {
         if segue.identifier == "PRACTICE" {
             if let destination = segue.destination as? PracticeViewController {
                 if let subMenuButton = sender as? SubMenuButton {
-                    print("Going to Practice View from button \(buttons[subMenuButton.tag].Name)")
+                    print("Going to Practice View from button \(subMenuButton.tag) (\(buttons[subMenuButton.tag].Name))")
+                    destination.senderTag = subMenuButton.tag
                 }
             }
         }

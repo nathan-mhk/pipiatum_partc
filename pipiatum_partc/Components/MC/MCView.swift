@@ -19,9 +19,5 @@ class MCView: UIView {
         super.init(coder: aDecoder)
         setUpComponent(componentName: "MCView", superView: self)
     }
-    
-    private func setUpButtons() {
-        
-    }
 
 }
