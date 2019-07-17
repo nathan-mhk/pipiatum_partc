@@ -1,0 +1,2463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MCQuestions</key>
+	<array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>What is the adjective in this list?</string>
+				<key>CorrectAns</key>
+				<string>magnus</string>
+				<key>Distractor1</key>
+				<string>iterum</string>
+				<key>Distractor2</key>
+				<string>inter</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the adverb in this list?</string>
+				<key>CorrectAns</key>
+				<string>diu</string>
+				<key>Distractor1</key>
+				<string>dederunt</string>
+				<key>Distractor2</key>
+				<string>multus</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the preposition in this list?</string>
+				<key>CorrectAns</key>
+				<string>ad</string>
+				<key>Distractor1</key>
+				<string>adsum</string>
+				<key>Distractor2</key>
+				<string>agricola</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the adjective in this list?</string>
+				<key>CorrectAns</key>
+				<string>laetum</string>
+				<key>Distractor1</key>
+				<string>fortiter</string>
+				<key>Distractor2</key>
+				<string>cum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the adverb in this list?</string>
+				<key>CorrectAns</key>
+				<string>saepe</string>
+				<key>Distractor1</key>
+				<string>saevus</string>
+				<key>Distractor2</key>
+				<string>sagittas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the preposition?</string>
+				<key>CorrectAns</key>
+				<string>ex</string>
+				<key>Distractor1</key>
+				<string>igitur</string>
+				<key>Distractor2</key>
+				<string>cur</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the conjunction?</string>
+				<key>CorrectAns</key>
+				<string>quod</string>
+				<key>Distractor1</key>
+				<string>ibi</string>
+				<key>Distractor2</key>
+				<string>miserunt</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the adverb?</string>
+				<key>CorrectAns</key>
+				<string>deinde</string>
+				<key>Distractor1</key>
+				<string>prope</string>
+				<key>Distractor2</key>
+				<string>portat</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the conjunction? </string>
+				<key>CorrectAns</key>
+				<string>et</string>
+				<key>Distractor1</key>
+				<string>equos</string>
+				<key>Distractor2</key>
+				<string>de</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the adverb?</string>
+				<key>CorrectAns</key>
+				<string>igitur</string>
+				<key>Distractor1</key>
+				<string>intramus</string>
+				<key>Distractor2</key>
+				<string>incolarum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the adverb?</string>
+				<key>CorrectAns</key>
+				<string>itaque</string>
+				<key>Distractor1</key>
+				<string>et</string>
+				<key>Distractor2</key>
+				<string>miser</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the adjective?</string>
+				<key>CorrectAns</key>
+				<string>malus</string>
+				<key>Distractor1</key>
+				<string>magnopere</string>
+				<key>Distractor2</key>
+				<string>oppidis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is a preposition?</string>
+				<key>CorrectAns</key>
+				<string>ab</string>
+				<key>Distractor1</key>
+				<string>unus</string>
+				<key>Distractor2</key>
+				<string>laborate</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is an adverb?</string>
+				<key>CorrectAns</key>
+				<string>iam</string>
+				<key>Distractor1</key>
+				<string>trans</string>
+				<key>Distractor2</key>
+				<string>tertius</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is an adjective?</string>
+				<key>CorrectAns</key>
+				<string>bonus</string>
+				<key>Distractor1</key>
+				<string>sic</string>
+				<key>Distractor2</key>
+				<string>etiam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is a preposition?</string>
+				<key>CorrectAns</key>
+				<string>contra</string>
+				<key>Distractor1</key>
+				<string>fessi</string>
+				<key>Distractor2</key>
+				<string>festinabant</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is per?</string>
+				<key>CorrectAns</key>
+				<string>preposition</string>
+				<key>Distractor1</key>
+				<string>verb</string>
+				<key>Distractor2</key>
+				<string>adverb</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is decimus?</string>
+				<key>CorrectAns</key>
+				<string>adjective</string>
+				<key>Distractor1</key>
+				<string>verb</string>
+				<key>Distractor2</key>
+				<string>adverb</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is iratus?</string>
+				<key>CorrectAns</key>
+				<string>adjective</string>
+				<key>Distractor1</key>
+				<string>adverb</string>
+				<key>Distractor2</key>
+				<string>noun</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is a pronoun?</string>
+				<key>CorrectAns</key>
+				<string>nos</string>
+				<key>Distractor1</key>
+				<string>noster</string>
+				<key>Distractor2</key>
+				<string>nuntios</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is ego?</string>
+				<key>CorrectAns</key>
+				<string>pronoun</string>
+				<key>Distractor1</key>
+				<string>noun</string>
+				<key>Distractor2</key>
+				<string>verb</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is the pronoun?</string>
+				<key>CorrectAns</key>
+				<string>quis</string>
+				<key>Distractor1</key>
+				<string>quinque</string>
+				<key>Distractor2</key>
+				<string>filiae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is a conjunction?</string>
+				<key>CorrectAns</key>
+				<string>sed</string>
+				<key>Distractor1</key>
+				<string>tres</string>
+				<key>Distractor2</key>
+				<string>ubi</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which one is a conjunction?</string>
+				<key>CorrectAns</key>
+				<string>ubi (when)</string>
+				<key>Distractor1</key>
+				<string>statim</string>
+				<key>Distractor2</key>
+				<string>quattuor</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is an adverb?</string>
+				<key>CorrectAns</key>
+				<string>numquam</string>
+				<key>Distractor1</key>
+				<string>novus</string>
+				<key>Distractor2</key>
+				<string>novem</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is semper?</string>
+				<key>CorrectAns</key>
+				<string>adverb</string>
+				<key>Distractor1</key>
+				<string>adjective</string>
+				<key>Distractor2</key>
+				<string>verb</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is subito?</string>
+				<key>CorrectAns</key>
+				<string>adverb</string>
+				<key>Distractor1</key>
+				<string>verb</string>
+				<key>Distractor2</key>
+				<string>adjective</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is an adjective?</string>
+				<key>CorrectAns</key>
+				<string>notus</string>
+				<key>Distractor1</key>
+				<string>non</string>
+				<key>Distractor2</key>
+				<string>proelia</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What part of speech is primus?</string>
+				<key>CorrectAns</key>
+				<string>adjective</string>
+				<key>Distractor1</key>
+				<string>noun</string>
+				<key>Distractor2</key>
+				<string>adverb</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is an adjective?</string>
+				<key>CorrectAns</key>
+				<string>parvam</string>
+				<key>Distractor1</key>
+				<string>patriam</string>
+				<key>Distractor2</key>
+				<string>paratis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>Spot the present infinitive.</string>
+				<key>CorrectAns</key>
+				<string>cantare</string>
+				<key>Distractor1</key>
+				<string>clamant</string>
+				<key>Distractor2</key>
+				<string>laudo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the singular imperative?</string>
+				<key>CorrectAns</key>
+				<string>cape</string>
+				<key>Distractor1</key>
+				<string>abesse</string>
+				<key>Distractor2</key>
+				<string>constituite</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the plural imperative.</string>
+				<key>CorrectAns</key>
+				<string>currite</string>
+				<key>Distractor1</key>
+				<string>audire</string>
+				<key>Distractor2</key>
+				<string>dicere</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the first person singular.</string>
+				<key>CorrectAns</key>
+				<string>adsum</string>
+				<key>Distractor1</key>
+				<string>aedificas</string>
+				<key>Distractor2</key>
+				<string>ambulat</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the second person singular.</string>
+				<key>CorrectAns</key>
+				<string>bibis</string>
+				<key>Distractor1</key>
+				<string>dormio</string>
+				<key>Distractor2</key>
+				<string>datis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the third person singular.</string>
+				<key>CorrectAns</key>
+				<string>cupiebat</string>
+				<key>Distractor1</key>
+				<string>amamus</string>
+				<key>Distractor2</key>
+				<string>consumo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the first person plural.</string>
+				<key>CorrectAns</key>
+				<string>discessimus</string>
+				<key>Distractor1</key>
+				<string>duco</string>
+				<key>Distractor2</key>
+				<string>delere</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the second person plural.</string>
+				<key>CorrectAns</key>
+				<string>mansistis</string>
+				<key>Distractor1</key>
+				<string>iaciebas</string>
+				<key>Distractor2</key>
+				<string>monebas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the third person plural.</string>
+				<key>CorrectAns</key>
+				<string>iusserunt</string>
+				<key>Distractor1</key>
+				<string>festina</string>
+				<key>Distractor2</key>
+				<string>amicos</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person is iubeo?</string>
+				<key>CorrectAns</key>
+				<string>1st</string>
+				<key>Distractor1</key>
+				<string>2nd</string>
+				<key>Distractor2</key>
+				<string>3rd</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person is navigabas?</string>
+				<key>CorrectAns</key>
+				<string>2nd</string>
+				<key>Distractor1</key>
+				<string>1st</string>
+				<key>Distractor2</key>
+				<string>3rd</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person is misit?</string>
+				<key>CorrectAns</key>
+				<string>3rd</string>
+				<key>Distractor1</key>
+				<string>1st</string>
+				<key>Distractor2</key>
+				<string>2nd</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person and number is ostenderunt?</string>
+				<key>CorrectAns</key>
+				<string>3rd person plural</string>
+				<key>Distractor1</key>
+				<string>2nd person singular</string>
+				<key>Distractor2</key>
+				<string>3rd person singular</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person and number is necabam?</string>
+				<key>CorrectAns</key>
+				<string>1st person singular</string>
+				<key>Distractor1</key>
+				<string>1st person plural</string>
+				<key>Distractor2</key>
+				<string>accusative singular</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person and number is fecisti?</string>
+				<key>CorrectAns</key>
+				<string>2nd person singular</string>
+				<key>Distractor1</key>
+				<string>2nd person plural</string>
+				<key>Distractor2</key>
+				<string>nominative plural</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person and number is habitamus?</string>
+				<key>CorrectAns</key>
+				<string>1st person plural</string>
+				<key>Distractor1</key>
+				<string>3rd person plural</string>
+				<key>Distractor2</key>
+				<string>nominative singular</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person and number is ludebatis?</string>
+				<key>CorrectAns</key>
+				<string>2nd person plural</string>
+				<key>Distractor1</key>
+				<string>2nd person singular</string>
+				<key>Distractor2</key>
+				<string>ablative plural </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What person and number is est?</string>
+				<key>CorrectAns</key>
+				<string>3rd person singular</string>
+				<key>Distractor1</key>
+				<string>3rd person plural</string>
+				<key>Distractor2</key>
+				<string>2nd person singular</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the present tense verb.</string>
+				<key>CorrectAns</key>
+				<string>movemus</string>
+				<key>Distractor1</key>
+				<string>movimus</string>
+				<key>Distractor2</key>
+				<string>vidimus</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the imperfect verb.</string>
+				<key>CorrectAns</key>
+				<string>oppugnabat</string>
+				<key>Distractor1</key>
+				<string>oppugnare</string>
+				<key>Distractor2</key>
+				<string>oppugnavit</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the perfect verb.</string>
+				<key>CorrectAns</key>
+				<string>habuit</string>
+				<key>Distractor1</key>
+				<string>habet</string>
+				<key>Distractor2</key>
+				<string>habere</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the present infinitive.</string>
+				<key>CorrectAns</key>
+				<string>legere</string>
+				<key>Distractor1</key>
+				<string>legit</string>
+				<key>Distractor2</key>
+				<string>legite</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the singular imperative.</string>
+				<key>CorrectAns</key>
+				<string>specta</string>
+				<key>Distractor1</key>
+				<string>tenet</string>
+				<key>Distractor2</key>
+				<string>respondite</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the present infinitive.</string>
+				<key>CorrectAns</key>
+				<string>esse</string>
+				<key>Distractor1</key>
+				<string>est</string>
+				<key>Distractor2</key>
+				<string>es</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the plural imperative.</string>
+				<key>CorrectAns</key>
+				<string>ridete</string>
+				<key>Distractor1</key>
+				<string>scribit</string>
+				<key>Distractor2</key>
+				<string>venitis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the present verb.</string>
+				<key>CorrectAns</key>
+				<string>rogatis</string>
+				<key>Distractor1</key>
+				<string>regebat</string>
+				<key>Distractor2</key>
+				<string>rogate</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the imperfect verb.</string>
+				<key>CorrectAns</key>
+				<string>ponebam</string>
+				<key>Distractor1</key>
+				<string>superamus</string>
+				<key>Distractor2</key>
+				<string>terram</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the perfect tense verb.</string>
+				<key>CorrectAns</key>
+				<string>posuit</string>
+				<key>Distractor1</key>
+				<string>timet</string>
+				<key>Distractor2</key>
+				<string>terrent</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the present infinitive.</string>
+				<key>CorrectAns</key>
+				<string>vocare</string>
+				<key>Distractor1</key>
+				<string>state</string>
+				<key>Distractor2</key>
+				<string>pugnaverunt</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Spot the imperative singular.</string>
+				<key>CorrectAns</key>
+				<string>dormi</string>
+				<key>Distractor1</key>
+				<string>oppugnas</string>
+				<key>Distractor2</key>
+				<string>audit</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>inter amicos.
+What case is amicos and why?</string>
+				<key>CorrectAns</key>
+				<string>accusative after preposition</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>ablative with</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>ad patriam.
+What case is patriam and why?</string>
+				<key>CorrectAns</key>
+				<string>accusative because of ad</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>nominative subject</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>cum filia.
+What case is filia and why?</string>
+				<key>CorrectAns</key>
+				<string>ablative after preposition</string>
+				<key>Distractor1</key>
+				<string>nominative subject</string>
+				<key>Distractor2</key>
+				<string>vocative being addressed</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>contra me.
+What case is me and why?</string>
+				<key>CorrectAns</key>
+				<string>accusative after preposition</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>ablative after preposition</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>trans aquam.
+What case is aquam and why?</string>
+				<key>CorrectAns</key>
+				<string>ablative after preposition</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>ablative after preposition</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>de te.
+What case is te and why?</string>
+				<key>CorrectAns</key>
+				<string>ablative because of de</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>genitive of</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>in oppidum.
+What case is oppidum and why?</string>
+				<key>CorrectAns</key>
+				<string>accusative because of in</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>ablative after preposition</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>in oppido.
+What case is oppido and why?</string>
+				<key>CorrectAns</key>
+				<string>ablative after preposition</string>
+				<key>Distractor1</key>
+				<string>dative to</string>
+				<key>Distractor2</key>
+				<string>accusative after preposition</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>ex ora.
+What case is ora and why?</string>
+				<key>CorrectAns</key>
+				<string>ablative after preposition</string>
+				<key>Distractor1</key>
+				<string>nominative subject</string>
+				<key>Distractor2</key>
+				<string>vocative being addressed</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>a feminis.
+What case is feminis and why?</string>
+				<key>CorrectAns</key>
+				<string>ablative because of preposition</string>
+				<key>Distractor1</key>
+				<string>dative for</string>
+				<key>Distractor2</key>
+				<string>nominative subject</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>prope agros.
+What case is agros and why?</string>
+				<key>CorrectAns</key>
+				<string>accusative because of prope</string>
+				<key>Distractor1</key>
+				<string>ablative because of prope</string>
+				<key>Distractor2</key>
+				<string>accusative object</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>per vias.
+What case is vias and why?</string>
+				<key>CorrectAns</key>
+				<string>accusative after per</string>
+				<key>Distractor1</key>
+				<string>accusative object of verb</string>
+				<key>Distractor2</key>
+				<string>ablative after per</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of cucurrerunt?</string>
+				<key>CorrectAns</key>
+				<string>curro</string>
+				<key>Distractor1</key>
+				<string>cucurro</string>
+				<key>Distractor2</key>
+				<string>cucurri</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of dixisti?</string>
+				<key>CorrectAns</key>
+				<string>dico</string>
+				<key>Distractor1</key>
+				<string>discedo</string>
+				<key>Distractor2</key>
+				<string>duco</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of duxerunt?</string>
+				<key>CorrectAns</key>
+				<string>duco</string>
+				<key>Distractor1</key>
+				<string>dico</string>
+				<key>Distractor2</key>
+				<string>discedo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of cepimus?</string>
+				<key>CorrectAns</key>
+				<string>capio</string>
+				<key>Distractor1</key>
+				<string>cupio</string>
+				<key>Distractor2</key>
+				<string>cepi</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of cupivistis?</string>
+				<key>CorrectAns</key>
+				<string>cupio</string>
+				<key>Distractor1</key>
+				<string>capio</string>
+				<key>Distractor2</key>
+				<string>cepi</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of consumpsit?</string>
+				<key>CorrectAns</key>
+				<string>consumo</string>
+				<key>Distractor1</key>
+				<string>constituo</string>
+				<key>Distractor2</key>
+				<string>consumpsi</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of fuerunt?</string>
+				<key>CorrectAns</key>
+				<string>sum</string>
+				<key>Distractor1</key>
+				<string>fui</string>
+				<key>Distractor2</key>
+				<string>fuo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of adfuit?</string>
+				<key>CorrectAns</key>
+				<string>adsum</string>
+				<key>Distractor1</key>
+				<string>absum</string>
+				<key>Distractor2</key>
+				<string>esse</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of afui?</string>
+				<key>CorrectAns</key>
+				<string>absum</string>
+				<key>Distractor1</key>
+				<string>adsum</string>
+				<key>Distractor2</key>
+				<string>sum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of delevimus?</string>
+				<key>CorrectAns</key>
+				<string>deleo</string>
+				<key>Distractor1</key>
+				<string>do</string>
+				<key>Distractor2</key>
+				<string>delere</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of discesserunt?</string>
+				<key>CorrectAns</key>
+				<string>discedo</string>
+				<key>Distractor1</key>
+				<string>do</string>
+				<key>Distractor2</key>
+				<string>dico</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of dederunt?</string>
+				<key>CorrectAns</key>
+				<string>dormi</string>
+				<key>Distractor1</key>
+				<string>discedo</string>
+				<key>Distractor2</key>
+				<string>dedo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of stetisti?</string>
+				<key>CorrectAns</key>
+				<string>sto</string>
+				<key>Distractor1</key>
+				<string>steti</string>
+				<key>Distractor2</key>
+				<string>steto</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of movimus?</string>
+				<key>CorrectAns</key>
+				<string>moveo</string>
+				<key>Distractor1</key>
+				<string>moneo</string>
+				<key>Distractor2</key>
+				<string>maneo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of mansit?</string>
+				<key>CorrectAns</key>
+				<string>maneo</string>
+				<key>Distractor1</key>
+				<string>moneo</string>
+				<key>Distractor2</key>
+				<string>moveo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of ieci?</string>
+				<key>CorrectAns</key>
+				<string>iacio</string>
+				<key>Distractor1</key>
+				<string>facio</string>
+				<key>Distractor2</key>
+				<string>iacere</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of lusistis?</string>
+				<key>CorrectAns</key>
+				<string>ludo</string>
+				<key>Distractor1</key>
+				<string>lego</string>
+				<key>Distractor2</key>
+				<string>lusi</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of miserunt?</string>
+				<key>CorrectAns</key>
+				<string>mitto</string>
+				<key>Distractor1</key>
+				<string>miser</string>
+				<key>Distractor2</key>
+				<string>misi</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of fecimus?</string>
+				<key>CorrectAns</key>
+				<string>facio</string>
+				<key>Distractor1</key>
+				<string>iacio</string>
+				<key>Distractor2</key>
+				<string>feci</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of iussit?</string>
+				<key>CorrectAns</key>
+				<string>iubeo</string>
+				<key>Distractor1</key>
+				<string>ludo</string>
+				<key>Distractor2</key>
+				<string>iacio</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of reximus?</string>
+				<key>CorrectAns</key>
+				<string>rego</string>
+				<key>Distractor1</key>
+				<string>lego</string>
+				<key>Distractor2</key>
+				<string>rogo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of posui?</string>
+				<key>CorrectAns</key>
+				<string>pono</string>
+				<key>Distractor1</key>
+				<string>porto</string>
+				<key>Distractor2</key>
+				<string>posuo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of venisti?</string>
+				<key>CorrectAns</key>
+				<string>venio</string>
+				<key>Distractor1</key>
+				<string>vinum</string>
+				<key>Distractor2</key>
+				<string>veneo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of riserunt?</string>
+				<key>CorrectAns</key>
+				<string>rideo</string>
+				<key>Distractor1</key>
+				<string>ludo</string>
+				<key>Distractor2</key>
+				<string>rego</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the first person singular present tense of tenuimus?</string>
+				<key>CorrectAns</key>
+				<string>tenere</string>
+				<key>Distractor1</key>
+				<string>timeo</string>
+				<key>Distractor2</key>
+				<string>terreo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of spectavit?</string>
+				<key>CorrectAns</key>
+				<string>spectat</string>
+				<key>Distractor1</key>
+				<string>specto</string>
+				<key>Distractor2</key>
+				<string>spectabat</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of vocavi?</string>
+				<key>CorrectAns</key>
+				<string>voco</string>
+				<key>Distractor1</key>
+				<string>vocare</string>
+				<key>Distractor2</key>
+				<string>vocabam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of tenuisti?</string>
+				<key>CorrectAns</key>
+				<string>teneo</string>
+				<key>Distractor1</key>
+				<string>tenes</string>
+				<key>Distractor2</key>
+				<string>tenuistis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of fuimus?</string>
+				<key>CorrectAns</key>
+				<string>sumus</string>
+				<key>Distractor1</key>
+				<string>sum</string>
+				<key>Distractor2</key>
+				<string>esse</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of portavistis?</string>
+				<key>CorrectAns</key>
+				<string>portatis</string>
+				<key>Distractor1</key>
+				<string>portabas</string>
+				<key>Distractor2</key>
+				<string>portabatis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of paraverunt?</string>
+				<key>CorrectAns</key>
+				<string>parant</string>
+				<key>Distractor1</key>
+				<string>paro</string>
+				<key>Distractor2</key>
+				<string>parabant</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of aderam?</string>
+				<key>CorrectAns</key>
+				<string>adsum</string>
+				<key>Distractor1</key>
+				<string>eram</string>
+				<key>Distractor2</key>
+				<string>sum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of aberas?</string>
+				<key>CorrectAns</key>
+				<string>es</string>
+				<key>Distractor1</key>
+				<string>est</string>
+				<key>Distractor2</key>
+				<string>esse</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of superabat?</string>
+				<key>CorrectAns</key>
+				<string>superat</string>
+				<key>Distractor1</key>
+				<string>superavit</string>
+				<key>Distractor2</key>
+				<string>superare</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of dabant?</string>
+				<key>CorrectAns</key>
+				<string>dant</string>
+				<key>Distractor1</key>
+				<string>do</string>
+				<key>Distractor2</key>
+				<string>dederunt</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of dedit?</string>
+				<key>CorrectAns</key>
+				<string>dat</string>
+				<key>Distractor1</key>
+				<string>dabat</string>
+				<key>Distractor2</key>
+				<string>do</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of steterunt?</string>
+				<key>CorrectAns</key>
+				<string>stant</string>
+				<key>Distractor1</key>
+				<string>stent</string>
+				<key>Distractor2</key>
+				<string>stabant</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of risimus?</string>
+				<key>CorrectAns</key>
+				<string>ridemus</string>
+				<key>Distractor1</key>
+				<string>risemus</string>
+				<key>Distractor2</key>
+				<string>rideo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of posuisti?</string>
+				<key>CorrectAns</key>
+				<string>ponis</string>
+				<key>Distractor1</key>
+				<string>pono</string>
+				<key>Distractor2</key>
+				<string>portas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of terruerunt?</string>
+				<key>CorrectAns</key>
+				<string>terrent</string>
+				<key>Distractor1</key>
+				<string>terreo</string>
+				<key>Distractor2</key>
+				<string>timent</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of venerunt?</string>
+				<key>CorrectAns</key>
+				<string>veniunt</string>
+				<key>Distractor1</key>
+				<string>venunt</string>
+				<key>Distractor2</key>
+				<string>venire</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of reximus?</string>
+				<key>CorrectAns</key>
+				<string>regimus</string>
+				<key>Distractor1</key>
+				<string>rogamus</string>
+				<key>Distractor2</key>
+				<string>regebamus</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of respondit?</string>
+				<key>CorrectAns</key>
+				<string>respondet</string>
+				<key>Distractor1</key>
+				<string>respondit</string>
+				<key>Distractor2</key>
+				<string>respondent</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of scripsistis?</string>
+				<key>CorrectAns</key>
+				<string>scribitis</string>
+				<key>Distractor1</key>
+				<string>scribis</string>
+				<key>Distractor2</key>
+				<string>scripsisti</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of vidit?</string>
+				<key>CorrectAns</key>
+				<string>videt</string>
+				<key>Distractor1</key>
+				<string>vidit</string>
+				<key>Distractor2</key>
+				<string>vident</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of mansimus?</string>
+				<key>CorrectAns</key>
+				<string>manemus</string>
+				<key>Distractor1</key>
+				<string>monemus</string>
+				<key>Distractor2</key>
+				<string>maneo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of iecerunt?</string>
+				<key>CorrectAns</key>
+				<string>iaciunt</string>
+				<key>Distractor1</key>
+				<string>iacunt</string>
+				<key>Distractor2</key>
+				<string>faciunt</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of feci?</string>
+				<key>CorrectAns</key>
+				<string>facio</string>
+				<key>Distractor1</key>
+				<string>facere</string>
+				<key>Distractor2</key>
+				<string>iacio</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of habuit?</string>
+				<key>CorrectAns</key>
+				<string>habet</string>
+				<key>Distractor1</key>
+				<string>habitat</string>
+				<key>Distractor2</key>
+				<string>habent</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of iussi?</string>
+				<key>CorrectAns</key>
+				<string>iubeo</string>
+				<key>Distractor1</key>
+				<string>iubebam</string>
+				<key>Distractor2</key>
+				<string>iusseo</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of ludebat?</string>
+				<key>CorrectAns</key>
+				<string>ludit</string>
+				<key>Distractor1</key>
+				<string>lusit</string>
+				<key>Distractor2</key>
+				<string>ludat</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of misi?</string>
+				<key>CorrectAns</key>
+				<string>mitto</string>
+				<key>Distractor1</key>
+				<string>miso</string>
+				<key>Distractor2</key>
+				<string>mitte</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of duximus?</string>
+				<key>CorrectAns</key>
+				<string>ducimus</string>
+				<key>Distractor1</key>
+				<string>duco</string>
+				<key>Distractor2</key>
+				<string>dicimus</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of dixistis?</string>
+				<key>CorrectAns</key>
+				<string>dicitis</string>
+				<key>Distractor1</key>
+				<string>ducitis</string>
+				<key>Distractor2</key>
+				<string>dicis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the present tense equivalent of cucurrit?</string>
+				<key>CorrectAns</key>
+				<string>currit</string>
+				<key>Distractor1</key>
+				<string>curret</string>
+				<key>Distractor2</key>
+				<string>cucurrit</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>Which English word is not derived from insula?</string>
+				<key>CorrectAns</key>
+				<string>inoculate</string>
+				<key>Distractor1</key>
+				<string>insulate</string>
+				<key>Distractor2</key>
+				<string>insulation</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give an English word derived from ancilla.</string>
+				<key>CorrectAns</key>
+				<string>ancillary</string>
+				<key>Distractor1</key>
+				<string>insulate</string>
+				<key>Distractor2</key>
+				<string>cultivate</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which English word is not derived from aqua.</string>
+				<key>CorrectAns</key>
+				<string>equal</string>
+				<key>Distractor1</key>
+				<string>aquatic</string>
+				<key>Distractor2</key>
+				<string>aquarium</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give an English word derived from deus.</string>
+				<key>CorrectAns</key>
+				<string>deity</string>
+				<key>Distractor1</key>
+				<string>day</string>
+				<key>Distractor2</key>
+				<string>disuse</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>The English word filial means behaving like a ..</string>
+				<key>CorrectAns</key>
+				<string>daughter</string>
+				<key>Distractor1</key>
+				<string>man</string>
+				<key>Distractor2</key>
+				<string>girl</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Hastate leaves are shaped like ..</string>
+				<key>CorrectAns</key>
+				<string>spears</string>
+				<key>Distractor1</key>
+				<string>swords</string>
+				<key>Distractor2</key>
+				<string>arrows</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which English word is derived from iratus.</string>
+				<key>CorrectAns</key>
+				<string>irate</string>
+				<key>Distractor1</key>
+				<string>irritate</string>
+				<key>Distractor2</key>
+				<string>irritable </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word derives from the Latin for sailor?</string>
+				<key>CorrectAns</key>
+				<string>nautical</string>
+				<key>Distractor1</key>
+				<string>agriculture</string>
+				<key>Distractor2</key>
+				<string>poetic</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which English word derives from unda?</string>
+				<key>CorrectAns</key>
+				<string>undulate</string>
+				<key>Distractor1</key>
+				<string>under</string>
+				<key>Distractor2</key>
+				<string>undying</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word does not derive from terra?</string>
+				<key>CorrectAns</key>
+				<string>terror</string>
+				<key>Distractor1</key>
+				<string>terrain</string>
+				<key>Distractor2</key>
+				<string>territory</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>The English word pecuniary relates to ...</string>
+				<key>CorrectAns</key>
+				<string>money</string>
+				<key>Distractor1</key>
+				<string>danger</string>
+				<key>Distractor2</key>
+				<string>birds</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>If you are patriotic, you love your ...</string>
+				<key>CorrectAns</key>
+				<string>country</string>
+				<key>Distractor1</key>
+				<string>mother</string>
+				<key>Distractor2</key>
+				<string>parents</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word does not derive from the Latin for many ...</string>
+				<key>CorrectAns</key>
+				<string>magnify</string>
+				<key>Distractor1</key>
+				<string>multiply</string>
+				<key>Distractor2</key>
+				<string>multiple</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which English word derives from altus?</string>
+				<key>CorrectAns</key>
+				<string>altitude</string>
+				<key>Distractor1</key>
+				<string>attitude</string>
+				<key>Distractor2</key>
+				<string>alternative</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word does not derive from the Latin for ten?</string>
+				<key>CorrectAns</key>
+				<string>decent</string>
+				<key>Distractor1</key>
+				<string>decade</string>
+				<key>Distractor2</key>
+				<string>December</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What sort of people show malice?</string>
+				<key>CorrectAns</key>
+				<string>bad</string>
+				<key>Distractor1</key>
+				<string>good</string>
+				<key>Distractor2</key>
+				<string>big</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>The word clarinet derives from the Latin for ...</string>
+				<key>CorrectAns</key>
+				<string>clear</string>
+				<key>Distractor1</key>
+				<string>sing</string>
+				<key>Distractor2</key>
+				<string>shout</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>A duet is performed by how many people?</string>
+				<key>CorrectAns</key>
+				<string>two</string>
+				<key>Distractor1</key>
+				<string>three</string>
+				<key>Distractor2</key>
+				<string>twelve</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word does not derive from the Latin for well known?</string>
+				<key>CorrectAns</key>
+				<string>novel</string>
+				<key>Distractor1</key>
+				<string>noted</string>
+				<key>Distractor2</key>
+				<string>notable</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>A novice is ...</string>
+				<key>CorrectAns</key>
+				<string>new (to something)</string>
+				<key>Distractor1</key>
+				<string>ninth</string>
+				<key>Distractor2</key>
+				<string>well known</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>An octet is performed by how many people?</string>
+				<key>CorrectAns</key>
+				<string>eight</string>
+				<key>Distractor1</key>
+				<string>ten</string>
+				<key>Distractor2</key>
+				<string>nine</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word is not derived from the Latin for first?</string>
+				<key>CorrectAns</key>
+				<string>pram</string>
+				<key>Distractor1</key>
+				<string>prime</string>
+				<key>Distractor2</key>
+				<string>premier</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Pulchritude is ...</string>
+				<key>CorrectAns</key>
+				<string>beauty</string>
+				<key>Distractor1</key>
+				<string>strength</string>
+				<key>Distractor2</key>
+				<string>friendliness</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Diction is to do with quality of ...</string>
+				<key>CorrectAns</key>
+				<string>speech</string>
+				<key>Distractor1</key>
+				<string>sleep</string>
+				<key>Distractor2</key>
+				<string>leadership</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Which word does not derive from the Latin for sleep?</string>
+				<key>CorrectAns</key>
+				<string>dominate</string>
+				<key>Distractor1</key>
+				<string>dormitory</string>
+				<key>Distractor2</key>
+				<string>dormouse</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of bellum</string>
+				<key>CorrectAns</key>
+				<string>bella</string>
+				<key>Distractor1</key>
+				<string>belli</string>
+				<key>Distractor2</key>
+				<string>bellum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of the Latin for town.</string>
+				<key>CorrectAns</key>
+				<string>oppida</string>
+				<key>Distractor1</key>
+				<string>oppugnamus</string>
+				<key>Distractor2</key>
+				<string>oppidum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of socius.</string>
+				<key>CorrectAns</key>
+				<string>socii</string>
+				<key>Distractor1</key>
+				<string>soci</string>
+				<key>Distractor2</key>
+				<string>sociae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of field.</string>
+				<key>CorrectAns</key>
+				<string>agri</string>
+				<key>Distractor1</key>
+				<string>agricolae</string>
+				<key>Distractor2</key>
+				<string>ageri</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of horse.</string>
+				<key>CorrectAns</key>
+				<string>equi</string>
+				<key>Distractor1</key>
+				<string>equis</string>
+				<key>Distractor2</key>
+				<string>equos</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of book.</string>
+				<key>CorrectAns</key>
+				<string>libri</string>
+				<key>Distractor1</key>
+				<string>liberi</string>
+				<key>Distractor2</key>
+				<string>libros</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of amicus.</string>
+				<key>CorrectAns</key>
+				<string>amici</string>
+				<key>Distractor1</key>
+				<string>amicos</string>
+				<key>Distractor2</key>
+				<string>amicus</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of son.</string>
+				<key>CorrectAns</key>
+				<string>filii</string>
+				<key>Distractor1</key>
+				<string>filiae</string>
+				<key>Distractor2</key>
+				<string>fili</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of sword.</string>
+				<key>CorrectAns</key>
+				<string>gladii</string>
+				<key>Distractor1</key>
+				<string>gladi</string>
+				<key>Distractor2</key>
+				<string>hastae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of wave.</string>
+				<key>CorrectAns</key>
+				<string>undae</string>
+				<key>Distractor1</key>
+				<string>aquae</string>
+				<key>Distractor2</key>
+				<string>unda</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of word.</string>
+				<key>CorrectAns</key>
+				<string>verba</string>
+				<key>Distractor1</key>
+				<string>verbae</string>
+				<key>Distractor2</key>
+				<string>verbis</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of arrow.</string>
+				<key>CorrectAns</key>
+				<string>sagittae</string>
+				<key>Distractor1</key>
+				<string>hastae</string>
+				<key>Distractor2</key>
+				<string>gladii</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the nominative plural of nauta?</string>
+				<key>CorrectAns</key>
+				<string>nautae</string>
+				<key>Distractor1</key>
+				<string>nautas</string>
+				<key>Distractor2</key>
+				<string>agricolae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of poet.</string>
+				<key>CorrectAns</key>
+				<string>poetae</string>
+				<key>Distractor1</key>
+				<string>poetas</string>
+				<key>Distractor2</key>
+				<string>patriae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of girl.</string>
+				<key>CorrectAns</key>
+				<string>puellae</string>
+				<key>Distractor1</key>
+				<string>filiae</string>
+				<key>Distractor2</key>
+				<string>feminas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the nominative plural of boy.</string>
+				<key>CorrectAns</key>
+				<string>pueri</string>
+				<key>Distractor1</key>
+				<string>puri</string>
+				<key>Distractor2</key>
+				<string>viri</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of man.</string>
+				<key>CorrectAns</key>
+				<string>viri</string>
+				<key>Distractor1</key>
+				<string>pueri</string>
+				<key>Distractor2</key>
+				<string>viae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the nominative plural of wind?</string>
+				<key>CorrectAns</key>
+				<string>venti</string>
+				<key>Distractor1</key>
+				<string>undae</string>
+				<key>Distractor2</key>
+				<string>ventos</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the nominative plural of shield.</string>
+				<key>CorrectAns</key>
+				<string>scuta</string>
+				<key>Distractor1</key>
+				<string>gladii</string>
+				<key>Distractor2</key>
+				<string>scuti</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>What is the nominative plural of slave?</string>
+				<key>CorrectAns</key>
+				<string>servi</string>
+				<key>Distractor1</key>
+				<string>ancillas</string>
+				<key>Distractor2</key>
+				<string>servos</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of danger.</string>
+				<key>CorrectAns</key>
+				<string>periculum</string>
+				<key>Distractor1</key>
+				<string>pericula</string>
+				<key>Distractor2</key>
+				<string>pecuniam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of word.</string>
+				<key>CorrectAns</key>
+				<string>verbum</string>
+				<key>Distractor1</key>
+				<string>verba</string>
+				<key>Distractor2</key>
+				<string>verbam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of temple.</string>
+				<key>CorrectAns</key>
+				<string>templum</string>
+				<key>Distractor1</key>
+				<string>templa</string>
+				<key>Distractor2</key>
+				<string>templorum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of wall.</string>
+				<key>CorrectAns</key>
+				<string>murum</string>
+				<key>Distractor1</key>
+				<string>muros</string>
+				<key>Distractor2</key>
+				<string>muram</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of messenger.</string>
+				<key>CorrectAns</key>
+				<string>nuntium</string>
+				<key>Distractor1</key>
+				<string>nuntum</string>
+				<key>Distractor2</key>
+				<string>nuntius</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of queen.</string>
+				<key>CorrectAns</key>
+				<string>reginam</string>
+				<key>Distractor1</key>
+				<string>reginas</string>
+				<key>Distractor2</key>
+				<string>reginae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of girl.</string>
+				<key>CorrectAns</key>
+				<string>puellam</string>
+				<key>Distractor1</key>
+				<string>feminam</string>
+				<key>Distractor2</key>
+				<string>filiam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of sailor.</string>
+				<key>CorrectAns</key>
+				<string>nautam</string>
+				<key>Distractor1</key>
+				<string>poetam</string>
+				<key>Distractor2</key>
+				<string>nautas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of money.</string>
+				<key>CorrectAns</key>
+				<string>pecuniam</string>
+				<key>Distractor1</key>
+				<string>periculum</string>
+				<key>Distractor2</key>
+				<string>patriam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of land.</string>
+				<key>CorrectAns</key>
+				<string>terram</string>
+				<key>Distractor1</key>
+				<string>terra</string>
+				<key>Distractor2</key>
+				<string>perterritum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of crowd.</string>
+				<key>CorrectAns</key>
+				<string>turbam</string>
+				<key>Distractor1</key>
+				<string>viam</string>
+				<key>Distractor2</key>
+				<string>turbae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of arrow.</string>
+				<key>CorrectAns</key>
+				<string>sagittam</string>
+				<key>Distractor1</key>
+				<string>scutum</string>
+				<key>Distractor2</key>
+				<string>hastam</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of battle.</string>
+				<key>CorrectAns</key>
+				<string>proelium</string>
+				<key>Distractor1</key>
+				<string>bellum</string>
+				<key>Distractor2</key>
+				<string>proeliorum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of wind.</string>
+				<key>CorrectAns</key>
+				<string>ventum</string>
+				<key>Distractor1</key>
+				<string>undam</string>
+				<key>Distractor2</key>
+				<string>ventos</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative singular of town.</string>
+				<key>CorrectAns</key>
+				<string>oppidum</string>
+				<key>Distractor1</key>
+				<string>oppida</string>
+				<key>Distractor2</key>
+				<string>oppidorum</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of town.</string>
+				<key>CorrectAns</key>
+				<string>oppida</string>
+				<key>Distractor1</key>
+				<string>oppidum</string>
+				<key>Distractor2</key>
+				<string>oppugnas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of ally.</string>
+				<key>CorrectAns</key>
+				<string>socios</string>
+				<key>Distractor1</key>
+				<string>amicos</string>
+				<key>Distractor2</key>
+				<string>amici</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of slave.</string>
+				<key>CorrectAns</key>
+				<string>servos</string>
+				<key>Distractor1</key>
+				<string>servum</string>
+				<key>Distractor2</key>
+				<string>ancillas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of slave-girl.</string>
+				<key>CorrectAns</key>
+				<string>ancillas</string>
+				<key>Distractor1</key>
+				<string>servos</string>
+				<key>Distractor2</key>
+				<string>ancillae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of shield.</string>
+				<key>CorrectAns</key>
+				<string>scuta</string>
+				<key>Distractor1</key>
+				<string>gladios</string>
+				<key>Distractor2</key>
+				<string>hastas</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of messenger.</string>
+				<key>CorrectAns</key>
+				<string>nuntios</string>
+				<key>Distractor1</key>
+				<string>nuntos</string>
+				<key>Distractor2</key>
+				<string>nuntium</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of boy.</string>
+				<key>CorrectAns</key>
+				<string>pueros</string>
+				<key>Distractor1</key>
+				<string>puros</string>
+				<key>Distractor2</key>
+				<string>viros</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of danger.</string>
+				<key>CorrectAns</key>
+				<string>periculum</string>
+				<key>Distractor1</key>
+				<string>pecuniam</string>
+				<key>Distractor2</key>
+				<string>NIL</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of wall.</string>
+				<key>CorrectAns</key>
+				<string>muros</string>
+				<key>Distractor1</key>
+				<string>murum</string>
+				<key>Distractor2</key>
+				<string>muri</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of man.</string>
+				<key>CorrectAns</key>
+				<string>viros</string>
+				<key>Distractor1</key>
+				<string>viri</string>
+				<key>Distractor2</key>
+				<string>vias</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of poet.</string>
+				<key>CorrectAns</key>
+				<string>poetas</string>
+				<key>Distractor1</key>
+				<string>poetam</string>
+				<key>Distractor2</key>
+				<string>pueros</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of road.</string>
+				<key>CorrectAns</key>
+				<string>vias</string>
+				<key>Distractor1</key>
+				<string>viros</string>
+				<key>Distractor2</key>
+				<string>viae</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of arrow.</string>
+				<key>CorrectAns</key>
+				<string>sagittas</string>
+				<key>Distractor1</key>
+				<string>hastas</string>
+				<key>Distractor2</key>
+				<string>gladios</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of girl.</string>
+				<key>CorrectAns</key>
+				<string>puellas</string>
+				<key>Distractor1</key>
+				<string>feminas</string>
+				<key>Distractor2</key>
+				<string>filias</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Question</key>
+				<string>Give the accusative plural of daughter.</string>
+				<key>CorrectAns</key>
+				<string>filias</string>
+				<key>Distractor1</key>
+				<string>filios</string>
+				<key>Distractor2</key>
+				<string>filii</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

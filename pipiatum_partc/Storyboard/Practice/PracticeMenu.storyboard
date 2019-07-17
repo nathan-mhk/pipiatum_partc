@@ -42,6 +42,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="R2I-05-A51"/>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="PracticeMC"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="oGi-Pl-086" kind="show" identifier="PRACTICE_RESULT" id="tAD-gM-Pil"/>
                     </connections>

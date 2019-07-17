@@ -42,6 +42,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1HN-zq-23e"/>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="TestMC"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="SOx-8r-HM3" kind="show" identifier="TEST_RESULT" id="obn-aZ-Bae"/>
                     </connections>

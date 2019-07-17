@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GSTestViewController: BasicViewController {
+class GSTestViewController: BasicMCViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

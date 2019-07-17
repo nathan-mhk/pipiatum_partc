@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MCQuestions</key>
+	<array>
+		<array>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles in bello contra Troianos pugnare non iam cupiebat</string>
+				<key>Question</key>
+				<string>What case is bello and why?</string>
+				<key>Marks</key>
+				<integer>1</integer>
+				<key>CorrectAns</key>
+				<string>Ablative - after in</string>
+				<key>Distractor1</key>
+				<string>dative - for</string>
+				<key>Distractor2</key>
+				<string>accusative - object of verb</string>
+				<key>Feedback</key>
+				<string>in meaning &apos;in&apos; takes the ablative </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Graeci circum muros Troiae (Troy) fortiter pugnabant</string>
+				<key>Question</key>
+				<string>What case and number is Troiae?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>Genitive singular</string>
+				<key>Distractor1</key>
+				<string>dative singular</string>
+				<key>Distractor2</key>
+				<string>nominative plural</string>
+				<key>Feedback</key>
+				<string>the walls of Troy - of = genitive </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>sed Troiani eos (them) in multis proeliis superabant</string>
+				<key>Question</key>
+				<string>Which word is the adjective in this sentence?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>multis</string>
+				<key>Distractor1</key>
+				<string>in</string>
+				<key>Distractor2</key>
+				<string>sed</string>
+				<key>Feedback</key>
+				<string>mult-is agrees with proeli-is</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Patroclus, amicus Achillis (Achilles), ubi hoc (this) vidit, non erat laetus</string>
+				<key>Question</key>
+				<string>What is the present tense equivalent of vidit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>videt</string>
+				<key>Distractor1</key>
+				<string>video</string>
+				<key>Distractor2</key>
+				<string>vidit</string>
+				<key>Feedback</key>
+				<string>vid-it = he saw (perfect)
+vid-et = he sees (present)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>ad Achillem cucurrit et dixit</string>
+				<key>Question</key>
+				<string>What is the first person singular present tense of cucurrit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>curro</string>
+				<key>Distractor1</key>
+				<string>cucurri</string>
+				<key>Distractor2</key>
+				<string>currere</string>
+				<key>Feedback</key>
+				<string>cucurri is the perfect of curro</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>‘da mihi (to me) scutum tuum et gladium’</string>
+				<key>Question</key>
+				<string>What part of the verb do is da?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>imperative</string>
+				<key>Distractor1</key>
+				<string>infinitive</string>
+				<key>Distractor2</key>
+				<string>present tense third person singular</string>
+				<key>Feedback</key>
+				<string>imperative = used when giving an order </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>‘in proelium ego festinare cupio’</string>
+				<key>Question</key>
+				<string>What gender is the word proelium?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>neuter</string>
+				<key>Distractor1</key>
+				<string>masculine</string>
+				<key>Distractor2</key>
+				<string>feminine</string>
+				<key>Feedback</key>
+				<string>root word is proeli-um = neuter </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles consilium (plan) non amavit sed tandem consentit (agreed)</string>
+				<key>Question</key>
+				<string>What is the Latin object of the verb amavit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>consilium</string>
+				<key>Distractor1</key>
+				<string>plan</string>
+				<key>Distractor2</key>
+				<string>Achilles</string>
+				<key>Feedback</key>
+				<string>Achilles didn’t like the plan (object of the verb)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Patroclus was holding Achilles’ sword.</string>
+				<key>Question</key>
+				<string>Translate sword in this sentence.</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>gladium</string>
+				<key>Distractor1</key>
+				<string>gladius</string>
+				<key>Distractor2</key>
+				<string>gladios</string>
+				<key>Feedback</key>
+				<string>root word gladi-us; acc singular = gladi-um</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>The friends hurry to the place.</string>
+				<key>Question</key>
+				<string>What is the correct Latin translation of this sentence?</string>
+				<key>Marks</key>
+				<integer>3</integer>
+				<key>CorrectAns</key>
+				<string>amici ad locum festinant</string>
+				<key>Distractor1</key>
+				<string>amici ad locus festinant</string>
+				<key>Distractor2</key>
+				<string>amici ad locum festino</string>
+				<key>Feedback</key>
+				<string>amici (nom plu)
+locum (acc sing after ad)
+festinant (they hurry)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles in bello contra Troianos adhuc (still) non pugnabat</string>
+				<key>Question</key>
+				<string>What case is Troianos and why?</string>
+				<key>Marks</key>
+				<integer>1</integer>
+				<key>CorrectAns</key>
+				<string>Accusative - after contra</string>
+				<key>Distractor1</key>
+				<string>Ablative - after contra</string>
+				<key>Distractor2</key>
+				<string>Accusative - object of verb</string>
+				<key>Feedback</key>
+				<string>preposition contra forces Troian-os into the accusative case </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Patroclus eum (him) rogavit: ‘mitte me in proelium!’</string>
+				<key>Question</key>
+				<string>What is the imperative in this sentence?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>mitte</string>
+				<key>Distractor1</key>
+				<string>rogavit</string>
+				<key>Distractor2</key>
+				<string>in</string>
+				<key>Feedback</key>
+				<string>3rd conjugation imperative singular ends in -e</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles Patroclo gladium suum et scutum dedit.</string>
+				<key>Question</key>
+				<string>What case is Patroclo and why?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>Dative - to</string>
+				<key>Distractor1</key>
+				<string>Ablative - to</string>
+				<key>Distractor2</key>
+				<string>Accusative - object of verb</string>
+				<key>Feedback</key>
+				<string>he gave them to (dative) Patroclus </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Patroclus ad Troianos fortiter cucurrit</string>
+				<key>Question</key>
+				<string>What type of word is fortiter?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>adverb</string>
+				<key>Distractor1</key>
+				<string>adjective</string>
+				<key>Distractor2</key>
+				<string>verb</string>
+				<key>Feedback</key>
+				<string>fortiter = brave-ly = adverb </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Hector, filius Priami (of Priam), fuit optimus (best) Troianorum</string>
+				<key>Question</key>
+				<string>What is the first person singular present tense of fuit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>sum</string>
+				<key>Distractor1</key>
+				<string>fui</string>
+				<key>Distractor2</key>
+				<string>esse</string>
+				<key>Feedback</key>
+				<string>root word of fuit is sum = I am </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>ubi Hector Patroclum vidit, eum (him) Achillem esse credebat (he believed)</string>
+				<key>Question</key>
+				<string>What is the present tense equivalent of vidit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>videt</string>
+				<key>Distractor1</key>
+				<string>videre</string>
+				<key>Distractor2</key>
+				<string>video</string>
+				<key>Feedback</key>
+				<string>vid-et  = 2nd conjugation, 3rd person singular </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Hector ad Patroclum festinavit et statim necavit</string>
+				<key>Question</key>
+				<string>What is the subject of the verb necavit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>Hector</string>
+				<key>Distractor1</key>
+				<string>statim</string>
+				<key>Distractor2</key>
+				<string>Patroclum</string>
+				<key>Feedback</key>
+				<string>Hector did the killing </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Graeci corpus (body) Patrocli ad Achillem portaverunt</string>
+				<key>Question</key>
+				<string>What tense is portaverunt?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>perfect</string>
+				<key>Distractor1</key>
+				<string>present</string>
+				<key>Distractor2</key>
+				<string>imperfect</string>
+				<key>Feedback</key>
+				<string>porta-v-erunt = perfect (they)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>The Greeks attack the Trojans.</string>
+				<key>Question</key>
+				<string>Translate attack in this sentence.</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>oppugnant</string>
+				<key>Distractor1</key>
+				<string>oppugno</string>
+				<key>Distractor2</key>
+				<string>pugnant</string>
+				<key>Feedback</key>
+				<string>oppugna-nt = they</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>We are building a wall.</string>
+				<key>Question</key>
+				<string>Which is the correct Latin translation of this sentence?</string>
+				<key>Marks</key>
+				<integer>3</integer>
+				<key>CorrectAns</key>
+				<string>aedficamus murum</string>
+				<key>Distractor1</key>
+				<string>aedificatis murum</string>
+				<key>Distractor2</key>
+				<string>aedificamus muros</string>
+				<key>Feedback</key>
+				<string>aedifica-mus (1st person plural)
+mur-um (acc sing)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles de morte (death) Patrocli mox audivit</string>
+				<key>Question</key>
+				<string>Which word is the preposition in this sentence?</string>
+				<key>Marks</key>
+				<integer>1</integer>
+				<key>CorrectAns</key>
+				<string>de</string>
+				<key>Distractor1</key>
+				<string>mox</string>
+				<key>Distractor2</key>
+				<string>audivit</string>
+				<key>Feedback</key>
+				<string>de (preposition) = about </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles miser erat et diu flebat (cried)</string>
+				<key>Question</key>
+				<string>What type of word is diu?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>adverb</string>
+				<key>Distractor1</key>
+				<string>verb</string>
+				<key>Distractor2</key>
+				<string>adjective</string>
+				<key>Feedback</key>
+				<string>diu = for a long time = time adverb </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles, quod erat iratus, iterum pugnare constituit</string>
+				<key>Question</key>
+				<string>What part of the verb pugno is pugnare?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>infinitive</string>
+				<key>Distractor1</key>
+				<string>imperative</string>
+				<key>Distractor2</key>
+				<string>imperfect tense</string>
+				<key>Feedback</key>
+				<string>-re ending = infinitive = to</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>gladium et scutum cepit et e tabernaculo (tent) discessit</string>
+				<key>Question</key>
+				<string>What is the first person singular present tense of discessit?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>discedo</string>
+				<key>Distractor1</key>
+				<string>do</string>
+				<key>Distractor2</key>
+				<string>descendo</string>
+				<key>Feedback</key>
+				<string>root word of discessit is discedo </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles Hectorem (Hector - acc) invenire (to find) magnopere cupiebat</string>
+				<key>Question</key>
+				<string>What is the subject of cupiebat?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>Achilles</string>
+				<key>Distractor1</key>
+				<string>Hectorem</string>
+				<key>Distractor2</key>
+				<string>magnopere</string>
+				<key>Feedback</key>
+				<string>It was Achilles who wanted </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Hector erat validus et multos viros necabat</string>
+				<key>Question</key>
+				<string>What gender is the adjective validus in this sentence?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>masculine</string>
+				<key>Distractor1</key>
+				<string>neuter</string>
+				<key>Distractor2</key>
+				<string>feminine</string>
+				<key>Feedback</key>
+				<string>Hector (masculine) so valid-us (masculine)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles Hectorem necavit et e proelio corpus (body) portavit</string>
+				<key>Question</key>
+				<string>What case is proelio and why?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>ablative - after e</string>
+				<key>Distractor1</key>
+				<string>dative - for</string>
+				<key>Distractor2</key>
+				<string>accusative - object of verb</string>
+				<key>Feedback</key>
+				<string>preposition e takes the ablative case</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Achilles saevus circum muros oppidi Hectorem traxit (dragged)</string>
+				<key>Question</key>
+				<string>What gender is the noun oppidi?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>neuter</string>
+				<key>Distractor1</key>
+				<string>masculine</string>
+				<key>Distractor2</key>
+				<string>feminine</string>
+				<key>Feedback</key>
+				<string>root word is oppid-um, neuter </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>The Trojans love me.</string>
+				<key>Question</key>
+				<string>Translate me in this sentence.</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>me</string>
+				<key>Distractor1</key>
+				<string>ego</string>
+				<key>Distractor2</key>
+				<string>te</string>
+				<key>Feedback</key>
+				<string>me = accusative sing of ego </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>The farmer has a sword.</string>
+				<key>Question</key>
+				<string>What is the correct Latin translation of this sentence?</string>
+				<key>Marks</key>
+				<integer>3</integer>
+				<key>CorrectAns</key>
+				<string>agricola habet gladium</string>
+				<key>Distractor1</key>
+				<string>agricola habeo gladium</string>
+				<key>Distractor2</key>
+				<string>agricola habeat gladium</string>
+				<key>Feedback</key>
+				<string>agricola (nom sing)
+hab-et (he has)
+gladi-um (acc sing)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Prompt</key>
+				<string>sic Troiani Graecos in bello superabant </string>
+				<key>Question</key>
+				<string>What is the Latin subject of superabant?</string>
+				<key>Marks</key>
+				<integer>1</integer>
+				<key>CorrectAns</key>
+				<string>Troiani</string>
+				<key>Distractor1</key>
+				<string>Trojans</string>
+				<key>Distractor2</key>
+				<string>Graecos</string>
+				<key>Feedback</key>
+				<string>Troian-i nominative plural </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Graeci, quod erant miseri, e Troia navigare cupiebant</string>
+				<key>Question</key>
+				<string>What is the conjunction in this sentence?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>quod</string>
+				<key>Distractor1</key>
+				<string>e </string>
+				<key>Distractor2</key>
+				<string>navigare</string>
+				<key>Feedback</key>
+				<string>quod = because = conjunction </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Ulixes tamen consilium (plan) habuit</string>
+				<key>Question</key>
+				<string>Put habuit in the present tense, keeping person and number</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>habet</string>
+				<key>Distractor1</key>
+				<string>habebat</string>
+				<key>Distractor2</key>
+				<string>habeo</string>
+				<key>Feedback</key>
+				<string>hab-et, 3rd person singular, 2nd conjugation </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>equum ligneum (wooden) Ulixes aedificare constituit</string>
+				<key>Question</key>
+				<string>What is the Latin object of aedificare?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>equum</string>
+				<key>Distractor1</key>
+				<string>horse</string>
+				<key>Distractor2</key>
+				<string>Ulixes</string>
+				<key>Feedback</key>
+				<string>equ-um acc sing and object of aedificare </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Graeci equum in ora prope Troiam posuerunt</string>
+				<key>Question</key>
+				<string>What is the first person singular present tense of posuerunt?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>pono</string>
+				<key>Distractor1</key>
+				<string>porto</string>
+				<key>Distractor2</key>
+				<string>posui</string>
+				<key>Feedback</key>
+				<string>pono - ponere - posui </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Graeci discesserunt et ad insulam vicinam (nearby) navigaverunt</string>
+				<key>Question</key>
+				<string>What case is insulam and why?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>accusative - after preposition ad</string>
+				<key>Distractor1</key>
+				<string>accusative - object</string>
+				<key>Distractor2</key>
+				<string>nominative - subject</string>
+				<key>Feedback</key>
+				<string>ad forces insul-am into the accusative </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Troiani e muris spectabant</string>
+				<key>Question</key>
+				<string>Put spectabant into the present tense, keeping person and number</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>spectant</string>
+				<key>Distractor1</key>
+				<string>spectat</string>
+				<key>Distractor2</key>
+				<string>specto</string>
+				<key>Feedback</key>
+				<string>specta-nt, present tense, 3rd person plural </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>perterriti dicbebant: ‘Graeci donum nobis (us) dederunt’</string>
+				<key>Question</key>
+				<string>What is the Latin object of dederunt?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>donum</string>
+				<key>Distractor1</key>
+				<string>gift</string>
+				<key>Distractor2</key>
+				<string>Graeci</string>
+				<key>Feedback</key>
+				<string>they gave a donum (Latin object)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>We don’t like the Greeks’ gifts </string>
+				<key>Question</key>
+				<string>Translate gifts in this sentence</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>dona</string>
+				<key>Distractor1</key>
+				<string>donum</string>
+				<key>Distractor2</key>
+				<string>donorum</string>
+				<key>Feedback</key>
+				<string>don-a accusative plural of don-um</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Do you (s) like horses?</string>
+				<key>Question</key>
+				<string>What is the correct Latin translation of this sentence?</string>
+				<key>Marks</key>
+				<integer>3</integer>
+				<key>CorrectAns</key>
+				<string>amasne equos?</string>
+				<key>Distractor1</key>
+				<string>amasne equum?</string>
+				<key>Distractor2</key>
+				<string>amatisne equi? </string>
+				<key>Feedback</key>
+				<string>am-as (you sg)
+ne (for a question)
+equ-os (acc plu)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Prompt</key>
+				<string>Troiani, ubi in ora equum viderunt, perterriti steterunt</string>
+				<key>Question</key>
+				<string>What is the first person singular present tense of steterunt?</string>
+				<key>Marks</key>
+				<integer>1</integer>
+				<key>CorrectAns</key>
+				<string>sto</string>
+				<key>Distractor1</key>
+				<string>stare</string>
+				<key>Distractor2</key>
+				<string>statim</string>
+				<key>Feedback</key>
+				<string>sto - stare - steti (perfect)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>unus vir, Laocoon, dixit: ‘Graecos timeo quamquam (although) donum dederunt’</string>
+				<key>Question</key>
+				<string>What tense is the verb dederunt?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>perfect</string>
+				<key>Distractor1</key>
+				<string>present</string>
+				<key>Distractor2</key>
+				<string>imperfect</string>
+				<key>Feedback</key>
+				<string>ded-erunt, 3rd person plural, perfect tense </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>sed Troiani responderunt: ‘equus est deae donum’</string>
+				<key>Question</key>
+				<string>What gender is the word equus?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>masculine</string>
+				<key>Distractor1</key>
+				<string>neuter</string>
+				<key>Distractor2</key>
+				<string>feminine</string>
+				<key>Feedback</key>
+				<string>equ-us 2nd declension masculine </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>‘equum in Troiam ducite! Graecos superavimus’.</string>
+				<key>Question</key>
+				<string>What part of the verb duco is ducite?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>imperative (plural) </string>
+				<key>Distractor1</key>
+				<string>imperative (singular)</string>
+				<key>Distractor2</key>
+				<string>infinitive</string>
+				<key>Feedback</key>
+				<string>imperative used when giving an order </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>sed in equo erant multi Graeci viri </string>
+				<key>Question</key>
+				<string>What type of word is multi?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>adjective</string>
+				<key>Distractor1</key>
+				<string>noun</string>
+				<key>Distractor2</key>
+				<string>adverb</string>
+				<key>Feedback</key>
+				<string>agrees with noun viri </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Troiani multum vinum biberunt (drank) et multum cibum consumpserunt</string>
+				<key>Question</key>
+				<string>What is the Latin subject of consumpserunt?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>Troiani</string>
+				<key>Distractor1</key>
+				<string>Trojans</string>
+				<key>Distractor2</key>
+				<string>vinum</string>
+				<key>Feedback</key>
+				<string>The Trojans (in Latin, Troian-i) did the eating</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>dum (while) Troiani dormiebant, Graeci ex equo venerunt</string>
+				<key>Question</key>
+				<string>What case is equo and why?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>ablative - after preposition</string>
+				<key>Distractor1</key>
+				<string>dative - for</string>
+				<key>Distractor2</key>
+				<string>accusative - object of verb</string>
+				<key>Feedback</key>
+				<string>ex forces equ-o into the ablative case</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>Graeci per vias cucurrerunt et multos Troianos necaverunt</string>
+				<key>Question</key>
+				<string>What type of word is per?</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>preposition</string>
+				<key>Distractor1</key>
+				<string>adverb</string>
+				<key>Distractor2</key>
+				<string>conjunction</string>
+				<key>Feedback</key>
+				<string>per = through/along = preposition</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>We love horses.</string>
+				<key>Question</key>
+				<string>Translate horses in this sentence.</string>
+				<key>Marks</key>
+				<integer>2</integer>
+				<key>CorrectAns</key>
+				<string>equos</string>
+				<key>Distractor1</key>
+				<string>equus</string>
+				<key>Distractor2</key>
+				<string>equum</string>
+				<key>Feedback</key>
+				<string>horses, object of verb = equ-os, acc plu </string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+			<dict>
+				<key>Prompt</key>
+				<string>I terrify the slave girls</string>
+				<key>Question</key>
+				<string>What is the correct Latin translation of this sentence?</string>
+				<key>Marks</key>
+				<integer>3</integer>
+				<key>CorrectAns</key>
+				<string>ancillas terreo</string>
+				<key>Distractor1</key>
+				<string>ancillam terreo </string>
+				<key>Distractor2</key>
+				<string>ancillas timeo </string>
+				<key>Feedback</key>
+				<string>ancill-as (acc plu, object)
+terre-o (I frighten)</string>
+				<key>Weighting</key>
+				<integer>-1</integer>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

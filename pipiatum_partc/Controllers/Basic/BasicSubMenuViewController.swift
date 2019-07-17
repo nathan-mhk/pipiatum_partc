@@ -29,10 +29,10 @@ class BasicSubMenuViewController: BasicViewController {
     
     //MARK: Set Up Functions
     //Load plist in buttons array
-    func loadPlistData() {
+    private func loadPlistData() {
         if let plistName = self.itemsPlistName {
             if let plist = PlistUtil.load(named: plistName) {
-                if let subMenuContents = plist.value(forKey: "MenuItems") as? [NSDictionary] {
+                if let subMenuContents = plist.object(forKey: "MenuItems") as? [NSDictionary] {
                     for subMenuContent in subMenuContents {
                         if let subMenuItem = SubMenuItem(menuContent: subMenuContent) {
                             buttons.append(subMenuItem)

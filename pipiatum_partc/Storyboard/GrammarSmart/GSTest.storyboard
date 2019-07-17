@@ -20,6 +20,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qeh-5J-KSR"/>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="GSMC"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="SGg-Ys-s0Q" kind="show" identifier="GS_RESULT" id="8Vl-XZ-7Ba"/>
                     </connections>
