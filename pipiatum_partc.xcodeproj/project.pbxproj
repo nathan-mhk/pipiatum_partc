@@ -199,6 +199,9 @@
 		D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ED0322C4BC9000872829 /* PersonalBest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ED0222C4BC9000872829 /* PersonalBest.swift */; };
 		D8D0ED0422C4BC9000872829 /* PersonalBest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ED0222C4BC9000872829 /* PersonalBest.swift */; };
+		D8D1D54A22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
+		D8D1D54B22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
+		D8D1D54C22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
 		D8D4415822BB6C16007419C9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4415722BB6C16007419C9 /* CoreDataStack.swift */; };
 		D8D4415922BB6C16007419C9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4415722BB6C16007419C9 /* CoreDataStack.swift */; };
 		D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F6359722CF088700AB0CCC /* BasicNavController.swift */; };
@@ -295,6 +298,7 @@
 		D8D0ECF922C49F3100872829 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenView.xib; sourceTree = "<group>"; };
 		D8D0ED0222C4BC9000872829 /* PersonalBest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBest.swift; sourceTree = "<group>"; };
+		D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBtnStack.swift; sourceTree = "<group>"; };
 		D8D4415722BB6C16007419C9 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		D8F6359722CF088700AB0CCC /* BasicNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNavController.swift; sourceTree = "<group>"; };
 		D8F6359C22CF323400AB0CCC /* PracticeMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PracticeMenu.plist; sourceTree = "<group>"; };
@@ -358,6 +362,7 @@
 			children = (
 				D88C498C22D5A255001A6663 /* MCView.swift */,
 				D80A520622DC721D00C896A8 /* MCDelegate.swift */,
+				D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */,
 			);
 			path = MC;
 			sourceTree = "<group>";
@@ -922,6 +927,7 @@
 				D89ADF0622C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0922C606BD00810E23 /* AboutUsViewController.swift in Sources */,
 				D88C498D22D5A255001A6663 /* MCView.swift in Sources */,
+				D8D1D54A22E066D70024AF8F /* UtilityBtnStack.swift in Sources */,
 				D89ADF0D22C60A3000810E23 /* PBMenuViewController.swift in Sources */,
 				D89ADEF122C6050F00810E23 /* TestMenuViewController.swift in Sources */,
 				D845F29522D31674000D6F1D /* TempArrayData.swift in Sources */,
@@ -983,6 +989,7 @@
 				D89ADF0722C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0A22C606BD00810E23 /* AboutUsViewController.swift in Sources */,
 				D88C498E22D5A255001A6663 /* MCView.swift in Sources */,
+				D8D1D54B22E066D70024AF8F /* UtilityBtnStack.swift in Sources */,
 				D89ADF0E22C60A3000810E23 /* PBMenuViewController.swift in Sources */,
 				D89ADEF222C6050F00810E23 /* TestMenuViewController.swift in Sources */,
 				D845F29622D31674000D6F1D /* TempArrayData.swift in Sources */,
@@ -1036,6 +1043,7 @@
 				D8965DC322CDCDA9007D32BB /* SettingsViewController.swift in Sources */,
 				D8965DC422CDCDA9007D32BB /* AboutUsViewController.swift in Sources */,
 				D88C498F22D5A255001A6663 /* MCView.swift in Sources */,
+				D8D1D54C22E066D70024AF8F /* UtilityBtnStack.swift in Sources */,
 				D8965DC522CDCDA9007D32BB /* PBMenuViewController.swift in Sources */,
 				D8965DC622CDCDA9007D32BB /* TestMenuViewController.swift in Sources */,
 				D845F29722D31674000D6F1D /* TempArrayData.swift in Sources */,
