@@ -13,7 +13,7 @@
         <!--LB View Controller-->
         <scene sceneID="90z-e2-jWa">
             <objects>
-                <viewController title="Laterbase" id="9qB-nW-cOf" userLabel="LB View Controller" customClass="LBViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Laterbase" id="9qB-nW-cOf" userLabel="LB View Controller" customClass="LB_RESULT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uaO-Yf-ETC" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,27 +21,20 @@
                         <viewLayoutGuide key="safeArea" id="eYQ-fD-eUh"/>
                     </view>
                     <connections>
-                        <segue destination="erO-IH-qT3" kind="show" identifier="LB_RESULT" id="iRF-7h-YOp"/>
+                        <segue destination="FAW-Ym-FFJ" kind="show" identifier="LB_RESULT" id="SB3-3y-eNI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ipq-mD-wEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="17" y="161"/>
         </scene>
-        <!--LB Result Scrn View Controller-->
-        <scene sceneID="qjm-c5-jZE">
+        <!--LBResult-->
+        <scene sceneID="2tp-ft-KgJ">
             <objects>
-                <viewController id="erO-IH-qT3" userLabel="LB Result Scrn View Controller" customClass="LBResultScrnViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1e5-ql-qbU" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="0rM-ig-bqC"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0a-yC-87V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="LBResult" id="FAW-Ym-FFJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HWl-Go-ICt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="914" y="161"/>
+            <point key="canvasLocation" x="555" y="160"/>
         </scene>
     </scenes>
 </document>

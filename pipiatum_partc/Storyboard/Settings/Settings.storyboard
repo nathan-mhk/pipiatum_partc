@@ -167,7 +167,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="qGY-Kq-txU" kind="show" identifier="AboutUs" id="GdY-qu-sqp"/>
+                                            <segue destination="ZvU-iI-BU7" kind="show" id="jwY-a1-wna"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -215,6 +215,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mX5-js-tgH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1160.8" y="131.78410794602701"/>
+        </scene>
+        <!--AboutUs-->
+        <scene sceneID="c2y-7M-nXc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AboutUs" id="ZvU-iI-BU7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTz-iw-JCZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686" y="132"/>
         </scene>
         <!--About Us Controller-->
         <scene sceneID="UeL-t2-7rY">
@@ -391,7 +399,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ue4-WK-pSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2264.8000000000002" y="132.68365817091455"/>
+            <point key="canvasLocation" x="2553" y="132"/>
         </scene>
     </scenes>
     <resources>

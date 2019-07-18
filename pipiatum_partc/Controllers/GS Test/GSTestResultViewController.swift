@@ -1,5 +1,5 @@
 //
-//  ResultScreenViewController.swift
+//  GSTestResultViewController.swift
 //  pipiatum_partc
 //
 //  Created by Nathan Kong on 28/6/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GSTestResultScrnViewController: BasicViewController {
+class GSTestResultViewController: BasicViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

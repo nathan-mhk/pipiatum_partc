@@ -63,6 +63,7 @@ class BasicMCViewController: BasicViewController {
 //                    print(GSquestions[questionType][j - 1].Weighting)
 //                }
             }
+            print("Loaded GS MC")
             return
         }
         
@@ -75,6 +76,7 @@ class BasicMCViewController: BasicViewController {
             }
         }
         //Debug Msg
+        print("Loaded Practice/Test MC")
 //        for question in MCquestions {
 //            print(question.Question)
 //            print(question.CorrectAns)

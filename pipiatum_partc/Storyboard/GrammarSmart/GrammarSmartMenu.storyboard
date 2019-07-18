@@ -124,7 +124,7 @@
                 <viewControllerPlaceholder storyboardName="GSTest" id="SBG-T4-j37" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yM9-dy-btu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="882" y="41"/>
+            <point key="canvasLocation" x="718" y="39"/>
         </scene>
         <!--Laterbase-->
         <scene sceneID="1i1-Jp-SGP">
@@ -132,7 +132,7 @@
                 <viewControllerPlaceholder storyboardName="Laterbase" id="hE4-xK-mUm" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWC-AJ-lBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="882" y="220"/>
+            <point key="canvasLocation" x="718" y="228"/>
         </scene>
     </scenes>
 </document>

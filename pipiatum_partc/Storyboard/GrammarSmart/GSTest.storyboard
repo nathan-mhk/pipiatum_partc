@@ -24,27 +24,20 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="GSMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="SGg-Ys-s0Q" kind="show" identifier="GS_RESULT" id="8Vl-XZ-7Ba"/>
+                        <segue destination="SlR-hi-vvJ" kind="show" identifier="GS_RESULT" id="wv3-GF-fWj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l91-Zb-f8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117" y="72"/>
+            <point key="canvasLocation" x="143" y="72"/>
         </scene>
-        <!--GSTest Result Scrn View Controller-->
-        <scene sceneID="UDO-tb-UxA">
+        <!--GSTestResult-->
+        <scene sceneID="6Ea-xc-sVc">
             <objects>
-                <viewController id="SGg-Ys-s0Q" userLabel="GSTest Result Scrn View Controller" customClass="GSTestResultScrnViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W8H-zx-wnE" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="S5Z-O9-rER"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kp5-ss-5tc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="GSTestResult" id="SlR-hi-vvJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bE-Pf-mu0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895" y="72"/>
+            <point key="canvasLocation" x="685" y="71"/>
         </scene>
     </scenes>
 </document>

@@ -1,5 +1,5 @@
 //
-//  TestResultScrnViewController.swift
+//  TestResultViewController.swift
 //  pipiatum_partc
 //
 //  Created by Nathan Kong on 28/6/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TestResultScrnViewController: BasicViewController {
+class TestResultViewController: BasicViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

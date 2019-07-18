@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A57-OX-VgV" userLabel="Result View">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A57-OX-VgV" userLabel="ResultView">
                     <rect key="frame" x="37.5" y="33.5" width="300" height="333.5"/>
                     <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>

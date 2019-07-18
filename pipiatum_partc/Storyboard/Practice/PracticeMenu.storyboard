@@ -25,48 +25,20 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="practiceMenu" destination="lak-sx-PWt" id="eV4-Uc-Q6q"/>
-                        <segue destination="YDC-F3-yup" kind="show" identifier="PRACTICE" id="t89-Mt-OLH"/>
+                        <segue destination="AlV-od-j3B" kind="show" identifier="PRACTICE" id="479-ba-JhE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Amc-gT-CRH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="39" y="63"/>
         </scene>
-        <!--Practice View Controller-->
-        <scene sceneID="rAG-87-UgQ">
+        <!--Practice-->
+        <scene sceneID="ynU-ZI-PwM">
             <objects>
-                <viewController id="YDC-F3-yup" customClass="PracticeViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="EYS-Uh-z4O" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="R2I-05-A51"/>
-                    </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="PracticeMC"/>
-                    </userDefinedRuntimeAttributes>
-                    <connections>
-                        <segue destination="oGi-Pl-086" kind="show" identifier="PRACTICE_RESULT" id="tAD-gM-Pil"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GYa-cP-tEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Practice" id="AlV-od-j3B" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3jC-oO-9TC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="823" y="63"/>
-        </scene>
-        <!--Practice Result Scrn View Controller-->
-        <scene sceneID="Mqh-NR-OWj">
-            <objects>
-                <viewController id="oGi-Pl-086" customClass="PracticeResultScrnViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Him-pc-N1P" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="DZi-tg-7xO"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lqx-uK-5Uf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1614" y="63"/>
+            <point key="canvasLocation" x="554" y="62"/>
         </scene>
     </scenes>
 </document>

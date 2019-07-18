@@ -87,8 +87,8 @@
 		D8965DB722CDCDA9007D32BB /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8965DB822CDCDA9007D32BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84CA70D22BA3ECE00E7B16F /* AppDelegate.swift */; };
 		D8965DB922CDCDA9007D32BB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFF22C606A100810E23 /* TestViewController.swift */; };
-		D8965DBA22CDCDA9007D32BB /* LBResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF322C6056500810E23 /* LBResultScrnViewController.swift */; };
-		D8965DBB22CDCDA9007D32BB /* PracticeResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFC22C6069500810E23 /* PracticeResultScrnViewController.swift */; };
+		D8965DBA22CDCDA9007D32BB /* LBResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF322C6056500810E23 /* LBResultViewController.swift */; };
+		D8965DBB22CDCDA9007D32BB /* PracticeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFC22C6069500810E23 /* PracticeResultViewController.swift */; };
 		D8965DBC22CDCDA9007D32BB /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF1322C60D7C00810E23 /* BasicViewController.swift */; };
 		D8965DBD22CDCDA9007D32BB /* PBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0F22C60AB800810E23 /* PBViewController.swift */; };
 		D8965DBE22CDCDA9007D32BB /* SetUpComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DA85E22BC87FA002CFC39 /* SetUpComponent.swift */; };
@@ -103,8 +103,8 @@
 		D8965DC722CDCDA9007D32BB /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF922C6068200810E23 /* PracticeViewController.swift */; };
 		D8965DC822CDCDA9007D32BB /* UIColor_init.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078922C3652E006DB1B1 /* UIColor_init.swift */; };
 		D8965DCA22CDCDA9007D32BB /* MenuBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DA85522BC789C002CFC39 /* MenuBanner.swift */; };
-		D8965DCB22CDCDA9007D32BB /* TestResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0222C606AB00810E23 /* TestResultScrnViewController.swift */; };
-		D8965DCC22CDCDA9007D32BB /* GSTestResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE122C602C400810E23 /* GSTestResultScrnViewController.swift */; };
+		D8965DCB22CDCDA9007D32BB /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0222C606AB00810E23 /* TestResultViewController.swift */; };
+		D8965DCC22CDCDA9007D32BB /* GSTestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE122C602C400810E23 /* GSTestResultViewController.swift */; };
 		D8965DCD22CDCDA9007D32BB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DA84E22BC751B002CFC39 /* MenuViewController.swift */; };
 		D8965DD022CDCDA9007D32BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84CA71922BA3EDC00E7B16F /* LaunchScreen.storyboard */; };
 		D8965DD122CDCDA9007D32BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84CA71722BA3EDC00E7B16F /* Assets.xcassets */; };
@@ -144,24 +144,24 @@
 		D89ADEDD22C6029C00810E23 /* GSTestMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEDB22C6029C00810E23 /* GSTestMenuViewController.swift */; };
 		D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEDE22C602AD00810E23 /* LBViewController.swift */; };
 		D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEDE22C602AD00810E23 /* LBViewController.swift */; };
-		D89ADEE222C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE122C602C400810E23 /* GSTestResultScrnViewController.swift */; };
-		D89ADEE322C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE122C602C400810E23 /* GSTestResultScrnViewController.swift */; };
+		D89ADEE222C602C400810E23 /* GSTestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE122C602C400810E23 /* GSTestResultViewController.swift */; };
+		D89ADEE322C602C400810E23 /* GSTestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE122C602C400810E23 /* GSTestResultViewController.swift */; };
 		D89ADEE822C603E600810E23 /* GSTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE722C603E600810E23 /* GSTestViewController.swift */; };
 		D89ADEE922C603E600810E23 /* GSTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEE722C603E600810E23 /* GSTestViewController.swift */; };
 		D89ADEF122C6050F00810E23 /* TestMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF022C6050F00810E23 /* TestMenuViewController.swift */; };
 		D89ADEF222C6050F00810E23 /* TestMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF022C6050F00810E23 /* TestMenuViewController.swift */; };
-		D89ADEF422C6056500810E23 /* LBResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF322C6056500810E23 /* LBResultScrnViewController.swift */; };
-		D89ADEF522C6056500810E23 /* LBResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF322C6056500810E23 /* LBResultScrnViewController.swift */; };
+		D89ADEF422C6056500810E23 /* LBResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF322C6056500810E23 /* LBResultViewController.swift */; };
+		D89ADEF522C6056500810E23 /* LBResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF322C6056500810E23 /* LBResultViewController.swift */; };
 		D89ADEF722C6067800810E23 /* PracticeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF622C6067800810E23 /* PracticeMenuViewController.swift */; };
 		D89ADEF822C6067800810E23 /* PracticeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF622C6067800810E23 /* PracticeMenuViewController.swift */; };
 		D89ADEFA22C6068200810E23 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF922C6068200810E23 /* PracticeViewController.swift */; };
 		D89ADEFB22C6068200810E23 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEF922C6068200810E23 /* PracticeViewController.swift */; };
-		D89ADEFD22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFC22C6069500810E23 /* PracticeResultScrnViewController.swift */; };
-		D89ADEFE22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFC22C6069500810E23 /* PracticeResultScrnViewController.swift */; };
+		D89ADEFD22C6069500810E23 /* PracticeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFC22C6069500810E23 /* PracticeResultViewController.swift */; };
+		D89ADEFE22C6069500810E23 /* PracticeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFC22C6069500810E23 /* PracticeResultViewController.swift */; };
 		D89ADF0022C606A100810E23 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFF22C606A100810E23 /* TestViewController.swift */; };
 		D89ADF0122C606A100810E23 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADEFF22C606A100810E23 /* TestViewController.swift */; };
-		D89ADF0322C606AB00810E23 /* TestResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0222C606AB00810E23 /* TestResultScrnViewController.swift */; };
-		D89ADF0422C606AB00810E23 /* TestResultScrnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0222C606AB00810E23 /* TestResultScrnViewController.swift */; };
+		D89ADF0322C606AB00810E23 /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0222C606AB00810E23 /* TestResultViewController.swift */; };
+		D89ADF0422C606AB00810E23 /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0222C606AB00810E23 /* TestResultViewController.swift */; };
 		D89ADF0622C606B600810E23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0522C606B600810E23 /* SettingsViewController.swift */; };
 		D89ADF0722C606B600810E23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0522C606B600810E23 /* SettingsViewController.swift */; };
 		D89ADF0922C606BD00810E23 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ADF0822C606BD00810E23 /* AboutUsViewController.swift */; };
@@ -202,6 +202,33 @@
 		D8D1D54A22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
 		D8D1D54B22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
 		D8D1D54C22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
+		D8D1D54E22E0753B0024AF8F /* UtilityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */; };
+		D8D1D54F22E0753B0024AF8F /* UtilityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */; };
+		D8D1D55022E0753B0024AF8F /* UtilityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */; };
+		D8D1D55222E0776E0024AF8F /* GSTestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55122E0776E0024AF8F /* GSTestResult.storyboard */; };
+		D8D1D55322E0776E0024AF8F /* GSTestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55122E0776E0024AF8F /* GSTestResult.storyboard */; };
+		D8D1D55422E0776E0024AF8F /* GSTestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55122E0776E0024AF8F /* GSTestResult.storyboard */; };
+		D8D1D55622E07E450024AF8F /* LBResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55522E07E450024AF8F /* LBResult.storyboard */; };
+		D8D1D55722E07E450024AF8F /* LBResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55522E07E450024AF8F /* LBResult.storyboard */; };
+		D8D1D55822E07E450024AF8F /* LBResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55522E07E450024AF8F /* LBResult.storyboard */; };
+		D8D1D55A22E07EAC0024AF8F /* Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55922E07EAC0024AF8F /* Practice.storyboard */; };
+		D8D1D55B22E07EAC0024AF8F /* Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55922E07EAC0024AF8F /* Practice.storyboard */; };
+		D8D1D55C22E07EAC0024AF8F /* Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55922E07EAC0024AF8F /* Practice.storyboard */; };
+		D8D1D55E22E07EB60024AF8F /* PracticeResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55D22E07EB60024AF8F /* PracticeResult.storyboard */; };
+		D8D1D55F22E07EB60024AF8F /* PracticeResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55D22E07EB60024AF8F /* PracticeResult.storyboard */; };
+		D8D1D56022E07EB60024AF8F /* PracticeResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D55D22E07EB60024AF8F /* PracticeResult.storyboard */; };
+		D8D1D56222E080560024AF8F /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56122E080560024AF8F /* Test.storyboard */; };
+		D8D1D56322E080560024AF8F /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56122E080560024AF8F /* Test.storyboard */; };
+		D8D1D56422E080560024AF8F /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56122E080560024AF8F /* Test.storyboard */; };
+		D8D1D56622E080620024AF8F /* TestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56522E080620024AF8F /* TestResult.storyboard */; };
+		D8D1D56722E080620024AF8F /* TestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56522E080620024AF8F /* TestResult.storyboard */; };
+		D8D1D56822E080620024AF8F /* TestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56522E080620024AF8F /* TestResult.storyboard */; };
+		D8D1D56A22E081310024AF8F /* PersonalBest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56922E081310024AF8F /* PersonalBest.storyboard */; };
+		D8D1D56B22E081310024AF8F /* PersonalBest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56922E081310024AF8F /* PersonalBest.storyboard */; };
+		D8D1D56C22E081310024AF8F /* PersonalBest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56922E081310024AF8F /* PersonalBest.storyboard */; };
+		D8D1D56E22E082330024AF8F /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56D22E082330024AF8F /* AboutUs.storyboard */; };
+		D8D1D56F22E082330024AF8F /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56D22E082330024AF8F /* AboutUs.storyboard */; };
+		D8D1D57022E082330024AF8F /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1D56D22E082330024AF8F /* AboutUs.storyboard */; };
 		D8D4415822BB6C16007419C9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4415722BB6C16007419C9 /* CoreDataStack.swift */; };
 		D8D4415922BB6C16007419C9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4415722BB6C16007419C9 /* CoreDataStack.swift */; };
 		D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F6359722CF088700AB0CCC /* BasicNavController.swift */; };
@@ -271,15 +298,15 @@
 		D89ADED222C5FFCF00810E23 /* Laterbase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Laterbase.storyboard; sourceTree = "<group>"; };
 		D89ADEDB22C6029C00810E23 /* GSTestMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSTestMenuViewController.swift; sourceTree = "<group>"; };
 		D89ADEDE22C602AD00810E23 /* LBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBViewController.swift; sourceTree = "<group>"; };
-		D89ADEE122C602C400810E23 /* GSTestResultScrnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSTestResultScrnViewController.swift; sourceTree = "<group>"; };
+		D89ADEE122C602C400810E23 /* GSTestResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSTestResultViewController.swift; sourceTree = "<group>"; };
 		D89ADEE722C603E600810E23 /* GSTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSTestViewController.swift; sourceTree = "<group>"; };
 		D89ADEF022C6050F00810E23 /* TestMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuViewController.swift; sourceTree = "<group>"; };
-		D89ADEF322C6056500810E23 /* LBResultScrnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBResultScrnViewController.swift; sourceTree = "<group>"; };
+		D89ADEF322C6056500810E23 /* LBResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBResultViewController.swift; sourceTree = "<group>"; };
 		D89ADEF622C6067800810E23 /* PracticeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMenuViewController.swift; sourceTree = "<group>"; };
 		D89ADEF922C6068200810E23 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
-		D89ADEFC22C6069500810E23 /* PracticeResultScrnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeResultScrnViewController.swift; sourceTree = "<group>"; };
+		D89ADEFC22C6069500810E23 /* PracticeResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeResultViewController.swift; sourceTree = "<group>"; };
 		D89ADEFF22C606A100810E23 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		D89ADF0222C606AB00810E23 /* TestResultScrnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultScrnViewController.swift; sourceTree = "<group>"; };
+		D89ADF0222C606AB00810E23 /* TestResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultViewController.swift; sourceTree = "<group>"; };
 		D89ADF0522C606B600810E23 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D89ADF0822C606BD00810E23 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		D89ADF0C22C60A3000810E23 /* PBMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBMenuViewController.swift; sourceTree = "<group>"; };
@@ -299,6 +326,15 @@
 		D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenView.xib; sourceTree = "<group>"; };
 		D8D0ED0222C4BC9000872829 /* PersonalBest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBest.swift; sourceTree = "<group>"; };
 		D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBtnStack.swift; sourceTree = "<group>"; };
+		D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBar.swift; sourceTree = "<group>"; };
+		D8D1D55122E0776E0024AF8F /* GSTestResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GSTestResult.storyboard; sourceTree = "<group>"; };
+		D8D1D55522E07E450024AF8F /* LBResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LBResult.storyboard; sourceTree = "<group>"; };
+		D8D1D55922E07EAC0024AF8F /* Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Practice.storyboard; sourceTree = "<group>"; };
+		D8D1D55D22E07EB60024AF8F /* PracticeResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PracticeResult.storyboard; sourceTree = "<group>"; };
+		D8D1D56122E080560024AF8F /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		D8D1D56522E080620024AF8F /* TestResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestResult.storyboard; sourceTree = "<group>"; };
+		D8D1D56922E081310024AF8F /* PersonalBest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalBest.storyboard; sourceTree = "<group>"; };
+		D8D1D56D22E082330024AF8F /* AboutUs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutUs.storyboard; sourceTree = "<group>"; };
 		D8D4415722BB6C16007419C9 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		D8F6359722CF088700AB0CCC /* BasicNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNavController.swift; sourceTree = "<group>"; };
 		D8F6359C22CF323400AB0CCC /* PracticeMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PracticeMenu.plist; sourceTree = "<group>"; };
@@ -363,6 +399,7 @@
 				D88C498C22D5A255001A6663 /* MCView.swift */,
 				D80A520622DC721D00C896A8 /* MCDelegate.swift */,
 				D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */,
+				D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */,
 			);
 			path = MC;
 			sourceTree = "<group>";
@@ -521,7 +558,9 @@
 			children = (
 				D89C2D8522C1C27F00606571 /* GrammarSmartMenu.storyboard */,
 				D89ADECF22C5FFB600810E23 /* GSTest.storyboard */,
+				D8D1D55122E0776E0024AF8F /* GSTestResult.storyboard */,
 				D89ADED222C5FFCF00810E23 /* Laterbase.storyboard */,
+				D8D1D55522E07E450024AF8F /* LBResult.storyboard */,
 			);
 			path = GrammarSmart;
 			sourceTree = "<group>";
@@ -530,6 +569,8 @@
 			isa = PBXGroup;
 			children = (
 				D89C2D8822C1C28D00606571 /* PracticeMenu.storyboard */,
+				D8D1D55922E07EAC0024AF8F /* Practice.storyboard */,
+				D8D1D55D22E07EB60024AF8F /* PracticeResult.storyboard */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -538,6 +579,8 @@
 			isa = PBXGroup;
 			children = (
 				D89C2D8B22C1C29900606571 /* TestMenu.storyboard */,
+				D8D1D56122E080560024AF8F /* Test.storyboard */,
+				D8D1D56522E080620024AF8F /* TestResult.storyboard */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -546,6 +589,7 @@
 			isa = PBXGroup;
 			children = (
 				D89C2D8E22C1C2A500606571 /* PersonalBestMenu.storyboard */,
+				D8D1D56922E081310024AF8F /* PersonalBest.storyboard */,
 			);
 			path = "Personal Best";
 			sourceTree = "<group>";
@@ -554,6 +598,7 @@
 			isa = PBXGroup;
 			children = (
 				D89C2D9122C1C2AF00606571 /* Settings.storyboard */,
+				D8D1D56D22E082330024AF8F /* AboutUs.storyboard */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -600,9 +645,9 @@
 			children = (
 				D89ADEDB22C6029C00810E23 /* GSTestMenuViewController.swift */,
 				D89ADEE722C603E600810E23 /* GSTestViewController.swift */,
-				D89ADEE122C602C400810E23 /* GSTestResultScrnViewController.swift */,
+				D89ADEE122C602C400810E23 /* GSTestResultViewController.swift */,
 				D89ADEDE22C602AD00810E23 /* LBViewController.swift */,
-				D89ADEF322C6056500810E23 /* LBResultScrnViewController.swift */,
+				D89ADEF322C6056500810E23 /* LBResultViewController.swift */,
 			);
 			path = "GS Test";
 			sourceTree = "<group>";
@@ -612,7 +657,7 @@
 			children = (
 				D89ADEF622C6067800810E23 /* PracticeMenuViewController.swift */,
 				D89ADEF922C6068200810E23 /* PracticeViewController.swift */,
-				D89ADEFC22C6069500810E23 /* PracticeResultScrnViewController.swift */,
+				D89ADEFC22C6069500810E23 /* PracticeResultViewController.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -631,7 +676,7 @@
 			children = (
 				D89ADEF022C6050F00810E23 /* TestMenuViewController.swift */,
 				D89ADEFF22C606A100810E23 /* TestViewController.swift */,
-				D89ADF0222C606AB00810E23 /* TestResultScrnViewController.swift */,
+				D89ADF0222C606AB00810E23 /* TestResultViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -805,22 +850,30 @@
 				D84CA71B22BA3EDC00E7B16F /* LaunchScreen.storyboard in Resources */,
 				D84CA71822BA3EDC00E7B16F /* Assets.xcassets in Resources */,
 				D8930EA422DF05DC00873AD4 /* TestMC.plist in Resources */,
+				D8D1D56E22E082330024AF8F /* AboutUs.storyboard in Resources */,
 				D88C499122D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D895078D22C37D02006DB1B1 /* SubMenu.xib in Resources */,
 				D88DA85222BC7588002CFC39 /* MenuBanner.xib in Resources */,
+				D8D1D56222E080560024AF8F /* Test.storyboard in Resources */,
 				D89C2D8922C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
+				D8D1D55222E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
 				D8930EA122DF05DC00873AD4 /* GSMC.plist in Resources */,
+				D8D1D55622E07E450024AF8F /* LBResult.storyboard in Resources */,
 				D899BB3322D7182200BAF86D /* pbTable.xib in Resources */,
+				D8D1D55A22E07EAC0024AF8F /* Practice.storyboard in Resources */,
 				D89C2D8622C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
+				D8D1D56A22E081310024AF8F /* PersonalBest.storyboard in Resources */,
 				D89C2D8F22C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
 				D89C2D8C22C1C29900606571 /* TestMenu.storyboard in Resources */,
 				D8930EA722DF05DC00873AD4 /* PracticeMC.plist in Resources */,
 				D89ADECD22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED022C5FFB600810E23 /* GSTest.storyboard in Resources */,
 				D89933C822CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
+				D8D1D56622E080620024AF8F /* TestResult.storyboard in Resources */,
 				D84CA71322BA3ECE00E7B16F /* Main.storyboard in Resources */,
 				D89ADED322C5FFCF00810E23 /* Laterbase.storyboard in Resources */,
 				D89C2D9222C1C2AF00606571 /* Settings.storyboard in Resources */,
+				D8D1D55E22E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,26 +888,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D1D56F22E082330024AF8F /* AboutUs.storyboard in Resources */,
+				D8D1D55F22E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
 				D84CA73722BA3F7300E7B16F /* LaunchScreen.storyboard in Resources */,
 				D84CA73822BA3F7300E7B16F /* Assets.xcassets in Resources */,
 				D8930EA222DF05DC00873AD4 /* GSMC.plist in Resources */,
 				D895078E22C37D02006DB1B1 /* SubMenu.xib in Resources */,
 				D88DA85922BC7D1A002CFC39 /* MenuBanner.xib in Resources */,
 				D8930EA522DF05DC00873AD4 /* TestMC.plist in Resources */,
+				D8D1D56722E080620024AF8F /* TestResult.storyboard in Resources */,
 				D899BB3422D7182200BAF86D /* pbTable.xib in Resources */,
 				D89C2D8A22C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
 				D89C2D8722C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499222D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D89C2D9022C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
 				D89C2D8D22C1C29900606571 /* TestMenu.storyboard in Resources */,
+				D8D1D55322E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
 				D89ADECE22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED122C5FFB600810E23 /* GSTest.storyboard in Resources */,
+				D8D1D55722E07E450024AF8F /* LBResult.storyboard in Resources */,
 				D89933C922CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8F6359D22CF323400AB0CCC /* PracticeMenu.plist in Resources */,
+				D8D1D56B22E081310024AF8F /* PersonalBest.storyboard in Resources */,
 				D8A7BAEB22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */,
 				D8A7BAE422D83DC90054A570 /* TestMenu.plist in Resources */,
+				D8D1D55B22E07EAC0024AF8F /* Practice.storyboard in Resources */,
 				D84CA73922BA3F7300E7B16F /* Main.storyboard in Resources */,
 				D89ADED422C5FFCF00810E23 /* Laterbase.storyboard in Resources */,
+				D8D1D56322E080560024AF8F /* Test.storyboard in Resources */,
 				D89C2D9322C1C2AF00606571 /* Settings.storyboard in Resources */,
 				D8930EA822DF05DC00873AD4 /* PracticeMC.plist in Resources */,
 			);
@@ -864,26 +925,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D1D57022E082330024AF8F /* AboutUs.storyboard in Resources */,
+				D8D1D56022E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
 				D8965DD022CDCDA9007D32BB /* LaunchScreen.storyboard in Resources */,
 				D8965DD122CDCDA9007D32BB /* Assets.xcassets in Resources */,
 				D8930EA322DF05DC00873AD4 /* GSMC.plist in Resources */,
 				D8965DD322CDCDA9007D32BB /* SubMenu.xib in Resources */,
 				D8965DD422CDCDA9007D32BB /* MenuBanner.xib in Resources */,
 				D8930EA622DF05DC00873AD4 /* TestMC.plist in Resources */,
+				D8D1D56822E080620024AF8F /* TestResult.storyboard in Resources */,
 				D899BB3522D7182200BAF86D /* pbTable.xib in Resources */,
 				D8965DD622CDCDA9007D32BB /* PracticeMenu.storyboard in Resources */,
 				D8965DD722CDCDA9007D32BB /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499322D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D8965DD822CDCDA9007D32BB /* PersonalBestMenu.storyboard in Resources */,
 				D8965DDA22CDCDA9007D32BB /* TestMenu.storyboard in Resources */,
+				D8D1D55422E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
 				D8965DDB22CDCDA9007D32BB /* MCView.xib in Resources */,
 				D8965DDC22CDCDA9007D32BB /* GSTest.storyboard in Resources */,
+				D8D1D55822E07E450024AF8F /* LBResult.storyboard in Resources */,
 				D89933CA22CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8F6359E22CF323400AB0CCC /* PracticeMenu.plist in Resources */,
+				D8D1D56C22E081310024AF8F /* PersonalBest.storyboard in Resources */,
 				D8A7BAEC22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */,
 				D8A7BAE522D83DC90054A570 /* TestMenu.plist in Resources */,
+				D8D1D55C22E07EAC0024AF8F /* Practice.storyboard in Resources */,
 				D8965DDD22CDCDA9007D32BB /* Main.storyboard in Resources */,
 				D8965DDE22CDCDA9007D32BB /* Laterbase.storyboard in Resources */,
+				D8D1D56422E080560024AF8F /* Test.storyboard in Resources */,
 				D8965DDF22CDCDA9007D32BB /* Settings.storyboard in Resources */,
 				D8930EA922DF05DC00873AD4 /* PracticeMC.plist in Resources */,
 			);
@@ -911,11 +980,12 @@
 				D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */,
 				D80A520722DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D89ADF0022C606A100810E23 /* TestViewController.swift in Sources */,
-				D89ADEF422C6056500810E23 /* LBResultScrnViewController.swift in Sources */,
+				D89ADEF422C6056500810E23 /* LBResultViewController.swift in Sources */,
 				D8930E9B22DEF5C900873AD4 /* MultChoice.swift in Sources */,
-				D89ADEFD22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */,
+				D89ADEFD22C6069500810E23 /* PracticeResultViewController.swift in Sources */,
 				D89ADF1422C60D7C00810E23 /* BasicViewController.swift in Sources */,
 				D89ADF1022C60AB800810E23 /* PBViewController.swift in Sources */,
+				D8D1D54E22E0753B0024AF8F /* UtilityBar.swift in Sources */,
 				D88DA85F22BC87FA002CFC39 /* SetUpComponent.swift in Sources */,
 				D89ADEE822C603E600810E23 /* GSTestViewController.swift in Sources */,
 				D84CA70E22BA3ECE00E7B16F /* AppDelegate.swift in Sources */,
@@ -936,9 +1006,9 @@
 				D895078A22C3652E006DB1B1 /* UIColor_init.swift in Sources */,
 				D899BB2B22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D88DA85622BC789C002CFC39 /* MenuBanner.swift in Sources */,
-				D89ADF0322C606AB00810E23 /* TestResultScrnViewController.swift in Sources */,
+				D89ADF0322C606AB00810E23 /* TestResultViewController.swift in Sources */,
 				D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */,
-				D89ADEE222C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
+				D89ADEE222C602C400810E23 /* GSTestResultViewController.swift in Sources */,
 				D88DA84F22BC751B002CFC39 /* MenuViewController.swift in Sources */,
 				D8A5446E22DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3222D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
@@ -973,11 +1043,12 @@
 				D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */,
 				D80A520822DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D89ADF0122C606A100810E23 /* TestViewController.swift in Sources */,
-				D89ADEF522C6056500810E23 /* LBResultScrnViewController.swift in Sources */,
+				D89ADEF522C6056500810E23 /* LBResultViewController.swift in Sources */,
 				D8930E9C22DEF5C900873AD4 /* MultChoice.swift in Sources */,
-				D89ADEFE22C6069500810E23 /* PracticeResultScrnViewController.swift in Sources */,
+				D89ADEFE22C6069500810E23 /* PracticeResultViewController.swift in Sources */,
 				D89ADF1522C60D7C00810E23 /* BasicViewController.swift in Sources */,
 				D89ADF1122C60AB800810E23 /* PBViewController.swift in Sources */,
+				D8D1D54F22E0753B0024AF8F /* UtilityBar.swift in Sources */,
 				D88DA86022BC87FA002CFC39 /* SetUpComponent.swift in Sources */,
 				D89ADEE922C603E600810E23 /* GSTestViewController.swift in Sources */,
 				D8D4415922BB6C16007419C9 /* CoreDataStack.swift in Sources */,
@@ -998,9 +1069,9 @@
 				D895078B22C3652E006DB1B1 /* UIColor_init.swift in Sources */,
 				D899BB2C22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D88DA85B22BC7D24002CFC39 /* MenuBanner.swift in Sources */,
-				D89ADF0422C606AB00810E23 /* TestResultScrnViewController.swift in Sources */,
+				D89ADF0422C606AB00810E23 /* TestResultViewController.swift in Sources */,
 				D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */,
-				D89ADEE322C602C400810E23 /* GSTestResultScrnViewController.swift in Sources */,
+				D89ADEE322C602C400810E23 /* GSTestResultViewController.swift in Sources */,
 				D88DA85022BC756C002CFC39 /* MenuViewController.swift in Sources */,
 				D8A5446F22DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3322D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
@@ -1027,11 +1098,12 @@
 				D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */,
 				D80A520922DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D8965DB922CDCDA9007D32BB /* TestViewController.swift in Sources */,
-				D8965DBA22CDCDA9007D32BB /* LBResultScrnViewController.swift in Sources */,
+				D8965DBA22CDCDA9007D32BB /* LBResultViewController.swift in Sources */,
 				D8930E9D22DEF5C900873AD4 /* MultChoice.swift in Sources */,
-				D8965DBB22CDCDA9007D32BB /* PracticeResultScrnViewController.swift in Sources */,
+				D8965DBB22CDCDA9007D32BB /* PracticeResultViewController.swift in Sources */,
 				D8965DBC22CDCDA9007D32BB /* BasicViewController.swift in Sources */,
 				D8965DBD22CDCDA9007D32BB /* PBViewController.swift in Sources */,
+				D8D1D55022E0753B0024AF8F /* UtilityBar.swift in Sources */,
 				D8965DBE22CDCDA9007D32BB /* SetUpComponent.swift in Sources */,
 				D8965DBF22CDCDA9007D32BB /* GSTestViewController.swift in Sources */,
 				D8965DC022CDCDA9007D32BB /* CoreDataStack.swift in Sources */,
@@ -1052,9 +1124,9 @@
 				D8965DC822CDCDA9007D32BB /* UIColor_init.swift in Sources */,
 				D899BB2D22D6DC5A00BAF86D /* buttonSegue.swift in Sources */,
 				D8965DCA22CDCDA9007D32BB /* MenuBanner.swift in Sources */,
-				D8965DCB22CDCDA9007D32BB /* TestResultScrnViewController.swift in Sources */,
+				D8965DCB22CDCDA9007D32BB /* TestResultViewController.swift in Sources */,
 				D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */,
-				D8965DCC22CDCDA9007D32BB /* GSTestResultScrnViewController.swift in Sources */,
+				D8965DCC22CDCDA9007D32BB /* GSTestResultViewController.swift in Sources */,
 				D8965DCD22CDCDA9007D32BB /* MenuViewController.swift in Sources */,
 				D8A5447022DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3422D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,

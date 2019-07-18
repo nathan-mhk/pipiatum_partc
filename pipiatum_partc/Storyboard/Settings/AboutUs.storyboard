@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G4b-Y8-vhJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Us Controller-->
+        <scene sceneID="aw1-Y2-Ca1">
+            <objects>
+                <viewController title="About Us" id="G4b-Y8-vhJ" userLabel="About Us Controller" customClass="AboutUsViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="efh-0G-00P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QYL-vT-WZv">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMY-7a-udP" userLabel="ContentView">
+                                        <rect key="frame" x="20" y="20" width="335" height="700"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hH9-0z-7VU" userLabel="AppNameLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" red="0.95131784679999998" green="0.67744374279999997" blue="0.31615766880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXh-87-WgR" userLabel="VersionLabel">
+                                                <rect key="frame" x="0.0" y="29.5" width="64" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTT-kt-Pee" userLabel="VersionValueLabel">
+                                                <rect key="frame" x="69" y="29.5" width="8" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Update:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWJ-v7-nq7" userLabel="LastUpdateLabel">
+                                                <rect key="frame" x="0.0" y="54" width="99.5" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQc-Tv-Zp3" userLabel="LastUpdateValueLabel">
+                                                <rect key="frame" x="104.5" y="54" width="8" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZh-Rp-03e" userLabel="IntroPart1">
+                                                <rect key="frame" x="0.0" y="78.5" width="335" height="95.5"/>
+                                                <string key="text">Pipiatum Level 2 covers Level 2 of the ISEB classics CE syllabus. It follows from Level 1 and it supports Year 7 and Year 8 students revising their Latin for the UK's Common Entrance Exam.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It is designed to be fun and helpful, using the best approaches to help understanding and memorisation." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJH-XR-hwA" userLabel="IntroPart2">
+                                                <rect key="frame" x="0.0" y="179" width="335" height="57.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HP4-i0-bKf" userLabel="AppAdView">
+                                                <rect key="frame" x="0.0" y="256.5" width="335" height="223"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVj-PM-RoJ" userLabel="AppAdBackground">
+                                                        <rect key="frame" x="-20" y="33.5" width="375" height="189.5"/>
+                                                        <color key="backgroundColor" red="0.089525349439999999" green="0.3068116903" blue="0.58090364930000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </view>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppAd" translatesAutoresizingMaskIntoConstraints="NO" id="qBL-nr-hU9">
+                                                        <rect key="frame" x="37" y="11" width="261" height="201"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="qBL-nr-hU9" secondAttribute="height" multiplier="413:318" id="2vc-cX-rjX"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="qBL-nr-hU9" firstAttribute="centerX" secondItem="HP4-i0-bKf" secondAttribute="centerX" id="JyI-oQ-bYH"/>
+                                                    <constraint firstItem="PVj-PM-RoJ" firstAttribute="height" secondItem="HP4-i0-bKf" secondAttribute="height" multiplier="0.85" id="KeW-Dx-6ur"/>
+                                                    <constraint firstItem="qBL-nr-hU9" firstAttribute="height" secondItem="HP4-i0-bKf" secondAttribute="height" multiplier="0.9" id="Nbm-ua-BGp"/>
+                                                    <constraint firstItem="qBL-nr-hU9" firstAttribute="centerY" secondItem="HP4-i0-bKf" secondAttribute="centerY" id="Nwl-Gd-RrN"/>
+                                                    <constraint firstAttribute="bottom" secondItem="PVj-PM-RoJ" secondAttribute="bottom" id="fCd-DB-QdD"/>
+                                                    <constraint firstAttribute="height" constant="320" id="jLI-f4-LAe">
+                                                        <variation key="heightClass=compact-widthClass=compact" constant="147"/>
+                                                        <variation key="heightClass=compact-widthClass=regular" constant="223"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="223"/>
+                                                    </constraint>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits &amp; Acknowledgements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDQ-ll-iEr" userLabel="CreditsLabel">
+                                                <rect key="frame" x="0.0" y="499.5" width="335" height="20"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" red="0.95131784679999998" green="0.67744374279999997" blue="0.31615766880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sic-B1-nna" userLabel="CreditsContentLabel">
+                                                <rect key="frame" x="0.0" y="529.5" width="335" height="210.5"/>
+                                                <string key="text">Pipiatum is owned, designed and created by World Class Arena. Development is overseen by Katie Dalton. Programming and production is led by Trumptech. The illustrations are created by Caroline Miekina. Mark Maddocks, Deputy Headteacher at Notting Hill Prep, wrote the questions and activities for students. The voices are of Lucy Price (Lyndhurst House School and IAPS Classics Subject Leader), Keith Rogers and Julia Gray (Notting Hill Prep).</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vJH-XR-hwA" firstAttribute="top" secondItem="LZh-Rp-03e" secondAttribute="bottom" constant="5" id="0i4-rj-fyN" userLabel="IntroPart2.top &amp; IntroPart1.bottom"/>
+                                            <constraint firstItem="LZh-Rp-03e" firstAttribute="top" secondItem="RWJ-v7-nq7" secondAttribute="bottom" constant="5" id="1Un-hA-Yx3" userLabel="IntroPart1.top &amp; LastUpdateLabel.bottom"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZDQ-ll-iEr" secondAttribute="trailing" id="2KG-JK-Pjr" userLabel="CreditsLabel.trailing"/>
+                                            <constraint firstItem="RWJ-v7-nq7" firstAttribute="centerY" secondItem="TQc-Tv-Zp3" secondAttribute="centerY" id="4g2-bT-L24" userLabel="LastUpdateLabel &amp; ValueLabel.centerY"/>
+                                            <constraint firstItem="vJH-XR-hwA" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="6ed-sr-QrM" userLabel="IntroPart2.leading"/>
+                                            <constraint firstItem="hH9-0z-7VU" firstAttribute="top" secondItem="vMY-7a-udP" secondAttribute="top" id="6wj-b0-4Yf" userLabel="AppNameLabel.top"/>
+                                            <constraint firstItem="sic-B1-nna" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="8Us-RX-4mo" userLabel="CreditsContentLabel.leading"/>
+                                            <constraint firstItem="HP4-i0-bKf" firstAttribute="centerX" secondItem="vMY-7a-udP" secondAttribute="centerX" id="8dc-jo-aEO" userLabel="AppAdView.centerX"/>
+                                            <constraint firstItem="HP4-i0-bKf" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="ASV-ES-Oa2" userLabel="AppAdView.leading"/>
+                                            <constraint firstItem="pXh-87-WgR" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="Ajs-Et-oJ2" userLabel="VersionLabel.leading"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hH9-0z-7VU" secondAttribute="trailing" constant="20" symbolic="YES" id="EpW-dd-6Vs" userLabel="AppNameLabel.trailing"/>
+                                            <constraint firstItem="iTT-kt-Pee" firstAttribute="leading" secondItem="pXh-87-WgR" secondAttribute="trailing" constant="5" id="Eq3-qQ-BQf" userLabel="VersionValueLabel.leading &amp; VersionLabel.trailing"/>
+                                            <constraint firstItem="ZDQ-ll-iEr" firstAttribute="top" secondItem="HP4-i0-bKf" secondAttribute="bottom" constant="20" id="LwV-LR-0sY" userLabel="CreditsLabel.top &amp; AppAdView.bottom"/>
+                                            <constraint firstItem="hH9-0z-7VU" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="Qa4-nG-GEa" userLabel="AppNameLabel.leading"/>
+                                            <constraint firstAttribute="trailing" secondItem="HP4-i0-bKf" secondAttribute="trailing" id="S3u-4W-2BP" userLabel="AppAdView.trailing"/>
+                                            <constraint firstItem="sic-B1-nna" firstAttribute="top" secondItem="ZDQ-ll-iEr" secondAttribute="bottom" constant="10" id="YoQ-NA-hne" userLabel="CreditsContentLabel.top &amp; CreditsLabel.bottom"/>
+                                            <constraint firstItem="pXh-87-WgR" firstAttribute="centerY" secondItem="iTT-kt-Pee" secondAttribute="centerY" id="ZhV-I2-7Oy" userLabel="VersionLabel &amp; ValueLabel.centerY"/>
+                                            <constraint firstItem="ZDQ-ll-iEr" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="cR6-go-t9V" userLabel="CreditsLabel.leading"/>
+                                            <constraint firstItem="RWJ-v7-nq7" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="fbG-ub-k4e" userLabel="LastUpdateLabel.leading"/>
+                                            <constraint firstItem="HP4-i0-bKf" firstAttribute="top" secondItem="vJH-XR-hwA" secondAttribute="bottom" constant="20" id="gFv-IV-N1P" userLabel="AppAdView.top &amp; IntroPart2.bottom"/>
+                                            <constraint firstItem="LZh-Rp-03e" firstAttribute="leading" secondItem="vMY-7a-udP" secondAttribute="leading" id="i0s-Qd-H8j" userLabel="IntroPart1.leading"/>
+                                            <constraint firstItem="RWJ-v7-nq7" firstAttribute="top" secondItem="pXh-87-WgR" secondAttribute="bottom" constant="5" id="j8Q-OA-Gf0" userLabel="LastUpdateLabel.top &amp; VersionLabel.bottom"/>
+                                            <constraint firstItem="pXh-87-WgR" firstAttribute="top" secondItem="hH9-0z-7VU" secondAttribute="bottom" constant="10" id="l1S-4T-ji5" userLabel="VersionLabel.top &amp; AppNameLabel.bottom"/>
+                                            <constraint firstAttribute="trailing" secondItem="sic-B1-nna" secondAttribute="trailing" id="lRS-X1-8sg" userLabel="CreditsContentLabel.trailing"/>
+                                            <constraint firstAttribute="trailing" secondItem="LZh-Rp-03e" secondAttribute="trailing" id="lxo-iZ-Usl" userLabel="IntroPart1.trailing"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iTT-kt-Pee" secondAttribute="trailing" constant="20" symbolic="YES" id="mx4-6E-eWH" userLabel="VersionValueLabel.trailing"/>
+                                            <constraint firstAttribute="height" constant="700" id="qDz-2m-cNB" userLabel="Content View Height"/>
+                                            <constraint firstAttribute="trailing" secondItem="vJH-XR-hwA" secondAttribute="trailing" id="tox-tF-FJj" userLabel="IntroPart2.trailing"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TQc-Tv-Zp3" secondAttribute="trailing" constant="20" symbolic="YES" id="vS6-pD-DRN" userLabel="LastUpdateValueLabel.trailing"/>
+                                            <constraint firstItem="TQc-Tv-Zp3" firstAttribute="leading" secondItem="RWJ-v7-nq7" secondAttribute="trailing" constant="5" id="zUL-Hb-bPF" userLabel="LastUpdateValueLabel.leading &amp; LastUpdateLabel.trailing"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vMY-7a-udP" firstAttribute="centerX" secondItem="QYL-vT-WZv" secondAttribute="centerX" id="2IM-8e-32Q"/>
+                                    <constraint firstItem="vMY-7a-udP" firstAttribute="top" secondItem="QYL-vT-WZv" secondAttribute="top" constant="30" id="7A9-73-M6g">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                    </constraint>
+                                    <constraint firstItem="PVj-PM-RoJ" firstAttribute="leading" secondItem="QYL-vT-WZv" secondAttribute="leading" id="ORK-5R-Peq"/>
+                                    <constraint firstItem="vMY-7a-udP" firstAttribute="leading" secondItem="QYL-vT-WZv" secondAttribute="leading" constant="30" id="TGf-Va-mRM">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="PVj-PM-RoJ" secondAttribute="trailing" id="bpa-aN-yIN"/>
+                                    <constraint firstAttribute="bottom" secondItem="vMY-7a-udP" secondAttribute="bottom" constant="30" id="rje-ns-xPK">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="vMY-7a-udP" secondAttribute="trailing" constant="30" id="weH-Ll-aT1">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                    </constraint>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.099831648169999995" green="0.33341634269999998" blue="0.63660579920000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QYL-vT-WZv" firstAttribute="leading" secondItem="BnI-sI-GV1" secondAttribute="leading" id="AQS-2w-hos"/>
+                            <constraint firstItem="QYL-vT-WZv" firstAttribute="top" secondItem="BnI-sI-GV1" secondAttribute="top" id="KOv-f9-2oA"/>
+                            <constraint firstItem="BnI-sI-GV1" firstAttribute="bottom" secondItem="QYL-vT-WZv" secondAttribute="bottom" id="Lgz-wi-309"/>
+                            <constraint firstItem="BnI-sI-GV1" firstAttribute="trailing" secondItem="QYL-vT-WZv" secondAttribute="trailing" id="orq-nn-ASD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BnI-sI-GV1"/>
+                    </view>
+                    <connections>
+                        <outlet property="aboutUsContentView" destination="vMY-7a-udP" id="T3z-cR-Pjn"/>
+                        <outlet property="contentViewHeight" destination="qDz-2m-cNB" id="Fel-Zd-ywQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3nw-n6-wV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2264.8000000000002" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppAd" width="413" height="318"/>
+    </resources>
+</document>
