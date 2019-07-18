@@ -35,7 +35,6 @@ class BasicMCViewController: BasicViewController {
             return
         }
         guard let plist = PlistUtil.load(named: plistName) else {
-            print("Failed To Load Plist \"\(plistName)\"")
             return
         }
         guard let questionsArray = plist.object(forKey: "MCQuestions") as? [NSArray] else {
