@@ -20,6 +20,8 @@ class BasicMCViewController: BasicViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        GSquestions.removeAll()
+        MCquestions.removeAll()
         loadPlistData()
     }
     
@@ -44,19 +46,16 @@ class BasicMCViewController: BasicViewController {
         guard senderTag != nil else {
             //Will only execute when senderTag == nil
             //i.e. View is loaded through GSTestMenu
-            //Array index is the GS Test Question Type
-            var i = 1
             for questionType in 0...(questionsArray.count - 1) {
                 let questionsWithType = questionsArray[questionType] as! [NSDictionary]
                 for questions in questionsWithType {
                     if let question = MultChoice(mcQn: questions) {
-                        print("Loading type \(questionType) GSMC \(i)")
                         MCquestions.append(question)
-                        i += 1
                     }
                 }
                 GSquestions.append(MCquestions)
                 MCquestions.removeAll()
+                //Debug Msg
 //                for j in 1...GSquestions[questionType].count {
 //                    print(GSquestions[questionType][j - 1].Question)
 //                    print(GSquestions[questionType][j - 1].CorrectAns)
@@ -70,14 +69,19 @@ class BasicMCViewController: BasicViewController {
         
         //When senderTag != nil (senderTag will never be nil here
         //i.e. View is loaded through practice or test menu
-        var i = 1
         let exCat = questionsArray[senderTag!] as! [NSDictionary]
         for questions in exCat {
             if let question = MultChoice(mcQn: questions) {
-                print("Loading Practice/Test MC \(i)")
                 MCquestions.append(question)
-                i += 1
             }
         }
+        //Debug Msg
+//        for question in MCquestions {
+//            print(question.Question)
+//            print(question.CorrectAns)
+//            print(question.Distractor1)
+//            print(question.Distractor2)
+//            print(question.Weighting)
+//        }
     }
 }
