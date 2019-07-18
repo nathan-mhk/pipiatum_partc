@@ -34,7 +34,8 @@ class TestMenuViewController: BasicSubMenuViewController {
         if segue.identifier == "TEST" {
             if let destination = segue.destination as? TestViewController {
                 if let subMenuButton = sender as? SubMenuButton {
-                    print("Going to Practice View from button \(buttons[subMenuButton.tag].Name)")
+                    print("Going to Test View from button \(subMenuButton.tag) (\(buttons[subMenuButton.tag].Name))")
+                    destination.senderTag = subMenuButton.tag
                 }
             }
         }

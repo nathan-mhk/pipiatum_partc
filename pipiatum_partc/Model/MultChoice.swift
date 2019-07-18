@@ -22,37 +22,42 @@ class MultChoice {
     
     //-1 = Never answered before
     //[0, 9], Percentage of correctness, 9 = always correct
-    var weighting: Int = -1
+    var Weighting: Int = -1
     
     init?(mcQn: NSDictionary) {
         let question = mcQn.object(forKey: "Question") as? String
         let correctAns = mcQn.object(forKey: "CorrectAns") as? String
         let dis1 = mcQn.object(forKey: "Distractor1") as? String
         let dis2 = mcQn.object(forKey: "Distractor2") as? String
-        let weighting = mcQn.object(forKey: "weighting") as? Int
+        let weighting = mcQn.object(forKey: "Weighting") as? Int
         
         let prompt = mcQn.object(forKey: "Prompt") as? String
         let marks = mcQn.object(forKey: "Marks") as? Int
         let feedback = mcQn.object(forKey: "Feedback") as? String
-        
-        if prompt != nil && marks != nil && feedback != nil {
-            self.Prompt = prompt
-            self.Marks = marks
-            self.Feedback = feedback
-        }
-        else if question != nil && correctAns != nil && dis1 != nil && dis2 != nil && weighting != nil {
+
+        if question != nil && correctAns != nil && dis1 != nil && dis2 != nil && weighting != nil {
             self.Question = question!
             self.CorrectAns = correctAns!
             self.Distractor1 = dis1!
             self.Distractor2 = dis2!
-            self.weighting = weighting!
-            
+            self.Weighting = weighting!
+        }
+        else {
+            //Question DNE
+            return nil
+        }
+        if prompt != nil && marks != nil && feedback != nil {
+            self.Prompt = prompt
+            self.Marks = marks
+            self.Feedback = feedback
+            //Practice/Test question type
+        }
+        else  {
             self.Prompt = nil
             self.Marks = nil
             self.Feedback = nil
+            //GS question type
         }
-        else {
-            return nil
-        }
+        
     }
 }

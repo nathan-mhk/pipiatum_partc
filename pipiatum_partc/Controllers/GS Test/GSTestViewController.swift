@@ -12,7 +12,6 @@ class GSTestViewController: BasicMCViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
 }

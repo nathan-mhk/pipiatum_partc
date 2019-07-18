@@ -25,7 +25,7 @@ class BasicMCViewController: BasicViewController {
     
     var senderTag: Int? = nil
     var GSquestions = [[MultChoice]]()
-    var questions = [MultChoice]()
+    var MCquestions = [MultChoice]()
     
     func loadPlistData() {
         guard let plistName = self.mcPlistName else {
@@ -36,27 +36,48 @@ class BasicMCViewController: BasicViewController {
             print("Failed To Load Plist \"\(plistName)\"")
             return
         }
-        
-        guard let questionsArray = plist.object(forKey: "MCQuestions") as? [[NSDictionary]] else {
+        guard let questionsArray = plist.object(forKey: "MCQuestions") as? [NSArray] else {
             print("Failed To Load Plist As [[NSDictionary]]")
             return
         }
+        
         guard senderTag != nil else {
             //Will only execute when senderTag == nil
             //i.e. View is loaded through GSTestMenu
-            for (questionType, dictionary) in questionsArray.enumerated() {
-                for questions in dictionary {
+            //Array index is the GS Test Question Type
+            var i = 1
+            for questionType in 0...(questionsArray.count - 1) {
+                let questionsWithType = questionsArray[questionType] as! [NSDictionary]
+                for questions in questionsWithType {
                     if let question = MultChoice(mcQn: questions) {
-                        GSquestions[questionType].append(question)
+                        print("Loading type \(questionType) GSMC \(i)")
+                        MCquestions.append(question)
+                        i += 1
                     }
                 }
+                GSquestions.append(MCquestions)
+                MCquestions.removeAll()
+//                for j in 1...GSquestions[questionType].count {
+//                    print(GSquestions[questionType][j - 1].Question)
+//                    print(GSquestions[questionType][j - 1].CorrectAns)
+//                    print(GSquestions[questionType][j - 1].Distractor1)
+//                    print(GSquestions[questionType][j - 1].Distractor2)
+//                    print(GSquestions[questionType][j - 1].Weighting)
+//                }
             }
             return
-            //ArrayIndex of GSquetionArray is the GS Question Type
         }
         
-        
-        print(senderTag!)
-        
+        //When senderTag != nil (senderTag will never be nil here
+        //i.e. View is loaded through practice or test menu
+        var i = 1
+        let exCat = questionsArray[senderTag!] as! [NSDictionary]
+        for questions in exCat {
+            if let question = MultChoice(mcQn: questions) {
+                print("Loading Practice/Test MC \(i)")
+                MCquestions.append(question)
+                i += 1
+            }
+        }
     }
 }
