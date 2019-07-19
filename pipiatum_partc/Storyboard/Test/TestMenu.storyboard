@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Test-->
+        <!--Test Menu-->
         <scene sceneID="bgg-SH-LAt">
             <objects>
-                <viewController title="Test" id="Qd6-PF-eUL" customClass="TestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Test" id="Qd6-PF-eUL" userLabel="Test Menu" customClass="TestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dur-5t-ccN" customClass="SubMenu" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,48 +25,20 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="testMenu" destination="dur-5t-ccN" id="4cr-EZ-YBB"/>
-                        <segue destination="7UZ-Sr-4aA" kind="show" identifier="TEST" id="aTK-pK-hSf"/>
+                        <segue destination="rOB-GZ-wpc" kind="show" identifier="TEST" id="Gxb-UF-JqE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DQH-EW-Ffa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="199" y="-113"/>
         </scene>
-        <!--Test View Controller-->
-        <scene sceneID="0BU-QK-WP2">
+        <!--Test-->
+        <scene sceneID="6qa-Hd-XTx">
             <objects>
-                <viewController id="7UZ-Sr-4aA" customClass="TestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ga8-2N-gYr" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="1HN-zq-23e"/>
-                    </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="TestMC"/>
-                    </userDefinedRuntimeAttributes>
-                    <connections>
-                        <segue destination="SOx-8r-HM3" kind="show" identifier="TEST_RESULT" id="obn-aZ-Bae"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FYQ-6n-qjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Test" id="rOB-GZ-wpc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUn-Dc-1Ua" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1010" y="-114"/>
-        </scene>
-        <!--Test Result Scrn View Controller-->
-        <scene sceneID="ubK-Jx-gRf">
-            <objects>
-                <viewController id="SOx-8r-HM3" customClass="TestResultScrnViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fH5-iI-OZI" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="bUg-I4-bfJ"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J6N-Ac-LyI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1854" y="-114"/>
+            <point key="canvasLocation" x="760" y="-114"/>
         </scene>
     </scenes>
 </document>

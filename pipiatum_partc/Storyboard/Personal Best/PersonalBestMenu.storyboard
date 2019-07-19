@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--PB Menu View Controller-->
+        <!--PB Menu-->
         <scene sceneID="ge0-aM-yN5">
             <objects>
-                <viewController title="Personal Best" id="ndb-Rt-7Ee" userLabel="PB Menu View Controller" customClass="PBMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Personal Best" id="ndb-Rt-7Ee" userLabel="PB Menu" customClass="PBMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0jE-ni-xn4" customClass="SubMenu" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

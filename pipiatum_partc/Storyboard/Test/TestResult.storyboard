@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Test Result View Controller-->
+        <!--Test Result-->
         <scene sceneID="wTf-7r-i8s">
             <objects>
-                <viewController id="MNh-9H-8wo" customClass="TestResultViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MNh-9H-8wo" userLabel="Test Result" customClass="TestResultViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EBA-Mx-AIy" userLabel="ResultScreenView" customClass="ResultScreenView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

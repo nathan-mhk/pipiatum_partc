@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--GS Test View Controller-->
+        <!--GS Test-->
         <scene sceneID="vdO-4z-h9Z">
             <objects>
-                <viewController id="C2y-Al-RMk" userLabel="GS Test View Controller" customClass="GSTestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HWp-lZ-4Q9" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                <viewController id="C2y-Al-RMk" userLabel="GS Test" customClass="GSTestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HWp-lZ-4Q9" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -24,6 +24,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="GSMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
+                        <outlet property="gsMC" destination="HWp-lZ-4Q9" id="IXk-S9-gBb"/>
                         <segue destination="SlR-hi-vvJ" kind="show" identifier="GS_RESULT" id="wv3-GF-fWj"/>
                     </connections>
                 </viewController>

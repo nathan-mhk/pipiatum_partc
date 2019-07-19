@@ -10,9 +10,13 @@ import UIKit
 
 class PracticeViewController: BasicMCViewController {
 
+    @IBOutlet weak var practiceMC: MCView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        practiceMC.setUpMC(senderTag: senderTag, componentName: "PracticeButtons")
         
     }
+    
     
 }

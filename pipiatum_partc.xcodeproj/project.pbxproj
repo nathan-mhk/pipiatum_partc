@@ -56,15 +56,6 @@
 		D8930E9B22DEF5C900873AD4 /* MultChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E9A22DEF5C900873AD4 /* MultChoice.swift */; };
 		D8930E9C22DEF5C900873AD4 /* MultChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E9A22DEF5C900873AD4 /* MultChoice.swift */; };
 		D8930E9D22DEF5C900873AD4 /* MultChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930E9A22DEF5C900873AD4 /* MultChoice.swift */; };
-		D8930EA122DF05DC00873AD4 /* GSMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930E9E22DF05DC00873AD4 /* GSMC.plist */; };
-		D8930EA222DF05DC00873AD4 /* GSMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930E9E22DF05DC00873AD4 /* GSMC.plist */; };
-		D8930EA322DF05DC00873AD4 /* GSMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930E9E22DF05DC00873AD4 /* GSMC.plist */; };
-		D8930EA422DF05DC00873AD4 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930E9F22DF05DC00873AD4 /* TestMC.plist */; };
-		D8930EA522DF05DC00873AD4 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930E9F22DF05DC00873AD4 /* TestMC.plist */; };
-		D8930EA622DF05DC00873AD4 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930E9F22DF05DC00873AD4 /* TestMC.plist */; };
-		D8930EA722DF05DC00873AD4 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930EA022DF05DC00873AD4 /* PracticeMC.plist */; };
-		D8930EA822DF05DC00873AD4 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930EA022DF05DC00873AD4 /* PracticeMC.plist */; };
-		D8930EA922DF05DC00873AD4 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8930EA022DF05DC00873AD4 /* PracticeMC.plist */; };
 		D895078622C3613B006DB1B1 /* BasicButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */; };
 		D895078722C3613B006DB1B1 /* BasicButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */; };
 		D895078A22C3652E006DB1B1 /* UIColor_init.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895078922C3652E006DB1B1 /* UIColor_init.swift */; };
@@ -195,13 +186,34 @@
 		D8A7BAE522D83DC90054A570 /* TestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAE222D83DC90054A570 /* TestMenu.plist */; };
 		D8A7BAEB22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */; };
 		D8A7BAEC22D85C2B0054A570 /* PersonalBestMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */; };
+		D8A815ED22E18DCD0023A2E6 /* PracticeButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A815EC22E18DCD0023A2E6 /* PracticeButtons.xib */; };
+		D8A815EE22E18DCD0023A2E6 /* PracticeButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A815EC22E18DCD0023A2E6 /* PracticeButtons.xib */; };
+		D8A815EF22E18DCD0023A2E6 /* PracticeButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A815EC22E18DCD0023A2E6 /* PracticeButtons.xib */; };
+		D8A815F122E1A7AC0023A2E6 /* MCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A815F022E1A7AC0023A2E6 /* MCButton.swift */; };
+		D8A815F222E1A7AC0023A2E6 /* MCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A815F022E1A7AC0023A2E6 /* MCButton.swift */; };
+		D8A815F322E1A7AC0023A2E6 /* MCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A815F022E1A7AC0023A2E6 /* MCButton.swift */; };
+		D8A815F522E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A815F422E1A7DF0023A2E6 /* UtilityButtons.swift */; };
+		D8A815F622E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A815F422E1A7DF0023A2E6 /* UtilityButtons.swift */; };
+		D8A815F722E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A815F422E1A7DF0023A2E6 /* UtilityButtons.swift */; };
+		D8A8F01A22E1B0C700BC1915 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */; };
+		D8A8F01B22E1B0C700BC1915 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */; };
+		D8A8F01C22E1B0C700BC1915 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */; };
+		D8A8F01D22E1B0C700BC1915 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01822E1B0C600BC1915 /* TestMC.plist */; };
+		D8A8F01E22E1B0C700BC1915 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01822E1B0C600BC1915 /* TestMC.plist */; };
+		D8A8F01F22E1B0C700BC1915 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01822E1B0C600BC1915 /* TestMC.plist */; };
+		D8A8F02022E1B0C700BC1915 /* GSMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01922E1B0C600BC1915 /* GSMC.plist */; };
+		D8A8F02122E1B0C700BC1915 /* GSMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01922E1B0C600BC1915 /* GSMC.plist */; };
+		D8A8F02222E1B0C700BC1915 /* GSMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01922E1B0C600BC1915 /* GSMC.plist */; };
+		D8A8F02422E1B6E700BC1915 /* LBButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02322E1B6E700BC1915 /* LBButton.xib */; };
+		D8A8F02522E1B6E700BC1915 /* LBButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02322E1B6E700BC1915 /* LBButton.xib */; };
+		D8A8F02622E1B6E700BC1915 /* LBButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02322E1B6E700BC1915 /* LBButton.xib */; };
+		D8A8F02822E1BEDD00BC1915 /* TestMCUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */; };
+		D8A8F02922E1BEDD00BC1915 /* TestMCUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */; };
+		D8A8F02A22E1BEDD00BC1915 /* TestMCUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */; };
 		D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ED0322C4BC9000872829 /* PersonalBest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ED0222C4BC9000872829 /* PersonalBest.swift */; };
 		D8D0ED0422C4BC9000872829 /* PersonalBest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ED0222C4BC9000872829 /* PersonalBest.swift */; };
-		D8D1D54A22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
-		D8D1D54B22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
-		D8D1D54C22E066D70024AF8F /* UtilityBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */; };
 		D8D1D54E22E0753B0024AF8F /* UtilityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */; };
 		D8D1D54F22E0753B0024AF8F /* UtilityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */; };
 		D8D1D55022E0753B0024AF8F /* UtilityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */; };
@@ -278,9 +290,6 @@
 		D88DA85522BC789C002CFC39 /* MenuBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBanner.swift; sourceTree = "<group>"; };
 		D88DA85E22BC87FA002CFC39 /* SetUpComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpComponent.swift; sourceTree = "<group>"; };
 		D8930E9A22DEF5C900873AD4 /* MultChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultChoice.swift; sourceTree = "<group>"; };
-		D8930E9E22DF05DC00873AD4 /* GSMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GSMC.plist; sourceTree = "<group>"; };
-		D8930E9F22DF05DC00873AD4 /* TestMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestMC.plist; sourceTree = "<group>"; };
-		D8930EA022DF05DC00873AD4 /* PracticeMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PracticeMC.plist; sourceTree = "<group>"; };
 		D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonComponent.swift; sourceTree = "<group>"; };
 		D895078922C3652E006DB1B1 /* UIColor_init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_init.swift; sourceTree = "<group>"; };
 		D895078C22C37D02006DB1B1 /* SubMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubMenu.xib; sourceTree = "<group>"; };
@@ -322,10 +331,17 @@
 		D8A7BADE22D83AF30054A570 /* SubMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuItem.swift; sourceTree = "<group>"; };
 		D8A7BAE222D83DC90054A570 /* TestMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestMenu.plist; sourceTree = "<group>"; };
 		D8A7BAEA22D85C2B0054A570 /* PersonalBestMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PersonalBestMenu.plist; sourceTree = "<group>"; };
+		D8A815EC22E18DCD0023A2E6 /* PracticeButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeButtons.xib; sourceTree = "<group>"; };
+		D8A815F022E1A7AC0023A2E6 /* MCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCButton.swift; sourceTree = "<group>"; };
+		D8A815F422E1A7DF0023A2E6 /* UtilityButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityButtons.swift; sourceTree = "<group>"; };
+		D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PracticeMC.plist; sourceTree = "<group>"; };
+		D8A8F01822E1B0C600BC1915 /* TestMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestMC.plist; sourceTree = "<group>"; };
+		D8A8F01922E1B0C600BC1915 /* GSMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GSMC.plist; sourceTree = "<group>"; };
+		D8A8F02322E1B6E700BC1915 /* LBButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBButton.xib; sourceTree = "<group>"; };
+		D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestMCUtil.xib; sourceTree = "<group>"; };
 		D8D0ECF922C49F3100872829 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenView.xib; sourceTree = "<group>"; };
 		D8D0ED0222C4BC9000872829 /* PersonalBest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBest.swift; sourceTree = "<group>"; };
-		D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBtnStack.swift; sourceTree = "<group>"; };
 		D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityBar.swift; sourceTree = "<group>"; };
 		D8D1D55122E0776E0024AF8F /* GSTestResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GSTestResult.storyboard; sourceTree = "<group>"; };
 		D8D1D55522E07E450024AF8F /* LBResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LBResult.storyboard; sourceTree = "<group>"; };
@@ -397,9 +413,10 @@
 			isa = PBXGroup;
 			children = (
 				D88C498C22D5A255001A6663 /* MCView.swift */,
+				D8A815F022E1A7AC0023A2E6 /* MCButton.swift */,
 				D80A520622DC721D00C896A8 /* MCDelegate.swift */,
-				D8D1D54922E066D70024AF8F /* UtilityBtnStack.swift */,
 				D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */,
+				D8A815F422E1A7DF0023A2E6 /* UtilityButtons.swift */,
 			);
 			path = MC;
 			sourceTree = "<group>";
@@ -517,7 +534,11 @@
 			isa = PBXGroup;
 			children = (
 				D88DA85122BC7588002CFC39 /* MenuBanner.xib */,
-				D89ADEE422C602FE00810E23 /* Repetitive Layouts */,
+				D895078C22C37D02006DB1B1 /* SubMenu.xib */,
+				D8A815EB22E18DAA0023A2E6 /* MC */,
+				D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */,
+				D88C499022D5E682001A6663 /* PersonalBestView.xib */,
+				D899BB3222D7182200BAF86D /* pbTable.xib */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -601,18 +622,6 @@
 				D8D1D56D22E082330024AF8F /* AboutUs.storyboard */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		D89ADEE422C602FE00810E23 /* Repetitive Layouts */ = {
-			isa = PBXGroup;
-			children = (
-				D895078C22C37D02006DB1B1 /* SubMenu.xib */,
-				D89ADECC22C5F0BB00810E23 /* MCView.xib */,
-				D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */,
-				D88C499022D5E682001A6663 /* PersonalBestView.xib */,
-				D899BB3222D7182200BAF86D /* pbTable.xib */,
-			);
-			path = "Repetitive Layouts";
 			sourceTree = "<group>";
 		};
 		D89ADEE522C6037000810E23 /* Result Screen */ = {
@@ -713,11 +722,30 @@
 		D8A7BAE622D844030054A570 /* Learning Materials */ = {
 			isa = PBXGroup;
 			children = (
-				D8930E9E22DF05DC00873AD4 /* GSMC.plist */,
-				D8930EA022DF05DC00873AD4 /* PracticeMC.plist */,
-				D8930E9F22DF05DC00873AD4 /* TestMC.plist */,
+				D8A8F01922E1B0C600BC1915 /* GSMC.plist */,
+				D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */,
+				D8A8F01822E1B0C600BC1915 /* TestMC.plist */,
 			);
 			path = "Learning Materials";
+			sourceTree = "<group>";
+		};
+		D8A815EB22E18DAA0023A2E6 /* MC */ = {
+			isa = PBXGroup;
+			children = (
+				D89ADECC22C5F0BB00810E23 /* MCView.xib */,
+				D8A8F02B22E1C94A00BC1915 /* Utilbar */,
+			);
+			path = MC;
+			sourceTree = "<group>";
+		};
+		D8A8F02B22E1C94A00BC1915 /* Utilbar */ = {
+			isa = PBXGroup;
+			children = (
+				D8A8F02322E1B6E700BC1915 /* LBButton.xib */,
+				D8A815EC22E18DCD0023A2E6 /* PracticeButtons.xib */,
+				D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */,
+			);
+			path = Utilbar;
 			sourceTree = "<group>";
 		};
 		D8F6359B22CF31D900AB0CCC /* Config */ = {
@@ -847,27 +875,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A8F02422E1B6E700BC1915 /* LBButton.xib in Resources */,
 				D84CA71B22BA3EDC00E7B16F /* LaunchScreen.storyboard in Resources */,
 				D84CA71822BA3EDC00E7B16F /* Assets.xcassets in Resources */,
-				D8930EA422DF05DC00873AD4 /* TestMC.plist in Resources */,
 				D8D1D56E22E082330024AF8F /* AboutUs.storyboard in Resources */,
 				D88C499122D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D895078D22C37D02006DB1B1 /* SubMenu.xib in Resources */,
+				D8A8F01A22E1B0C700BC1915 /* PracticeMC.plist in Resources */,
 				D88DA85222BC7588002CFC39 /* MenuBanner.xib in Resources */,
 				D8D1D56222E080560024AF8F /* Test.storyboard in Resources */,
 				D89C2D8922C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
 				D8D1D55222E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
-				D8930EA122DF05DC00873AD4 /* GSMC.plist in Resources */,
+				D8A8F02022E1B0C700BC1915 /* GSMC.plist in Resources */,
 				D8D1D55622E07E450024AF8F /* LBResult.storyboard in Resources */,
 				D899BB3322D7182200BAF86D /* pbTable.xib in Resources */,
 				D8D1D55A22E07EAC0024AF8F /* Practice.storyboard in Resources */,
 				D89C2D8622C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D8D1D56A22E081310024AF8F /* PersonalBest.storyboard in Resources */,
+				D8A8F02822E1BEDD00BC1915 /* TestMCUtil.xib in Resources */,
 				D89C2D8F22C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
 				D89C2D8C22C1C29900606571 /* TestMenu.storyboard in Resources */,
-				D8930EA722DF05DC00873AD4 /* PracticeMC.plist in Resources */,
+				D8A815ED22E18DCD0023A2E6 /* PracticeButtons.xib in Resources */,
 				D89ADECD22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED022C5FFB600810E23 /* GSTest.storyboard in Resources */,
+				D8A8F01D22E1B0C700BC1915 /* TestMC.plist in Resources */,
 				D89933C822CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8D1D56622E080620024AF8F /* TestResult.storyboard in Resources */,
 				D84CA71322BA3ECE00E7B16F /* Main.storyboard in Resources */,
@@ -892,18 +923,21 @@
 				D8D1D55F22E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
 				D84CA73722BA3F7300E7B16F /* LaunchScreen.storyboard in Resources */,
 				D84CA73822BA3F7300E7B16F /* Assets.xcassets in Resources */,
-				D8930EA222DF05DC00873AD4 /* GSMC.plist in Resources */,
 				D895078E22C37D02006DB1B1 /* SubMenu.xib in Resources */,
 				D88DA85922BC7D1A002CFC39 /* MenuBanner.xib in Resources */,
-				D8930EA522DF05DC00873AD4 /* TestMC.plist in Resources */,
 				D8D1D56722E080620024AF8F /* TestResult.storyboard in Resources */,
+				D8A8F02522E1B6E700BC1915 /* LBButton.xib in Resources */,
+				D8A8F02922E1BEDD00BC1915 /* TestMCUtil.xib in Resources */,
 				D899BB3422D7182200BAF86D /* pbTable.xib in Resources */,
+				D8A8F01E22E1B0C700BC1915 /* TestMC.plist in Resources */,
 				D89C2D8A22C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
 				D89C2D8722C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499222D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D89C2D9022C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
 				D89C2D8D22C1C29900606571 /* TestMenu.storyboard in Resources */,
 				D8D1D55322E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
+				D8A8F01B22E1B0C700BC1915 /* PracticeMC.plist in Resources */,
+				D8A815EE22E18DCD0023A2E6 /* PracticeButtons.xib in Resources */,
 				D89ADECE22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED122C5FFB600810E23 /* GSTest.storyboard in Resources */,
 				D8D1D55722E07E450024AF8F /* LBResult.storyboard in Resources */,
@@ -914,10 +948,10 @@
 				D8A7BAE422D83DC90054A570 /* TestMenu.plist in Resources */,
 				D8D1D55B22E07EAC0024AF8F /* Practice.storyboard in Resources */,
 				D84CA73922BA3F7300E7B16F /* Main.storyboard in Resources */,
+				D8A8F02122E1B0C700BC1915 /* GSMC.plist in Resources */,
 				D89ADED422C5FFCF00810E23 /* Laterbase.storyboard in Resources */,
 				D8D1D56322E080560024AF8F /* Test.storyboard in Resources */,
 				D89C2D9322C1C2AF00606571 /* Settings.storyboard in Resources */,
-				D8930EA822DF05DC00873AD4 /* PracticeMC.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,18 +963,21 @@
 				D8D1D56022E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
 				D8965DD022CDCDA9007D32BB /* LaunchScreen.storyboard in Resources */,
 				D8965DD122CDCDA9007D32BB /* Assets.xcassets in Resources */,
-				D8930EA322DF05DC00873AD4 /* GSMC.plist in Resources */,
 				D8965DD322CDCDA9007D32BB /* SubMenu.xib in Resources */,
 				D8965DD422CDCDA9007D32BB /* MenuBanner.xib in Resources */,
-				D8930EA622DF05DC00873AD4 /* TestMC.plist in Resources */,
 				D8D1D56822E080620024AF8F /* TestResult.storyboard in Resources */,
+				D8A8F02622E1B6E700BC1915 /* LBButton.xib in Resources */,
+				D8A8F02A22E1BEDD00BC1915 /* TestMCUtil.xib in Resources */,
 				D899BB3522D7182200BAF86D /* pbTable.xib in Resources */,
+				D8A8F01F22E1B0C700BC1915 /* TestMC.plist in Resources */,
 				D8965DD622CDCDA9007D32BB /* PracticeMenu.storyboard in Resources */,
 				D8965DD722CDCDA9007D32BB /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499322D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D8965DD822CDCDA9007D32BB /* PersonalBestMenu.storyboard in Resources */,
 				D8965DDA22CDCDA9007D32BB /* TestMenu.storyboard in Resources */,
 				D8D1D55422E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
+				D8A8F01C22E1B0C700BC1915 /* PracticeMC.plist in Resources */,
+				D8A815EF22E18DCD0023A2E6 /* PracticeButtons.xib in Resources */,
 				D8965DDB22CDCDA9007D32BB /* MCView.xib in Resources */,
 				D8965DDC22CDCDA9007D32BB /* GSTest.storyboard in Resources */,
 				D8D1D55822E07E450024AF8F /* LBResult.storyboard in Resources */,
@@ -951,10 +988,10 @@
 				D8A7BAE522D83DC90054A570 /* TestMenu.plist in Resources */,
 				D8D1D55C22E07EAC0024AF8F /* Practice.storyboard in Resources */,
 				D8965DDD22CDCDA9007D32BB /* Main.storyboard in Resources */,
+				D8A8F02222E1B0C700BC1915 /* GSMC.plist in Resources */,
 				D8965DDE22CDCDA9007D32BB /* Laterbase.storyboard in Resources */,
 				D8D1D56422E080560024AF8F /* Test.storyboard in Resources */,
 				D8965DDF22CDCDA9007D32BB /* Settings.storyboard in Resources */,
-				D8930EA922DF05DC00873AD4 /* PracticeMC.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,7 +1004,9 @@
 			files = (
 				D8D4415822BB6C16007419C9 /* CoreDataStack.swift in Sources */,
 				D8965DA922CD9A67007D32BB /* ScriptFontButton.swift in Sources */,
+				D8A815F122E1A7AC0023A2E6 /* MCButton.swift in Sources */,
 				D88C498922D5A08C001A6663 /* ResultScreenView.swift in Sources */,
+				D8A815F522E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */,
 				D8965DA722CD9A5A007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -997,7 +1036,6 @@
 				D89ADF0622C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0922C606BD00810E23 /* AboutUsViewController.swift in Sources */,
 				D88C498D22D5A255001A6663 /* MCView.swift in Sources */,
-				D8D1D54A22E066D70024AF8F /* UtilityBtnStack.swift in Sources */,
 				D89ADF0D22C60A3000810E23 /* PBMenuViewController.swift in Sources */,
 				D89ADEF122C6050F00810E23 /* TestMenuViewController.swift in Sources */,
 				D845F29522D31674000D6F1D /* TempArrayData.swift in Sources */,
@@ -1030,7 +1068,9 @@
 			files = (
 				D84CA73322BA3F7300E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DAC22CD9A6E007D32BB /* ScriptFontButton.swift in Sources */,
+				D8A815F222E1A7AC0023A2E6 /* MCButton.swift in Sources */,
 				D88C498A22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
+				D8A815F622E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */,
 				D8965DAA22CD9A6B007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */,
 				D8F6359922CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -1060,7 +1100,6 @@
 				D89ADF0722C606B600810E23 /* SettingsViewController.swift in Sources */,
 				D89ADF0A22C606BD00810E23 /* AboutUsViewController.swift in Sources */,
 				D88C498E22D5A255001A6663 /* MCView.swift in Sources */,
-				D8D1D54B22E066D70024AF8F /* UtilityBtnStack.swift in Sources */,
 				D89ADF0E22C60A3000810E23 /* PBMenuViewController.swift in Sources */,
 				D89ADEF222C6050F00810E23 /* TestMenuViewController.swift in Sources */,
 				D845F29622D31674000D6F1D /* TempArrayData.swift in Sources */,
@@ -1085,7 +1124,9 @@
 			files = (
 				D8965DB022CDCDA9007D32BB /* pipiatum_partc.xcdatamodeld in Sources */,
 				D8965DB122CDCDA9007D32BB /* ScriptFontButton.swift in Sources */,
+				D8A815F322E1A7AC0023A2E6 /* MCButton.swift in Sources */,
 				D88C498B22D5A08C001A6663 /* ResultScreenView.swift in Sources */,
+				D8A815F722E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */,
 				D8965DB222CDCDA9007D32BB /* StandardFontButton.swift in Sources */,
 				D8965DB322CDCDA9007D32BB /* LBViewController.swift in Sources */,
 				D8F6359A22CF088700AB0CCC /* BasicNavController.swift in Sources */,
@@ -1115,7 +1156,6 @@
 				D8965DC322CDCDA9007D32BB /* SettingsViewController.swift in Sources */,
 				D8965DC422CDCDA9007D32BB /* AboutUsViewController.swift in Sources */,
 				D88C498F22D5A255001A6663 /* MCView.swift in Sources */,
-				D8D1D54C22E066D70024AF8F /* UtilityBtnStack.swift in Sources */,
 				D8965DC522CDCDA9007D32BB /* PBMenuViewController.swift in Sources */,
 				D8965DC622CDCDA9007D32BB /* TestMenuViewController.swift in Sources */,
 				D845F29722D31674000D6F1D /* TempArrayData.swift in Sources */,

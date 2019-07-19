@@ -10,13 +10,7 @@ import UIKit
 
 class BasicMCViewController: BasicViewController {
     
-    @IBInspectable var mcPlistName: String? {
-        didSet {
-//            #if !TARGET_INTERFACE_BUILDER
-//                loadPlistData()
-//            #endif
-        }
-    }
+    @IBInspectable var mcPlistName: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()

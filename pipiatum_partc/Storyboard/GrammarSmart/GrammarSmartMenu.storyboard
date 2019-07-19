@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--GSTest Menu View Controller-->
+        <!--GS Test Menu-->
         <scene sceneID="t3k-al-WBO">
             <objects>
-                <viewController title="Grammar Smart" id="NrC-6O-QzF" userLabel="GSTest Menu View Controller" customClass="GSTestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Grammar Smart" id="NrC-6O-QzF" userLabel="GS Test Menu" customClass="GSTestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1C-mR-sOe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

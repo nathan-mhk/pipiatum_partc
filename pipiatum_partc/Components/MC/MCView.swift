@@ -10,6 +10,8 @@ import UIKit
 
 class MCView: UIView {
     
+    @IBOutlet weak var utilityBar: UtilityBar!
+    
     override required init(frame: CGRect) {
         super.init(frame: frame)
         setUpComponent(componentName: "MCView", superView: self)
@@ -18,6 +20,10 @@ class MCView: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUpComponent(componentName: "MCView", superView: self)
+    }
+    
+    func setUpMC(senderTag: Int?, componentName: String) {
+        utilityBar.setUtilBar(componentName: componentName)
     }
 
 }

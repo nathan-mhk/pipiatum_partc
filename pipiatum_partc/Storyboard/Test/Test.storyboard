@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Test View Controller-->
+        <!--Test-->
         <scene sceneID="G4n-9r-bnf">
             <objects>
-                <viewController id="ckG-eI-4j8" customClass="TestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ckG-eI-4j8" userLabel="Test" customClass="TestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XHL-x4-3mn" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,6 +24,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="TestMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
+                        <outlet property="testMC" destination="XHL-x4-3mn" id="ZcB-uq-MOd"/>
                         <segue destination="TUA-He-aIP" kind="show" identifier="TEST_RESULT" id="niH-Ux-fMF"/>
                     </connections>
                 </viewController>

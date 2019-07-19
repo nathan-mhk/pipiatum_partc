@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Practice View Controller-->
+        <!--Practice-->
         <scene sceneID="17d-j0-gl8">
             <objects>
-                <viewController id="CeX-Cd-prT" customClass="PracticeViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CeX-Cd-prT" userLabel="Practice" customClass="PracticeViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TNU-HZ-ynF" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,6 +24,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="PracticeMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
+                        <outlet property="practiceMC" destination="TNU-HZ-ynF" id="5FF-fW-ALB"/>
                         <segue destination="c6h-Pi-ZDy" kind="show" identifier="PRACTICE_RESULT" id="cII-wD-Qjw"/>
                     </connections>
                 </viewController>

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Practice-->
+        <!--Practice Menu-->
         <scene sceneID="KpN-2K-bLj">
             <objects>
-                <viewController title="Practice" id="typ-7f-RwN" customClass="PracticeMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Practice" id="typ-7f-RwN" userLabel="Practice Menu" customClass="PracticeMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lak-sx-PWt" customClass="SubMenu" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

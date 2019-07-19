@@ -6,6 +6,10 @@
 	<array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>What is the adjective in this list?</string>
 				<key>CorrectAns</key>
@@ -14,10 +18,12 @@
 				<string>iterum</string>
 				<key>Distractor2</key>
 				<string>inter</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>What is the adverb in this list?</string>
 				<key>CorrectAns</key>
@@ -26,10 +32,12 @@
 				<string>dederunt</string>
 				<key>Distractor2</key>
 				<string>multus</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>What is the preposition in this list?</string>
 				<key>CorrectAns</key>
@@ -38,10 +46,12 @@
 				<string>adsum</string>
 				<key>Distractor2</key>
 				<string>agricola</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>What is the adjective in this list?</string>
 				<key>CorrectAns</key>
@@ -50,10 +60,12 @@
 				<string>fortiter</string>
 				<key>Distractor2</key>
 				<string>cum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>What is the adverb in this list?</string>
 				<key>CorrectAns</key>
@@ -62,10 +74,12 @@
 				<string>saevus</string>
 				<key>Distractor2</key>
 				<string>sagittas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>Which word is the preposition?</string>
 				<key>CorrectAns</key>
@@ -74,10 +88,12 @@
 				<string>igitur</string>
 				<key>Distractor2</key>
 				<string>cur</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>Which word is the conjunction?</string>
 				<key>CorrectAns</key>
@@ -86,10 +102,12 @@
 				<string>ibi</string>
 				<key>Distractor2</key>
 				<string>miserunt</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>Which word is the adverb?</string>
 				<key>CorrectAns</key>
@@ -98,10 +116,12 @@
 				<string>prope</string>
 				<key>Distractor2</key>
 				<string>portat</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>Which word is the conjunction? </string>
 				<key>CorrectAns</key>
@@ -110,10 +130,12 @@
 				<string>equos</string>
 				<key>Distractor2</key>
 				<string>de</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>Which word is the adverb?</string>
 				<key>CorrectAns</key>
@@ -122,10 +144,12 @@
 				<string>intramus</string>
 				<key>Distractor2</key>
 				<string>incolarum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>Which word is the adverb?</string>
 				<key>CorrectAns</key>
@@ -134,10 +158,12 @@
 				<string>et</string>
 				<key>Distractor2</key>
 				<string>miser</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>Which word is the adjective?</string>
 				<key>CorrectAns</key>
@@ -146,10 +172,12 @@
 				<string>magnopere</string>
 				<key>Distractor2</key>
 				<string>oppidis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>Which word is a preposition?</string>
 				<key>CorrectAns</key>
@@ -158,10 +186,12 @@
 				<string>unus</string>
 				<key>Distractor2</key>
 				<string>laborate</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>Which word is an adverb?</string>
 				<key>CorrectAns</key>
@@ -170,10 +200,12 @@
 				<string>trans</string>
 				<key>Distractor2</key>
 				<string>tertius</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>Which word is an adjective?</string>
 				<key>CorrectAns</key>
@@ -182,10 +214,12 @@
 				<string>sic</string>
 				<key>Distractor2</key>
 				<string>etiam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>15</integer>
 				<key>Question</key>
 				<string>Which word is a preposition?</string>
 				<key>CorrectAns</key>
@@ -194,10 +228,12 @@
 				<string>fessi</string>
 				<key>Distractor2</key>
 				<string>festinabant</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>16</integer>
 				<key>Question</key>
 				<string>What part of speech is per?</string>
 				<key>CorrectAns</key>
@@ -206,10 +242,12 @@
 				<string>verb</string>
 				<key>Distractor2</key>
 				<string>adverb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>17</integer>
 				<key>Question</key>
 				<string>What part of speech is decimus?</string>
 				<key>CorrectAns</key>
@@ -218,10 +256,12 @@
 				<string>verb</string>
 				<key>Distractor2</key>
 				<string>adverb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>18</integer>
 				<key>Question</key>
 				<string>What part of speech is iratus?</string>
 				<key>CorrectAns</key>
@@ -230,10 +270,12 @@
 				<string>adverb</string>
 				<key>Distractor2</key>
 				<string>noun</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>19</integer>
 				<key>Question</key>
 				<string>Which word is a pronoun?</string>
 				<key>CorrectAns</key>
@@ -242,10 +284,12 @@
 				<string>noster</string>
 				<key>Distractor2</key>
 				<string>nuntios</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>20</integer>
 				<key>Question</key>
 				<string>What part of speech is ego?</string>
 				<key>CorrectAns</key>
@@ -254,10 +298,12 @@
 				<string>noun</string>
 				<key>Distractor2</key>
 				<string>verb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>21</integer>
 				<key>Question</key>
 				<string>Which word is the pronoun?</string>
 				<key>CorrectAns</key>
@@ -266,10 +312,12 @@
 				<string>quinque</string>
 				<key>Distractor2</key>
 				<string>filiae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>22</integer>
 				<key>Question</key>
 				<string>Which word is a conjunction?</string>
 				<key>CorrectAns</key>
@@ -278,10 +326,12 @@
 				<string>tres</string>
 				<key>Distractor2</key>
 				<string>ubi</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>23</integer>
 				<key>Question</key>
 				<string>Which one is a conjunction?</string>
 				<key>CorrectAns</key>
@@ -290,10 +340,12 @@
 				<string>statim</string>
 				<key>Distractor2</key>
 				<string>quattuor</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>24</integer>
 				<key>Question</key>
 				<string>Which word is an adverb?</string>
 				<key>CorrectAns</key>
@@ -302,10 +354,12 @@
 				<string>novus</string>
 				<key>Distractor2</key>
 				<string>novem</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>25</integer>
 				<key>Question</key>
 				<string>What part of speech is semper?</string>
 				<key>CorrectAns</key>
@@ -314,10 +368,12 @@
 				<string>adjective</string>
 				<key>Distractor2</key>
 				<string>verb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>26</integer>
 				<key>Question</key>
 				<string>What part of speech is subito?</string>
 				<key>CorrectAns</key>
@@ -326,10 +382,12 @@
 				<string>verb</string>
 				<key>Distractor2</key>
 				<string>adjective</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>27</integer>
 				<key>Question</key>
 				<string>Which word is an adjective?</string>
 				<key>CorrectAns</key>
@@ -338,10 +396,12 @@
 				<string>non</string>
 				<key>Distractor2</key>
 				<string>proelia</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>28</integer>
 				<key>Question</key>
 				<string>What part of speech is primus?</string>
 				<key>CorrectAns</key>
@@ -350,10 +410,12 @@
 				<string>noun</string>
 				<key>Distractor2</key>
 				<string>adverb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>0</integer>
+				<key>QnNum</key>
+				<integer>29</integer>
 				<key>Question</key>
 				<string>Which word is an adjective?</string>
 				<key>CorrectAns</key>
@@ -362,12 +424,14 @@
 				<string>patriam</string>
 				<key>Distractor2</key>
 				<string>paratis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>Spot the present infinitive.</string>
 				<key>CorrectAns</key>
@@ -376,10 +440,12 @@
 				<string>clamant</string>
 				<key>Distractor2</key>
 				<string>laudo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>Spot the singular imperative?</string>
 				<key>CorrectAns</key>
@@ -388,10 +454,12 @@
 				<string>abesse</string>
 				<key>Distractor2</key>
 				<string>constituite</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>Spot the plural imperative.</string>
 				<key>CorrectAns</key>
@@ -400,10 +468,12 @@
 				<string>audire</string>
 				<key>Distractor2</key>
 				<string>dicere</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>Spot the first person singular.</string>
 				<key>CorrectAns</key>
@@ -412,10 +482,12 @@
 				<string>aedificas</string>
 				<key>Distractor2</key>
 				<string>ambulat</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>Spot the second person singular.</string>
 				<key>CorrectAns</key>
@@ -424,10 +496,12 @@
 				<string>dormio</string>
 				<key>Distractor2</key>
 				<string>datis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>Spot the third person singular.</string>
 				<key>CorrectAns</key>
@@ -436,10 +510,12 @@
 				<string>amamus</string>
 				<key>Distractor2</key>
 				<string>consumo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>Spot the first person plural.</string>
 				<key>CorrectAns</key>
@@ -448,10 +524,12 @@
 				<string>duco</string>
 				<key>Distractor2</key>
 				<string>delere</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>Spot the second person plural.</string>
 				<key>CorrectAns</key>
@@ -460,10 +538,12 @@
 				<string>iaciebas</string>
 				<key>Distractor2</key>
 				<string>monebas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>Spot the third person plural.</string>
 				<key>CorrectAns</key>
@@ -472,10 +552,12 @@
 				<string>festina</string>
 				<key>Distractor2</key>
 				<string>amicos</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>What person is iubeo?</string>
 				<key>CorrectAns</key>
@@ -484,10 +566,12 @@
 				<string>2nd</string>
 				<key>Distractor2</key>
 				<string>3rd</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>What person is navigabas?</string>
 				<key>CorrectAns</key>
@@ -496,10 +580,12 @@
 				<string>1st</string>
 				<key>Distractor2</key>
 				<string>3rd</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>What person is misit?</string>
 				<key>CorrectAns</key>
@@ -508,10 +594,12 @@
 				<string>1st</string>
 				<key>Distractor2</key>
 				<string>2nd</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>What person and number is ostenderunt?</string>
 				<key>CorrectAns</key>
@@ -520,10 +608,12 @@
 				<string>2nd person singular</string>
 				<key>Distractor2</key>
 				<string>3rd person singular</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>What person and number is necabam?</string>
 				<key>CorrectAns</key>
@@ -532,10 +622,12 @@
 				<string>1st person plural</string>
 				<key>Distractor2</key>
 				<string>accusative singular</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>What person and number is fecisti?</string>
 				<key>CorrectAns</key>
@@ -544,10 +636,12 @@
 				<string>2nd person plural</string>
 				<key>Distractor2</key>
 				<string>nominative plural</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>15</integer>
 				<key>Question</key>
 				<string>What person and number is habitamus?</string>
 				<key>CorrectAns</key>
@@ -556,10 +650,12 @@
 				<string>3rd person plural</string>
 				<key>Distractor2</key>
 				<string>nominative singular</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>16</integer>
 				<key>Question</key>
 				<string>What person and number is ludebatis?</string>
 				<key>CorrectAns</key>
@@ -568,10 +664,12 @@
 				<string>2nd person singular</string>
 				<key>Distractor2</key>
 				<string>ablative plural </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>17</integer>
 				<key>Question</key>
 				<string>What person and number is est?</string>
 				<key>CorrectAns</key>
@@ -580,10 +678,12 @@
 				<string>3rd person plural</string>
 				<key>Distractor2</key>
 				<string>2nd person singular</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>18</integer>
 				<key>Question</key>
 				<string>Spot the present tense verb.</string>
 				<key>CorrectAns</key>
@@ -592,10 +692,12 @@
 				<string>movimus</string>
 				<key>Distractor2</key>
 				<string>vidimus</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>19</integer>
 				<key>Question</key>
 				<string>Spot the imperfect verb.</string>
 				<key>CorrectAns</key>
@@ -604,10 +706,12 @@
 				<string>oppugnare</string>
 				<key>Distractor2</key>
 				<string>oppugnavit</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>20</integer>
 				<key>Question</key>
 				<string>Spot the perfect verb.</string>
 				<key>CorrectAns</key>
@@ -616,10 +720,12 @@
 				<string>habet</string>
 				<key>Distractor2</key>
 				<string>habere</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>21</integer>
 				<key>Question</key>
 				<string>Spot the present infinitive.</string>
 				<key>CorrectAns</key>
@@ -628,10 +734,12 @@
 				<string>legit</string>
 				<key>Distractor2</key>
 				<string>legite</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>22</integer>
 				<key>Question</key>
 				<string>Spot the singular imperative.</string>
 				<key>CorrectAns</key>
@@ -640,10 +748,12 @@
 				<string>tenet</string>
 				<key>Distractor2</key>
 				<string>respondite</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>23</integer>
 				<key>Question</key>
 				<string>Spot the present infinitive.</string>
 				<key>CorrectAns</key>
@@ -652,10 +762,12 @@
 				<string>est</string>
 				<key>Distractor2</key>
 				<string>es</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>24</integer>
 				<key>Question</key>
 				<string>Spot the plural imperative.</string>
 				<key>CorrectAns</key>
@@ -664,10 +776,12 @@
 				<string>scribit</string>
 				<key>Distractor2</key>
 				<string>venitis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>25</integer>
 				<key>Question</key>
 				<string>Spot the present verb.</string>
 				<key>CorrectAns</key>
@@ -676,10 +790,12 @@
 				<string>regebat</string>
 				<key>Distractor2</key>
 				<string>rogate</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>26</integer>
 				<key>Question</key>
 				<string>Spot the imperfect verb.</string>
 				<key>CorrectAns</key>
@@ -688,10 +804,12 @@
 				<string>superamus</string>
 				<key>Distractor2</key>
 				<string>terram</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>27</integer>
 				<key>Question</key>
 				<string>Spot the perfect tense verb.</string>
 				<key>CorrectAns</key>
@@ -700,10 +818,12 @@
 				<string>timet</string>
 				<key>Distractor2</key>
 				<string>terrent</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>28</integer>
 				<key>Question</key>
 				<string>Spot the present infinitive.</string>
 				<key>CorrectAns</key>
@@ -712,10 +832,12 @@
 				<string>state</string>
 				<key>Distractor2</key>
 				<string>pugnaverunt</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>1</integer>
+				<key>QnNum</key>
+				<integer>29</integer>
 				<key>Question</key>
 				<string>Spot the imperative singular.</string>
 				<key>CorrectAns</key>
@@ -724,12 +846,14 @@
 				<string>oppugnas</string>
 				<key>Distractor2</key>
 				<string>audit</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>inter amicos.
 What case is amicos and why?</string>
@@ -739,10 +863,12 @@ What case is amicos and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>ablative with</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>ad patriam.
 What case is patriam and why?</string>
@@ -752,10 +878,12 @@ What case is patriam and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>nominative subject</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>cum filia.
 What case is filia and why?</string>
@@ -765,10 +893,12 @@ What case is filia and why?</string>
 				<string>nominative subject</string>
 				<key>Distractor2</key>
 				<string>vocative being addressed</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>contra me.
 What case is me and why?</string>
@@ -778,10 +908,12 @@ What case is me and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>ablative after preposition</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>trans aquam.
 What case is aquam and why?</string>
@@ -791,10 +923,12 @@ What case is aquam and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>ablative after preposition</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>de te.
 What case is te and why?</string>
@@ -804,10 +938,12 @@ What case is te and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>genitive of</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>in oppidum.
 What case is oppidum and why?</string>
@@ -817,10 +953,12 @@ What case is oppidum and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>ablative after preposition</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>in oppido.
 What case is oppido and why?</string>
@@ -830,10 +968,12 @@ What case is oppido and why?</string>
 				<string>dative to</string>
 				<key>Distractor2</key>
 				<string>accusative after preposition</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>ex ora.
 What case is ora and why?</string>
@@ -843,10 +983,12 @@ What case is ora and why?</string>
 				<string>nominative subject</string>
 				<key>Distractor2</key>
 				<string>vocative being addressed</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>a feminis.
 What case is feminis and why?</string>
@@ -856,10 +998,12 @@ What case is feminis and why?</string>
 				<string>dative for</string>
 				<key>Distractor2</key>
 				<string>nominative subject</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>prope agros.
 What case is agros and why?</string>
@@ -869,10 +1013,12 @@ What case is agros and why?</string>
 				<string>ablative because of prope</string>
 				<key>Distractor2</key>
 				<string>accusative object</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>2</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>per vias.
 What case is vias and why?</string>
@@ -882,12 +1028,14 @@ What case is vias and why?</string>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
 				<string>ablative after per</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of cucurrerunt?</string>
 				<key>CorrectAns</key>
@@ -896,10 +1044,12 @@ What case is vias and why?</string>
 				<string>cucurro</string>
 				<key>Distractor2</key>
 				<string>cucurri</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of dixisti?</string>
 				<key>CorrectAns</key>
@@ -908,10 +1058,12 @@ What case is vias and why?</string>
 				<string>discedo</string>
 				<key>Distractor2</key>
 				<string>duco</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of duxerunt?</string>
 				<key>CorrectAns</key>
@@ -920,10 +1072,12 @@ What case is vias and why?</string>
 				<string>dico</string>
 				<key>Distractor2</key>
 				<string>discedo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of cepimus?</string>
 				<key>CorrectAns</key>
@@ -932,10 +1086,12 @@ What case is vias and why?</string>
 				<string>cupio</string>
 				<key>Distractor2</key>
 				<string>cepi</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of cupivistis?</string>
 				<key>CorrectAns</key>
@@ -944,10 +1100,12 @@ What case is vias and why?</string>
 				<string>capio</string>
 				<key>Distractor2</key>
 				<string>cepi</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of consumpsit?</string>
 				<key>CorrectAns</key>
@@ -956,10 +1114,12 @@ What case is vias and why?</string>
 				<string>constituo</string>
 				<key>Distractor2</key>
 				<string>consumpsi</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of fuerunt?</string>
 				<key>CorrectAns</key>
@@ -968,10 +1128,12 @@ What case is vias and why?</string>
 				<string>fui</string>
 				<key>Distractor2</key>
 				<string>fuo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of adfuit?</string>
 				<key>CorrectAns</key>
@@ -980,10 +1142,12 @@ What case is vias and why?</string>
 				<string>absum</string>
 				<key>Distractor2</key>
 				<string>esse</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of afui?</string>
 				<key>CorrectAns</key>
@@ -992,10 +1156,12 @@ What case is vias and why?</string>
 				<string>adsum</string>
 				<key>Distractor2</key>
 				<string>sum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of delevimus?</string>
 				<key>CorrectAns</key>
@@ -1004,10 +1170,12 @@ What case is vias and why?</string>
 				<string>do</string>
 				<key>Distractor2</key>
 				<string>delere</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of discesserunt?</string>
 				<key>CorrectAns</key>
@@ -1016,10 +1184,12 @@ What case is vias and why?</string>
 				<string>do</string>
 				<key>Distractor2</key>
 				<string>dico</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of dederunt?</string>
 				<key>CorrectAns</key>
@@ -1028,10 +1198,12 @@ What case is vias and why?</string>
 				<string>discedo</string>
 				<key>Distractor2</key>
 				<string>dedo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of stetisti?</string>
 				<key>CorrectAns</key>
@@ -1040,10 +1212,12 @@ What case is vias and why?</string>
 				<string>steti</string>
 				<key>Distractor2</key>
 				<string>steto</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of movimus?</string>
 				<key>CorrectAns</key>
@@ -1052,10 +1226,12 @@ What case is vias and why?</string>
 				<string>moneo</string>
 				<key>Distractor2</key>
 				<string>maneo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of mansit?</string>
 				<key>CorrectAns</key>
@@ -1064,10 +1240,12 @@ What case is vias and why?</string>
 				<string>moneo</string>
 				<key>Distractor2</key>
 				<string>moveo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>15</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of ieci?</string>
 				<key>CorrectAns</key>
@@ -1076,10 +1254,12 @@ What case is vias and why?</string>
 				<string>facio</string>
 				<key>Distractor2</key>
 				<string>iacere</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>16</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of lusistis?</string>
 				<key>CorrectAns</key>
@@ -1088,10 +1268,12 @@ What case is vias and why?</string>
 				<string>lego</string>
 				<key>Distractor2</key>
 				<string>lusi</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>17</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of miserunt?</string>
 				<key>CorrectAns</key>
@@ -1100,10 +1282,12 @@ What case is vias and why?</string>
 				<string>miser</string>
 				<key>Distractor2</key>
 				<string>misi</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>18</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of fecimus?</string>
 				<key>CorrectAns</key>
@@ -1112,10 +1296,12 @@ What case is vias and why?</string>
 				<string>iacio</string>
 				<key>Distractor2</key>
 				<string>feci</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>19</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of iussit?</string>
 				<key>CorrectAns</key>
@@ -1124,10 +1310,12 @@ What case is vias and why?</string>
 				<string>ludo</string>
 				<key>Distractor2</key>
 				<string>iacio</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>20</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of reximus?</string>
 				<key>CorrectAns</key>
@@ -1136,10 +1324,12 @@ What case is vias and why?</string>
 				<string>lego</string>
 				<key>Distractor2</key>
 				<string>rogo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>21</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of posui?</string>
 				<key>CorrectAns</key>
@@ -1148,10 +1338,12 @@ What case is vias and why?</string>
 				<string>porto</string>
 				<key>Distractor2</key>
 				<string>posuo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>22</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of venisti?</string>
 				<key>CorrectAns</key>
@@ -1160,10 +1352,12 @@ What case is vias and why?</string>
 				<string>vinum</string>
 				<key>Distractor2</key>
 				<string>veneo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>23</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of riserunt?</string>
 				<key>CorrectAns</key>
@@ -1172,10 +1366,12 @@ What case is vias and why?</string>
 				<string>ludo</string>
 				<key>Distractor2</key>
 				<string>rego</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>3</integer>
+				<key>QnNum</key>
+				<integer>24</integer>
 				<key>Question</key>
 				<string>What is the first person singular present tense of tenuimus?</string>
 				<key>CorrectAns</key>
@@ -1184,12 +1380,14 @@ What case is vias and why?</string>
 				<string>timeo</string>
 				<key>Distractor2</key>
 				<string>terreo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of spectavit?</string>
 				<key>CorrectAns</key>
@@ -1198,10 +1396,12 @@ What case is vias and why?</string>
 				<string>specto</string>
 				<key>Distractor2</key>
 				<string>spectabat</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of vocavi?</string>
 				<key>CorrectAns</key>
@@ -1210,10 +1410,12 @@ What case is vias and why?</string>
 				<string>vocare</string>
 				<key>Distractor2</key>
 				<string>vocabam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of tenuisti?</string>
 				<key>CorrectAns</key>
@@ -1222,10 +1424,12 @@ What case is vias and why?</string>
 				<string>tenes</string>
 				<key>Distractor2</key>
 				<string>tenuistis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of fuimus?</string>
 				<key>CorrectAns</key>
@@ -1234,10 +1438,12 @@ What case is vias and why?</string>
 				<string>sum</string>
 				<key>Distractor2</key>
 				<string>esse</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of portavistis?</string>
 				<key>CorrectAns</key>
@@ -1246,10 +1452,12 @@ What case is vias and why?</string>
 				<string>portabas</string>
 				<key>Distractor2</key>
 				<string>portabatis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of paraverunt?</string>
 				<key>CorrectAns</key>
@@ -1258,10 +1466,12 @@ What case is vias and why?</string>
 				<string>paro</string>
 				<key>Distractor2</key>
 				<string>parabant</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of aderam?</string>
 				<key>CorrectAns</key>
@@ -1270,10 +1480,12 @@ What case is vias and why?</string>
 				<string>eram</string>
 				<key>Distractor2</key>
 				<string>sum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of aberas?</string>
 				<key>CorrectAns</key>
@@ -1282,10 +1494,12 @@ What case is vias and why?</string>
 				<string>est</string>
 				<key>Distractor2</key>
 				<string>esse</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of superabat?</string>
 				<key>CorrectAns</key>
@@ -1294,10 +1508,12 @@ What case is vias and why?</string>
 				<string>superavit</string>
 				<key>Distractor2</key>
 				<string>superare</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of dabant?</string>
 				<key>CorrectAns</key>
@@ -1306,10 +1522,12 @@ What case is vias and why?</string>
 				<string>do</string>
 				<key>Distractor2</key>
 				<string>dederunt</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of dedit?</string>
 				<key>CorrectAns</key>
@@ -1318,10 +1536,12 @@ What case is vias and why?</string>
 				<string>dabat</string>
 				<key>Distractor2</key>
 				<string>do</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of steterunt?</string>
 				<key>CorrectAns</key>
@@ -1330,10 +1550,12 @@ What case is vias and why?</string>
 				<string>stent</string>
 				<key>Distractor2</key>
 				<string>stabant</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of risimus?</string>
 				<key>CorrectAns</key>
@@ -1342,10 +1564,12 @@ What case is vias and why?</string>
 				<string>risemus</string>
 				<key>Distractor2</key>
 				<string>rideo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of posuisti?</string>
 				<key>CorrectAns</key>
@@ -1354,10 +1578,12 @@ What case is vias and why?</string>
 				<string>pono</string>
 				<key>Distractor2</key>
 				<string>portas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of terruerunt?</string>
 				<key>CorrectAns</key>
@@ -1366,10 +1592,12 @@ What case is vias and why?</string>
 				<string>terreo</string>
 				<key>Distractor2</key>
 				<string>timent</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>15</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of venerunt?</string>
 				<key>CorrectAns</key>
@@ -1378,10 +1606,12 @@ What case is vias and why?</string>
 				<string>venunt</string>
 				<key>Distractor2</key>
 				<string>venire</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>16</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of reximus?</string>
 				<key>CorrectAns</key>
@@ -1390,10 +1620,12 @@ What case is vias and why?</string>
 				<string>rogamus</string>
 				<key>Distractor2</key>
 				<string>regebamus</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>17</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of respondit?</string>
 				<key>CorrectAns</key>
@@ -1402,10 +1634,12 @@ What case is vias and why?</string>
 				<string>respondit</string>
 				<key>Distractor2</key>
 				<string>respondent</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>18</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of scripsistis?</string>
 				<key>CorrectAns</key>
@@ -1414,10 +1648,12 @@ What case is vias and why?</string>
 				<string>scribis</string>
 				<key>Distractor2</key>
 				<string>scripsisti</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>19</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of vidit?</string>
 				<key>CorrectAns</key>
@@ -1426,10 +1662,12 @@ What case is vias and why?</string>
 				<string>vidit</string>
 				<key>Distractor2</key>
 				<string>vident</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>20</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of mansimus?</string>
 				<key>CorrectAns</key>
@@ -1438,10 +1676,12 @@ What case is vias and why?</string>
 				<string>monemus</string>
 				<key>Distractor2</key>
 				<string>maneo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>21</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of iecerunt?</string>
 				<key>CorrectAns</key>
@@ -1450,10 +1690,12 @@ What case is vias and why?</string>
 				<string>iacunt</string>
 				<key>Distractor2</key>
 				<string>faciunt</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>22</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of feci?</string>
 				<key>CorrectAns</key>
@@ -1462,10 +1704,12 @@ What case is vias and why?</string>
 				<string>facere</string>
 				<key>Distractor2</key>
 				<string>iacio</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>23</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of habuit?</string>
 				<key>CorrectAns</key>
@@ -1474,10 +1718,12 @@ What case is vias and why?</string>
 				<string>habitat</string>
 				<key>Distractor2</key>
 				<string>habent</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>24</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of iussi?</string>
 				<key>CorrectAns</key>
@@ -1486,10 +1732,12 @@ What case is vias and why?</string>
 				<string>iubebam</string>
 				<key>Distractor2</key>
 				<string>iusseo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>25</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of ludebat?</string>
 				<key>CorrectAns</key>
@@ -1498,10 +1746,12 @@ What case is vias and why?</string>
 				<string>lusit</string>
 				<key>Distractor2</key>
 				<string>ludat</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>26</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of misi?</string>
 				<key>CorrectAns</key>
@@ -1510,10 +1760,12 @@ What case is vias and why?</string>
 				<string>miso</string>
 				<key>Distractor2</key>
 				<string>mitte</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>27</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of duximus?</string>
 				<key>CorrectAns</key>
@@ -1522,10 +1774,12 @@ What case is vias and why?</string>
 				<string>duco</string>
 				<key>Distractor2</key>
 				<string>dicimus</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>28</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of dixistis?</string>
 				<key>CorrectAns</key>
@@ -1534,10 +1788,12 @@ What case is vias and why?</string>
 				<string>ducitis</string>
 				<key>Distractor2</key>
 				<string>dicis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>4</integer>
+				<key>QnNum</key>
+				<integer>29</integer>
 				<key>Question</key>
 				<string>What is the present tense equivalent of cucurrit?</string>
 				<key>CorrectAns</key>
@@ -1546,12 +1802,14 @@ What case is vias and why?</string>
 				<string>curret</string>
 				<key>Distractor2</key>
 				<string>cucurrit</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>Which English word is not derived from insula?</string>
 				<key>CorrectAns</key>
@@ -1560,10 +1818,12 @@ What case is vias and why?</string>
 				<string>insulate</string>
 				<key>Distractor2</key>
 				<string>insulation</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>Give an English word derived from ancilla.</string>
 				<key>CorrectAns</key>
@@ -1572,10 +1832,12 @@ What case is vias and why?</string>
 				<string>insulate</string>
 				<key>Distractor2</key>
 				<string>cultivate</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>Which English word is not derived from aqua.</string>
 				<key>CorrectAns</key>
@@ -1584,10 +1846,12 @@ What case is vias and why?</string>
 				<string>aquatic</string>
 				<key>Distractor2</key>
 				<string>aquarium</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>Give an English word derived from deus.</string>
 				<key>CorrectAns</key>
@@ -1596,10 +1860,12 @@ What case is vias and why?</string>
 				<string>day</string>
 				<key>Distractor2</key>
 				<string>disuse</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>The English word filial means behaving like a ..</string>
 				<key>CorrectAns</key>
@@ -1608,10 +1874,12 @@ What case is vias and why?</string>
 				<string>man</string>
 				<key>Distractor2</key>
 				<string>girl</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>Hastate leaves are shaped like ..</string>
 				<key>CorrectAns</key>
@@ -1620,10 +1888,12 @@ What case is vias and why?</string>
 				<string>swords</string>
 				<key>Distractor2</key>
 				<string>arrows</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>Which English word is derived from iratus.</string>
 				<key>CorrectAns</key>
@@ -1632,10 +1902,12 @@ What case is vias and why?</string>
 				<string>irritate</string>
 				<key>Distractor2</key>
 				<string>irritable </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>Which word derives from the Latin for sailor?</string>
 				<key>CorrectAns</key>
@@ -1644,10 +1916,12 @@ What case is vias and why?</string>
 				<string>agriculture</string>
 				<key>Distractor2</key>
 				<string>poetic</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>Which English word derives from unda?</string>
 				<key>CorrectAns</key>
@@ -1656,10 +1930,12 @@ What case is vias and why?</string>
 				<string>under</string>
 				<key>Distractor2</key>
 				<string>undying</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>Which word does not derive from terra?</string>
 				<key>CorrectAns</key>
@@ -1668,10 +1944,12 @@ What case is vias and why?</string>
 				<string>terrain</string>
 				<key>Distractor2</key>
 				<string>territory</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>The English word pecuniary relates to ...</string>
 				<key>CorrectAns</key>
@@ -1680,10 +1958,12 @@ What case is vias and why?</string>
 				<string>danger</string>
 				<key>Distractor2</key>
 				<string>birds</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>If you are patriotic, you love your ...</string>
 				<key>CorrectAns</key>
@@ -1692,10 +1972,12 @@ What case is vias and why?</string>
 				<string>mother</string>
 				<key>Distractor2</key>
 				<string>parents</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>Which word does not derive from the Latin for many ...</string>
 				<key>CorrectAns</key>
@@ -1704,10 +1986,12 @@ What case is vias and why?</string>
 				<string>multiply</string>
 				<key>Distractor2</key>
 				<string>multiple</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>Which English word derives from altus?</string>
 				<key>CorrectAns</key>
@@ -1716,10 +2000,12 @@ What case is vias and why?</string>
 				<string>attitude</string>
 				<key>Distractor2</key>
 				<string>alternative</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>Which word does not derive from the Latin for ten?</string>
 				<key>CorrectAns</key>
@@ -1728,10 +2014,12 @@ What case is vias and why?</string>
 				<string>decade</string>
 				<key>Distractor2</key>
 				<string>December</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>15</integer>
 				<key>Question</key>
 				<string>What sort of people show malice?</string>
 				<key>CorrectAns</key>
@@ -1740,10 +2028,12 @@ What case is vias and why?</string>
 				<string>good</string>
 				<key>Distractor2</key>
 				<string>big</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>16</integer>
 				<key>Question</key>
 				<string>The word clarinet derives from the Latin for ...</string>
 				<key>CorrectAns</key>
@@ -1752,10 +2042,12 @@ What case is vias and why?</string>
 				<string>sing</string>
 				<key>Distractor2</key>
 				<string>shout</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>17</integer>
 				<key>Question</key>
 				<string>A duet is performed by how many people?</string>
 				<key>CorrectAns</key>
@@ -1764,10 +2056,12 @@ What case is vias and why?</string>
 				<string>three</string>
 				<key>Distractor2</key>
 				<string>twelve</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>18</integer>
 				<key>Question</key>
 				<string>Which word does not derive from the Latin for well known?</string>
 				<key>CorrectAns</key>
@@ -1776,10 +2070,12 @@ What case is vias and why?</string>
 				<string>noted</string>
 				<key>Distractor2</key>
 				<string>notable</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>19</integer>
 				<key>Question</key>
 				<string>A novice is ...</string>
 				<key>CorrectAns</key>
@@ -1788,10 +2084,12 @@ What case is vias and why?</string>
 				<string>ninth</string>
 				<key>Distractor2</key>
 				<string>well known</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>20</integer>
 				<key>Question</key>
 				<string>An octet is performed by how many people?</string>
 				<key>CorrectAns</key>
@@ -1800,10 +2098,12 @@ What case is vias and why?</string>
 				<string>ten</string>
 				<key>Distractor2</key>
 				<string>nine</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>21</integer>
 				<key>Question</key>
 				<string>Which word is not derived from the Latin for first?</string>
 				<key>CorrectAns</key>
@@ -1812,10 +2112,12 @@ What case is vias and why?</string>
 				<string>prime</string>
 				<key>Distractor2</key>
 				<string>premier</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>22</integer>
 				<key>Question</key>
 				<string>Pulchritude is ...</string>
 				<key>CorrectAns</key>
@@ -1824,10 +2126,12 @@ What case is vias and why?</string>
 				<string>strength</string>
 				<key>Distractor2</key>
 				<string>friendliness</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>23</integer>
 				<key>Question</key>
 				<string>Diction is to do with quality of ...</string>
 				<key>CorrectAns</key>
@@ -1836,10 +2140,12 @@ What case is vias and why?</string>
 				<string>sleep</string>
 				<key>Distractor2</key>
 				<string>leadership</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>5</integer>
+				<key>QnNum</key>
+				<integer>24</integer>
 				<key>Question</key>
 				<string>Which word does not derive from the Latin for sleep?</string>
 				<key>CorrectAns</key>
@@ -1848,12 +2154,14 @@ What case is vias and why?</string>
 				<string>dormitory</string>
 				<key>Distractor2</key>
 				<string>dormouse</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of bellum</string>
 				<key>CorrectAns</key>
@@ -1862,10 +2170,12 @@ What case is vias and why?</string>
 				<string>belli</string>
 				<key>Distractor2</key>
 				<string>bellum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of the Latin for town.</string>
 				<key>CorrectAns</key>
@@ -1874,10 +2184,12 @@ What case is vias and why?</string>
 				<string>oppugnamus</string>
 				<key>Distractor2</key>
 				<string>oppidum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of socius.</string>
 				<key>CorrectAns</key>
@@ -1886,10 +2198,12 @@ What case is vias and why?</string>
 				<string>soci</string>
 				<key>Distractor2</key>
 				<string>sociae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of field.</string>
 				<key>CorrectAns</key>
@@ -1898,10 +2212,12 @@ What case is vias and why?</string>
 				<string>agricolae</string>
 				<key>Distractor2</key>
 				<string>ageri</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of horse.</string>
 				<key>CorrectAns</key>
@@ -1910,10 +2226,12 @@ What case is vias and why?</string>
 				<string>equis</string>
 				<key>Distractor2</key>
 				<string>equos</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of book.</string>
 				<key>CorrectAns</key>
@@ -1922,10 +2240,12 @@ What case is vias and why?</string>
 				<string>liberi</string>
 				<key>Distractor2</key>
 				<string>libros</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of amicus.</string>
 				<key>CorrectAns</key>
@@ -1934,10 +2254,12 @@ What case is vias and why?</string>
 				<string>amicos</string>
 				<key>Distractor2</key>
 				<string>amicus</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of son.</string>
 				<key>CorrectAns</key>
@@ -1946,10 +2268,12 @@ What case is vias and why?</string>
 				<string>filiae</string>
 				<key>Distractor2</key>
 				<string>fili</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of sword.</string>
 				<key>CorrectAns</key>
@@ -1958,10 +2282,12 @@ What case is vias and why?</string>
 				<string>gladi</string>
 				<key>Distractor2</key>
 				<string>hastae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of wave.</string>
 				<key>CorrectAns</key>
@@ -1970,10 +2296,12 @@ What case is vias and why?</string>
 				<string>aquae</string>
 				<key>Distractor2</key>
 				<string>unda</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of word.</string>
 				<key>CorrectAns</key>
@@ -1982,10 +2310,12 @@ What case is vias and why?</string>
 				<string>verbae</string>
 				<key>Distractor2</key>
 				<string>verbis</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of arrow.</string>
 				<key>CorrectAns</key>
@@ -1994,10 +2324,12 @@ What case is vias and why?</string>
 				<string>hastae</string>
 				<key>Distractor2</key>
 				<string>gladii</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>What is the nominative plural of nauta?</string>
 				<key>CorrectAns</key>
@@ -2006,10 +2338,12 @@ What case is vias and why?</string>
 				<string>nautas</string>
 				<key>Distractor2</key>
 				<string>agricolae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of poet.</string>
 				<key>CorrectAns</key>
@@ -2018,10 +2352,12 @@ What case is vias and why?</string>
 				<string>poetas</string>
 				<key>Distractor2</key>
 				<string>patriae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of girl.</string>
 				<key>CorrectAns</key>
@@ -2030,10 +2366,12 @@ What case is vias and why?</string>
 				<string>filiae</string>
 				<key>Distractor2</key>
 				<string>feminas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>15</integer>
 				<key>Question</key>
 				<string>What is the nominative plural of boy.</string>
 				<key>CorrectAns</key>
@@ -2042,10 +2380,12 @@ What case is vias and why?</string>
 				<string>puri</string>
 				<key>Distractor2</key>
 				<string>viri</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>16</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of man.</string>
 				<key>CorrectAns</key>
@@ -2054,10 +2394,12 @@ What case is vias and why?</string>
 				<string>pueri</string>
 				<key>Distractor2</key>
 				<string>viae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>17</integer>
 				<key>Question</key>
 				<string>What is the nominative plural of wind?</string>
 				<key>CorrectAns</key>
@@ -2066,10 +2408,12 @@ What case is vias and why?</string>
 				<string>undae</string>
 				<key>Distractor2</key>
 				<string>ventos</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>18</integer>
 				<key>Question</key>
 				<string>Give the nominative plural of shield.</string>
 				<key>CorrectAns</key>
@@ -2078,10 +2422,12 @@ What case is vias and why?</string>
 				<string>gladii</string>
 				<key>Distractor2</key>
 				<string>scuti</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>6</integer>
+				<key>QnNum</key>
+				<integer>19</integer>
 				<key>Question</key>
 				<string>What is the nominative plural of slave?</string>
 				<key>CorrectAns</key>
@@ -2090,12 +2436,14 @@ What case is vias and why?</string>
 				<string>ancillas</string>
 				<key>Distractor2</key>
 				<string>servos</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of danger.</string>
 				<key>CorrectAns</key>
@@ -2104,10 +2452,12 @@ What case is vias and why?</string>
 				<string>pericula</string>
 				<key>Distractor2</key>
 				<string>pecuniam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of word.</string>
 				<key>CorrectAns</key>
@@ -2116,10 +2466,12 @@ What case is vias and why?</string>
 				<string>verba</string>
 				<key>Distractor2</key>
 				<string>verbam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of temple.</string>
 				<key>CorrectAns</key>
@@ -2128,10 +2480,12 @@ What case is vias and why?</string>
 				<string>templa</string>
 				<key>Distractor2</key>
 				<string>templorum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of wall.</string>
 				<key>CorrectAns</key>
@@ -2140,10 +2494,12 @@ What case is vias and why?</string>
 				<string>muros</string>
 				<key>Distractor2</key>
 				<string>muram</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of messenger.</string>
 				<key>CorrectAns</key>
@@ -2152,10 +2508,12 @@ What case is vias and why?</string>
 				<string>nuntum</string>
 				<key>Distractor2</key>
 				<string>nuntius</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of queen.</string>
 				<key>CorrectAns</key>
@@ -2164,10 +2522,12 @@ What case is vias and why?</string>
 				<string>reginas</string>
 				<key>Distractor2</key>
 				<string>reginae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of girl.</string>
 				<key>CorrectAns</key>
@@ -2176,10 +2536,12 @@ What case is vias and why?</string>
 				<string>feminam</string>
 				<key>Distractor2</key>
 				<string>filiam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of sailor.</string>
 				<key>CorrectAns</key>
@@ -2188,10 +2550,12 @@ What case is vias and why?</string>
 				<string>poetam</string>
 				<key>Distractor2</key>
 				<string>nautas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of money.</string>
 				<key>CorrectAns</key>
@@ -2200,10 +2564,12 @@ What case is vias and why?</string>
 				<string>periculum</string>
 				<key>Distractor2</key>
 				<string>patriam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of land.</string>
 				<key>CorrectAns</key>
@@ -2212,10 +2578,12 @@ What case is vias and why?</string>
 				<string>terra</string>
 				<key>Distractor2</key>
 				<string>perterritum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of crowd.</string>
 				<key>CorrectAns</key>
@@ -2224,10 +2592,12 @@ What case is vias and why?</string>
 				<string>viam</string>
 				<key>Distractor2</key>
 				<string>turbae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of arrow.</string>
 				<key>CorrectAns</key>
@@ -2236,10 +2606,12 @@ What case is vias and why?</string>
 				<string>scutum</string>
 				<key>Distractor2</key>
 				<string>hastam</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of battle.</string>
 				<key>CorrectAns</key>
@@ -2248,10 +2620,12 @@ What case is vias and why?</string>
 				<string>bellum</string>
 				<key>Distractor2</key>
 				<string>proeliorum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of wind.</string>
 				<key>CorrectAns</key>
@@ -2260,10 +2634,12 @@ What case is vias and why?</string>
 				<string>undam</string>
 				<key>Distractor2</key>
 				<string>ventos</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>7</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>Give the accusative singular of town.</string>
 				<key>CorrectAns</key>
@@ -2272,12 +2648,14 @@ What case is vias and why?</string>
 				<string>oppida</string>
 				<key>Distractor2</key>
 				<string>oppidorum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of town.</string>
 				<key>CorrectAns</key>
@@ -2286,10 +2664,12 @@ What case is vias and why?</string>
 				<string>oppidum</string>
 				<key>Distractor2</key>
 				<string>oppugnas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of ally.</string>
 				<key>CorrectAns</key>
@@ -2298,10 +2678,12 @@ What case is vias and why?</string>
 				<string>amicos</string>
 				<key>Distractor2</key>
 				<string>amici</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of slave.</string>
 				<key>CorrectAns</key>
@@ -2310,10 +2692,12 @@ What case is vias and why?</string>
 				<string>servum</string>
 				<key>Distractor2</key>
 				<string>ancillas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of slave-girl.</string>
 				<key>CorrectAns</key>
@@ -2322,10 +2706,12 @@ What case is vias and why?</string>
 				<string>servos</string>
 				<key>Distractor2</key>
 				<string>ancillae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of shield.</string>
 				<key>CorrectAns</key>
@@ -2334,10 +2720,12 @@ What case is vias and why?</string>
 				<string>gladios</string>
 				<key>Distractor2</key>
 				<string>hastas</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of messenger.</string>
 				<key>CorrectAns</key>
@@ -2346,10 +2734,12 @@ What case is vias and why?</string>
 				<string>nuntos</string>
 				<key>Distractor2</key>
 				<string>nuntium</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of boy.</string>
 				<key>CorrectAns</key>
@@ -2358,10 +2748,12 @@ What case is vias and why?</string>
 				<string>puros</string>
 				<key>Distractor2</key>
 				<string>viros</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of danger.</string>
 				<key>CorrectAns</key>
@@ -2369,11 +2761,13 @@ What case is vias and why?</string>
 				<key>Distractor1</key>
 				<string>pecuniam</string>
 				<key>Distractor2</key>
-				<string>NIL</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
+				<string>NA</string>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of wall.</string>
 				<key>CorrectAns</key>
@@ -2382,10 +2776,12 @@ What case is vias and why?</string>
 				<string>murum</string>
 				<key>Distractor2</key>
 				<string>muri</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of man.</string>
 				<key>CorrectAns</key>
@@ -2394,10 +2790,12 @@ What case is vias and why?</string>
 				<string>viri</string>
 				<key>Distractor2</key>
 				<string>vias</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>10</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of poet.</string>
 				<key>CorrectAns</key>
@@ -2406,10 +2804,12 @@ What case is vias and why?</string>
 				<string>poetam</string>
 				<key>Distractor2</key>
 				<string>pueros</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>11</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of road.</string>
 				<key>CorrectAns</key>
@@ -2418,10 +2818,12 @@ What case is vias and why?</string>
 				<string>viros</string>
 				<key>Distractor2</key>
 				<string>viae</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>12</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of arrow.</string>
 				<key>CorrectAns</key>
@@ -2430,10 +2832,12 @@ What case is vias and why?</string>
 				<string>hastas</string>
 				<key>Distractor2</key>
 				<string>gladios</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>13</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of girl.</string>
 				<key>CorrectAns</key>
@@ -2442,10 +2846,12 @@ What case is vias and why?</string>
 				<string>feminas</string>
 				<key>Distractor2</key>
 				<string>filias</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<integer>8</integer>
+				<key>QnNum</key>
+				<integer>14</integer>
 				<key>Question</key>
 				<string>Give the accusative plural of daughter.</string>
 				<key>CorrectAns</key>
@@ -2454,8 +2860,6 @@ What case is vias and why?</string>
 				<string>filios</string>
 				<key>Distractor2</key>
 				<string>filii</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 	</array>

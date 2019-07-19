@@ -6,10 +6,14 @@
 	<array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Prompt</key>
 				<string>rex (king) Acrisios filiam pulchram habebat.</string>
 				<key>Question</key>
-				<string>What tense is the verb ‘habebat’?</string>
+				<string>What tense is the verb &apos;habebat&apos;?</string>
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
@@ -20,14 +24,16 @@
 				<string>Present</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Prompt</key>
 				<string>nomen (name) puellae erat Danae</string>
 				<key>Question</key>
-				<string>What is the person and number is the verb ‘erat’?</string>
+				<string>What is the person and number is the verb &apos;erat&apos;?</string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
@@ -38,14 +44,16 @@
 				<string>1st person singular</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Prompt</key>
 				<string>puella filium parvum, Perseum, habebat</string>
 				<key>Question</key>
-				<string>What case is the word ‘parvum’?</string>
+				<string>What case is the word &apos;parvum&apos;?</string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
@@ -56,12 +64,14 @@
 				<string>Vocative</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Prompt</key>
-				<string>Apollo Acrisio dixit: ‘filia te necabit (will kill)’</string>
+				<string>Apollo Acrisio dixit: &apos;filia te necabit (will kill)&apos;</string>
 				<key>Question</key>
 				<string>Which word is the pronoun in this sentence?</string>
 				<key>Marks</key>
@@ -74,14 +84,16 @@
 				<string>dixit</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Prompt</key>
 				<string>Acrisios filiam suam in cista (chest) posuit</string>
 				<key>Question</key>
-				<string>‘posuit’ - what is the first person singular of the present tense of this verb?</string>
+				<string>&apos;posuit&apos; - what is the first person singular of the present tense of this verb?</string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
@@ -92,10 +104,12 @@
 				<string>pono</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Prompt</key>
 				<string>tandem cista (chest) ad insulam venit</string>
 				<key>Question</key>
@@ -110,12 +124,15 @@
 				<string>Dative &apos;to&apos;</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Prompt</key>
-				<string>rex (king) insulae Danaen (acc) ducere cupiebat (to marry)</string>
+				<string>rex insulae Danaen ducere cupiebat
+(king)           (Danae acc)  (to marry) </string>
 				<key>Question</key>
 				<string>What case is insulae?</string>
 				<key>Marks</key>
@@ -128,14 +145,16 @@
 				<string>genitive</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Prompt</key>
 				<string>sic Perseus erat iratus</string>
 				<key>Question</key>
-				<string>Which English word derives from the Latin word ‘iratus’?</string>
+				<string>Which English word derives from the Latin word &apos;iratus&apos;?</string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
@@ -146,10 +165,12 @@
 				<string>irrational</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Prompt</key>
 				<string>The woman loves her son</string>
 				<key>Question</key>
@@ -164,10 +185,12 @@
 				<string>femina filium amo</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>Perseus &amp; Medusa</string>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Prompt</key>
 				<string>We fear the sailors.</string>
 				<key>Question</key>
@@ -182,12 +205,14 @@
 				<string>timemus nautas</string>
 				<key>Feedback</key>
 				<string>TBD</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Prompt</key>
 				<string>olim Hector et Paris in Sparta manebant</string>
 				<key>Question</key>
@@ -202,10 +227,12 @@
 				<string>olim</string>
 				<key>Feedback</key>
 				<string>All three words must be in Latin </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Prompt</key>
 				<string>Menelaus Spartam iam regebat</string>
 				<key>Question</key>
@@ -220,10 +247,12 @@
 				<string>iam</string>
 				<key>Feedback</key>
 				<string>Spart-am is accusative singular and Latin</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Prompt</key>
 				<string>et Menelaus erat vir Helenae</string>
 				<key>Question</key>
@@ -238,10 +267,12 @@
 				<string>Nominative</string>
 				<key>Feedback</key>
 				<string>The husband of Helen</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Prompt</key>
 				<string>ubi Paris Helenam vidit, magnopere amabat</string>
 				<key>Question</key>
@@ -256,10 +287,12 @@
 				<string>vidit</string>
 				<key>Feedback</key>
 				<string>great-ly is an adverb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Prompt</key>
 				<string>itaque Paris Helenam ad Troiam (Troy) ducere cupiebat</string>
 				<key>Question</key>
@@ -274,10 +307,12 @@
 				<string>Nominative - Subject</string>
 				<key>Feedback</key>
 				<string>ad forces Troi-am into the accusative case </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Prompt</key>
 				<string>Paris malus Helenam cepit</string>
 				<key>Question</key>
@@ -292,10 +327,12 @@
 				<string>cepi</string>
 				<key>Feedback</key>
 				<string>capio is the root word </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Prompt</key>
 				<string>Menelaus erat iratus</string>
 				<key>Question</key>
@@ -311,10 +348,12 @@
 				<key>Feedback</key>
 				<string>erat (he was)
 est (he is)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Prompt</key>
 				<string>Menelaus erat iratus</string>
 				<key>Question</key>
@@ -329,10 +368,12 @@ est (he is)</string>
 				<string>ratty</string>
 				<key>Feedback</key>
 				<string>irate means angry like iratus </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Prompt</key>
 				<string>We are carrying the woman </string>
 				<key>Question</key>
@@ -347,10 +388,12 @@ est (he is)</string>
 				<string>feminas</string>
 				<key>Feedback</key>
 				<string>woman has to be accusative singular as object of the verb </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Abduction of Helen</string>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Prompt</key>
 				<string>The sailors love the land</string>
 				<key>Question</key>
@@ -367,12 +410,14 @@ est (he is)</string>
 				<string>naut-ae (nom plu)
 terr-am (acc sing)
 ama-nt (they)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Prompt</key>
 				<string>ubi Paris Helenam cepit, Menelaus erat iratus</string>
 				<key>Question</key>
@@ -387,10 +432,12 @@ ama-nt (they)</string>
 				<string>erat</string>
 				<key>Feedback</key>
 				<string>iratus means angry = adjective </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Prompt</key>
 				<string>Menelaus igitur ad Agamemnonem festinavit</string>
 				<key>Question</key>
@@ -405,10 +452,12 @@ ama-nt (they)</string>
 				<string>Nominative - Subject of the verb</string>
 				<key>Feedback</key>
 				<string>accusative - ad forces it into this case </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Prompt</key>
 				<string>Agamemnon ad regiam (palace) suam amicos vocavit </string>
 				<key>Question</key>
@@ -424,11 +473,13 @@ ama-nt (they)</string>
 				<key>Feedback</key>
 				<string>vocavit = (he) called
 voc-at = (he) calls
-present tense, first conjugation</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
+present tense, first conjugation </string>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Prompt</key>
 				<string>amici erant principes (princes) Graecorum </string>
 				<key>Question</key>
@@ -443,11 +494,13 @@ present tense, first conjugation</string>
 				<string>esse</string>
 				<key>Feedback</key>
 				<string>erant = (they) were
-sunt = (they) are</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
+sunt = (they) are </string>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Prompt</key>
 				<string>amici ad Troiam navigare constituerunt </string>
 				<key>Question</key>
@@ -462,10 +515,12 @@ sunt = (they) are</string>
 				<string>Troiam</string>
 				<key>Feedback</key>
 				<string>amic-i = nominative plural </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Prompt</key>
 				<string>Helenam iterum capere cupiebant</string>
 				<key>Question</key>
@@ -480,10 +535,12 @@ sunt = (they) are</string>
 				<string>perfect tense - they</string>
 				<key>Feedback</key>
 				<string> -re is an infinitive ending (to take)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Prompt</key>
 				<string>nautae Graeci in portu (harbour) diu manebant </string>
 				<key>Question</key>
@@ -498,10 +555,12 @@ sunt = (they) are</string>
 				<string>neuter</string>
 				<key>Feedback</key>
 				<string>agrees with nautae which is masculine </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Prompt</key>
 				<string>Artemis dea nautis ventos non dedit</string>
 				<key>Question</key>
@@ -516,14 +575,16 @@ sunt = (they) are</string>
 				<string>discedo</string>
 				<key>Feedback</key>
 				<string>do (I give) is root word of dedit </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Prompt</key>
 				<string>The sailors remain here</string>
 				<key>Question</key>
-				<string>What is the correct translation of ‘remain’?</string>
+				<string>What is the correct translation of &apos;remain&apos;?</string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
@@ -534,10 +595,12 @@ sunt = (they) are</string>
 				<string>maneo</string>
 				<key>Feedback</key>
 				<string>mane-nt: they (the sailors) remain</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks Sail to Troy to Win Back Helen </string>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Prompt</key>
 				<string>You (s) frighten the inhabitants</string>
 				<key>Question</key>
@@ -553,12 +616,14 @@ sunt = (they) are</string>
 				<key>Feedback</key>
 				<string>terr-es (you sing)
 incol-as (inhabitants, accusative plural)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Prompt</key>
 				<string>ubi Graeci ad Troiam venerunt, e navibus (ships) discesserunt</string>
 				<key>Question</key>
@@ -573,10 +638,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>do</string>
 				<key>Feedback</key>
 				<string>discedo is the root word of discesserunt </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Prompt</key>
 				<string>in ora castra (camp) mox posuerunt</string>
 				<key>Question</key>
@@ -591,10 +658,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>Nominative - Subject of the verb</string>
 				<key>Feedback</key>
 				<string>in + ablative means in</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Prompt</key>
 				<string>contra Troianos in saevis proeliis pugnabant</string>
 				<key>Question</key>
@@ -609,10 +678,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>pugnat</string>
 				<key>Feedback</key>
 				<string>pugna-nt (present tense, third person plural)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Prompt</key>
 				<string>Troiam tamen non ceperunt</string>
 				<key>Question</key>
@@ -627,10 +698,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>tamen</string>
 				<key>Feedback</key>
 				<string>Troi-am is accusative singular as object of ceperunt </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Prompt</key>
 				<string>Graeci igitur erant miseri</string>
 				<key>Question</key>
@@ -645,10 +718,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>miseri</string>
 				<key>Feedback</key>
 				<string>Graeci is a Latin word and nominative plural here</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Prompt</key>
 				<string>ad patriam navigare iterum cupiverunt</string>
 				<key>Question</key>
@@ -663,12 +738,14 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>cupiverunt</string>
 				<key>Feedback</key>
 				<string>iterum = again = adverb </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Prompt</key>
-				<string>‘hic manete!’ clamavit Agamemnon</string>
+				<string>&apos;hic manete!&apos; clamavit Agamemnon</string>
 				<key>Question</key>
 				<string>What is the imperative in this sentence?</string>
 				<key>Marks</key>
@@ -681,10 +758,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>clamavit</string>
 				<key>Feedback</key>
 				<string>imperative is a verb part used when giving an order</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Prompt</key>
 				<string>Agamemnon multa et irata verba dixit</string>
 				<key>Question</key>
@@ -699,10 +778,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<string>masculine</string>
 				<key>Feedback</key>
 				<string>accusative plural of neuter noun verb-um</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Prompt</key>
 				<string>The men fear Agamemnon</string>
 				<key>Question</key>
@@ -718,10 +799,12 @@ incol-as (inhabitants, accusative plural)</string>
 				<key>Feedback</key>
 				<string>timent = fear
 terrent = frighten</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Greeks are Losing</string>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Prompt</key>
 				<string>The men have swords</string>
 				<key>Question</key>
@@ -738,12 +821,14 @@ terrent = frighten</string>
 				<string>viri (nom plu)
 gladios (acc plu)
 habent (have, present, they)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Prompt</key>
 				<string>quod Troiani eos (them) saepe superabant, Graeci erant miseri </string>
 				<key>Question</key>
@@ -758,10 +843,12 @@ habent (have, present, they)</string>
 				<string>erant</string>
 				<key>Feedback</key>
 				<string>the Greeks were miserable </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Prompt</key>
 				<string>post (after) unum proelium, Agamemnon feminam Troianam cepit</string>
 				<key>Question</key>
@@ -776,10 +863,12 @@ habent (have, present, they)</string>
 				<string>capere</string>
 				<key>Feedback</key>
 				<string>capio is the root word of cepit </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Prompt</key>
 				<string>nomen (name) feminae erat Chryseis </string>
 				<key>Question</key>
@@ -794,12 +883,14 @@ habent (have, present, they)</string>
 				<string>Nominative</string>
 				<key>Feedback</key>
 				<string>the name of (genitive) the woman </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Prompt</key>
-				<string>sacerdos (priest) monuit: ‘Agamemnon, feminam redde (give back)!</string>
+				<string>sacerdos (priest) monuit: &apos;Agamemnon, feminam redde (give back)!</string>
 				<key>Question</key>
 				<string>What tense is monuit?</string>
 				<key>Marks</key>
@@ -812,10 +903,12 @@ habent (have, present, they)</string>
 				<string>imperfect</string>
 				<key>Feedback</key>
 				<string>mon-ui is the perfect of moneo</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Prompt</key>
 				<string>pater (father) feminae erat sacerdos (priest) dei Apollonis (Apollo)</string>
 				<key>Question</key>
@@ -831,10 +924,12 @@ habent (have, present, they)</string>
 				<key>Feedback</key>
 				<string>de-i (genitive sing)
 de-orum (genitive plu)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Prompt</key>
 				<string>Apollo igitur in Graecos sagittas mittebat</string>
 				<key>Question</key>
@@ -849,10 +944,12 @@ de-orum (genitive plu)</string>
 				<string>Nominative - Subject of the verb</string>
 				<key>Feedback</key>
 				<string>sagitt-as acc plu object of mittebat </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Prompt</key>
 				<string>Agamemnon non fuit laetus quod feminam amabat</string>
 				<key>Question</key>
@@ -868,11 +965,13 @@ de-orum (genitive plu)</string>
 				<key>Feedback</key>
 				<string>fuit (he) was
 est (he) is
-third person singular</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
+third person singular </string>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Prompt</key>
 				<string>sed tandem patri (father - dative) feminam statim dedit</string>
 				<key>Question</key>
@@ -887,12 +986,14 @@ third person singular</string>
 				<string>verb</string>
 				<key>Feedback</key>
 				<string>statim = immediately = adverb</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Prompt</key>
-				<string>The priest shouted: ‘Give back the slave girl!’</string>
+				<string>The priest shouted: &apos;Give back the slave girl!&apos;</string>
 				<key>Question</key>
 				<string>What is the correct translation of slave girl here?</string>
 				<key>Marks</key>
@@ -905,10 +1006,12 @@ third person singular</string>
 				<string>ancillas</string>
 				<key>Feedback</key>
 				<string>ancill-am is accusative sing as object of verb </string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part One</string>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Prompt</key>
 				<string>We do not have a queen.</string>
 				<key>Question</key>
@@ -925,12 +1028,14 @@ third person singular</string>
 				<string>non (not)
 habe-mus (we have)
 regin-am (acc sing as object of habemus)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 		<array>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>0</integer>
 				<key>Prompt</key>
 				<string>ubi viri puellam ceperunt, Achilles erat magnopere iratus</string>
 				<key>Question</key>
@@ -945,10 +1050,12 @@ regin-am (acc sing as object of habemus)</string>
 				<string>adjective</string>
 				<key>Feedback</key>
 				<string>ubi = when = conjunction</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>1</integer>
 				<key>Prompt</key>
 				<string>iram Graecis ostendit</string>
 				<key>Question</key>
@@ -963,10 +1070,12 @@ regin-am (acc sing as object of habemus)</string>
 				<string>genitive</string>
 				<key>Feedback</key>
 				<string>Achilles showed his anger to (dative) the Greeks</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>2</integer>
 				<key>Prompt</key>
 				<string>dum (while) Graeci audiebant, Achilles verba saeva clamavit</string>
 				<key>Question</key>
@@ -981,12 +1090,14 @@ regin-am (acc sing as object of habemus)</string>
 				<string>clamavit</string>
 				<key>Feedback</key>
 				<string>both are neuter accusative plural</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>3</integer>
 				<key>Prompt</key>
-				<string>‘quod feminam meam cepisti, Agamemnon, non iam pugno’</string>
+				<string>&apos;quod feminam meam cepisti, Agamemnon, non iam pugno&apos;</string>
 				<key>Question</key>
 				<string>Put cepisti in the present tense, keeping person and number.</string>
 				<key>Marks</key>
@@ -1000,10 +1111,12 @@ regin-am (acc sing as object of habemus)</string>
 				<key>Feedback</key>
 				<string>cepisti (2nd person sing perfect)
 capis (2nd person singular present)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>4</integer>
 				<key>Prompt</key>
 				<string>itaque Achilles e bello viros suos duxit.</string>
 				<key>Question</key>
@@ -1018,10 +1131,12 @@ capis (2nd person singular present)</string>
 				<string>accusative - after preposition</string>
 				<key>Feedback</key>
 				<string>e forces bell-o into the ablative case</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>5</integer>
 				<key>Prompt</key>
 				<string>Achilles cum viris suis in tabernaculo (tent) manebat</string>
 				<key>Question</key>
@@ -1036,10 +1151,12 @@ capis (2nd person singular present)</string>
 				<string>cum</string>
 				<key>Feedback</key>
 				<string>agrees with viris and is a possessive adjective (his)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>6</integer>
 				<key>Prompt</key>
 				<string>Patroclus, amicus bonus, quoque (also) aderat</string>
 				<key>Question</key>
@@ -1054,14 +1171,16 @@ capis (2nd person singular present)</string>
 				<string>perfect</string>
 				<key>Feedback</key>
 				<string>ad-eram/s/t etc. imperfect of ad-sum</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>7</integer>
 				<key>Prompt</key>
 				<string>Agamemnon tamen timebat; Achilles erat optimus (best) Graecorum</string>
 				<key>Question</key>
-				<string>timebat - was afraid. How would you say ‘is afraid’?</string>
+				<string>timebat - was afraid. How would you say &apos;is afraid&apos;?</string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
@@ -1072,10 +1191,12 @@ capis (2nd person singular present)</string>
 				<string>timuit</string>
 				<key>Feedback</key>
 				<string>tim-et 3rd person present tense</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>8</integer>
 				<key>Prompt</key>
 				<string>Achilles frightens the friend.</string>
 				<key>Question</key>
@@ -1090,10 +1211,12 @@ capis (2nd person singular present)</string>
 				<string>amicos</string>
 				<key>Feedback</key>
 				<string>amic-um has to be accusative sing, object of frightens</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 			<dict>
+				<key>QnCat</key>
+				<string>The Anger of Achilles Part Two</string>
+				<key>QnNum</key>
+				<integer>9</integer>
 				<key>Prompt</key>
 				<string>They hurry across the fields.</string>
 				<key>Question</key>
@@ -1110,8 +1233,6 @@ capis (2nd person singular present)</string>
 				<string>trans (across)
 agr-os (acc plu after trans)
 festina-nt (they hurry)</string>
-				<key>Weighting</key>
-				<integer>-1</integer>
 			</dict>
 		</array>
 	</array>

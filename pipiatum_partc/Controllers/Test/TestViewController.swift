@@ -10,9 +10,11 @@ import UIKit
 
 class TestViewController: BasicMCViewController {
 
+    @IBOutlet weak var testMC: MCView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        testMC.setUpMC(senderTag: senderTag, componentName: "TestMCUtil")
     }
     
 }

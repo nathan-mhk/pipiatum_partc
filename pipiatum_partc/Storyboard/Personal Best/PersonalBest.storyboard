@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--PB View Controller-->
+        <!--PB-->
         <scene sceneID="6fC-pW-iDO">
             <objects>
-                <viewController id="EvY-lJ-tB2" userLabel="PB View Controller" customClass="PBViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EvY-lJ-tB2" userLabel="PB" customClass="PBViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vsR-q2-5tw" customClass="PersonalBest" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

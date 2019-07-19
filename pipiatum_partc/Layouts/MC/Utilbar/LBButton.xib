@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UtilityBar" customModule="pipiatum_partc" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="152"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-zY-P5c" customClass="UtilityButtons" customModule="pipiatum_partc" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="367" height="152"/>
+                    <state key="normal" title="Add to Laterbase"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="FiN-zY-P5c" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="B4R-89-hkN"/>
+                <constraint firstItem="FiN-zY-P5c" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="O83-wH-urO"/>
+                <constraint firstItem="FiN-zY-P5c" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="jAq-cq-F1Q"/>
+                <constraint firstItem="FiN-zY-P5c" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="wW1-zL-Tse"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="197.59999999999999" y="-78.260869565217391"/>
+        </view>
+    </objects>
+</document>

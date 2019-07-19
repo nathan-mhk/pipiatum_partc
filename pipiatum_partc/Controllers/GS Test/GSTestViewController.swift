@@ -10,8 +10,11 @@ import UIKit
 
 class GSTestViewController: BasicMCViewController {
 
+    @IBOutlet weak var gsMC: MCView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        gsMC.setUpMC(senderTag: senderTag, componentName: "LBButton")
     }
 
 }
