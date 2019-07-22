@@ -32,7 +32,7 @@ class SubMenu: UIView {
         subMenuImage.image = UIImage(named: imgName)
     }
     
-    func setBtnStack(buttons: Array<String>) {
+    func setBtnStack(buttons: Array<SubMenuItem>) {
         subMenuStackView.setUpButtonStack(buttons: buttons, stackHeight: subMenuStackHeight)
     }
 }

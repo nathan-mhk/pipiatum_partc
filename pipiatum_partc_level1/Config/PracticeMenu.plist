@@ -9,48 +9,48 @@
 			<integer>0</integer>
 			<key>Name</key>
 			<string>Perseus &amp; Medusa</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>vocab</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>1</integer>
 			<key>Name</key>
 			<string>The Abduction of Helen</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>mylb</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>2</integer>
 			<key>Name</key>
 			<string>The Greeks Sail to Troy to Win Back Helen</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>allin</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>3</integer>
 			<key>Name</key>
 			<string>The Greeks are Losing</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>nounss</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>4</integer>
 			<key>Name</key>
 			<string>The Anger of Achilles: Part One</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>verbs</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>5</integer>
 			<key>Name</key>
 			<string>The Anger of Achilles: Part Two</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>settings</string>
 		</dict>
 	</array>
 </dict>

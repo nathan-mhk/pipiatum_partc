@@ -1,15 +1,15 @@
 //
-//  BasicButtonComponent.swift
+//  ListButton.swift
 //  pipiatum_partc
 //
-//  Created by Nathan Kong on 26/6/2019.
+//  Created by Nathan Kong on 22/7/2019.
 //  Copyright © 2019 Nathan Kong. All rights reserved.
 //
 
 import UIKit
 
-class BasicButtonComponent: UIButton {
-
+class ListButton: UIButton {
+    
     override required init(frame: CGRect) {
         super.init(frame: frame)
         setUpButton()
@@ -24,11 +24,7 @@ class BasicButtonComponent: UIButton {
         //Prevent multitouch
         isExclusiveTouch = true
         
-        //Rounding the corners
-        layer.cornerRadius = 10
-        
-        //BGColor: #103B72, White bold 16 text
-        backgroundColor = UIColor(hexString: "103B72")
+        //White bold 16 text
         setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         

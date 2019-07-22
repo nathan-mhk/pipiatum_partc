@@ -8,17 +8,7 @@
 
 import UIKit
 
-class SubMenuButton: BasicButtonComponent {
-    
-    required init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpButton()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpButton()
-    }
+class SubMenuButton: ListButton {
     
     class func newButton() -> SubMenuButton {
         let newButton = SubMenuButton.init(type: .system)

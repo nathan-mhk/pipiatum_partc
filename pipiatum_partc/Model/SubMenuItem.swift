@@ -11,17 +11,16 @@ import UIKit
 class SubMenuItem {
     var ID: Int = -1
     var Name: String = ""
-    var Dir: String = ""
+    var ImgName: String = ""
     
     init?(menuContent: NSDictionary) {
-        let id = menuContent.object(forKey: "ID") as? Int
-        let name = menuContent.object(forKey: "Name") as? String
-        let dir = menuContent.object(forKey: "Directory") as? String
-        
-        if id != nil && name != nil && dir != nil {
-            self.ID = id!
-            self.Name = name!
-            self.Dir = dir!
+        if let id = menuContent.object(forKey: "ID") as? Int,
+            let name = menuContent.object(forKey: "Name") as? String,
+            let imgName = menuContent.object(forKey: "ImgName") as? String {
+            
+            self.ID = id
+            self.Name = name
+            self.ImgName = imgName
         }
         else {
             return nil

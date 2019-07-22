@@ -49,13 +49,14 @@ class BasicMCViewController: BasicViewController {
                 GSquestions.append(MCquestions)
                 MCquestions.removeAll()
                 //Debug Msg
-//                for j in 1...GSquestions[questionType].count {
-//                    print(GSquestions[questionType][j - 1].Question)
-//                    print(GSquestions[questionType][j - 1].CorrectAns)
-//                    print(GSquestions[questionType][j - 1].Distractor1)
-//                    print(GSquestions[questionType][j - 1].Distractor2)
-//                    print(GSquestions[questionType][j - 1].Weighting)
-//                }
+                for j in 1...GSquestions[questionType].count {
+                    print(GSquestions[questionType][j - 1].QnType!)
+                    print(GSquestions[questionType][j - 1].Question)
+                    print(GSquestions[questionType][j - 1].CorrectAns)
+                    print(GSquestions[questionType][j - 1].Distractor1)
+                    print(GSquestions[questionType][j - 1].Distractor2)
+                    print("\n")
+                }
             }
             print("Loaded GS MC")
             return
@@ -71,12 +72,14 @@ class BasicMCViewController: BasicViewController {
         }
         //Debug Msg
         print("Loaded Practice/Test MC")
-//        for question in MCquestions {
-//            print(question.Question)
-//            print(question.CorrectAns)
-//            print(question.Distractor1)
-//            print(question.Distractor2)
-//            print(question.Weighting)
-//        }
+        for question in MCquestions {
+            print(question.QnNum)
+            print(question.Prompt!)
+            print(question.Question)
+            print(question.CorrectAns)
+            print(question.Distractor1)
+            print(question.Distractor2)
+            print("\n")
+        }
     }
 }

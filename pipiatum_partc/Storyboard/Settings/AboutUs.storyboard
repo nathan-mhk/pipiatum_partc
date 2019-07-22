@@ -56,7 +56,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZh-Rp-03e" userLabel="IntroPart1">
                                                 <rect key="frame" x="0.0" y="78.5" width="335" height="95.5"/>
-                                                <string key="text">Pipiatum Level 2 covers Level 2 of the ISEB classics CE syllabus. It follows from Level 1 and it supports Year 7 and Year 8 students revising their Latin for the UK's Common Entrance Exam.</string>
+                                                <string key="text">Pipiatum Part C covers Part C of the ISEB Classics CE Syllabus. The App focuses on the student’s knowledge of grammar and their ability to provide English derivations, based on a passage provided in the exam.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -101,8 +101,8 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sic-B1-nna" userLabel="CreditsContentLabel">
-                                                <rect key="frame" x="0.0" y="529.5" width="335" height="210.5"/>
-                                                <string key="text">Pipiatum is owned, designed and created by World Class Arena. Development is overseen by Katie Dalton. Programming and production is led by Trumptech. The illustrations are created by Caroline Miekina. Mark Maddocks, Deputy Headteacher at Notting Hill Prep, wrote the questions and activities for students. The voices are of Lucy Price (Lyndhurst House School and IAPS Classics Subject Leader), Keith Rogers and Julia Gray (Notting Hill Prep).</string>
+                                                <rect key="frame" x="0.0" y="529.5" width="335" height="134"/>
+                                                <string key="text">Pipiatum is owned, designed and created by World Class Arena Limited. Programming and production was led by Trumptech. The illustrations were created by Caroline Miekina. Mark Maddocks, Head of Junior School at Northwood College, wrote the questions and activities for students.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>

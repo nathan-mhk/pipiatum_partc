@@ -30,7 +30,7 @@ class MultChoice {
     
     init?(mcQn: NSDictionary) {
         //TODO: Fix this
-        /*
+        
         if let qnNum = mcQn.object(forKey: "QnNum") as? Int,
             let question = mcQn.object(forKey: "Question") as? String,
             let correctAns = mcQn.object(forKey: "CorrectAns") as? String,
@@ -50,8 +50,7 @@ class MultChoice {
         if let exCat = mcQn.object(forKey: "QnCat") as? String,
             let prompt = mcQn.object(forKey: "Prompt") as? String,
             let marks = mcQn.object(forKey: "Marks") as? Int,
-            let feedback = mcQn.object(forKey: "Feedback") as? String,
-            let qnType = mcQn.object(forKey: "QnCat") as? Int {
+            let feedback = mcQn.object(forKey: "Feedback") as? String {
             
             //For Practice/Test
             self.Prompt = prompt
@@ -61,15 +60,16 @@ class MultChoice {
             //print("Practice/Test questions")
         }
         else  {
+            let qnType = mcQn.object(forKey: "QnCat") as? Int
             self.Prompt = nil
             self.Marks = nil
             self.Feedback = nil
             self.QnType = qnType
             //print("GS questions")
         }
- */
+ 
         
-        
+        /*
         //For both qn type
         let qnNum = mcQn.object(forKey: "QnNum") as? Int
         let question = mcQn.object(forKey: "Question") as? String
@@ -114,6 +114,7 @@ class MultChoice {
             self.QnType = qnType
             //print("GS questions")
         }
+ */
         
     }
 }

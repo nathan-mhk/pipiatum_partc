@@ -53,11 +53,6 @@ class BasicSubMenuViewController: BasicViewController {
     func setUpSubMenu(subMenu: SubMenu) {
         var imgName: String = ""
         
-        var subMenuButtons: Array<String> = Array()
-        for item in buttons {
-            subMenuButtons.append(item.Name)
-        }
-        
         switch subMenu.id {
         case "practice":
             //To be replaced by practice menu sticker
@@ -73,7 +68,7 @@ class BasicSubMenuViewController: BasicViewController {
             break
         }
         subMenu.setImage(imgName: imgName)
-        subMenu.setBtnStack(buttons: subMenuButtons)
+        subMenu.setBtnStack(buttons: buttons)
     }
     
     //MARK: MUST OVERRIDE

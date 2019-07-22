@@ -12,12 +12,13 @@ func setUpComponent(componentName: String, superView: AnyObject) {
     
     //Load the component with the name <componentName> with loadNibNamed (return an array of UIView)
     //Take the first item of the [UIView] and addSubView and set constraints (fill up the superView)
-    if let component = Bundle.main.loadNibNamed(componentName, owner: superView, options: nil) as? [UIView], let firstComponent = component.first {
+    if let component = Bundle.main.loadNibNamed(componentName, owner: superView, options: nil)?.first as? UIView {
         if let viewController = superView as? UIViewController {
-            viewController.view.addSubview(firstComponent)
-            firstComponent.frame = viewController.view.bounds
+            viewController.view.addSubview(component)
+            component.frame = viewController.view.bounds
         }
-        superView.addSubview(firstComponent)
-        firstComponent.frame = superView.bounds
+        superView.addSubview(component)
+        component.frame = superView.bounds
     }
+    
 }

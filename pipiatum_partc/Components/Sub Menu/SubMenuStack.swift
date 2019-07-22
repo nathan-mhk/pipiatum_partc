@@ -22,34 +22,39 @@ class SubMenuStack: UIStackView {
     var btnHeight = CGFloat(60)
     
     //MARK: Set Up Functions
-    func setUpButtonStack(buttons: Array<String>, stackHeight: NSLayoutConstraint) {
+    func setUpButtonStack(buttons: Array<SubMenuItem>, stackHeight: NSLayoutConstraint) {
         
-        //cleanSubViews()
         setStackHeight(buttons: buttons, stackHeight: stackHeight)
-        addButtons(buttons: buttons)
+        //ListButtonView().addListButtons(buttons: buttons, btnHeight: btnHeight, superView: self)
+        addListButtons(buttons: buttons)
+        //addButtons(buttons: buttons)
     }
     
     //Set the height constraint of the subMenuStackView
-    private func setStackHeight(buttons: Array<String>, stackHeight: NSLayoutConstraint) {
+    private func setStackHeight(buttons: Array<SubMenuItem>, stackHeight: NSLayoutConstraint) {
         let buttonCount = CGFloat(buttons.count)
         let totalSpacing = self.spacing * (buttonCount - 1.0)
         
         btnHeight = (self.frame.height - totalSpacing) / buttonCount
         btnHeight = btnHeight < 55.0 ? 55.0 : btnHeight
-        btnHeight = btnHeight > 70.0 ? 70.0 : btnHeight
+        btnHeight = btnHeight > 80.0 ? 80.0 : btnHeight
         
         let totalButtonsHeight = btnHeight * buttonCount
         stackHeight.constant = totalButtonsHeight + totalSpacing
     }
     
     //Add buttons into subMenuStackView
-    private func addButtons(buttons: Array<String>) {
+    private func addButtons(buttons: Array<SubMenuItem>) {
         var arrayIndex = 0
         for button in buttons {
             let subMenuButton = SubMenuButton.newButton()
             
             subMenuButton.tag = arrayIndex
-            subMenuButton.setTitle(button, for: .normal)
+            if arrayIndex % 2 == 1 {
+                subMenuButton.backgroundColor = UIColor(hexString: "195092")
+            }
+            subMenuButton.setTitle(button.Name, for: .normal)
+            //subMenuButton.setLeftImg(imgName: button.ImgName)
             subMenuButton.titleLabel?.textAlignment = .center
             subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
             subMenuButton.translatesAutoresizingMaskIntoConstraints = false
@@ -60,4 +65,13 @@ class SubMenuStack: UIStackView {
         }
     }
     
+    private func addListButtons(buttons: Array<SubMenuItem>) {
+        var arrayIndex = 0
+        for button in buttons {
+            let listButton = ListButtonView()
+            listButton.setUpListButton(id: button.ID, title: button.Name, imgName: button.ImgName, btnHeight: CGFloat(btnHeight))
+            self.addArrangedSubview(listButton)
+            arrayIndex += 1
+        }
+    }
 }

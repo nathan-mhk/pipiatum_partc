@@ -9,40 +9,40 @@
 			<integer>0</integer>
 			<key>Name</key>
 			<string>The Anger of Achilles: Part Three</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>pa</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>1</integer>
 			<key>Name</key>
 			<string>The Anger of Achilles: Part Four</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>Supplementary Verbs</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>2</integer>
 			<key>Name</key>
 			<string>The Anger of Achilles: Part Five</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>verbs</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>3</integer>
 			<key>Name</key>
 			<string>The Wooden Horse: Part One</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>vocab</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>4</integer>
 			<key>Name</key>
 			<string>The Wooden Horse: Part Two</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>allin</string>
 		</dict>
 	</array>
 </dict>

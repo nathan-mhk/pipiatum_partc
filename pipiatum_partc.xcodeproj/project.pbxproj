@@ -210,6 +210,15 @@
 		D8A8F02822E1BEDD00BC1915 /* TestMCUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */; };
 		D8A8F02922E1BEDD00BC1915 /* TestMCUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */; };
 		D8A8F02A22E1BEDD00BC1915 /* TestMCUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */; };
+		D8B3705222E55F3E00A77776 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B3705122E55F3E00A77776 /* ListButton.xib */; };
+		D8B3705322E55F3E00A77776 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B3705122E55F3E00A77776 /* ListButton.xib */; };
+		D8B3705422E55F3E00A77776 /* ListButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B3705122E55F3E00A77776 /* ListButton.xib */; };
+		D8B3705622E55F6C00A77776 /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3705522E55F6C00A77776 /* ListButton.swift */; };
+		D8B3705722E55F6C00A77776 /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3705522E55F6C00A77776 /* ListButton.swift */; };
+		D8B3705822E55F6C00A77776 /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3705522E55F6C00A77776 /* ListButton.swift */; };
+		D8B3706222E5917D00A77776 /* ListButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3706122E5917D00A77776 /* ListButtonView.swift */; };
+		D8B3706322E5917D00A77776 /* ListButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3706122E5917D00A77776 /* ListButtonView.swift */; };
+		D8B3706422E5917D00A77776 /* ListButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3706122E5917D00A77776 /* ListButtonView.swift */; };
 		D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ECF922C49F3100872829 /* MenuButton.swift */; };
 		D8D0ED0322C4BC9000872829 /* PersonalBest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0ED0222C4BC9000872829 /* PersonalBest.swift */; };
@@ -339,6 +348,9 @@
 		D8A8F01922E1B0C600BC1915 /* GSMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GSMC.plist; sourceTree = "<group>"; };
 		D8A8F02322E1B6E700BC1915 /* LBButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBButton.xib; sourceTree = "<group>"; };
 		D8A8F02722E1BEDD00BC1915 /* TestMCUtil.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestMCUtil.xib; sourceTree = "<group>"; };
+		D8B3705122E55F3E00A77776 /* ListButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListButton.xib; path = pipiatum_partc/Layouts/ListButton.xib; sourceTree = SOURCE_ROOT; };
+		D8B3705522E55F6C00A77776 /* ListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		D8B3706122E5917D00A77776 /* ListButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListButtonView.swift; sourceTree = "<group>"; };
 		D8D0ECF922C49F3100872829 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultScreenView.xib; sourceTree = "<group>"; };
 		D8D0ED0222C4BC9000872829 /* PersonalBest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBest.swift; sourceTree = "<group>"; };
@@ -535,6 +547,7 @@
 			children = (
 				D88DA85122BC7588002CFC39 /* MenuBanner.xib */,
 				D895078C22C37D02006DB1B1 /* SubMenu.xib */,
+				D8B3705122E55F3E00A77776 /* ListButton.xib */,
 				D8A815EB22E18DAA0023A2E6 /* MC */,
 				D8D0ECFC22C4AD1A00872829 /* ResultScreenView.xib */,
 				D88C499022D5E682001A6663 /* PersonalBestView.xib */,
@@ -561,6 +574,8 @@
 			isa = PBXGroup;
 			children = (
 				D895078522C3613B006DB1B1 /* BasicButtonComponent.swift */,
+				D8B3705522E55F6C00A77776 /* ListButton.swift */,
+				D8B3706122E5917D00A77776 /* ListButtonView.swift */,
 			);
 			path = "Basic Components";
 			sourceTree = "<group>";
@@ -885,6 +900,7 @@
 				D88DA85222BC7588002CFC39 /* MenuBanner.xib in Resources */,
 				D8D1D56222E080560024AF8F /* Test.storyboard in Resources */,
 				D89C2D8922C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
+				D8B3705222E55F3E00A77776 /* ListButton.xib in Resources */,
 				D8D1D55222E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
 				D8A8F02022E1B0C700BC1915 /* GSMC.plist in Resources */,
 				D8D1D55622E07E450024AF8F /* LBResult.storyboard in Resources */,
@@ -934,6 +950,7 @@
 				D89C2D8722C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499222D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D89C2D9022C1C2A500606571 /* PersonalBestMenu.storyboard in Resources */,
+				D8B3705322E55F3E00A77776 /* ListButton.xib in Resources */,
 				D89C2D8D22C1C29900606571 /* TestMenu.storyboard in Resources */,
 				D8D1D55322E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
 				D8A8F01B22E1B0C700BC1915 /* PracticeMC.plist in Resources */,
@@ -974,6 +991,7 @@
 				D8965DD722CDCDA9007D32BB /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499322D5E682001A6663 /* PersonalBestView.xib in Resources */,
 				D8965DD822CDCDA9007D32BB /* PersonalBestMenu.storyboard in Resources */,
+				D8B3705422E55F3E00A77776 /* ListButton.xib in Resources */,
 				D8965DDA22CDCDA9007D32BB /* TestMenu.storyboard in Resources */,
 				D8D1D55422E0776E0024AF8F /* GSTestResult.storyboard in Resources */,
 				D8A8F01C22E1B0C700BC1915 /* PracticeMC.plist in Resources */,
@@ -1018,6 +1036,7 @@
 				D84CA71622BA3ECE00E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */,
 				D80A520722DC721D00C896A8 /* MCDelegate.swift in Sources */,
+				D8B3706222E5917D00A77776 /* ListButtonView.swift in Sources */,
 				D89ADF0022C606A100810E23 /* TestViewController.swift in Sources */,
 				D89ADEF422C6056500810E23 /* LBResultViewController.swift in Sources */,
 				D8930E9B22DEF5C900873AD4 /* MultChoice.swift in Sources */,
@@ -1047,6 +1066,7 @@
 				D89ADF0322C606AB00810E23 /* TestResultViewController.swift in Sources */,
 				D8A7BADF22D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D89ADEE222C602C400810E23 /* GSTestResultViewController.swift in Sources */,
+				D8B3705622E55F6C00A77776 /* ListButton.swift in Sources */,
 				D88DA84F22BC751B002CFC39 /* MenuViewController.swift in Sources */,
 				D8A5446E22DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3222D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
@@ -1082,6 +1102,7 @@
 				D84CA73422BA3F7300E7B16F /* AppDelegate.swift in Sources */,
 				D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */,
 				D80A520822DC721D00C896A8 /* MCDelegate.swift in Sources */,
+				D8B3706322E5917D00A77776 /* ListButtonView.swift in Sources */,
 				D89ADF0122C606A100810E23 /* TestViewController.swift in Sources */,
 				D89ADEF522C6056500810E23 /* LBResultViewController.swift in Sources */,
 				D8930E9C22DEF5C900873AD4 /* MultChoice.swift in Sources */,
@@ -1111,6 +1132,7 @@
 				D89ADF0422C606AB00810E23 /* TestResultViewController.swift in Sources */,
 				D8A7BAE022D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D89ADEE322C602C400810E23 /* GSTestResultViewController.swift in Sources */,
+				D8B3705722E55F6C00A77776 /* ListButton.swift in Sources */,
 				D88DA85022BC756C002CFC39 /* MenuViewController.swift in Sources */,
 				D8A5446F22DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3322D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,
@@ -1138,6 +1160,7 @@
 				D8965DB822CDCDA9007D32BB /* AppDelegate.swift in Sources */,
 				D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */,
 				D80A520922DC721D00C896A8 /* MCDelegate.swift in Sources */,
+				D8B3706422E5917D00A77776 /* ListButtonView.swift in Sources */,
 				D8965DB922CDCDA9007D32BB /* TestViewController.swift in Sources */,
 				D8965DBA22CDCDA9007D32BB /* LBResultViewController.swift in Sources */,
 				D8930E9D22DEF5C900873AD4 /* MultChoice.swift in Sources */,
@@ -1167,6 +1190,7 @@
 				D8965DCB22CDCDA9007D32BB /* TestResultViewController.swift in Sources */,
 				D8A7BAE122D83AF30054A570 /* SubMenuItem.swift in Sources */,
 				D8965DCC22CDCDA9007D32BB /* GSTestResultViewController.swift in Sources */,
+				D8B3705822E55F6C00A77776 /* ListButton.swift in Sources */,
 				D8965DCD22CDCDA9007D32BB /* MenuViewController.swift in Sources */,
 				D8A5447022DC27CE00D32E8C /* SubMenuButton.swift in Sources */,
 				D88D0D3422D4448C00F5C8FC /* BasicSubMenuViewController.swift in Sources */,

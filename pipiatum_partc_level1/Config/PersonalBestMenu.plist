@@ -9,24 +9,24 @@
 			<integer>0</integer>
 			<key>Name</key>
 			<string>Grammar Smarts</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>allin</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>1</integer>
 			<key>Name</key>
 			<string>Practice</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>mylb</string>
 		</dict>
 		<dict>
 			<key>ID</key>
 			<integer>2</integer>
 			<key>Name</key>
 			<string>Test</string>
-			<key>Directory</key>
-			<string></string>
+			<key>ImgName</key>
+			<string>vocab</string>
 		</dict>
 	</array>
 </dict>
