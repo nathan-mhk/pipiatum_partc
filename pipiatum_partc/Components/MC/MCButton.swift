@@ -8,6 +8,6 @@
 
 import UIKit
 
-class MCButton: UIButton {
-
+class MCButton: ListButton {
+    
 }

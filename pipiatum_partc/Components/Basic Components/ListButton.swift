@@ -8,24 +8,11 @@
 
 import UIKit
 
-class ListButton: UIButton {
+class ListButton: BasicButtonComponent {
     
-    override required init(frame: CGRect) {
-        super.init(frame: frame)
-        setUpButton()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setUpButton()
-    }
-    
-    func setUpButton() {
+    override func setUpButton() {
         //Prevent multitouch
         isExclusiveTouch = true
-        
-        //TODO
-        //titleEdgeInsets
         
         //White bold 16 text
         setTitleColor(.white, for: .normal)

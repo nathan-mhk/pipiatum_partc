@@ -13,17 +13,21 @@ class MenuButton: BasicButtonComponent {
     required init(frame: CGRect) {
         super.init(frame: frame)
         setUpButton()
-        setUpAlign()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUpButton()
-        setUpAlign()
     }
     
-    func setUpAlign() {
+    override func setUpButton() {
+        //Prevent multitouch
+        isExclusiveTouch = true
+        
+        //White bold 16 text
+        setTitleColor(.white, for: .normal)
+        titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -30)
     }
-
+    
 }

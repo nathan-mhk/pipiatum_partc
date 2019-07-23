@@ -30,7 +30,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vWS-Qe-EcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1069" y="-23"/>
+            <point key="canvasLocation" x="-913" y="-25"/>
         </scene>
         <!--Home-->
         <scene sceneID="rBV-wQ-qh3">
@@ -49,17 +49,17 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZF-b3-iz1" userLabel="MenuBtnsBackground">
                                 <rect key="frame" x="0.0" y="151" width="375" height="452"/>
-                                <color key="backgroundColor" red="0.099831648170948029" green="0.33341634273529053" blue="0.63660579919815063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.098039215686274508" green="0.31372549019607843" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6N0-6D-fdM" userLabel="MenuButtonsView">
                                 <rect key="frame" x="0.0" y="151" width="375" height="452"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-Yx-fhd" userLabel="MenuButtonStack">
-                                        <rect key="frame" x="37.5" y="33.5" width="300" height="384.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-Yx-fhd" userLabel="MenuButtonStack">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="452"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3J-F7-Sbb" userLabel="GrammarSmartsButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="61"/>
-                                                <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                                <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Grammar Smarts">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -68,8 +68,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiI-d0-ZGg" userLabel="PracticeButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="81" width="300" height="61"/>
-                                                <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="90" width="375" height="90.5"/>
+                                                <color key="backgroundColor" red="0.098039215686274508" green="0.31372549019607843" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Practice">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -78,8 +78,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHz-de-lVF" userLabel="TestButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="162" width="300" height="61"/>
-                                                <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="180.5" width="375" height="90.5"/>
+                                                <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Test">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -88,8 +88,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax0-Ml-3NP" userLabel="PBButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="243" width="300" height="60.5"/>
-                                                <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="271" width="375" height="90.5"/>
+                                                <color key="backgroundColor" red="0.098039215686274508" green="0.31372549019607843" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Personal Best">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -98,8 +98,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrD-EL-l6e" userLabel="SettingsButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="323.5" width="300" height="61"/>
-                                                <color key="backgroundColor" red="0.0830560103058815" green="0.24975919723510742" blue="0.46151083707809448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="361.5" width="375" height="90.5"/>
+                                                <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Settings">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -108,26 +108,24 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <variation key="heightClass=compact-widthClass=compact" spacing="8"/>
-                                        <variation key="heightClass=compact-widthClass=regular" spacing="8"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vocab" translatesAutoresizingMaskIntoConstraints="NO" id="Re3-4e-CsZ" userLabel="gsIcon">
-                                        <rect key="frame" x="63" y="38" width="54" height="52"/>
+                                        <rect key="frame" x="32.5" y="13.5" width="66" height="63"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Re3-4e-CsZ" secondAttribute="height" multiplier="246:236" id="BMY-cQ-rKL"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mylb" translatesAutoresizingMaskIntoConstraints="NO" id="Bp8-NM-1gY" userLabel="practiceIcon">
-                                        <rect key="frame" x="63" y="119" width="54" height="52"/>
+                                        <rect key="frame" x="32.5" y="104" width="66" height="63"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="allin" translatesAutoresizingMaskIntoConstraints="NO" id="1TF-3d-Ca2" userLabel="testIcon">
-                                        <rect key="frame" x="63" y="200" width="54" height="52"/>
+                                        <rect key="frame" x="32.5" y="194" width="66" height="63.5"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vocab" translatesAutoresizingMaskIntoConstraints="NO" id="QQo-Q5-SF8" userLabel="pbIcon">
-                                        <rect key="frame" x="63" y="281" width="54" height="51.5"/>
+                                        <rect key="frame" x="32.5" y="284.5" width="66" height="63.5"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="he4-lM-VZq" userLabel="settingsIcon">
-                                        <rect key="frame" x="63" y="362" width="54" height="51.5"/>
+                                        <rect key="frame" x="32.5" y="375" width="66" height="63.5"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.099831648170948029" green="0.33341634273529053" blue="0.63660579919815063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -142,19 +140,16 @@
                                     <constraint firstItem="1TF-3d-Ca2" firstAttribute="height" secondItem="Re3-4e-CsZ" secondAttribute="height" id="WO5-jT-B4D" userLabel="NoNeedChange"/>
                                     <constraint firstItem="Bp8-NM-1gY" firstAttribute="centerY" secondItem="LiI-d0-ZGg" secondAttribute="centerY" id="WV7-jC-5XN" userLabel="NoNeedChange"/>
                                     <constraint firstItem="Bp8-NM-1gY" firstAttribute="centerX" secondItem="Re3-4e-CsZ" secondAttribute="centerX" id="WvZ-Ob-fRp" userLabel="NoNeedChange"/>
-                                    <constraint firstItem="lNA-Yx-fhd" firstAttribute="height" secondItem="6N0-6D-fdM" secondAttribute="height" multiplier="0.85" id="XBZ-yQ-JV7" userLabel="MenuButtonStack.height">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="30"/>
-                                        <variation key="heightClass=compact-widthClass=regular" constant="30"/>
-                                    </constraint>
+                                    <constraint firstItem="lNA-Yx-fhd" firstAttribute="height" secondItem="6N0-6D-fdM" secondAttribute="height" id="XBZ-yQ-JV7" userLabel="MenuButtonStack.height"/>
                                     <constraint firstItem="Bp8-NM-1gY" firstAttribute="width" secondItem="Re3-4e-CsZ" secondAttribute="width" id="fyt-hk-mH1" userLabel="NoNeedChange"/>
-                                    <constraint firstItem="Re3-4e-CsZ" firstAttribute="height" secondItem="a3J-F7-Sbb" secondAttribute="height" multiplier="0.85" id="gQT-fT-Nnf" userLabel="Height of Menu Button Icons"/>
+                                    <constraint firstItem="Re3-4e-CsZ" firstAttribute="height" secondItem="a3J-F7-Sbb" secondAttribute="height" multiplier="0.7" id="gQT-fT-Nnf" userLabel="Height of Menu Button Icons"/>
                                     <constraint firstItem="he4-lM-VZq" firstAttribute="width" secondItem="Re3-4e-CsZ" secondAttribute="width" id="hxR-id-VUv" userLabel="NoNeedChange"/>
                                     <constraint firstItem="QQo-Q5-SF8" firstAttribute="height" secondItem="Re3-4e-CsZ" secondAttribute="height" id="jjm-ee-cFk" userLabel="NoNeedChange"/>
                                     <constraint firstItem="QQo-Q5-SF8" firstAttribute="centerY" secondItem="ax0-Ml-3NP" secondAttribute="centerY" id="kjS-1i-NOc" userLabel="NoNeedChange"/>
                                     <constraint firstItem="1TF-3d-Ca2" firstAttribute="width" secondItem="Re3-4e-CsZ" secondAttribute="width" id="ma6-LC-2OQ" userLabel="NoNeedChange"/>
                                     <constraint firstItem="Bp8-NM-1gY" firstAttribute="height" secondItem="Re3-4e-CsZ" secondAttribute="height" id="nQM-XA-eqe" userLabel="NoNeedChange"/>
                                     <constraint firstItem="he4-lM-VZq" firstAttribute="centerY" secondItem="GrD-EL-l6e" secondAttribute="centerY" id="o5V-Hr-8z6" userLabel="NoNeedChange"/>
-                                    <constraint firstItem="lNA-Yx-fhd" firstAttribute="width" secondItem="6N0-6D-fdM" secondAttribute="width" multiplier="0.8" id="pHv-nU-2Vh" userLabel="MenuButtonStack.width"/>
+                                    <constraint firstItem="lNA-Yx-fhd" firstAttribute="width" secondItem="6N0-6D-fdM" secondAttribute="width" id="pHv-nU-2Vh" userLabel="MenuButtonStack.width"/>
                                     <constraint firstItem="lNA-Yx-fhd" firstAttribute="centerX" secondItem="6N0-6D-fdM" secondAttribute="centerX" id="rtt-gR-la5" userLabel="MenuButtonStack.centerX"/>
                                     <constraint firstItem="he4-lM-VZq" firstAttribute="centerX" secondItem="Re3-4e-CsZ" secondAttribute="centerX" id="unl-kn-wzX" userLabel="NoNeedChange"/>
                                     <constraint firstItem="lNA-Yx-fhd" firstAttribute="centerY" secondItem="6N0-6D-fdM" secondAttribute="centerY" id="zeh-Qm-y92" userLabel="MenuButtonStack.centerY"/>
@@ -174,7 +169,9 @@
                             <constraint firstItem="Yhe-CF-9Tb" firstAttribute="bottom" secondItem="Jyu-bn-rK7" secondAttribute="centerY" multiplier="0.5" id="bPf-Sy-S0F"/>
                             <constraint firstItem="6N0-6D-fdM" firstAttribute="leading" secondItem="4d7-ky-stR" secondAttribute="leading" id="fQe-Qg-Whx"/>
                             <constraint firstAttribute="bottom" secondItem="LZF-b3-iz1" secondAttribute="bottom" id="jeZ-Tz-3gd"/>
-                            <constraint firstItem="6N0-6D-fdM" firstAttribute="bottom" secondItem="Jyu-bn-rK7" secondAttribute="bottom" id="jgS-q9-Qci"/>
+                            <constraint firstItem="6N0-6D-fdM" firstAttribute="bottom" secondItem="Jyu-bn-rK7" secondAttribute="bottom" id="jgS-q9-Qci">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-150"/>
+                            </constraint>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jyu-bn-rK7"/>
                     </view>
@@ -198,7 +195,7 @@
                 <viewControllerPlaceholder storyboardName="PracticeMenu" id="qUh-Vy-IBU" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hn6-bX-sC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="-94"/>
+            <point key="canvasLocation" x="859" y="-94"/>
         </scene>
         <!--TestMenu-->
         <scene sceneID="UOm-5s-WZJ">
@@ -206,7 +203,7 @@
                 <viewControllerPlaceholder storyboardName="TestMenu" id="e4R-2g-DkM" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prX-DS-XQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="-25"/>
+            <point key="canvasLocation" x="840" y="-26"/>
         </scene>
         <!--PersonalBestMenu-->
         <scene sceneID="oVO-Zc-elr">
@@ -214,7 +211,7 @@
                 <viewControllerPlaceholder storyboardName="PersonalBestMenu" id="FMS-ET-9EM" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMY-IR-IAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="51"/>
+            <point key="canvasLocation" x="883" y="49"/>
         </scene>
         <!--Settings-->
         <scene sceneID="m9B-uk-C1F">
@@ -222,7 +219,7 @@
                 <viewControllerPlaceholder storyboardName="Settings" id="jwz-Ud-sGI" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3X-01-00g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="134"/>
+            <point key="canvasLocation" x="833" y="114"/>
         </scene>
     </scenes>
     <resources>

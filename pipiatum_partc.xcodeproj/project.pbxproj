@@ -39,6 +39,12 @@
 		D8891FE622E6B1D7000103B0 /* LBReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FE522E6B1D7000103B0 /* LBReviewViewController.swift */; };
 		D8891FE722E6B1D7000103B0 /* LBReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FE522E6B1D7000103B0 /* LBReviewViewController.swift */; };
 		D8891FE822E6B1D7000103B0 /* LBReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FE522E6B1D7000103B0 /* LBReviewViewController.swift */; };
+		D8891FEA22E700DA000103B0 /* MCQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FE922E700DA000103B0 /* MCQuestion.swift */; };
+		D8891FEB22E700DB000103B0 /* MCQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FE922E700DA000103B0 /* MCQuestion.swift */; };
+		D8891FEC22E700DB000103B0 /* MCQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FE922E700DA000103B0 /* MCQuestion.swift */; };
+		D8891FEE22E700F2000103B0 /* MCChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FED22E700F2000103B0 /* MCChoice.swift */; };
+		D8891FEF22E700F2000103B0 /* MCChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FED22E700F2000103B0 /* MCChoice.swift */; };
+		D8891FF022E700F2000103B0 /* MCChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891FED22E700F2000103B0 /* MCChoice.swift */; };
 		D88C498922D5A08C001A6663 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreenView.swift */; };
 		D88C498A22D5A08C001A6663 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreenView.swift */; };
 		D88C498B22D5A08C001A6663 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C498822D5A08C001A6663 /* ResultScreenView.swift */; };
@@ -298,6 +304,8 @@
 		D87CF7AE22CE06F9000B6E42 /* ConfigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigButton.swift; sourceTree = "<group>"; };
 		D8891FE122E6B10D000103B0 /* LBReview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LBReview.storyboard; sourceTree = "<group>"; };
 		D8891FE522E6B1D7000103B0 /* LBReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBReviewViewController.swift; sourceTree = "<group>"; };
+		D8891FE922E700DA000103B0 /* MCQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQuestion.swift; sourceTree = "<group>"; };
+		D8891FED22E700F2000103B0 /* MCChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCChoice.swift; sourceTree = "<group>"; };
 		D88C498822D5A08C001A6663 /* ResultScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenView.swift; sourceTree = "<group>"; };
 		D88C498C22D5A255001A6663 /* MCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCView.swift; sourceTree = "<group>"; };
 		D88C499022D5E682001A6663 /* PersonalBestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalBestView.xib; sourceTree = "<group>"; };
@@ -433,6 +441,8 @@
 			isa = PBXGroup;
 			children = (
 				D88C498C22D5A255001A6663 /* MCView.swift */,
+				D8891FE922E700DA000103B0 /* MCQuestion.swift */,
+				D8891FED22E700F2000103B0 /* MCChoice.swift */,
 				D8A815F022E1A7AC0023A2E6 /* MCButton.swift */,
 				D80A520622DC721D00C896A8 /* MCDelegate.swift */,
 				D8D1D54D22E0753B0024AF8F /* UtilityBar.swift */,
@@ -1040,6 +1050,7 @@
 				D8A815F522E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */,
 				D8965DA722CD9A5A007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEDF22C602AD00810E23 /* LBViewController.swift in Sources */,
+				D8891FEA22E700DA000103B0 /* MCQuestion.swift in Sources */,
 				D8F6359822CF088700AB0CCC /* BasicNavController.swift in Sources */,
 				D8D0ED0322C4BC9000872829 /* PersonalBest.swift in Sources */,
 				D8A5446A22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
@@ -1048,6 +1059,7 @@
 				D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */,
 				D84CA71622BA3ECE00E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */,
+				D8891FEE22E700F2000103B0 /* MCChoice.swift in Sources */,
 				D80A520722DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D8B3706222E5917D00A77776 /* ListButtonView.swift in Sources */,
 				D89ADF0022C606A100810E23 /* TestViewController.swift in Sources */,
@@ -1107,6 +1119,7 @@
 				D8A815F622E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */,
 				D8965DAA22CD9A6B007D32BB /* StandardFontButton.swift in Sources */,
 				D89ADEE022C602AD00810E23 /* LBViewController.swift in Sources */,
+				D8891FEB22E700DB000103B0 /* MCQuestion.swift in Sources */,
 				D8F6359922CF088700AB0CCC /* BasicNavController.swift in Sources */,
 				D8D0ED0422C4BC9000872829 /* PersonalBest.swift in Sources */,
 				D8A5446B22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
@@ -1115,6 +1128,7 @@
 				D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */,
 				D84CA73422BA3F7300E7B16F /* AppDelegate.swift in Sources */,
 				D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */,
+				D8891FEF22E700F2000103B0 /* MCChoice.swift in Sources */,
 				D80A520822DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D8B3706322E5917D00A77776 /* ListButtonView.swift in Sources */,
 				D89ADF0122C606A100810E23 /* TestViewController.swift in Sources */,
@@ -1166,6 +1180,7 @@
 				D8A815F722E1A7DF0023A2E6 /* UtilityButtons.swift in Sources */,
 				D8965DB222CDCDA9007D32BB /* StandardFontButton.swift in Sources */,
 				D8965DB322CDCDA9007D32BB /* LBViewController.swift in Sources */,
+				D8891FEC22E700DB000103B0 /* MCQuestion.swift in Sources */,
 				D8F6359A22CF088700AB0CCC /* BasicNavController.swift in Sources */,
 				D8965DB422CDCDA9007D32BB /* PersonalBest.swift in Sources */,
 				D8A5446C22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
@@ -1174,6 +1189,7 @@
 				D8965DB722CDCDA9007D32BB /* MenuButton.swift in Sources */,
 				D8965DB822CDCDA9007D32BB /* AppDelegate.swift in Sources */,
 				D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */,
+				D8891FF022E700F2000103B0 /* MCChoice.swift in Sources */,
 				D80A520922DC721D00C896A8 /* MCDelegate.swift in Sources */,
 				D8B3706422E5917D00A77776 /* ListButtonView.swift in Sources */,
 				D8965DB922CDCDA9007D32BB /* TestViewController.swift in Sources */,

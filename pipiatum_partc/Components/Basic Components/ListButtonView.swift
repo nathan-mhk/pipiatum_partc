@@ -45,6 +45,7 @@ class ListButtonView: UIView {
         subMenuButton.setTitle(title, for: .normal)
         subMenuButton.titleLabel?.textAlignment = .center
         subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+        subMenuButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 75, bottom: 0, right: 35)
         leftImg.image = UIImage(named: imgName)
         subMenuButton.translatesAutoresizingMaskIntoConstraints = false
         subMenuButton.heightAnchor.constraint(equalToConstant: btnHeight).isActive = true

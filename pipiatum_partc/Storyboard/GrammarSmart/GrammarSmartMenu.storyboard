@@ -140,7 +140,7 @@
                 <viewControllerPlaceholder storyboardName="Laterbase" id="hE4-xK-mUm" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWC-AJ-lBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718" y="128"/>
+            <point key="canvasLocation" x="732" y="128"/>
         </scene>
         <!--LBReview-->
         <scene sceneID="R0d-PU-W0k">
@@ -148,7 +148,7 @@
                 <viewControllerPlaceholder storyboardName="LBReview" id="hjl-NK-sAl" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKx-ta-yQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718" y="297"/>
+            <point key="canvasLocation" x="730" y="297"/>
         </scene>
     </scenes>
 </document>

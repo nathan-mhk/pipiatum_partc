@@ -15,5 +15,4 @@ class SubMenuButton: ListButton {
         newButton.setUpButton()
         return newButton
     }
-
 }

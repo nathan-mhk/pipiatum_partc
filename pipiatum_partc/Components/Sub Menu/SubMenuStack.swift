@@ -30,14 +30,12 @@ class SubMenuStack: UIStackView {
     //Set the height constraint of the subMenuStackView
     private func setStackHeight(buttons: Array<SubMenuItem>, stackHeight: NSLayoutConstraint) {
         let buttonCount = CGFloat(buttons.count)
-        let totalSpacing = self.spacing * (buttonCount - 1.0)
         
-        btnHeight = (self.frame.height - totalSpacing) / buttonCount
+        btnHeight = self.frame.height / buttonCount
         btnHeight = btnHeight < 55.0 ? 55.0 : btnHeight
         btnHeight = btnHeight > 80.0 ? 80.0 : btnHeight
         
-        let totalButtonsHeight = btnHeight * buttonCount
-        stackHeight.constant = totalButtonsHeight + totalSpacing
+        stackHeight.constant = btnHeight * buttonCount
     }
     
     //Add buttons into subMenuStackView
