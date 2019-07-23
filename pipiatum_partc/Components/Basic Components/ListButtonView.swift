@@ -24,31 +24,6 @@ class ListButtonView: UIView {
         setUpComponent(componentName: "ListButton", superView: self)
     }
     
-    
-    func addListButtons(buttons: Array<SubMenuItem>, btnHeight: CGFloat, superView: SubMenuStack) {
-        var arrayIndex = 0
-        for button in buttons {
-//            subMenuButton.tag = button.ID
-//
-//            if arrayIndex % 2 == 1 {
-//                subMenuButton.backgroundColor = UIColor(hexString: "195092")
-//            }
-//
-//            subMenuButton.setTitle(button.Name, for: .normal)
-//            subMenuButton.titleLabel?.textAlignment = .center
-//            subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
-//            subMenuButton.translatesAutoresizingMaskIntoConstraints = false
-//            subMenuButton.heightAnchor.constraint(equalToConstant: CGFloat(btnHeight)).isActive = true
-//
-//            leftImg.image = UIImage(named: button.ImgName)
-            
-            superView.addArrangedSubview(self)
-            print("added button \(button.ID)")
-            
-            arrayIndex += 1
-        }
-    }
-    
     //Only appears when a wrong ANS is chosen
     func setRightImg() {
         UIView.animate(withDuration: 0.15, animations: {
@@ -56,11 +31,17 @@ class ListButtonView: UIView {
         })
     }
     
-    func setUpListButton(id: Int, title: String, imgName: String, btnHeight: CGFloat) {
+    func setUpSubMenu(id: Int, title: String, imgName: String, btnHeight: CGFloat) {
         subMenuButton.tag = id
-        if id % 2 == 1 {
+        if id % 2 == 0 {
+            //Light
+            subMenuButton.backgroundColor = UIColor(hexString: "1955A2")
+        }
+        else {
+            //Slightly Dark
             subMenuButton.backgroundColor = UIColor(hexString: "195092")
         }
+        
         subMenuButton.setTitle(title, for: .normal)
         subMenuButton.titleLabel?.textAlignment = .center
         subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping

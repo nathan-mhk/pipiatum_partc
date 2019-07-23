@@ -23,11 +23,8 @@ class SubMenuStack: UIStackView {
     
     //MARK: Set Up Functions
     func setUpButtonStack(buttons: Array<SubMenuItem>, stackHeight: NSLayoutConstraint) {
-        
         setStackHeight(buttons: buttons, stackHeight: stackHeight)
-        //ListButtonView().addListButtons(buttons: buttons, btnHeight: btnHeight, superView: self)
         addListButtons(buttons: buttons)
-        //addButtons(buttons: buttons)
     }
     
     //Set the height constraint of the subMenuStackView
@@ -44,34 +41,11 @@ class SubMenuStack: UIStackView {
     }
     
     //Add buttons into subMenuStackView
-    private func addButtons(buttons: Array<SubMenuItem>) {
-        var arrayIndex = 0
-        for button in buttons {
-            let subMenuButton = SubMenuButton.newButton()
-            
-            subMenuButton.tag = arrayIndex
-            if arrayIndex % 2 == 1 {
-                subMenuButton.backgroundColor = UIColor(hexString: "195092")
-            }
-            subMenuButton.setTitle(button.Name, for: .normal)
-            //subMenuButton.setLeftImg(imgName: button.ImgName)
-            subMenuButton.titleLabel?.textAlignment = .center
-            subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
-            subMenuButton.translatesAutoresizingMaskIntoConstraints = false
-            subMenuButton.heightAnchor.constraint(equalToConstant: CGFloat(btnHeight)).isActive = true
-            
-            self.addArrangedSubview(subMenuButton)
-            arrayIndex += 1
-        }
-    }
-    
     private func addListButtons(buttons: Array<SubMenuItem>) {
-        var arrayIndex = 0
         for button in buttons {
             let listButton = ListButtonView()
-            listButton.setUpListButton(id: button.ID, title: button.Name, imgName: button.ImgName, btnHeight: CGFloat(btnHeight))
+            listButton.setUpSubMenu(id: button.ID, title: button.Name, imgName: button.ImgName, btnHeight: CGFloat(btnHeight))
             self.addArrangedSubview(listButton)
-            arrayIndex += 1
         }
     }
 }

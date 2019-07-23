@@ -24,6 +24,9 @@ class ListButton: UIButton {
         //Prevent multitouch
         isExclusiveTouch = true
         
+        //TODO
+        //titleEdgeInsets
+        
         //White bold 16 text
         setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)

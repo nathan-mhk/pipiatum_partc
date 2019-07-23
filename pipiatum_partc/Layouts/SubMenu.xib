@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubMenu" customModule="pipiatum_partc" customModuleProvider="target">
             <connections>
+                <outlet property="scrollViewBackground" destination="JrN-xw-ry5" id="WyX-Wk-wyS"/>
                 <outlet property="subMenuImage" destination="Zg4-2i-5ZH" id="ZQP-o8-lN1"/>
                 <outlet property="subMenuStackHeight" destination="Eth-qd-0wV" id="Exg-XI-rIH"/>
                 <outlet property="subMenuStackView" destination="ttw-Ne-hxe" id="6Fh-CU-6T1"/>
@@ -45,7 +46,6 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrN-xw-ry5" userLabel="SubViewContentBackground">
                     <rect key="frame" x="0.0" y="172" width="375" height="495"/>
-                    <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVl-DD-3NO" userLabel="SubViewContent">
                     <rect key="frame" x="0.0" y="172" width="375" height="495"/>

@@ -13,6 +13,7 @@ class SubMenu: UIView {
     @IBOutlet weak var subMenuImage: UIImageView!
     @IBOutlet weak var subMenuStackView: SubMenuStack!
     @IBOutlet weak var subMenuStackHeight: NSLayoutConstraint!
+    @IBOutlet weak var scrollViewBackground: UIView!
     
     override required init(frame: CGRect) {
         super.init(frame: frame)
@@ -34,5 +35,14 @@ class SubMenu: UIView {
     
     func setBtnStack(buttons: Array<SubMenuItem>) {
         subMenuStackView.setUpButtonStack(buttons: buttons, stackHeight: subMenuStackHeight)
+        
+        if buttons.count % 2 == 0 {
+            //Light
+            scrollViewBackground.backgroundColor = UIColor(hexString: "1955A2")
+        }
+        else {
+            //Slightly Dark
+            scrollViewBackground.backgroundColor = UIColor(hexString: "195092")
+        }
     }
 }
