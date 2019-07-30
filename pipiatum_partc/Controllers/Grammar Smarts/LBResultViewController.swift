@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LBResultViewController: BasicViewController {
+class LBResultViewController: BasicResultViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

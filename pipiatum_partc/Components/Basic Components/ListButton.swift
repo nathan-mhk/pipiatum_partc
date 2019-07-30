@@ -10,6 +10,11 @@ import UIKit
 
 class ListButton: BasicButtonComponent {
     
+    var type: String = ""
+    var isPressed: Bool = false
+    var ansChosen: Bool = false
+    var originalColor: UIColor = .clear
+    
     override func setUpButton() {
         //Prevent multitouch
         isExclusiveTouch = true

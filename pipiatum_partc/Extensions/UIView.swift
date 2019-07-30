@@ -26,4 +26,15 @@ extension UIView {
     }
     //Reference end
     
+    //Reference: https://stackoverflow.com/a/27645516
+    //Usage:
+    //label.fadeTransition(0.4)
+    //label.text = "text"
+    func fadeTransition(_ duration: CFTimeInterval) {
+        let animation = CATransition()
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        animation.type = CATransitionType.fade
+        animation.duration = duration
+        layer.add(animation, forKey: CATransitionType.fade.rawValue)
+    }
 }

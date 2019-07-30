@@ -33,4 +33,16 @@ class BasicButtonComponent: UIButton {
         titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         
     }
+    
+    func changeState() {
+        self.isEnabled = !self.isEnabled
+        self.setAlpha()
+    }
+    
+    func setAlpha() {
+        let alpha: CGFloat = self.isEnabled ? 1.0 : 0.5
+        UIView.animate(withDuration: 0.3, animations: {
+            self.alpha = alpha
+        })
+    }
 }

@@ -14,7 +14,9 @@ class TestViewController: BasicMCViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        testMC.setUpMC(senderTag: senderTag, componentName: "TestMCUtil")
+        //testMC.setUtilBar(componentName: "TestMCUtil")
+        //TODO: Load the saved data, this is init atm
+        //testMC.setUpMC(questions: MCquestions, ofType: "Test")
     }
     
 }

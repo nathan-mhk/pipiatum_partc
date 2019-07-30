@@ -12,7 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
             <connections>
+                <outlet property="MCQuestion" destination="fgZ-8L-pM5" id="0fz-BG-Qst"/>
+                <outlet property="MCStack" destination="q1a-MV-M8k" id="D0H-a5-APq"/>
                 <outlet property="utilityBar" destination="HMe-C1-EdN" id="6xQ-pn-dok"/>
+                <outletCollection property="MCButtons" destination="ksf-Ap-OGi" collectionClass="NSMutableArray" id="MRR-qR-4ra"/>
+                <outletCollection property="MCButtons" destination="tJo-gu-2AJ" collectionClass="NSMutableArray" id="xzl-in-vWJ"/>
+                <outletCollection property="MCButtons" destination="JpB-9O-TQF" collectionClass="NSMutableArray" id="MjG-f7-dbq"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -20,30 +25,25 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q1a-MV-M8k" userLabel="MCChoiceStack">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-8L-pM5" userLabel="MCQuestion" customClass="MCQuestion" customModule="pipiatum_partc" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                    <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q1a-MV-M8k" userLabel="MCStack">
                     <rect key="frame" x="0.0" y="333.5" width="375" height="220"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBL-8I-g5G" userLabel="MC Choice 1" customClass="MCButton" customModule="pipiatum_partc" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksf-Ap-OGi" userLabel="ListButtonView A" customClass="ListButtonView" customModule="pipiatum_partc" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
                             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Nominative - Subject of the verb">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G1-xv-dnh" userLabel="MC Choice 2" customClass="MCButton" customModule="pipiatum_partc" customModuleProvider="target">
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJo-gu-2AJ" userLabel="ListButtonView B" customClass="ListButtonView" customModule="pipiatum_partc" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="73.5" width="375" height="73"/>
                             <color key="backgroundColor" red="0.098039215686274508" green="0.31372549019607843" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Nominative - Subject of the verb">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-DM-CA7" userLabel="MC Choice 3" customClass="MCButton" customModule="pipiatum_partc" customModuleProvider="target">
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpB-9O-TQF" userLabel="ListButtonView C" customClass="ListButtonView" customModule="pipiatum_partc" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="146.5" width="375" height="73.5"/>
                             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Nominative - Subject of the verb">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </state>
-                        </button>
+                        </view>
                     </subviews>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w80-rD-Naz" userLabel="UtilityBarBackground">
@@ -52,80 +52,6 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMe-C1-EdN" userLabel="UtilBar" customClass="UtilityBar" customModule="pipiatum_partc" customModuleProvider="target">
                     <rect key="frame" x="19" y="561.5" width="337.5" height="97.5"/>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-8L-pM5" userLabel="MCQuestion">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agamemnon tamen timebat; Achilles erat optimus (best) Graecorum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="5Zt-Kq-mdg" userLabel="Prompt">
-                            <rect key="frame" x="37.5" y="113.5" width="300" height="38.5"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                            <color key="textColor" red="0.91962295770000002" green="0.66161775590000005" blue="0.3278360367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'posuit' - what is the first person singular of the present tense of this verb? (earn 1 point for a correct answer)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-eU-1sr" userLabel="Question">
-                            <rect key="frame" x="9.5" y="167" width="356" height="57.5"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDv-mV-ry0" userLabel="Feedback">
-                            <rect key="frame" x="19" y="261" width="337.5" height="57.5"/>
-                            <color key="backgroundColor" red="0.12156862745098039" green="0.21568627450980393" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <string key="text">non (not)
-habe-mus (we have)
-regin-am (acc sing as object of habemus)</string>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BU-Qs-aZ3" userLabel="Total">
-                            <rect key="frame" x="346.5" y="24" width="23.5" height="20.5"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSv-gD-Scu" userLabel="Marks">
-                            <rect key="frame" x="336" y="24" width="10.5" height="20.5"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.96470588235294119" green="0.84705882352941175" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold" translatesAutoresizingMaskIntoConstraints="NO" id="oOY-XW-sp2">
-                            <rect key="frame" x="299" y="24" width="37" height="20.5"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="37" id="YfC-GJ-0WD"/>
-                                <constraint firstAttribute="height" constant="20.5" id="d4G-p4-FDM"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Greeks Sail to Troy to Win Back Helen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHo-ph-68L" userLabel="ExCat">
-                            <rect key="frame" x="94" y="15" width="187.5" height="38.5"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="bottom" secondItem="JDv-mV-ry0" secondAttribute="bottom" constant="15" id="06X-fl-ACM" userLabel="Feedback.bottom"/>
-                        <constraint firstAttribute="trailing" secondItem="2BU-Qs-aZ3" secondAttribute="trailing" constant="5" id="3TJ-ci-P6U"/>
-                        <constraint firstItem="SMn-eU-1sr" firstAttribute="top" secondItem="5Zt-Kq-mdg" secondAttribute="bottom" constant="15" id="4cQ-f9-pca"/>
-                        <constraint firstItem="YHo-ph-68L" firstAttribute="centerX" secondItem="fgZ-8L-pM5" secondAttribute="centerX" id="EFz-O3-2xU" userLabel="ExCat.centerX"/>
-                        <constraint firstItem="5Zt-Kq-mdg" firstAttribute="centerX" secondItem="YHo-ph-68L" secondAttribute="centerX" id="LOu-KV-rAK" userLabel="Question.centerX"/>
-                        <constraint firstItem="2BU-Qs-aZ3" firstAttribute="leading" secondItem="pSv-gD-Scu" secondAttribute="trailing" id="Ls7-D4-RFg"/>
-                        <constraint firstItem="pSv-gD-Scu" firstAttribute="centerY" secondItem="2BU-Qs-aZ3" secondAttribute="centerY" id="MX4-Gv-5aT"/>
-                        <constraint firstItem="SMn-eU-1sr" firstAttribute="width" secondItem="fgZ-8L-pM5" secondAttribute="width" multiplier="0.95" id="NA9-Lb-H7v" userLabel="Prompt.width"/>
-                        <constraint firstItem="pSv-gD-Scu" firstAttribute="height" secondItem="2BU-Qs-aZ3" secondAttribute="height" id="OBi-Qb-z1G"/>
-                        <constraint firstItem="YHo-ph-68L" firstAttribute="width" secondItem="fgZ-8L-pM5" secondAttribute="width" multiplier="0.5" id="QOZ-Ba-YVS" userLabel="ExCat.width"/>
-                        <constraint firstItem="2BU-Qs-aZ3" firstAttribute="centerY" secondItem="YHo-ph-68L" secondAttribute="centerY" id="R6V-WI-IJM"/>
-                        <constraint firstItem="SMn-eU-1sr" firstAttribute="top" secondItem="fgZ-8L-pM5" secondAttribute="centerY" id="TNy-VC-9Ky"/>
-                        <constraint firstItem="YHo-ph-68L" firstAttribute="top" secondItem="fgZ-8L-pM5" secondAttribute="top" constant="15" id="Y7Z-ua-NKn" userLabel="ExCat.top"/>
-                        <constraint firstItem="JDv-mV-ry0" firstAttribute="centerX" secondItem="YHo-ph-68L" secondAttribute="centerX" id="j9Y-yu-0k3" userLabel="Feedback.centerX"/>
-                        <constraint firstItem="JDv-mV-ry0" firstAttribute="width" secondItem="fgZ-8L-pM5" secondAttribute="width" multiplier="0.9" id="qmS-IK-K5C"/>
-                        <constraint firstItem="pSv-gD-Scu" firstAttribute="leading" secondItem="oOY-XW-sp2" secondAttribute="trailing" id="r3K-RE-zmR"/>
-                        <constraint firstItem="5Zt-Kq-mdg" firstAttribute="width" secondItem="fgZ-8L-pM5" secondAttribute="width" multiplier="0.8" id="t6n-2k-hrt" userLabel="Question.width"/>
-                        <constraint firstItem="oOY-XW-sp2" firstAttribute="centerY" secondItem="2BU-Qs-aZ3" secondAttribute="centerY" id="uUe-6f-N6E"/>
-                        <constraint firstItem="SMn-eU-1sr" firstAttribute="centerX" secondItem="YHo-ph-68L" secondAttribute="centerX" id="vCO-Uh-ltf" userLabel="Prompt.centerX"/>
-                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -164,7 +90,4 @@ regin-am (acc sing as object of habemus)</string>
             <point key="canvasLocation" x="-92" y="145.27736131934034"/>
         </view>
     </objects>
-    <resources>
-        <image name="gold" width="67" height="37"/>
-    </resources>
 </document>

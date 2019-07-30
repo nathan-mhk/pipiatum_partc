@@ -20,7 +20,6 @@ class BasicSubMenuViewController: BasicViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     //Array of sub menu items, containing the attributes of each sub menu item (ID, Name, Dir)
@@ -75,7 +74,11 @@ class BasicSubMenuViewController: BasicViewController {
     func linkViewController() {
     }
     
-    @objc func buttonSegue(sender: SubMenuButton) {
+    @objc func buttonSegue(sender: ListButton) {
+    }
+    
+    func subMenuButtonSegue(segueID: String, viewController: BasicSubMenuViewController, sender: ListButton) {
+        viewController.performSegue(withIdentifier: segueID, sender: sender)
     }
     
 }

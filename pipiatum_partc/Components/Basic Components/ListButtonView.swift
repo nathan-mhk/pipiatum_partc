@@ -10,10 +10,9 @@ import UIKit
 
 class ListButtonView: UIView {
     
-    @IBOutlet weak var subMenuButton: SubMenuButton!
+    @IBOutlet weak var listButton: ListButton!
     @IBOutlet weak var leftImg: UIImageView!
     @IBOutlet weak var rightImg: UIImageView!
-    
     
     override required init(frame: CGRect) {
         super.init(frame: frame)
@@ -24,31 +23,79 @@ class ListButtonView: UIView {
         setUpComponent(componentName: "ListButton", superView: self)
     }
     
+    //MARK: MC
+    weak var delegate: MCDelegate?
+    
     //Only appears when a wrong ANS is chosen
-    func setRightImg() {
-        UIView.animate(withDuration: 0.15, animations: {
-            self.rightImg.image = UIImage(named: "incorrect")
+    func setRightImg(show: Bool) {
+        let alpha: CGFloat = show ? 1 : 0
+        UIView.animate(withDuration: 0.3, animations: {
+            self.rightImg.alpha = alpha
         })
     }
     
+    //Practice: allow changing MC Choice
+    //Test MC: don't allow changing MC Choice
+    //GS MC: TBC
+    @IBAction func MCButton(_ sender: ListButton) {
+        if sender.type == "GS" {
+            
+        }
+        
+        if sender.type == "Practice" {
+            sender.setTitleColor(.black, for: .normal)
+            
+            //Mark the button pressed momentarily, notify updateView() about which MCBtn is pressed
+            //Prevent the button BEING RESET by updateView()
+            sender.isPressed = true
+            
+            //Notify the controller that a MCButton is pressed
+            delegate?.mcBtnPressed = true
+            
+            delegate?.updateView()      //update other MC buttons and utility bar buttons
+            UIView.animate(withDuration: 0.3, animations: {
+                sender.backgroundColor = UIColor(hexString: "FFFD72")   //Yellow
+            })
+            
+            sender.ansChosen = true    //Preserved, only reset in updateView() (When another MCBtn is pressed)
+            sender.isPressed = false
+            delegate?.mcBtnPressed = false
+            delegate?.firstMCSelected = true   //Only reset in nextMC()
+        }
+        
+        if sender.type == "Test" {
+            
+        }
+    }
+    
+    //MARK: SubMenu
     func setUpSubMenu(id: Int, title: String, imgName: String, btnHeight: CGFloat) {
-        subMenuButton.tag = id
-        if id % 2 == 0 {
+        listButton.tag = id
+        listButton.type = "SubMenu"
+        setUpButton(btnNum: id, title: title)
+        
+        listButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 75, bottom: 0, right: 35)
+        leftImg.image = UIImage(named: imgName)
+        listButton.translatesAutoresizingMaskIntoConstraints = false
+        listButton.heightAnchor.constraint(equalToConstant: btnHeight).isActive = true
+    }
+    
+    //Set up basic attributes and alternating colour
+    func setUpButton(btnNum: Int, title: String) {
+        if btnNum % 2 == 0 {
             //Light
-            subMenuButton.backgroundColor = UIColor(hexString: "1955A2")
+            listButton.backgroundColor = UIColor(hexString: "1955A2")
         }
         else {
             //Slightly Dark
-            subMenuButton.backgroundColor = UIColor(hexString: "195092")
+            listButton.backgroundColor = UIColor(hexString: "195092")
         }
+        listButton.originalColor = listButton.backgroundColor!
+        listButton.titleLabel?.textAlignment = .center
+        listButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+        rightImg.alpha = 0.0
         
-        subMenuButton.setTitle(title, for: .normal)
-        subMenuButton.titleLabel?.textAlignment = .center
-        subMenuButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
-        subMenuButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 75, bottom: 0, right: 35)
-        leftImg.image = UIImage(named: imgName)
-        subMenuButton.translatesAutoresizingMaskIntoConstraints = false
-        subMenuButton.heightAnchor.constraint(equalToConstant: btnHeight).isActive = true
+        listButton.setTitle(title, for: .normal)
+        listButton.setTitleColor(.white, for: .normal)
     }
- 
 }

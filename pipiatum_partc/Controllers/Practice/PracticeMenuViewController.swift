@@ -20,20 +20,20 @@ class PracticeMenuViewController: BasicSubMenuViewController {
     }
     
     override func linkViewController() {
-        let buttons = self.view.getAllSubViews() as [SubMenuButton]
+        let buttons = self.view.getAllSubViews() as [ListButton]
         for button in buttons {
             button.addTarget(self, action: #selector(buttonSegue(sender:)), for: .touchUpInside)
         }
     }
     
-    @objc override func buttonSegue(sender: SubMenuButton) {
+    @objc override func buttonSegue(sender: ListButton) {
         subMenuButtonSegue(segueID: "PRACTICE", viewController: self, sender: sender)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PRACTICE" {
             if let destination = segue.destination as? PracticeViewController {
-                if let subMenuButton = sender as? SubMenuButton {
+                if let subMenuButton = sender as? ListButton {
                     print("Going to Practice View from button \(subMenuButton.tag) (\(buttons[subMenuButton.tag].Name))")
                     destination.senderTag = subMenuButton.tag
                 }

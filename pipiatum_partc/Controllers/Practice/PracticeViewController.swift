@@ -14,9 +14,19 @@ class PracticeViewController: BasicMCViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        practiceMC.setUpMC(senderTag: senderTag, componentName: "PracticeButtons")
-        
+        practiceMC.delegate = self
+        practiceMC.utilityBar.delegate = self
+        setUpMCView(view: practiceMC, name: "PracticeButtons", type: "Practice")
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PRACTICE_RESULT" {
+            if let destination = segue.destination as? PracticeResultViewController {
+                destination.msg = congratMsg()
+                destination.marks = marks
+                destination.total = totalNumOfQns
+                destination.type = "practice"
+            }
+        }
+    }
 }

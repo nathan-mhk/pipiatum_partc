@@ -14,7 +14,9 @@ class GSTestViewController: BasicMCViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        gsMC.setUpMC(senderTag: senderTag, componentName: "LBButton")
+        //gsMC.setUtilBar(componentName: "LBButton")
+        //TODO: Many things needed to be confirmed first
+        //gsMC.setGSMC(questions: GSquestions, ofType: "GS")
     }
 
 }

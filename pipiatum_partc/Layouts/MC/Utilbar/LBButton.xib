@@ -10,15 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UtilityBar" customModule="pipiatum_partc" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UtilityBar" customModule="pipiatum_partc" customModuleProvider="target">
+            <connections>
+                <outlet property="LBButton" destination="FiN-zY-P5c" id="b96-yf-mdq"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="367" height="152"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-zY-P5c" customClass="UtilityButtons" customModule="pipiatum_partc" customModuleProvider="target">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-zY-P5c" customClass="UtilityButton" customModule="pipiatum_partc" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="367" height="152"/>
                     <state key="normal" title="Add to Laterbase"/>
+                    <connections>
+                        <action selector="addLB:" destination="-1" eventType="touchUpInside" id="8q4-PG-UJw"/>
+                    </connections>
                 </button>
             </subviews>
             <constraints>

@@ -1,5 +1,5 @@
 //
-//  MCButton.swift
+//  UtilityButton.swift
 //  pipiatum_partc
 //
 //  Created by Nathan Kong on 19/7/2019.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class MCButton: ListButton {
-    
+class UtilityButton: BasicButtonComponent {
+
 }

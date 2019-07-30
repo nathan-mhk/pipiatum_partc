@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,7 +24,7 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="practiceMC" destination="TNU-HZ-ynF" id="5FF-fW-ALB"/>
-                        <segue destination="c6h-Pi-ZDy" kind="show" identifier="PRACTICE_RESULT" id="cII-wD-Qjw"/>
+                        <segue destination="c6h-Pi-ZDy" kind="show" identifier="PRACTICE_RESULT" id="s26-fm-p5D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAX-pt-UIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -38,7 +37,7 @@
                 <viewControllerPlaceholder storyboardName="PracticeResult" id="c6h-Pi-ZDy" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0dg-hO-L0J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922" y="-142"/>
+            <point key="canvasLocation" x="975" y="-142"/>
         </scene>
     </scenes>
 </document>

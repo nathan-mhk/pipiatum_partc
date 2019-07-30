@@ -8,11 +8,13 @@
 
 import UIKit
 
-class PracticeResultViewController: BasicViewController {
+class PracticeResultViewController: BasicResultViewController {
 
+    @IBOutlet weak var result: ResultScreenView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        result.setUpResult(msg: msg, marks: marks, total: total, type: type)
     }
     
 }

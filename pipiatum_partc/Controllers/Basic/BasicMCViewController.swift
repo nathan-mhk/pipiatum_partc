@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BasicMCViewController: BasicViewController {
+class BasicMCViewController: BasicViewController, MCDelegate {
     
     @IBInspectable var mcPlistName: String?
 
@@ -19,6 +19,7 @@ class BasicMCViewController: BasicViewController {
         loadPlistData()
     }
     
+    //MARK: Load Plist Data
     var senderTag: Int? = nil
     var GSquestions = [[MultChoice]]()
     var MCquestions = [MultChoice]()
@@ -32,7 +33,7 @@ class BasicMCViewController: BasicViewController {
             return
         }
         guard let questionsArray = plist.object(forKey: "MCQuestions") as? [NSArray] else {
-            print("Failed To Load Plist As [[NSDictionary]]")
+            print("Failed To Load Plist As [NSArray]")
             return
         }
         
@@ -48,15 +49,6 @@ class BasicMCViewController: BasicViewController {
                 }
                 GSquestions.append(MCquestions)
                 MCquestions.removeAll()
-                //Debug Msg
-                for j in 1...GSquestions[questionType].count {
-                    print(GSquestions[questionType][j - 1].QnType!)
-                    print(GSquestions[questionType][j - 1].Question)
-                    print(GSquestions[questionType][j - 1].CorrectAns)
-                    print(GSquestions[questionType][j - 1].Distractor1)
-                    print(GSquestions[questionType][j - 1].Distractor2)
-                    print("\n")
-                }
             }
             print("Loaded GS MC")
             return
@@ -72,14 +64,201 @@ class BasicMCViewController: BasicViewController {
         }
         //Debug Msg
         print("Loaded Practice/Test MC")
+    }
+    
+    //MARK: MC Handling
+    var mcView: MCView? = nil
+    var mcType: String = ""
+    
+    //For handling the display of MC questions and choices
+    var currentQn: MultChoice? = nil
+    var questionPool = [MultChoice]()
+    
+    //For handling the display of marks, total#Qns, #answeredQns, etc
+    var totalQnAnswered: Int = 1
+    var totalNumOfQns: Int = 0
+    var marks: Int = 0
+    
+    //For handling different button events
+    var firstMCSelected: Bool = false
+    var mcBtnPressed: Bool = false
+    var showBtnPressed: Bool = false
+    var checkBtnPressed: Bool = false
+    var nextBtnPressed: Bool = false
+    var isEnd: Bool = false
+    
+    func setUpMCView(view: MCView, name: String, type: String) {
+        mcView = view
+        mcType = type
+        
+        setUpComponent(componentName: name, superView: view.utilityBar)
+        view.utilityBar.initUtilBar()
+        
+        if mcType == "GS" {
+            setUpGSMC()
+        }
+        else {
+            //Need a different one for Test MC?
+            //"Practice", "Test"
+            setUpMC()
+        }
+    }
+    //TODO
+    func setUpGSMC() {
+        
+    }
+    
+    func setUpMC() {
+        questionPool.removeAll()
+        for mark in 1...3 {
+            //TODO: Grab the first 10 questions in load() only
+            questionPool += load(withMark: mark)
+        }
+        totalNumOfQns = questionPool.count
+        showMC()
+    }
+    
+    func load(withMark: Int) -> [MultChoice] {
+        var tempArray = [MultChoice]()
         for question in MCquestions {
-            print(question.QnNum)
-            print(question.Prompt!)
-            print(question.Question)
-            print(question.CorrectAns)
-            print(question.Distractor1)
-            print(question.Distractor2)
-            print("\n")
+            if question.Marks == withMark {
+                tempArray.append(question)
+            }
+        }
+        return tempArray.shuffled()
+    }
+    
+    func showMC() {
+        self.title = "\(totalQnAnswered) of \(totalNumOfQns)"
+        
+        currentQn = questionPool.first
+        if currentQn != nil && mcView != nil{
+            print("Qn \(currentQn!.QnNum)")
+            mcView!.showMC(question: currentQn!, type: mcType)
+        }
+        else {
+            print("Error: currentQn/mcView is nil")
+        }
+    }
+    
+    func updateView() {
+        if mcBtnPressed {
+            mcView!.updateView()
+        }
+        mcView!.utilityBar.updateView()
+    }
+    
+    func showAns(showFB: Bool) {
+        let correctBtn = getBtn(isCorrectBtn: true)
+        UIView.animate(withDuration: 0.3, animations: {
+            correctBtn.listButton.backgroundColor = UIColor(hexString: "8BC45D")    //Green
+        })
+        mcView!.toggleMCButtons()
+        mcView!.MCQuestion.showFeedback(show: showFB)
+    }
+    
+    func checkAns() {
+        switch mcType {
+        case "GS":
+            //TBC
+            break
+            
+        case "Practice":
+            let correctBtn = getBtn(isCorrectBtn: true)
+            let chosenBtn = getBtn(isCorrectBtn: false)
+            
+            if correctBtn == chosenBtn {
+                marks += 1
+                mcView!.MCQuestion.updateMarks(marks: marks)
+            }
+            else {
+                chosenBtn.setRightImg(show: true)
+            }
+            showAns(showFB: true)   //Always show feedback
+            break
+            
+        case "Test":
+            //TODO
+            //**Only show feedback when the ANS is wrong
+            //After calling showAns, wait for a while then call nextMC
+            break
+            
+        default:
+            break
+        }
+    }
+    
+    func getBtn(isCorrectBtn: Bool) -> ListButtonView {
+        var correctBtn = ListButtonView()
+        var chosenBtn = ListButtonView()
+        for button in mcView!.MCButtons {
+            if button.listButton.tag == -1 {
+                correctBtn = button
+            }
+            if button.listButton.ansChosen {
+                chosenBtn = button
+            }
+        }
+        if isCorrectBtn {
+            return correctBtn
+        }
+        return chosenBtn
+    }
+    
+    func nextMC() {
+        //Reset all subviews
+        updateView()
+        mcView!.toggleMCButtons()
+        
+        //Reset the variables
+        firstMCSelected = false
+        mcBtnPressed = false
+        showBtnPressed = false
+        checkBtnPressed = false
+        nextBtnPressed = false
+        
+        totalQnAnswered += 1
+        if !questionPool.isEmpty {
+            questionPool.removeFirst()
+            currentQn = nil
+            showMC()
+            if questionPool.count == 1 {
+                isEnd = true
+            }
+        }
+    }
+    
+    func endMC(sender: UtilityButton) {
+        var segueID = ""
+        switch mcType {
+        case "GS":
+            segueID = "GS_RESULT"
+            break
+        case "Practice":
+            segueID = "PRACTICE_RESULT"
+            break
+        case "Test":
+            segueID = "TEST_RESULT"
+            break
+        default:
+            break
+        }
+        performSegue(withIdentifier: segueID, sender: sender)
+    }
+    
+    func congratMsg() -> String {
+        let percent = Float(marks) / Float(totalNumOfQns)
+        switch percent {
+        case 0.0..<0.2:
+            return "Eheu!"              // 0, 1
+        case 0.2..<0.5:
+            return "Bene!"              // 2, 3, 4
+        case 0.5..<0.9:
+            return "Bene factum!"       // 5, 6, 7, 8
+        case 0.9..<1.0:
+            return "Optime factum!"     // 9
+        default:
+            return "Feliciter!"         //Full Mark
         }
     }
 }
