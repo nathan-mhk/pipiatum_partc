@@ -32,8 +32,8 @@ class SubMenuStack: UIStackView {
         let buttonCount = CGFloat(buttons.count)
         
         btnHeight = self.frame.height / buttonCount
-        btnHeight = btnHeight < 55.0 ? 55.0 : btnHeight
-        btnHeight = btnHeight > 80.0 ? 80.0 : btnHeight
+        btnHeight = btnHeight < minSubMenuBtnHeight ? minSubMenuBtnHeight : btnHeight
+        btnHeight = btnHeight > maxSubMenuBtnHeight ? maxSubMenuBtnHeight : btnHeight
         
         stackHeight.constant = btnHeight * buttonCount
     }

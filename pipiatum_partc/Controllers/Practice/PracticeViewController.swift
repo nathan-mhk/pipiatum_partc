@@ -16,7 +16,11 @@ class PracticeViewController: BasicMCViewController {
         super.viewDidLoad()
         practiceMC.delegate = self
         practiceMC.utilityBar.delegate = self
-        setUpMCView(view: practiceMC, name: "PracticeButtons", type: "Practice")
+        currentType = .practice
+        practiceMC.type = currentType
+        practiceMC.utilityBar.type = currentType
+        mcView = practiceMC
+        setUpMCView(utilBarName: "PracticeButtons")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -25,7 +29,7 @@ class PracticeViewController: BasicMCViewController {
                 destination.msg = congratMsg()
                 destination.marks = marks
                 destination.total = totalNumOfQns
-                destination.type = "practice"
+                destination.type = ListBtnType.practice.rawValue
             }
         }
     }

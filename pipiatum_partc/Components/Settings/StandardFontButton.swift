@@ -19,7 +19,7 @@ class StandardFontButton: ConfigButton {
     }
     
     override func getKey() -> String {
-        return AppConfig.stdFontKey
+        return stdFontKey
     }
     
 }

@@ -26,24 +26,25 @@ class MCView: UIView {
     }
    
     weak var delegate: MCDelegate?
+    var type: ListBtnType = ListBtnType.none
     var isFirstTime = true
     
     //MARK: Utility Functions
-    func showMC(question: MultChoice, type: String) {
+    func showMC(question: MultChoice) {
         MCQuestion.showQuestion(question: question)
         if isFirstTime {
-            showChoice(question: question, type: type)
+            showChoice(question: question)
             isFirstTime = false
         }
         else {
-            UIView.animate(withDuration: 0.15, animations: {
-                self.showChoice(question: question, type: type)
+            UIView.animate(withDuration: (MCAnimationDuration / 2), animations: {
+                self.showChoice(question: question)
                 self.MCStack.layoutIfNeeded()
             })
         }
     }
     
-    func showChoice(question: MultChoice, type: String) {
+    func showChoice(question: MultChoice) {
         var choices = [String]()
         choices.append(question.CorrectAns)
         choices.append(question.Distractor1)
@@ -86,7 +87,7 @@ class MCView: UIView {
             if !button.listButton.isPressed {
                 button.listButton.chosen = false
                 
-                UIView.animate(withDuration: 0.3, animations: {
+                UIView.animate(withDuration: MCAnimationDuration, animations: {
                     button.listButton.backgroundColor = button.listButton.originalColor
                     button.listButton.setTitleColor(.white, for: .normal)
                 })

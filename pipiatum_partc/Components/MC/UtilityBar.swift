@@ -23,22 +23,22 @@ class UtilityBar: UIView {
         super.init(coder: aDecoder)
     }
     
-    var type: String = ""
+    var type: ListBtnType = ListBtnType.none
     weak var delegate: MCDelegate?
     
-    func initUtilBar(type: String) {
-        self.type = type
+    func initUtilBar() {
         switch type {
-        case "GS":
+        case .gs:
             break
-        case "Practice":
+        case .practice:
             //Initially: show = T, check = F, next = F
             checkBtn.changeState()
             nextBtn.changeState()
             break
-        default :
-            //Test
+        case .test:
             //TODO
+            break
+        default:
             break
         }
     }
@@ -81,14 +81,16 @@ class UtilityBar: UIView {
     
     func updateView() {
         switch type {
-        case "GS":
+        case .gs:
             updateGSUtilBar()
             break
-        case "Practice":
+        case .practice:
             updatePracticeUtilBar()
             break
-        default :
+        case .test:
             updateTestUtilBar()
+            break
+        default:
             break
         }
     }

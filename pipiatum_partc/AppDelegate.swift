@@ -49,12 +49,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setFontBtn() {
-        let stdFont = UserDefaults.standard.bool(forKey: AppConfig.stdFontKey)
-        let scriptFont = UserDefaults.standard.bool(forKey: AppConfig.scriptFontKey)
+        let stdFont = UserDefaults.standard.bool(forKey: stdFontKey)
+        let scriptFont = UserDefaults.standard.bool(forKey: scriptFontKey)
         
         if (!stdFont && !scriptFont) || (stdFont && scriptFont) {
-            UserDefaults.standard.set(true, forKey: AppConfig.stdFontKey)
-            UserDefaults.standard.set(false, forKey: AppConfig.scriptFontKey)
+            UserDefaults.standard.set(true, forKey: stdFontKey)
+            UserDefaults.standard.set(false, forKey: scriptFontKey)
         }
     }
 }

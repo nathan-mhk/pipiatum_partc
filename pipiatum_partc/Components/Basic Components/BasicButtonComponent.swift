@@ -25,7 +25,7 @@ class BasicButtonComponent: UIButton {
         isExclusiveTouch = true
         
         //Rounding the corners
-        layer.cornerRadius = 10
+        layer.cornerRadius = btnCornerRadius
         
         //BGColor: #103B72, White bold 16 text
         backgroundColor = UIColor(hexString: "103B72")
@@ -41,7 +41,7 @@ class BasicButtonComponent: UIButton {
     
     func setAlpha() {
         let alpha: CGFloat = self.isEnabled ? 1.0 : 0.5
-        UIView.animate(withDuration: 0.3, animations: {
+        UIView.animate(withDuration: BtnAnimationDuration, animations: {
             self.alpha = alpha
         })
     }

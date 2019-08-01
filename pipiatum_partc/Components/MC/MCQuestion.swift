@@ -34,13 +34,13 @@ class MCQuestion: UIView {
     var fb: String = ""
     
     func showQuestion(question: MultChoice) {
-        ExCat.fadeTransition(0.3)
+        ExCat.fadeTransition(MCAnimationDuration)
         ExCat.text = question.ExCat
         
-        Prompt.fadeTransition(0.3)
+        Prompt.fadeTransition(MCAnimationDuration)
         Prompt.text = question.Prompt
         
-        Question.fadeTransition(0.3)
+        Question.fadeTransition(MCAnimationDuration)
         Question.text = question.Question
         
         //For Practice, always show feedback
@@ -50,7 +50,7 @@ class MCQuestion: UIView {
     }
     
     func updateMarks(marks: Int) {
-        Marks.fadeTransition(0.3)
+        Marks.fadeTransition(MCAnimationDuration)
         Marks.text = String(marks)
     }
     
@@ -62,7 +62,7 @@ class MCQuestion: UIView {
         }
         else {
             let alpha: CGFloat = show ? 1.0 : 0.0
-            let duration: TimeInterval = show ? 0.3 : 0.15
+            let duration: TimeInterval = show ? MCAnimationDuration : (MCAnimationDuration / 2)
             UIView.animate(withDuration: duration, animations: {
                 self.Feedback.alpha = alpha
             }, completion: {_ in

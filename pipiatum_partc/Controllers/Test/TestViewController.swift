@@ -15,7 +15,11 @@ class TestViewController: BasicMCViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         testMC.delegate = self
-        setUpMCView(view: testMC, name: "EggBar", type: "Test")
+        currentType = .test
+        testMC.type = currentType
+        testMC.utilityBar.type = currentType
+        mcView = testMC
+        setUpMCView(utilBarName: "EggBar")
         //To be implemented: EggBar
     }
     
@@ -25,7 +29,7 @@ class TestViewController: BasicMCViewController {
                 destination.msg = congratMsg()
                 destination.marks = marks
                 destination.total = totalNumOfQns
-                destination.type = "test"
+                destination.type = ListBtnType.test.rawValue
             }
         }
     }

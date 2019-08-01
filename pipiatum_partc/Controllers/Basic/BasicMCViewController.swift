@@ -68,7 +68,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     //MARK: MC Handling
     var mcView: MCView? = nil
-    var mcType: String = ""
+    var currentType: ListBtnType = ListBtnType.none
     
     //For handling the display of MC questions and choices
     var currentQn: MultChoice? = nil
@@ -79,7 +79,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     var totalNumOfQns: Int = 0
     var marks: Int = 0
     
-    //For handling different button events
+    //For handling different button events by manipulating these button states
     var firstMCSelected: Bool = false
     var mcBtnPressed: Bool = false
     var showBtnPressed: Bool = false
@@ -87,21 +87,20 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     var nextBtnPressed: Bool = false
     var isEnd: Bool = false
     
-    func setUpMCView(view: MCView, name: String, type: String) {
-        mcView = view
-        mcType = type
+    func setUpMCView(utilBarName: String) {
+        setUpComponent(componentName: utilBarName, superView: mcView!.utilityBar)
+        mcView!.utilityBar.initUtilBar()
         
-        setUpComponent(componentName: name, superView: view.utilityBar)
-        view.utilityBar.initUtilBar(type: type)
-        
-        if mcType == "GS" {
-            setUpGSMC()
-        }
-        else {
+        switch currentType {
+        case .gs:
+            break
+        case .practice, .test:
             //Need a different one for Test MC?
             //OR maybe all call setUpMC?
-            //mcType == "Practice" || "Test"
             setUpMC()
+            break
+        default:
+            break
         }
     }
     
@@ -136,7 +135,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         currentQn = questionPool.first
         if currentQn != nil && mcView != nil{
             print("Qn \(currentQn!.QnNum)")
-            mcView!.showMC(question: currentQn!, type: mcType)
+            mcView!.showMC(question: currentQn!)
         }
         else {
             print("Error: currentQn/mcView is nil")
@@ -152,8 +151,8 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     func showAns(showFB: Bool) {
         let correctBtn = getBtn(isCorrectBtn: true)
-        UIView.animate(withDuration: 0.3, animations: {
-            correctBtn.listButton.backgroundColor = UIColor(hexString: "8BC45D")    //Green
+        UIView.animate(withDuration: MCAnimationDuration, animations: {
+            correctBtn.listButton.backgroundColor = UIColor(hexString: green)
         })
         mcView!.toggleMCButtons()
         mcView!.MCQuestion.showFeedback(show: showFB)
@@ -167,38 +166,39 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             marks += 1
             mcView!.MCQuestion.updateMarks(marks: marks)
             
-            switch mcType {
-            case "GS":
+            switch currentType {
+            case .gs:
                 break
-            case "Practice":
+            case .practice:
                 showAns(showFB: true)
                 break
-            default:
-                //Test
+            case .test:
                 showAns(showFB: false)
                 doNextMC(btn: chosenBtn)
                 break
+            default:
+               break
             }
         }
         else {
             chosenBtn.setRightImg(show: true)
-            
-            switch mcType {
-            case "GS":
+            switch currentType {
+            case .gs:
                 //TBC
                 break
-            case "Practice":
+            case .practice:
                 showAns(showFB: true)   //Always show feedback
                 break
-            default:
-                //Test
+            case .test:
                 //**Only show feedback when the ANS is wrong
                 //After calling showAns, wait for a while then call nextMC
-                UIView.animate(withDuration: 0.3, animations: {
-                    chosenBtn.listButton.backgroundColor = UIColor(hexString: "FFFD72")   //Yellow
+                UIView.animate(withDuration: MCAnimationDuration, animations: {
+                    chosenBtn.listButton.backgroundColor = UIColor(hexString: yellow)
                 })
                 showAns(showFB: true)
                 doNextMC(btn: chosenBtn)
+                break
+            default:
                 break
             }
         }
@@ -222,8 +222,8 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func doNextMC(btn: ListButtonView) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-        //DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) {
+        //DispatchQueue.main.asyncAfter(deadline: .now() + MCAnimationDuration) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(testMCDelay)) {
             if !self.isEnd {
                 self.nextMC()
             }
@@ -261,16 +261,17 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     func endMC(sender: BasicButtonComponent) {
         var segueID = ""
-        switch mcType {
-        case "GS":
+        switch currentType {
+        case .gs:
             segueID = "GS_RESULT"
             break
-        case "Practice":
+        case .practice:
             segueID = "PRACTICE_RESULT"
             break
-        default:
-            //Test
+        case .test:
             segueID = "TEST_RESULT"
+            break
+        default:
             break
         }
         performSegue(withIdentifier: segueID, sender: sender)

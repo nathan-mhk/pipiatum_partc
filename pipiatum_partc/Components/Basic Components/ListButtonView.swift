@@ -29,7 +29,7 @@ class ListButtonView: UIView {
     //Only appears when a wrong ANS is chosen
     func setRightImg(show: Bool) {
         let alpha: CGFloat = show ? 1 : 0
-        UIView.animate(withDuration: 0.3, animations: {
+        UIView.animate(withDuration: MCAnimationDuration, animations: {
             self.rightImg.alpha = alpha
         })
     }
@@ -38,16 +38,16 @@ class ListButtonView: UIView {
     //Test MC: don't allow changing MC Choice
     //GS MC: TBC
     @IBAction func MCButton(_ sender: ListButton) {
-        if sender.type != "SubMenu" {
+        if sender.type != .submenu {
             sender.setTitleColor(.black, for: .normal)
             sender.chosen = true    //Preserved, only reset in updateView() (When another MCBtn is pressed) and in nextMC()
         }
         
-        if sender.type == "GS" {
+        if sender.type == .gs {
             //TBC
         }
         
-        if sender.type == "Practice" {
+        if sender.type == .practice {
             //Mark the button pressed momentarily, notify updateView() about which MCBtn is pressed
             //Prevent the button BEING RESET by updateView()
             sender.isPressed = true
@@ -56,7 +56,7 @@ class ListButtonView: UIView {
             delegate?.mcBtnPressed = true
             
             delegate?.updateView()      //update other MC buttons and utility bar buttons
-            UIView.animate(withDuration: 0.3, animations: {
+            UIView.animate(withDuration: MCAnimationDuration, animations: {
                 sender.backgroundColor = UIColor(hexString: "FFFD72")   //Yellow
             })
             
@@ -65,7 +65,7 @@ class ListButtonView: UIView {
             delegate?.firstMCSelected = true   //Only reset in nextMC()
         }
         
-        if sender.type == "Test" {
+        if sender.type == .test {
             delegate?.checkAns()
         }
     }
@@ -73,7 +73,7 @@ class ListButtonView: UIView {
     //MARK: SubMenu
     func setUpSubMenu(id: Int, title: String, imgName: String, btnHeight: CGFloat) {
         listButton.tag = id
-        listButton.type = "SubMenu"
+        listButton.type = .submenu
         setUpButton(btnNum: id, title: title)
         
         listButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 75, bottom: 0, right: 35)

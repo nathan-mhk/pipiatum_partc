@@ -8,9 +8,19 @@
 
 import UIKit
 
+enum ListBtnType: String {
+    case none
+    case submenu
+    
+    //MC
+    case gs = "grammar smart test"
+    case practice
+    case test
+}
+
 class ListButton: BasicButtonComponent {
     
-    var type: String = ""
+    var type: ListBtnType = ListBtnType.none
     var isPressed: Bool = false
     var chosen: Bool = false
     var originalColor: UIColor = .clear

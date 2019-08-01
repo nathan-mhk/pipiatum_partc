@@ -6,14 +6,23 @@
 //  Copyright © 2019 Nathan Kong. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CoreData
 
-class AppConfig {
-    static let stdFontKey = "stdFont"
-    static let scriptFontKey = "scriptFont"
-    
-    func setFont() {
-        
-    }
-}
+//Misc
+let btnCornerRadius: CGFloat = 5
+
+//SubMenu
+let minSubMenuBtnHeight: CGFloat = 55
+let maxSubMenuBtnHeight: CGFloat = 100
+
+//MC
+let yellow: String = "FFFD72"
+let green: String = "8BC45D"
+let testMCDelay: Int = 3
+let MCAnimationDuration: TimeInterval = 0.3
+let BtnAnimationDuration: TimeInterval = MCAnimationDuration
+
+//Settings
+let stdFontKey = "stdFont"
+let scriptFontKey = "scriptFont"
