@@ -38,13 +38,16 @@ class ListButtonView: UIView {
     //Test MC: don't allow changing MC Choice
     //GS MC: TBC
     @IBAction func MCButton(_ sender: ListButton) {
+        if sender.type != "SubMenu" {
+            sender.setTitleColor(.black, for: .normal)
+            sender.chosen = true    //Preserved, only reset in updateView() (When another MCBtn is pressed) and in nextMC()
+        }
+        
         if sender.type == "GS" {
-            
+            //TBC
         }
         
         if sender.type == "Practice" {
-            sender.setTitleColor(.black, for: .normal)
-            
             //Mark the button pressed momentarily, notify updateView() about which MCBtn is pressed
             //Prevent the button BEING RESET by updateView()
             sender.isPressed = true
@@ -57,14 +60,13 @@ class ListButtonView: UIView {
                 sender.backgroundColor = UIColor(hexString: "FFFD72")   //Yellow
             })
             
-            sender.ansChosen = true    //Preserved, only reset in updateView() (When another MCBtn is pressed)
             sender.isPressed = false
             delegate?.mcBtnPressed = false
             delegate?.firstMCSelected = true   //Only reset in nextMC()
         }
         
         if sender.type == "Test" {
-            
+            delegate?.checkAns()
         }
     }
     

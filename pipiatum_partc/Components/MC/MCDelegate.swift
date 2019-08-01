@@ -20,6 +20,6 @@ protocol MCDelegate: class {
     func showAns(showFB: Bool)
     func checkAns()
     func nextMC()
-    func endMC(sender: UtilityButton)
+    func endMC(sender: BasicButtonComponent)
 }
 

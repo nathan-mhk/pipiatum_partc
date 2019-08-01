@@ -14,9 +14,20 @@ class TestViewController: BasicMCViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //testMC.setUtilBar(componentName: "TestMCUtil")
-        //TODO: Load the saved data, this is init atm
-        //testMC.setUpMC(questions: MCquestions, ofType: "Test")
+        testMC.delegate = self
+        setUpMCView(view: testMC, name: "EggBar", type: "Test")
+        //To be implemented: EggBar
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "TEST_RESULT" {
+            if let destination =  segue.destination as? TestResultViewController {
+                destination.msg = congratMsg()
+                destination.marks = marks
+                destination.total = totalNumOfQns
+                destination.type = "test"
+            }
+        }
     }
     
 }

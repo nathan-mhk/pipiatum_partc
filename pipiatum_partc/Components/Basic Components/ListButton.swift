@@ -12,7 +12,7 @@ class ListButton: BasicButtonComponent {
     
     var type: String = ""
     var isPressed: Bool = false
-    var ansChosen: Bool = false
+    var chosen: Bool = false
     var originalColor: UIColor = .clear
     
     override func setUpButton() {

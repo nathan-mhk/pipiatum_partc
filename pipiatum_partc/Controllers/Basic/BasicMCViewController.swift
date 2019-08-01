@@ -92,26 +92,28 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         mcType = type
         
         setUpComponent(componentName: name, superView: view.utilityBar)
-        view.utilityBar.initUtilBar()
+        view.utilityBar.initUtilBar(type: type)
         
         if mcType == "GS" {
             setUpGSMC()
         }
         else {
             //Need a different one for Test MC?
-            //"Practice", "Test"
+            //OR maybe all call setUpMC?
+            //mcType == "Practice" || "Test"
             setUpMC()
         }
     }
-    //TODO
+    
     func setUpGSMC() {
-        
+        //TBC
     }
     
     func setUpMC() {
         questionPool.removeAll()
         for mark in 1...3 {
             //TODO: Grab the first 10 questions in load() only
+            //Right now the database don't have enough questions
             questionPool += load(withMark: mark)
         }
         totalNumOfQns = questionPool.count
@@ -158,33 +160,47 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func checkAns() {
-        switch mcType {
-        case "GS":
-            //TBC
-            break
+        let correctBtn = getBtn(isCorrectBtn: true)
+        let chosenBtn = getBtn(isCorrectBtn: false)
+        
+        if correctBtn == chosenBtn {
+            marks += 1
+            mcView!.MCQuestion.updateMarks(marks: marks)
             
-        case "Practice":
-            let correctBtn = getBtn(isCorrectBtn: true)
-            let chosenBtn = getBtn(isCorrectBtn: false)
-            
-            if correctBtn == chosenBtn {
-                marks += 1
-                mcView!.MCQuestion.updateMarks(marks: marks)
+            switch mcType {
+            case "GS":
+                break
+            case "Practice":
+                showAns(showFB: true)
+                break
+            default:
+                //Test
+                showAns(showFB: false)
+                doNextMC(btn: chosenBtn)
+                break
             }
-            else {
-                chosenBtn.setRightImg(show: true)
+        }
+        else {
+            chosenBtn.setRightImg(show: true)
+            
+            switch mcType {
+            case "GS":
+                //TBC
+                break
+            case "Practice":
+                showAns(showFB: true)   //Always show feedback
+                break
+            default:
+                //Test
+                //**Only show feedback when the ANS is wrong
+                //After calling showAns, wait for a while then call nextMC
+                UIView.animate(withDuration: 0.3, animations: {
+                    chosenBtn.listButton.backgroundColor = UIColor(hexString: "FFFD72")   //Yellow
+                })
+                showAns(showFB: true)
+                doNextMC(btn: chosenBtn)
+                break
             }
-            showAns(showFB: true)   //Always show feedback
-            break
-            
-        case "Test":
-            //TODO
-            //**Only show feedback when the ANS is wrong
-            //After calling showAns, wait for a while then call nextMC
-            break
-            
-        default:
-            break
         }
     }
     
@@ -195,7 +211,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             if button.listButton.tag == -1 {
                 correctBtn = button
             }
-            if button.listButton.ansChosen {
+            if button.listButton.chosen {
                 chosenBtn = button
             }
         }
@@ -205,10 +221,25 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         return chosenBtn
     }
     
+    func doNextMC(btn: ListButtonView) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+        //DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) {
+            if !self.isEnd {
+                self.nextMC()
+            }
+            else {
+                self.endMC(sender: btn.listButton)
+            }
+        }
+    }
+    
     func nextMC() {
         //Reset all subviews
         updateView()
         mcView!.toggleMCButtons()
+        for button in mcView!.MCButtons {
+            button.listButton.chosen = false
+        }
         
         //Reset the variables
         firstMCSelected = false
@@ -228,7 +259,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         }
     }
     
-    func endMC(sender: UtilityButton) {
+    func endMC(sender: BasicButtonComponent) {
         var segueID = ""
         switch mcType {
         case "GS":
@@ -237,10 +268,9 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         case "Practice":
             segueID = "PRACTICE_RESULT"
             break
-        case "Test":
-            segueID = "TEST_RESULT"
-            break
         default:
+            //Test
+            segueID = "TEST_RESULT"
             break
         }
         performSegue(withIdentifier: segueID, sender: sender)

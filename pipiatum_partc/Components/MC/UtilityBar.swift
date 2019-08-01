@@ -17,29 +17,38 @@ class UtilityBar: UIView {
     
     override required init(frame: CGRect) {
         super.init(frame: frame)
-        //Both will be disabled initially
-        checkBtn.changeState()
-        nextBtn.changeState()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
+    var type: String = ""
     weak var delegate: MCDelegate?
     
-    func initUtilBar() {
-        //Initially: show = T, check = F, next = F
-        checkBtn.changeState()
-        nextBtn.changeState()
+    func initUtilBar(type: String) {
+        self.type = type
+        switch type {
+        case "GS":
+            break
+        case "Practice":
+            //Initially: show = T, check = F, next = F
+            checkBtn.changeState()
+            nextBtn.changeState()
+            break
+        default :
+            //Test
+            //TODO
+            break
+        }
     }
    
-    //GS
+    //MARK: GS
     @IBAction func addLB(_ sender: UtilityButton) {
         //TBC
     }
     
-    //Practice
+    //MARK: Practice
     @IBAction func showAns(_ sender: UtilityButton) {
         delegate?.firstMCSelected = true
         delegate?.showBtnPressed = true
@@ -63,14 +72,32 @@ class UtilityBar: UIView {
         delegate?.checkBtnPressed = false
         delegate?.nextBtnPressed = true
         if !delegate!.isEnd {
-            delegate!.nextMC()
+            delegate?.nextMC()
         }
         else {
-            delegate!.endMC(sender: sender)
+            delegate?.endMC(sender: sender)
         }
     }
     
     func updateView() {
+        switch type {
+        case "GS":
+            updateGSUtilBar()
+            break
+        case "Practice":
+            updatePracticeUtilBar()
+            break
+        default :
+            updateTestUtilBar()
+            break
+        }
+    }
+    
+    func updateGSUtilBar() {
+        //TBC
+    }
+    
+    func updatePracticeUtilBar() {
         //If T, show = F, check = T, next = F
         if !delegate!.firstMCSelected {
             showBtn.changeState()       //Disabled
@@ -95,6 +122,9 @@ class UtilityBar: UIView {
             nextBtn.changeState()       //Disabled
             //checkBtn keep disabled
         }
-        
+    }
+    
+    func updateTestUtilBar() {
+        //TOO
     }
 }

@@ -84,9 +84,8 @@ class MCView: UIView {
     func updateView() {
         for button in MCButtons {
             if !button.listButton.isPressed {
-                button.listButton.ansChosen = false
+                button.listButton.chosen = false
                 
-               
                 UIView.animate(withDuration: 0.3, animations: {
                     button.listButton.backgroundColor = button.listButton.originalColor
                     button.listButton.setTitleColor(.white, for: .normal)
