@@ -105,11 +105,13 @@ class MCView: UIView {
     
     func scrollTo(bottom: Bool) {
         var offset: CGPoint = CGPoint(x: 0, y: 0)
-        if bottom {
-            print("\(MCQnScroll.contentSize.height) - \(MCQnScroll.bounds.size.height)")
-            offset = CGPoint(x: 0, y: MCQnScroll.contentSize.height - MCQnScroll.bounds.size.height)
-            print(offset)
+        let offsetValue: CGFloat = MCQnScroll.contentSize.height - MCQnScroll.bounds.size.height
+        print("\(MCQnScroll.contentSize.height) - \(MCQnScroll.bounds.size.height)")
+
+        if bottom && (offsetValue >= 0) {
+            offset = CGPoint(x: 0, y: offsetValue)
         }
+        print(offset)
         MCQnScroll.setContentOffset(offset, animated: true)
     }
     
