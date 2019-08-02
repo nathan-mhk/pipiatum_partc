@@ -20,35 +20,59 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="MCQuestion">
-            <rect key="frame" x="0.0" y="0.0" width="497" height="472"/>
+            <rect key="frame" x="0.0" y="0.0" width="437" height="402"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-WF-2uI" userLabel="Marks">
+                    <rect key="frame" x="398" y="24" width="10.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.96470588239999999" green="0.84705882349999995" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jp5-Fg-dbh" userLabel="Total">
+                    <rect key="frame" x="408.5" y="24" width="23.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-sP-sYN">
+                    <rect key="frame" x="359.5" y="24" width="37" height="20.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="8Gh-Re-2P3"/>
+                        <constraint firstAttribute="height" constant="20.5" id="lwf-ZM-D9J"/>
+                    </constraints>
+                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Greeks Sail to Troy to Win Back Helen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtF-oX-ucd" userLabel="ExCat">
-                    <rect key="frame" x="124.5" y="15" width="248.5" height="38.5"/>
+                    <rect key="frame" x="109.5" y="15" width="218.5" height="38.5"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agamemnon tamen timebat; Achilles erat optimus (best) Graecorum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8r-Dx-j3w" userLabel="Prompt">
-                    <rect key="frame" x="49.5" y="197.5" width="398" height="38.5"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="38.5" id="EI5-A2-Jf4"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                    <color key="textColor" red="0.91962295770000002" green="0.66161775590000005" blue="0.3278360367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'posuit' - what is the first person singular of the present tense of this verb? (earn 1 point for a correct answer)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJG-aU-ugO" userLabel="Question">
-                    <rect key="frame" x="12.5" y="236" width="472" height="57.5"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="57.5" id="QpJ-fo-pPh"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="7rv-KD-3Fj" userLabel="QnStack">
+                    <rect key="frame" x="22" y="153" width="393" height="96"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agamemnon tamen timebat; Achilles erat optimus (best) Graecorum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8r-Dx-j3w" userLabel="Prompt">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="38.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38.5" id="EI5-A2-Jf4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="0.91962295770000002" green="0.66161775590000005" blue="0.3278360367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'posuit' - what is the first person singular of the present tense of this verb? (earn 1 point for a correct answer)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJG-aU-ugO" userLabel="Question">
+                            <rect key="frame" x="0.0" y="38.5" width="393" height="57.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="57.5" id="QpJ-fo-pPh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgV-4j-7FU" userLabel="Feedback">
-                    <rect key="frame" x="25" y="399.5" width="447" height="57.5"/>
+                    <rect key="frame" x="22" y="329.5" width="393" height="57.5"/>
                     <color key="backgroundColor" red="0.1215686275" green="0.2156862745" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="57.5" id="yRw-Pn-yOi"/>
@@ -60,50 +84,28 @@ regin-am (acc sing as object of habemus)</string>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-WF-2uI" userLabel="Marks">
-                    <rect key="frame" x="458" y="24" width="10.5" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.96470588239999999" green="0.84705882349999995" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jp5-Fg-dbh" userLabel="Total">
-                    <rect key="frame" x="468.5" y="24" width="23.5" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-sP-sYN">
-                    <rect key="frame" x="419.5" y="24" width="37" height="20.5"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="37" id="8Gh-Re-2P3"/>
-                        <constraint firstAttribute="height" constant="20.5" id="lwf-ZM-D9J"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <constraints>
+                <constraint firstItem="7rv-KD-3Fj" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="2z0-cJ-cDv"/>
                 <constraint firstItem="Ffu-sP-sYN" firstAttribute="centerY" secondItem="KtF-oX-ucd" secondAttribute="centerY" id="4ck-kv-okI"/>
-                <constraint firstItem="fJG-aU-ugO" firstAttribute="centerX" secondItem="KtF-oX-ucd" secondAttribute="centerX" id="6MY-DN-05f"/>
                 <constraint firstItem="KtF-oX-ucd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7jU-Vi-l0z"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Jp5-Fg-dbh" secondAttribute="trailing" constant="5" id="8tk-Y3-kIh"/>
                 <constraint firstItem="V5b-WF-2uI" firstAttribute="centerY" secondItem="KtF-oX-ucd" secondAttribute="centerY" id="8uT-1x-1E8"/>
                 <constraint firstAttribute="bottom" secondItem="PgV-4j-7FU" secondAttribute="bottom" constant="15" id="A7H-ZK-L1t"/>
-                <constraint firstItem="fJG-aU-ugO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ASp-xo-86u"/>
                 <constraint firstItem="Jp5-Fg-dbh" firstAttribute="centerY" secondItem="KtF-oX-ucd" secondAttribute="centerY" id="Adh-Q4-ETv"/>
-                <constraint firstItem="e8r-Dx-j3w" firstAttribute="centerX" secondItem="KtF-oX-ucd" secondAttribute="centerX" id="Dv9-gn-YkP"/>
-                <constraint firstItem="fJG-aU-ugO" firstAttribute="top" secondItem="e8r-Dx-j3w" secondAttribute="bottom" id="IBl-IV-ffz"/>
-                <constraint firstItem="fJG-aU-ugO" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.95" id="IWQ-gL-uqT"/>
-                <constraint firstItem="e8r-Dx-j3w" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="NBp-a7-rUr"/>
                 <constraint firstItem="KtF-oX-ucd" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="Oz8-LB-3tD"/>
                 <constraint firstItem="PgV-4j-7FU" firstAttribute="centerX" secondItem="KtF-oX-ucd" secondAttribute="centerX" id="Ubx-ZQ-ljz"/>
                 <constraint firstItem="KtF-oX-ucd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="VXf-Dh-0RJ"/>
                 <constraint firstItem="Jp5-Fg-dbh" firstAttribute="leading" secondItem="Ffu-sP-sYN" secondAttribute="trailing" constant="12" id="WdD-pU-ySa"/>
                 <constraint firstItem="V5b-WF-2uI" firstAttribute="height" secondItem="Jp5-Fg-dbh" secondAttribute="height" id="Y0a-sY-fvN"/>
+                <constraint firstItem="7rv-KD-3Fj" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="ca3-iq-KDq"/>
                 <constraint firstItem="PgV-4j-7FU" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="ixB-PF-4Ma"/>
+                <constraint firstItem="7rv-KD-3Fj" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="tI1-pP-bd5"/>
                 <constraint firstItem="Jp5-Fg-dbh" firstAttribute="leading" secondItem="V5b-WF-2uI" secondAttribute="trailing" id="wQ4-2z-1hb"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="180" y="-39.580209895052477"/>
+            <point key="canvasLocation" x="132" y="-71.064467766116948"/>
         </view>
     </objects>
     <resources>

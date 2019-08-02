@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
             <connections>
+                <outlet property="MCQnHeight" destination="Wzh-8T-Ae8" id="1MF-bp-XuF"/>
+                <outlet property="MCQnScroll" destination="Ztd-pN-vNY" id="TAC-la-gZk"/>
                 <outlet property="MCQuestion" destination="fgZ-8L-pM5" id="0fz-BG-Qst"/>
                 <outlet property="MCStack" destination="q1a-MV-M8k" id="D0H-a5-APq"/>
                 <outlet property="utilityBar" destination="HMe-C1-EdN" id="6xQ-pn-dok"/>
@@ -24,9 +26,35 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-8L-pM5" userLabel="MCQuestion" customClass="MCQuestion" customModule="pipiatum_partc" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zG-ph-t10" userLabel="Question Content">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
-                    <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztd-pN-vNY" userLabel="MCQn Scroll">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-8L-pM5" userLabel="MCQuestion" customClass="MCQuestion" customModule="pipiatum_partc" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="301.5"/>
+                                    <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="301.5" id="Wzh-8T-Ae8"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="fgZ-8L-pM5" secondAttribute="bottom" id="DsW-Jr-FS8" userLabel="MCQuestion.bottom"/>
+                                <constraint firstAttribute="trailing" secondItem="fgZ-8L-pM5" secondAttribute="trailing" id="H2Z-57-iPG" userLabel="MCQuestion.trailing"/>
+                                <constraint firstItem="fgZ-8L-pM5" firstAttribute="top" secondItem="Ztd-pN-vNY" secondAttribute="top" id="rrX-KQ-Ogy" userLabel="MCQuestion.top"/>
+                                <constraint firstItem="fgZ-8L-pM5" firstAttribute="leading" secondItem="Ztd-pN-vNY" secondAttribute="leading" id="vys-3l-YnJ" userLabel="MCQuestion.leading"/>
+                                <constraint firstItem="fgZ-8L-pM5" firstAttribute="centerX" secondItem="Ztd-pN-vNY" secondAttribute="centerX" id="yqU-3Z-z6t" userLabel="MCQuestion.centerX"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ztd-pN-vNY" firstAttribute="centerX" secondItem="9zG-ph-t10" secondAttribute="centerX" id="626-iY-YAP" userLabel="MCQn Scroll.centerX"/>
+                        <constraint firstItem="Ztd-pN-vNY" firstAttribute="centerY" secondItem="9zG-ph-t10" secondAttribute="centerY" id="rZ0-vW-Mt2" userLabel="MCQn Scroll.centerY"/>
+                        <constraint firstItem="Ztd-pN-vNY" firstAttribute="height" secondItem="9zG-ph-t10" secondAttribute="height" id="y86-DX-kwS" userLabel="MCQn Scroll.height"/>
+                        <constraint firstItem="Ztd-pN-vNY" firstAttribute="width" secondItem="9zG-ph-t10" secondAttribute="width" id="ykR-jO-j7j" userLabel="MCQn Scroll.width"/>
+                    </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q1a-MV-M8k" userLabel="MCStack">
                     <rect key="frame" x="0.0" y="333.5" width="375" height="235"/>
@@ -56,18 +84,13 @@
             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="w80-rD-Naz" firstAttribute="top" secondItem="q1a-MV-M8k" secondAttribute="bottom" id="298-ip-z7s" userLabel="MCChoiceStack.bottom"/>
-                <constraint firstItem="HMe-C1-EdN" firstAttribute="top" secondItem="w80-rD-Naz" secondAttribute="top" constant="8" id="7QG-Xw-5np">
+                <constraint firstItem="HMe-C1-EdN" firstAttribute="top" secondItem="w80-rD-Naz" secondAttribute="top" constant="8" id="7QG-Xw-5np" userLabel="UtilBar.top">
                     <variation key="heightClass=compact-widthClass=compact" constant="5"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="20"/>
                 </constraint>
-                <constraint firstItem="q1a-MV-M8k" firstAttribute="top" secondItem="fgZ-8L-pM5" secondAttribute="bottom" id="CnM-d9-V9y" userLabel="MCChoiceStack.top"/>
-                <constraint firstItem="fgZ-8L-pM5" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.5" id="Ecq-Iz-GwG" userLabel="MC Question.height">
-                    <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
-                    <variation key="heightClass=compact-widthClass=regular" constant="-15"/>
-                </constraint>
                 <constraint firstItem="q1a-MV-M8k" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="FPg-pn-8co" userLabel="MC Choice Stack.width"/>
                 <constraint firstItem="w80-rD-Naz" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="GmB-RL-C2L" userLabel="Footer View.width"/>
-                <constraint firstItem="fgZ-8L-pM5" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="KzY-Kh-qmJ" userLabel="MC Question.centerX"/>
+                <constraint firstItem="9zG-ph-t10" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="I2W-6z-R23" userLabel="Question Content.centerX"/>
                 <constraint firstItem="q1a-MV-M8k" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="Qw5-fd-LuO" userLabel="MC Choice Stack.centerX"/>
                 <constraint firstItem="w80-rD-Naz" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.2" id="SWX-Lh-MKj" userLabel="Footer View.height">
                     <variation key="heightClass=compact-widthClass=compact" constant="-12"/>
@@ -75,16 +98,21 @@
                     <variation key="heightClass=regular-widthClass=compact" constant="-35"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="-32"/>
                 </constraint>
-                <constraint firstItem="HMe-C1-EdN" firstAttribute="width" secondItem="w80-rD-Naz" secondAttribute="width" multiplier="0.9" id="WKg-Zc-6ff"/>
+                <constraint firstItem="9zG-ph-t10" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="Ti6-ey-7fT" userLabel="Question Content.width"/>
+                <constraint firstItem="HMe-C1-EdN" firstAttribute="width" secondItem="w80-rD-Naz" secondAttribute="width" multiplier="0.9" id="WKg-Zc-6ff" userLabel="UtilBar.width"/>
+                <constraint firstItem="9zG-ph-t10" firstAttribute="top" secondItem="RrY-S4-Mz8" secondAttribute="top" id="WZK-38-pbi" userLabel="Question Content.top"/>
+                <constraint firstItem="9zG-ph-t10" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.5" id="Y9F-nD-hHL" userLabel="Question Content.height">
+                    <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="-15"/>
+                </constraint>
                 <constraint firstAttribute="bottom" secondItem="w80-rD-Naz" secondAttribute="bottom" id="bcS-Am-Qkc" userLabel="Footer View.bottom"/>
                 <constraint firstItem="w80-rD-Naz" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="jKD-lj-Qun" userLabel="Footer View.centerX"/>
-                <constraint firstItem="fgZ-8L-pM5" firstAttribute="top" secondItem="RrY-S4-Mz8" secondAttribute="top" id="jVS-gr-OUJ" userLabel="MC Question.top"/>
-                <constraint firstItem="HMe-C1-EdN" firstAttribute="centerX" secondItem="w80-rD-Naz" secondAttribute="centerX" id="pGM-Ok-toE"/>
-                <constraint firstItem="5DR-Qj-ctJ" firstAttribute="bottom" secondItem="HMe-C1-EdN" secondAttribute="bottom" constant="8" id="t9A-b3-nOo">
+                <constraint firstItem="q1a-MV-M8k" firstAttribute="top" secondItem="9zG-ph-t10" secondAttribute="bottom" id="l2b-1j-cxF"/>
+                <constraint firstItem="HMe-C1-EdN" firstAttribute="centerX" secondItem="w80-rD-Naz" secondAttribute="centerX" id="pGM-Ok-toE" userLabel="UtilBar.centerX"/>
+                <constraint firstItem="5DR-Qj-ctJ" firstAttribute="bottom" secondItem="HMe-C1-EdN" secondAttribute="bottom" constant="8" id="t9A-b3-nOo" userLabel="UtilBar.bottom">
                     <variation key="heightClass=compact-widthClass=compact" constant="5"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="20"/>
                 </constraint>
-                <constraint firstItem="fgZ-8L-pM5" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="u0p-ip-97f" userLabel="MC Question.width"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="5DR-Qj-ctJ"/>
             <point key="canvasLocation" x="-92" y="145.27736131934034"/>

@@ -20,32 +20,13 @@ class AboutUsViewController: BasicViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        updateContentHeight()
+        updateContentHeight(contentView: aboutUsContentView, height: contentViewHeight)
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         coordinator.animate(alongsideTransition: nil) { _ in
-            self.updateContentHeight()
+            updateContentHeight(contentView: self.aboutUsContentView, height: self.contentViewHeight)
         }
     }
-
-    private func computeContentHeight() -> CGFloat {
-        let viewRect = aboutUsContentView.frame
-        var minY = viewRect.minY
-        var maxY = minY
-        
-        for subview in aboutUsContentView.subviews {
-            let rect = subview.frame
-            minY = min(minY, rect.minY)
-            maxY = max(maxY, rect.maxY)
-        }
-        
-        return abs(ceil(maxY - minY))
-    }
-    
-    private func updateContentHeight() {
-        contentViewHeight.constant = computeContentHeight()
-    }
-
 }

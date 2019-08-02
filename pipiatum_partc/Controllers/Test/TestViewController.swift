@@ -23,6 +23,17 @@ class TestViewController: BasicMCViewController {
         //To be implemented: EggBar
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        //updateContentHeight(contentView: testMC.MCQuestion, height: testMC.MCQnHeight)
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        coordinator.animate(alongsideTransition: nil) { _ in
+            updateContentHeight(contentView: self.testMC.MCQuestion, height: self.testMC.MCQnHeight)
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "TEST_RESULT" {
             if let destination =  segue.destination as? TestResultViewController {

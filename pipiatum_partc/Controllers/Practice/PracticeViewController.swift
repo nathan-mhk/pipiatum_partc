@@ -23,6 +23,17 @@ class PracticeViewController: BasicMCViewController {
         setUpMCView(utilBarName: "PracticeButtons")
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        updateContentHeight(contentView: practiceMC.MCQuestion, height: practiceMC.MCQnHeight)
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        coordinator.animate(alongsideTransition: nil) { _ in
+            updateContentHeight(contentView: self.practiceMC.MCQuestion, height: self.practiceMC.MCQnHeight)
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PRACTICE_RESULT" {
             if let destination = segue.destination as? PracticeResultViewController {

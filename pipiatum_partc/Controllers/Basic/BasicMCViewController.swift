@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class BasicMCViewController: BasicViewController, MCDelegate {
     
@@ -109,6 +110,13 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func setUpMC() {
+        //temp
+//        deleteData()
+//        createData()
+//        retrieveData()
+//        updateData()
+//        retrieveData()
+        
         questionPool.removeAll()
         for mark in 1...3 {
             //TODO: Grab the first 10 questions in load() only
@@ -155,6 +163,9 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             correctBtn.listButton.backgroundColor = UIColor(hexString: green)
         })
         mcView!.toggleMCButtons()
+        if showFB {
+            mcView!.scrollTo(bottom: true)
+        }
         mcView!.MCQuestion.showFeedback(show: showFB)
     }
     
@@ -222,6 +233,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func doNextMC(btn: ListButtonView) {
+        //Debug: MCAnimationDuration
         //DispatchQueue.main.asyncAfter(deadline: .now() + MCAnimationDuration) {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(testMCDelay)) {
             if !self.isEnd {
@@ -237,6 +249,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         //Reset all subviews
         updateView()
         mcView!.toggleMCButtons()
+        mcView!.scrollTo(bottom: false)
         for button in mcView!.MCButtons {
             button.listButton.chosen = false
         }
@@ -290,6 +303,89 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             return "Optime factum!"     // 9
         default:
             return "Feliciter!"         //Full Mark
+        }
+    }
+    
+    //MARK: CoreData
+    
+    func createData() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+        
+        let managedContext = appDelegate.persistentContainer.viewContext
+        
+        let scoreEntity = NSEntityDescription.entity(forEntityName: entity, in: managedContext)!
+        
+        for i in 1...5 {
+            let score = NSManagedObject(entity: scoreEntity, insertInto: managedContext)
+            score.setValue(i, forKeyPath: timesAnswered)
+            score.setValue((i + 10), forKeyPath: timesCorrAnswered)
+        }
+        
+        do {
+            try managedContext.save()
+        } catch let error as NSError {
+            print("Could not save. \(error), \(error.userInfo)")
+        }
+    }
+    
+    func retrieveData() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+        
+        let managedContext = appDelegate.persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+        
+        do {
+            let result = try managedContext.fetch(fetchRequest)
+            for data in result as! [NSManagedObject] {
+                print("timesAnswered: \(data.value(forKey: timesAnswered) as! Int32)")
+            }
+        } catch {
+            print("Failed!")
+        }
+    }
+    
+    func updateData() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+        
+        let managedContext = appDelegate.persistentContainer.viewContext
+        
+        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest.init(entityName: entity)
+        fetchRequest.predicate = NSPredicate(format: "\(timesAnswered) = %@", "1")
+        do {
+            let test = try managedContext.fetch(fetchRequest)
+            
+            let objectUpdate = test[0] as! NSManagedObject
+            objectUpdate.setValue(100, forKey: timesAnswered)
+            objectUpdate.setValue(100, forKey: timesCorrAnswered)
+            
+            do {
+                try managedContext.save()
+            }
+            catch {
+                print(error)
+            }
+            
+        } catch {
+            print(error)
+        }
+    }
+    
+    func deleteData() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+        
+        let managedContext = appDelegate.persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+        
+        do {
+            let results = try managedContext.fetch(fetchRequest)
+            for managedObject in results {
+                let managedObjectData: NSManagedObject = managedObject as! NSManagedObject
+                managedContext.delete(managedObjectData)
+            }
+        } catch let error as NSError {
+            print("Delete all data in \(entity) error: \(error) \(error.userInfo)")
         }
     }
 }
