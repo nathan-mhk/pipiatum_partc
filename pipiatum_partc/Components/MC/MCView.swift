@@ -10,10 +10,12 @@ import UIKit
 
 class MCView: UIView {
     
-    @IBOutlet weak var utilityBar: UtilityBar!
+    @IBOutlet weak var MCQnScroll: UIScrollView!
     @IBOutlet weak var MCQuestion: MCQuestion!
+    @IBOutlet weak var MCQnHeight: NSLayoutConstraint!
     @IBOutlet weak var MCStack: UIStackView!
     @IBOutlet var MCButtons: [ListButtonView]!
+    @IBOutlet weak var utilityBar: UtilityBar!
     
     override required init(frame: CGRect) {
         super.init(frame: frame)
@@ -99,6 +101,16 @@ class MCView: UIView {
         for button in MCButtons {
             button.listButton.isEnabled = !button.listButton.isEnabled
         }
+    }
+    
+    func scrollTo(bottom: Bool) {
+        var offset: CGPoint = CGPoint(x: 0, y: 0)
+        if bottom {
+            print("\(MCQnScroll.contentSize.height) - \(MCQnScroll.bounds.size.height)")
+            offset = CGPoint(x: 0, y: MCQnScroll.contentSize.height - MCQnScroll.bounds.size.height)
+            print(offset)
+        }
+        MCQnScroll.setContentOffset(offset, animated: true)
     }
     
 }

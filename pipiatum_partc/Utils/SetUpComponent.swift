@@ -22,3 +22,18 @@ func setUpComponent(componentName: String, superView: AnyObject) {
     }
     
 }
+
+func updateContentHeight(contentView: UIView, height: NSLayoutConstraint) {
+    let viewRect = contentView.frame
+    var minY = viewRect.minY
+    var maxY = minY
+    
+    for subview in contentView.subviews {
+        let rect = subview.frame
+        minY = min(minY, rect.minY)
+        maxY = max(maxY, rect.maxY)
+    }
+    
+    height.constant = abs(ceil(maxY - minY))
+}
+

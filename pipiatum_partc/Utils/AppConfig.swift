@@ -24,5 +24,10 @@ let MCAnimationDuration: TimeInterval = 0.3
 let BtnAnimationDuration: TimeInterval = MCAnimationDuration
 
 //Settings
-let stdFontKey = "stdFont"
-let scriptFontKey = "scriptFont"
+let stdFontKey: String = "stdFont"
+let scriptFontKey: String = "scriptFont"
+
+//Saving
+let entity: String = "Score"
+let timesAnswered: String = "timesAnswered"
+let timesCorrAnswered: String = "timesCorrAnswered"
