@@ -24,7 +24,7 @@ extension UIView {
     func getAllSubViews<T: UIView>() -> [T] {
         return UIView.getAllSubviews(from: self) as [T]
     }
-    //Reference end
+    
     
     //Reference: https://stackoverflow.com/a/27645516
     //Usage:

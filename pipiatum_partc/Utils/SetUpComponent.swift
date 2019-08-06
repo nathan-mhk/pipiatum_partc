@@ -28,12 +28,15 @@ func updateContentHeight(contentView: UIView, height: NSLayoutConstraint) {
     var minY = viewRect.minY
     var maxY = minY
     
-    for subview in contentView.subviews {
-        let rect = subview.frame
+    let allLabels = contentView.getAllSubViews() as [UILabel]
+    
+    for label in allLabels {
+        let rect = label.frame
         minY = min(minY, rect.minY)
         maxY = max(maxY, rect.maxY)
     }
     
-    height.constant = abs(ceil(maxY - minY))
+    height.constant = abs(ceil(maxY - minY)) + 8
+    print(height.constant)
 }
 
