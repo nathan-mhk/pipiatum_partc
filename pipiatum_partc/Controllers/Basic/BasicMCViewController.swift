@@ -337,6 +337,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         
         do {
             let result = try managedContext.fetch(fetchRequest)
+            
             for data in result as! [NSManagedObject] {
                 print("timesAnswered: \(data.value(forKey: timesAnswered) as! Int32)")
             }
@@ -353,11 +354,14 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest.init(entityName: entity)
         fetchRequest.predicate = NSPredicate(format: "\(timesAnswered) = %@", "1")
         do {
-            let test = try managedContext.fetch(fetchRequest)
+            let resultSet = try managedContext.fetch(fetchRequest)
             
-            let objectUpdate = test[0] as! NSManagedObject
-            objectUpdate.setValue(100, forKey: timesAnswered)
-            objectUpdate.setValue(100, forKey: timesCorrAnswered)
+            let record = resultSet[0] as! NSManagedObject
+            
+            let AnsValue = record.value(forKey: timesCorrAnswered) as? Int ?? 0
+            
+            record.setValue(100, forKey: timesAnswered)
+            record.setValue(AnsValue + 1, forKey: timesCorrAnswered)
             
             do {
                 try managedContext.save()

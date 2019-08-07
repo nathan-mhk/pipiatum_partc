@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -24,35 +24,35 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-WF-2uI" userLabel="Marks">
-                    <rect key="frame" x="416" y="19" width="10.5" height="20.5"/>
+                    <rect key="frame" x="416.33333333333331" y="19" width="10.333333333333314" height="20.333333333333329"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.96470588239999999" green="0.84705882349999995" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jp5-Fg-dbh" userLabel="Total">
-                    <rect key="frame" x="426.5" y="19" width="23.5" height="20.5"/>
+                    <rect key="frame" x="426.66666666666669" y="19" width="23.333333333333314" height="20.333333333333329"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-sP-sYN">
-                    <rect key="frame" x="377.5" y="19" width="37" height="20.5"/>
+                    <rect key="frame" x="377.66666666666669" y="19" width="37" height="20.333333333333329"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="37" id="8Gh-Re-2P3"/>
                         <constraint firstAttribute="height" constant="20.5" id="lwf-ZM-D9J"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Greeks Sail to Troy to Win Back Helen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtF-oX-ucd" userLabel="ExCat">
-                    <rect key="frame" x="114" y="10" width="227.5" height="38.5"/>
+                    <rect key="frame" x="113.66666666666667" y="10" width="227.66666666666663" height="38.333333333333336"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="7rv-KD-3Fj" userLabel="QnStack">
-                    <rect key="frame" x="23" y="128.5" width="409.5" height="96"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="7rv-KD-3Fj" userLabel="QnStack">
+                    <rect key="frame" x="22.666666666666657" y="78.333333333333314" width="409.66666666666674" height="104"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agamemnon tamen timebat; Achilles erat optimus (best) Graecorum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8r-Dx-j3w" userLabel="Prompt">
-                            <rect key="frame" x="0.0" y="0.0" width="409.5" height="38.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="409.66666666666669" height="38.666666666666664"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="38.5" id="EI5-A2-Jf4"/>
                             </constraints>
@@ -60,19 +60,29 @@
                             <color key="textColor" red="0.91962295770000002" green="0.66161775590000005" blue="0.3278360367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'posuit' - what is the first person singular of the present tense of this verb? (earn 1 point for a correct answer)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJG-aU-ugO" userLabel="Question">
-                            <rect key="frame" x="0.0" y="38.5" width="409.5" height="57.5"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yhj-2p-rlS" userLabel="Question Label View">
+                            <rect key="frame" x="0.0" y="38.666666666666679" width="409.66666666666669" height="65.333333333333314"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJG-aU-ugO" userLabel="Question">
+                                    <rect key="frame" x="0.0" y="8.0000000000000036" width="409.66666666666669" height="57.333333333333343"/>
+                                    <string key="text">'posuit' - what is the first person singular of the present tense of this verb?
+(earn 1 point for a correct answer)</string>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
                             <constraints>
-                                <constraint firstAttribute="height" constant="57.5" id="QpJ-fo-pPh"/>
+                                <constraint firstItem="fJG-aU-ugO" firstAttribute="leading" secondItem="Yhj-2p-rlS" secondAttribute="leading" id="Xcp-xB-QSG"/>
+                                <constraint firstAttribute="trailing" secondItem="fJG-aU-ugO" secondAttribute="trailing" id="Y8r-7Y-3UO"/>
+                                <constraint firstItem="fJG-aU-ugO" firstAttribute="top" secondItem="Yhj-2p-rlS" secondAttribute="top" constant="8" id="eCT-Wg-6QU"/>
+                                <constraint firstAttribute="height" constant="65.5" id="qYa-Ac-DUf"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        </view>
                     </subviews>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgV-4j-7FU" userLabel="Feedback">
-                    <rect key="frame" x="23" y="304.5" width="409.5" height="57.5"/>
+                    <rect key="frame" x="22.666666666666657" y="197.33333333333334" width="409.66666666666674" height="57.666666666666657"/>
                     <color key="backgroundColor" red="0.1215686275" green="0.2156862745" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="57.5" id="yRw-Pn-yOi"/>
@@ -103,12 +113,14 @@ regin-am (acc sing as object of habemus)</string>
                 <constraint firstItem="7rv-KD-3Fj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ca3-iq-KDq" userLabel="QnStack.centerX"/>
                 <constraint firstItem="PgV-4j-7FU" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="ixB-PF-4Ma" userLabel="Feedback.width"/>
                 <constraint firstItem="PgV-4j-7FU" firstAttribute="top" secondItem="7rv-KD-3Fj" secondAttribute="bottom" constant="80" id="lWa-UK-7d4">
-                    <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                    <variation key="heightClass=compact-widthClass=compact" constant="15"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="120"/>
                 </constraint>
                 <constraint firstItem="7rv-KD-3Fj" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="tI1-pP-bd5" userLabel="QnStack.width"/>
                 <constraint firstItem="7rv-KD-3Fj" firstAttribute="top" secondItem="KtF-oX-ucd" secondAttribute="bottom" constant="80" id="u4x-oe-xEi">
-                    <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                    <variation key="heightClass=compact-widthClass=compact" constant="30"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="30"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="150"/>
                 </constraint>
                 <constraint firstItem="Jp5-Fg-dbh" firstAttribute="leading" secondItem="V5b-WF-2uI" secondAttribute="trailing" id="wQ4-2z-1hb"/>
