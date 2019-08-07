@@ -25,11 +25,20 @@
                     <connections>
                         <outlet property="practiceMC" destination="TNU-HZ-ynF" id="5FF-fW-ALB"/>
                         <segue destination="c6h-Pi-ZDy" kind="show" identifier="PRACTICE_RESULT" id="s26-fm-p5D"/>
+                        <segue destination="1cy-wT-cSv" kind="show" identifier="PRACTICE_MENU" id="9Ox-cv-gVd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAX-pt-UIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="375" y="-141"/>
+        </scene>
+        <!--PracticeMenu-->
+        <scene sceneID="L34-1c-JU6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PracticeMenu" id="1cy-wT-cSv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g2A-TD-iek" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="-287"/>
         </scene>
         <!--PracticeResult-->
         <scene sceneID="yHt-UH-lh6">
