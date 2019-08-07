@@ -37,6 +37,5 @@ func updateContentHeight(contentView: UIView, height: NSLayoutConstraint) {
     }
     
     height.constant = abs(ceil(maxY - minY)) + 10
-    print(height.constant)
 }
 

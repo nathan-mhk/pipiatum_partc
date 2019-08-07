@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8108D6922FA80E000C57147 /* ManagedObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */; };
+		D8108D6A22FA80E000C57147 /* ManagedObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */; };
+		D8108D6B22FA80E000C57147 /* ManagedObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */; };
 		D845F2A122D31E8F000D6F1D /* SubMenuStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */; };
 		D845F2A222D31E8F000D6F1D /* SubMenuStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */; };
 		D845F2A322D31E8F000D6F1D /* SubMenuStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */; };
@@ -273,6 +276,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectManager.swift; sourceTree = "<group>"; };
 		D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuStack.swift; sourceTree = "<group>"; };
 		D84CA70A22BA3ECE00E7B16F /* pipiatum_partc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipiatum_partc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84CA70D22BA3ECE00E7B16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -441,6 +445,14 @@
 			path = "Personal Best";
 			sourceTree = "<group>";
 		};
+		D8108D6722FA80A100C57147 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D84CA70122BA3ECE00E7B16F = {
 			isa = PBXGroup;
 			children = (
@@ -471,6 +483,7 @@
 				D84CA74222BA422600E7B16F /* Controllers */,
 				D84CA74422BA442B00E7B16F /* Layouts */,
 				D88DA85D22BC7D43002CFC39 /* Storyboard */,
+				D8108D6722FA80A100C57147 /* Services */,
 				D84CA74122BA418200E7B16F /* Utils */,
 				D84CA70D22BA3ECE00E7B16F /* AppDelegate.swift */,
 				D84CA71722BA3EDC00E7B16F /* Assets.xcassets */,
@@ -1038,6 +1051,7 @@
 				D89ADEDC22C6029C00810E23 /* GSTestMenuViewController.swift in Sources */,
 				D895079022C37D55006DB1B1 /* SubMenu.swift in Sources */,
 				D8D0ECFA22C49F3100872829 /* MenuButton.swift in Sources */,
+				D8108D6922FA80E000C57147 /* ManagedObjectManager.swift in Sources */,
 				D84CA71622BA3ECE00E7B16F /* pipiatum_partc.xcdatamodeld in Sources */,
 				D899BB2F22D6EE2000BAF86D /* UIView.swift in Sources */,
 				D8B3706222E5917D00A77776 /* ListButtonView.swift in Sources */,
@@ -1102,6 +1116,7 @@
 				D8A5446B22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
 				D89ADEDD22C6029C00810E23 /* GSTestMenuViewController.swift in Sources */,
 				D895079122C37D55006DB1B1 /* SubMenu.swift in Sources */,
+				D8108D6A22FA80E000C57147 /* ManagedObjectManager.swift in Sources */,
 				D8D0ECFB22C49F3200872829 /* MenuButton.swift in Sources */,
 				D84CA73422BA3F7300E7B16F /* AppDelegate.swift in Sources */,
 				D899BB3022D6EE2000BAF86D /* UIView.swift in Sources */,
@@ -1158,6 +1173,7 @@
 				D8A5446C22DC20C200D32E8C /* BasicMCViewController.swift in Sources */,
 				D8965DB522CDCDA9007D32BB /* GSTestMenuViewController.swift in Sources */,
 				D8965DB622CDCDA9007D32BB /* SubMenu.swift in Sources */,
+				D8108D6B22FA80E000C57147 /* ManagedObjectManager.swift in Sources */,
 				D8965DB722CDCDA9007D32BB /* MenuButton.swift in Sources */,
 				D8965DB822CDCDA9007D32BB /* AppDelegate.swift in Sources */,
 				D899BB3122D6EE2000BAF86D /* UIView.swift in Sources */,

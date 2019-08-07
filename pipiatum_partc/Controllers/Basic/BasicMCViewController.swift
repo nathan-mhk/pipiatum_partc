@@ -88,6 +88,10 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     var nextBtnPressed: Bool = false
     var isEnd: Bool = false
     
+    //For CoreData
+//    var appDelegate: AppDelegate? = nil
+//    var managedContext: NSManagedObjectContext
+    
     func setUpMCView(utilBarName: String) {
         setUpComponent(componentName: utilBarName, superView: mcView!.utilityBar)
         mcView!.utilityBar.initUtilBar()
@@ -111,11 +115,11 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     func setUpMC() {
         //temp
-//        deleteData()
-//        createData()
-//        retrieveData()
-//        updateData()
-//        retrieveData()
+        deleteData()
+        createData()
+        retrieveData()
+        updateData()
+        retrieveData()
         
         questionPool.removeAll()
         for mark in 1...3 {
@@ -138,7 +142,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func showMC() {
-        self.title = "\(totalQnAnswered) of \(totalNumOfQns)"
+        self.navigationItem.title = "\(totalQnAnswered) of \(totalNumOfQns)"
         
         currentQn = questionPool.first
         if currentQn != nil && mcView != nil{
@@ -317,8 +321,8 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         
         for i in 1...5 {
             let score = NSManagedObject(entity: scoreEntity, insertInto: managedContext)
-            score.setValue(i, forKeyPath: timesAnswered)
-            score.setValue((i + 10), forKeyPath: timesCorrAnswered)
+            score.setValue(i + 10, forKeyPath: timesAnswered)
+            score.setValue(i, forKeyPath: timesCorrAnswered)
         }
         
         do {
@@ -339,10 +343,11 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             let result = try managedContext.fetch(fetchRequest)
             
             for data in result as! [NSManagedObject] {
-                print("timesAnswered: \(data.value(forKey: timesAnswered) as! Int32)")
+                print("Accuracy: \(data.value(forKey: timesCorrAnswered) as! Int) / \(data.value(forKey: timesAnswered) as! Int)")
             }
+            print("\n")
         } catch {
-            print("Failed!")
+            print("Could not retrieve!")
         }
     }
     
@@ -352,26 +357,31 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         let managedContext = appDelegate.persistentContainer.viewContext
         
         let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest.init(entityName: entity)
-        fetchRequest.predicate = NSPredicate(format: "\(timesAnswered) = %@", "1")
+        
+        //WARNING: COULD FAILED IF "1" DNE
+        fetchRequest.predicate = NSPredicate(format: "\(timesAnswered) = %@", "11")
         do {
             let resultSet = try managedContext.fetch(fetchRequest)
             
-            let record = resultSet[0] as! NSManagedObject
+//            if resultSet.count != 0 {
+            let record = resultSet.first as! NSManagedObject
             
             let AnsValue = record.value(forKey: timesCorrAnswered) as? Int ?? 0
             
             record.setValue(100, forKey: timesAnswered)
             record.setValue(AnsValue + 1, forKey: timesCorrAnswered)
             
+            
             do {
                 try managedContext.save()
             }
             catch {
-                print(error)
+                print("Failed to save! \(error)")
             }
+//            }
             
         } catch {
-            print(error)
+            print("Failed to update! \(error)")
         }
     }
     
@@ -389,7 +399,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 managedContext.delete(managedObjectData)
             }
         } catch let error as NSError {
-            print("Delete all data in \(entity) error: \(error) \(error.userInfo)")
+            print("Failed to delete all data in \(entity) error: \(error) \(error.userInfo)")
         }
     }
 }

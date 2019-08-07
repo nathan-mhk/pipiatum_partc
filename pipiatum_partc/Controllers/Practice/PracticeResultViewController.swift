@@ -15,6 +15,13 @@ class PracticeResultViewController: BasicResultViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         result.setUpResult(msg: msg, marks: marks, total: total, type: type)
+        prepareNavBtn(home: false)
     }
     
+    func prepareNavBtn(home: Bool) {
+        if var vcCount = navigationController?.viewControllers.count {
+            vcCount = home ? vcCount - 3 : vcCount - 2
+            navigationController?.viewControllers.remove(at: vcCount)
+        }
+    }
 }

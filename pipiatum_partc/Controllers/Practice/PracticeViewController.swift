@@ -41,7 +41,20 @@ class PracticeViewController: BasicMCViewController {
                 destination.marks = marks
                 destination.total = totalNumOfQns
                 destination.type = ListBtnType.practice.rawValue
+                self.navigationItem.title = "Practice"
             }
         }
     }
+    /*
+    @objc override func backToMenu(sender: UIBarButtonItem) {
+        print("hi")
+        self.performSegue(withIdentifier: "PRACTICE_MENU", sender: sender)
+        print("YO")
+    }
+    
+    @objc func back() {
+        print("BYE")
+        let viewControllers: [UIViewController] = self.navigationController!.viewControllers as [UIViewController]
+        self.navigationController!.popToViewController(viewControllers[viewControllers.count - 2], animated: true)
+    }*/
 }
