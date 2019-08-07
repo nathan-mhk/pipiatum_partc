@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -64,7 +63,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="sIx-R4-YhQ" kind="show" identifier="" id="0Rb-B7-4dV"/>
+                                                    <segue destination="sIx-R4-YhQ" kind="show" identifier="To_GS" id="0Rb-B7-4dV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiI-d0-ZGg" userLabel="PracticeButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
@@ -74,7 +73,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="qUh-Vy-IBU" kind="show" identifier="" id="csk-Hg-ex0"/>
+                                                    <segue destination="qUh-Vy-IBU" kind="show" identifier="TO_PRACTICE" id="csk-Hg-ex0"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHz-de-lVF" userLabel="TestButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
@@ -84,7 +83,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="e4R-2g-DkM" kind="show" identifier="" id="D5H-kj-m1X"/>
+                                                    <segue destination="e4R-2g-DkM" kind="show" identifier="TO_TEST" id="D5H-kj-m1X"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax0-Ml-3NP" userLabel="PBButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
@@ -94,7 +93,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="FMS-ET-9EM" kind="show" identifier="" id="1oK-KI-9r1"/>
+                                                    <segue destination="FMS-ET-9EM" kind="show" identifier="TO_PB" id="1oK-KI-9r1"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrD-EL-l6e" userLabel="SettingsButton" customClass="MenuButton" customModule="pipiatum_partc" customModuleProvider="target">
@@ -104,7 +103,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="jwz-Ud-sGI" kind="show" identifier="" id="hEr-o7-p5J"/>
+                                                    <segue destination="jwz-Ud-sGI" kind="show" identifier="TO_SETTINGS" id="hEr-o7-p5J"/>
                                                 </connections>
                                             </button>
                                         </subviews>
