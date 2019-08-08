@@ -28,6 +28,8 @@ let stdFontKey: String = "stdFont"
 let scriptFontKey: String = "scriptFont"
 
 //Saving
-let entity: String = "Score"
-let timesAnswered: String = "timesAnswered"
-let timesCorrAnswered: String = "timesCorrAnswered"
+let entityName: String = "Score"
+let qnCategory: String = "category"
+let qnNumber: String = "qnNumber"
+let totalTimes: String = "totalTimes"
+let corrTimes: String = "corrTimes"
