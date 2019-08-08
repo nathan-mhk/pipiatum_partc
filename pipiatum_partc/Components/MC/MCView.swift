@@ -65,7 +65,6 @@ class MCView: UIView {
                 MCButtons[num].listButton.tag = -2
             }
         }
-        acc(question: question)
     }
     
     func ans(num: Int) {
@@ -82,10 +81,6 @@ class MCView: UIView {
         default:
             break
         }
-    }
-    
-    func acc(question: MultChoice) {
-        print("Accuracy: \(question.corrTimes)/\(question.totalTimes) (\(question.accuracy))\n")
     }
     
     //Will RESET EVERY MCBUTTON when called outside [ListButtonView.swift]: @IBAction func MCButton

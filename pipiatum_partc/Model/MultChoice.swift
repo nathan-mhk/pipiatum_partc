@@ -67,6 +67,8 @@ class MultChoice {
     }
     
     func calculateAccuracy() {
-        self.accuracy = Float(self.corrTimes) / Float(self.totalTimes)
+        if totalTimes != 0 {
+            accuracy = Float(corrTimes) / Float(totalTimes)
+        }
     }
 }

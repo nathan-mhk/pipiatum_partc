@@ -154,6 +154,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         currentQn = questionPool[currentQnNum]
         if currentQn != nil && mcView != nil{
             print("(\(currentQnNum)) Qn \(currentQn!.QnNum)")
+            print("Accuracy: \(currentQn!.corrTimes)/\(currentQn!.totalTimes) (\(currentQn!.accuracy))")
             mcView!.showMC(question: currentQn!)
         }
         else {
@@ -226,6 +227,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 break
             }
         }
+        accessData(isSave: true)
     }
     
     func getBtn(isCorrectBtn: Bool) -> ListButtonView {
@@ -246,7 +248,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func doNextMC(btn: ListButtonView) {
-        //Debug: MCAnimationDuration
+        //Debug: use MCAnimationDuration
         //DispatchQueue.main.asyncAfter(deadline: .now() + MCAnimationDuration) {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(testMCDelay)) {
             if !self.isEnd {
@@ -259,6 +261,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func nextMC() {
+        //accessData(isSave: true)
         //Reset all subviews
         updateView()
         mcView!.toggleMCButtons()
@@ -300,7 +303,6 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             break
         }
         performSegue(withIdentifier: segueID, sender: sender)
-        accessData(isSave: true)
     }
     
     func congratMsg() -> String {
@@ -361,18 +363,23 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             //If there exist some data
             if resultSet.count != 0 {
                 for record in resultSet as! [NSManagedObject] {
-                    //Attempts to match each of the retrieved data with questionPool[]
-                    for question in questionPool {
-                        if record.value(forKey: qnNumber) as! Int == question.QnNum {
-                            if isSave {
-                                //Update data
-                                record.setValue(question.totalTimes, forKey: totalTimes)
-                                record.setValue(question.corrTimes, forKey: corrTimes)
-                            } else {
-                                //Retrieve data
+                    let num = record.value(forKey: qnNumber) as! Int
+                    
+                    if isSave {
+                        //Update data
+                        if num == currentQn!.QnNum {
+                            record.setValue(currentQn!.totalTimes, forKey: totalTimes)
+                            record.setValue(currentQn!.corrTimes, forKey: corrTimes)
+                        }
+                    } else {
+                        //Retrieve data
+                        //Attempts to match each of the retrieved data with questionPool[]
+                        for question in questionPool {
+                            if num == question.QnNum {
                                 question.totalTimes = record.value(forKey: totalTimes) as! Int
                                 question.corrTimes = record.value(forKey: corrTimes) as! Int
                                 question.calculateAccuracy()
+                                
                             }
                         }
                     }
