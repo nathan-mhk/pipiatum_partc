@@ -28,7 +28,7 @@ let stdFontKey: String = "stdFont"
 let scriptFontKey: String = "scriptFont"
 
 //Saving
-let entityName: String = "Score"
+let entityName: String = "Performance"
 let qnCategory: String = "category"
 let qnNumber: String = "qnNumber"
 let totalTimes: String = "totalTimes"

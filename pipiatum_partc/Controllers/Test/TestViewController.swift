@@ -41,6 +41,7 @@ class TestViewController: BasicMCViewController {
                 destination.marks = marks
                 destination.total = totalNumOfQns
                 destination.type = ListBtnType.test.rawValue
+                self.navigationItem.title = "Test"
             }
         }
     }

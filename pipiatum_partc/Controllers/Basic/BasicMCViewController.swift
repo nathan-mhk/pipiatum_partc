@@ -22,7 +22,11 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     //MARK: Load Plist Data
     var senderTag: Int? = nil
+    
+    //Contains every question in GSMC.plist
     var GSquestions = [[MultChoice]]()
+    
+    //Contains every question of the given ExCat
     var MCquestions = [MultChoice]()
     
     func loadPlistData() {
@@ -55,7 +59,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             return
         }
         
-        //When senderTag != nil (senderTag will never be nil here
+        //When senderTag != nil
         //i.e. View is loaded through practice or test menu
         let exCat = questionsArray[senderTag!] as! [NSDictionary]
         for questions in exCat {
@@ -73,6 +77,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     //For handling the display of MC questions and choices
     var currentQn: MultChoice? = nil
+    var currentQnNum: Int = 0   //Array index to read questionPool
     var questionPool = [MultChoice]()
     
     //For handling the display of marks, total#Qns, #answeredQns, etc
@@ -114,19 +119,20 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func setUpMC() {
-        //temp
-        deleteData()
-        createData()
-        retrieveData()
-        updateData()
-        retrieveData()
         
         questionPool.removeAll()
-        for mark in 1...3 {
-            //TODO: Grab the first 10 questions in load() only
-            //Right now the database don't have enough questions
-            questionPool += load(withMark: mark)
-        }
+//        for mark in 1...3 {
+//            questionPool += load(withMark: mark)
+//        }
+        
+        //Right now the database don't have enough questions
+        //Qn1: 1pt
+        questionPool.append(load(withMark: 1).first!)
+        //Qn2-9: 2pts
+        questionPool += Array(load(withMark: 2)[0..<8])
+        //Qn10: 3pts
+        questionPool.append(load(withMark: 3).first!)
+        accessData(isSave: false)
         totalNumOfQns = questionPool.count
         showMC()
     }
@@ -138,15 +144,16 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 tempArray.append(question)
             }
         }
+        //Contains a shuffled array of questions of the given marks
         return tempArray.shuffled()
     }
     
     func showMC() {
         self.navigationItem.title = "\(totalQnAnswered) of \(totalNumOfQns)"
         
-        currentQn = questionPool.first
+        currentQn = questionPool[currentQnNum]
         if currentQn != nil && mcView != nil{
-            print("Qn \(currentQn!.QnNum)")
+            print("(\(currentQnNum)) Qn \(currentQn!.QnNum)")
             mcView!.showMC(question: currentQn!)
         }
         else {
@@ -174,11 +181,13 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func checkAns() {
+        currentQn!.totalTimes += 1
         let correctBtn = getBtn(isCorrectBtn: true)
         let chosenBtn = getBtn(isCorrectBtn: false)
         
         if correctBtn == chosenBtn {
             marks += 1
+            currentQn!.corrTimes += 1
             mcView!.MCQuestion.updateMarks(marks: marks)
             
             switch currentType {
@@ -266,14 +275,13 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         nextBtnPressed = false
         
         totalQnAnswered += 1
-        if !questionPool.isEmpty {
-            questionPool.removeFirst()
-            currentQn = nil
-            showMC()
-            if questionPool.count == 1 {
-                isEnd = true
-            }
+        currentQnNum += 1
+        //currentQnNum == next question num here
+        if currentQnNum == questionPool.count - 1 {
+            isEnd = true
         }
+        currentQn = nil
+        showMC()
     }
     
     func endMC(sender: BasicButtonComponent) {
@@ -292,6 +300,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             break
         }
         performSegue(withIdentifier: segueID, sender: sender)
+        accessData(isSave: true)
     }
     
     func congratMsg() -> String {
@@ -317,12 +326,14 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         
         let managedContext = appDelegate.persistentContainer.viewContext
         
-        let scoreEntity = NSEntityDescription.entity(forEntityName: entity, in: managedContext)!
+        let entity = NSEntityDescription.entity(forEntityName: entityName, in: managedContext)!
         
-        for i in 1...5 {
-            let score = NSManagedObject(entity: scoreEntity, insertInto: managedContext)
-            score.setValue(i + 10, forKeyPath: timesAnswered)
-            score.setValue(i, forKeyPath: timesCorrAnswered)
+        for question in questionPool {
+            let performance = NSManagedObject(entity: entity, insertInto: managedContext)
+            performance.setValue(question.QnCat, forKey: qnCategory)
+            performance.setValue(question.QnNum, forKey: qnNumber)
+            performance.setValue(0, forKeyPath: corrTimes)
+            performance.setValue(0, forKeyPath: totalTimes)
         }
         
         do {
@@ -332,65 +343,65 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         }
     }
     
-    func retrieveData() {
+    func accessData(isSave: Bool) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
         
         let managedContext = appDelegate.persistentContainer.viewContext
         
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest.init(entityName: entityName)
         
-        do {
-            let result = try managedContext.fetch(fetchRequest)
-            
-            for data in result as! [NSManagedObject] {
-                print("Accuracy: \(data.value(forKey: timesCorrAnswered) as! Int) / \(data.value(forKey: timesAnswered) as! Int)")
-            }
-            print("\n")
-        } catch {
-            print("Could not retrieve!")
-        }
-    }
-    
-    func updateData() {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+        //WARNING: COULD FAILED(crash) IF questionPool.first!.QnCat DNE
+        //Although supposedly questionPool.first!.QnCat should exist
+        //Use the category to find the corresponding saved data of a question
+        fetchRequest.predicate = NSPredicate(format: "\(qnCategory) = %@", questionPool.first!.QnCat)
         
-        let managedContext = appDelegate.persistentContainer.viewContext
-        
-        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest.init(entityName: entity)
-        
-        //WARNING: COULD FAILED IF "1" DNE
-        fetchRequest.predicate = NSPredicate(format: "\(timesAnswered) = %@", "11")
         do {
             let resultSet = try managedContext.fetch(fetchRequest)
             
-//            if resultSet.count != 0 {
-            let record = resultSet.first as! NSManagedObject
-            
-            let AnsValue = record.value(forKey: timesCorrAnswered) as? Int ?? 0
-            
-            record.setValue(100, forKey: timesAnswered)
-            record.setValue(AnsValue + 1, forKey: timesCorrAnswered)
-            
-            
-            do {
-                try managedContext.save()
+            //If there exist some data
+            if resultSet.count != 0 {
+                for record in resultSet as! [NSManagedObject] {
+                    //Attempts to match each of the retrieved data with questionPool[]
+                    for question in questionPool {
+                        if record.value(forKey: qnNumber) as! Int == question.QnNum {
+                            if isSave {
+                                //Update data
+                                record.setValue(question.totalTimes, forKey: totalTimes)
+                                record.setValue(question.corrTimes, forKey: corrTimes)
+                            } else {
+                                //Retrieve data
+                                question.totalTimes = record.value(forKey: totalTimes) as! Int
+                                question.corrTimes = record.value(forKey: corrTimes) as! Int
+                                question.calculateAccuracy()
+                            }
+                        }
+                    }
+                }
+                
+                if isSave {
+                    do {
+                        try managedContext.save()
+                    } catch {
+                        print("Failed to save: \(error)")
+                    }
+                }
+                
+            } else {
+                createData()
             }
-            catch {
-                print("Failed to save! \(error)")
-            }
-//            }
-            
         } catch {
-            print("Failed to update! \(error)")
+            print("Data access failed")
         }
     }
     
+    //TODO, for Laterbase
+    /*
     func deleteData() {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
         
         let managedContext = appDelegate.persistentContainer.viewContext
         
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entityName)
         
         do {
             let results = try managedContext.fetch(fetchRequest)
@@ -399,7 +410,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 managedContext.delete(managedObjectData)
             }
         } catch let error as NSError {
-            print("Failed to delete all data in \(entity) error: \(error) \(error.userInfo)")
+            print("Failed to delete all data in \(entityName) error: \(error) \(error.userInfo)")
         }
-    }
+    }*/
 }

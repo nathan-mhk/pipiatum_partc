@@ -35,7 +35,7 @@ class MCQuestion: UIView {
     
     func showQuestion(question: MultChoice) {
         ExCat.fadeTransition(MCAnimationDuration)
-        ExCat.text = question.ExCat
+        ExCat.text = question.QnCat
         
         Prompt.fadeTransition(MCAnimationDuration)
         Prompt.text = question.Prompt

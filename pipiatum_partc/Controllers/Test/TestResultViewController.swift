@@ -15,6 +15,9 @@ class TestResultViewController: BasicResultViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         result.setUpResult(msg: msg, marks: marks, total: total, type: type)
+        if let vcCount = navigationController?.viewControllers.count {
+            navigationController?.viewControllers.remove(at: vcCount - 2)
+        }
     }
     
 }
