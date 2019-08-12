@@ -32,7 +32,12 @@ extension UIView {
     //label.text = "text"
     func fadeTransition(_ duration: CFTimeInterval) {
         let animation = CATransition()
-        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        /*
+         * Changing .easeInEaseOut to others may cause flickering issues of MCQuestions,
+         * since the trasistion animation will be too fast
+         * for the system to update and format the attributed text
+         */
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         animation.type = CATransitionType.fade
         animation.duration = duration
         layer.add(animation, forKey: CATransitionType.fade.rawValue)

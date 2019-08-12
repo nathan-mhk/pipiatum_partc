@@ -39,7 +39,7 @@ class ListButtonView: UIView {
     //GS MC: TBC
     @IBAction func MCButton(_ sender: ListButton) {
         if sender.type != .submenu {
-            sender.setTitleColor(.black, for: .normal)
+            toggleSelection(setOriginal: false)
             sender.chosen = true    //Preserved, only reset in updateView() (When another MCBtn is pressed) and in nextMC()
         }
         
@@ -74,7 +74,7 @@ class ListButtonView: UIView {
     func setUpSubMenu(id: Int, title: String, imgName: String, btnHeight: CGFloat) {
         listButton.tag = id
         listButton.type = .submenu
-        setUpButton(btnNum: id, title: title)
+        setUpButton(btnNum: id, title: title, isMC: false)
         
         listButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 75, bottom: 0, right: 35)
         leftImg.image = UIImage(named: imgName)
@@ -82,8 +82,9 @@ class ListButtonView: UIView {
         listButton.heightAnchor.constraint(equalToConstant: btnHeight).isActive = true
     }
     
+    //MARK: Util Function
     //Set up basic attributes and alternating colour
-    func setUpButton(btnNum: Int, title: String) {
+    func setUpButton(btnNum: Int, title: String, isMC: Bool) {
         if btnNum % 2 == 0 {
             //Light
             listButton.backgroundColor = UIColor(hexString: "1955A2")
@@ -97,7 +98,23 @@ class ListButtonView: UIView {
         listButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
         rightImg.alpha = 0.0
         
-        listButton.setTitle(title, for: .normal)
-        listButton.setTitleColor(.white, for: .normal)
+        if isMC {
+            listButton.originalHtmlTitle = gethtmlWhiteString(string: title, isBold: true)
+            toggleSelection(setOriginal: true)
+        } else {
+            listButton.setTitleColor(.white, for: .normal)
+            listButton.setTitle(title, for: .normal)
+        }
+    }
+    
+    func toggleSelection(setOriginal: Bool) {
+        if setOriginal {
+            let attrString = convertToAttrString(string: listButton.originalHtmlTitle)
+            listButton.setAttributedTitle(attrString, for: .normal)
+        } else {
+            if let currentTitle = listButton.currentAttributedTitle as? NSMutableAttributedString {
+                currentTitle.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.black, range: NSMakeRange(0, currentTitle.length))
+            }
+        }
     }
 }

@@ -7,1020 +7,1017 @@
 		<array>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Prompt</key>
-				<string>Achilles in bello contra Troianos pugnare non iam cupiebat</string>
+				<string><![CDATA[<font color="#F5C343" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Achilles in bello contra Troianos pugnare non iam cupiebat</font>]]></string>
 				<key>Question</key>
-				<string>What case is bello and why?</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">What case is <font color="F5C343">bello</font> and why?</font>]]></string>
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
-				<string>Ablative - after in</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Ablative - after <font color="F5C343">in</font></font>]]></string>
 				<key>Distractor1</key>
-				<string>dative - for</string>
+				<string><![CDATA[dative - for]]></string>
 				<key>Distractor2</key>
-				<string>accusative - object of verb</string>
+				<string><![CDATA[accusative - object of verb]]></string>
 				<key>Feedback</key>
-				<string>in meaning &apos;in&apos; takes the ablative </string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><font color="F5C343">in</font> meaning 'in' takes the ablative </font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Prompt</key>
-				<string>Graeci circum muros Troiae (Troy) fortiter pugnabant</string>
+				<string><![CDATA[<font color="#F5C343" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Graeci circum muros Troiae <font color="#FFFFFF">(Troy)</font> fortiter pugnabant</font>]]></string>
 				<key>Question</key>
-				<string>What case and number is Troiae?</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">What case and number is <font color="F5C343">Troiae</font>?</font>]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>Genitive singular</string>
+				<string><![CDATA[Genitive singular]]></string>
 				<key>Distractor1</key>
-				<string>dative singular</string>
+				<string><![CDATA[dative singular]]></string>
 				<key>Distractor2</key>
-				<string>nominative plural</string>
+				<string><![CDATA[nominative plural]]></string>
 				<key>Feedback</key>
-				<string>the walls of Troy - of = genitive </string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">the walls <b><u>of</u></b> Troy - <b><u>of</u></b> = <b><u>genitive</u></b> </font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Prompt</key>
-				<string>sed Troiani eos (them) in multis proeliis superabant</string>
+				<string><![CDATA[<font color="#F5C343" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">sed Troiani eos <font color="#FFFFFF">(them)</font> in multis proeliis superabant</font>]]></string>
 				<key>Question</key>
-				<string>Which word is the adjective in this sentence?</string>
+				<string><![CDATA[Which word is the adjective in this sentence?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>multis</string>
+				<string><![CDATA[multis]]></string>
 				<key>Distractor1</key>
-				<string>in</string>
+				<string><![CDATA[in]]></string>
 				<key>Distractor2</key>
-				<string>sed</string>
+				<string><![CDATA[sed]]></string>
 				<key>Feedback</key>
-				<string>mult-is agrees with proeli-is</string>
+				<string><![CDATA[<font style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><font color="#F5C343">mult-<b>is</b></font> agrees with <font color="#F5C343">proeli-<b>is</b><font></font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Prompt</key>
-				<string>Patroclus, amicus Achillis (Achilles), ubi hoc (this) vidit, non erat laetus</string>
+				<string><![CDATA[<font color="#F5C343" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Patroclus, amicus Achillis <font color="#FFFFFF">(Achilles),</font> ubi hoc <font color="#FFFFFF">(this)</font> vidit, non erat laetus</font>]]></string>
 				<key>Question</key>
-				<string>What is the present tense equivalent of vidit?</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">What is the present tense equivalent of <font color="F5C343">vidit</font>?</font>]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>videt</string>
+				<string><![CDATA[videt]]></string>
 				<key>Distractor1</key>
-				<string>video</string>
+				<string><![CDATA[video]]></string>
 				<key>Distractor2</key>
-				<string>vidit</string>
+				<string><![CDATA[vidit]]></string>
 				<key>Feedback</key>
-				<string>vid-it = he saw (perfect)
-vid-et = he sees (present)</string>
+				<string><![CDATA[<font style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><font color="#F5C343">vid-<b><u>it</u></b></font> = <b><u>he</u></b> saw (<b><u>perfect</u></b>)<br><font color="#F5C343">vid-<b><u>et</u></b></font> = <b><u>he</u></b> sees (<b><u>present</u></b>)</font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Prompt</key>
-				<string>ad Achillem cucurrit et dixit</string>
+				<string><![CDATA[ad Achillem cucurrit et dixit]]></string>
 				<key>Question</key>
-				<string>What is the first person singular present tense of cucurrit?</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">What is the first person singular present tense of <font color="F5C343">cucurrit</font>?</font>]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>curro</string>
+				<string><![CDATA[curro]]></string>
 				<key>Distractor1</key>
-				<string>cucurri</string>
+				<string><![CDATA[cucurri]]></string>
 				<key>Distractor2</key>
-				<string>currere</string>
+				<string><![CDATA[currere]]></string>
 				<key>Feedback</key>
-				<string>cucurri is the perfect of curro</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><font color="#F5C343">cucurri</font> is the perfect of <font color="#F5C343">curro</font></font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Prompt</key>
-				<string>&apos;da mihi (to me) scutum tuum et gladium&apos;</string>
+				<string><![CDATA['da mihi (to me) scutum tuum et gladium']]></string>
 				<key>Question</key>
-				<string>What part of the verb do is da?</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">What part of the verb <font color="F5C343">do</font> is <font color="F5C343">da</font>?</font>]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>imperative</string>
+				<string><![CDATA[imperative]]></string>
 				<key>Distractor1</key>
-				<string>infinitive</string>
+				<string><![CDATA[infinitive]]></string>
 				<key>Distractor2</key>
-				<string>present tense third person singular</string>
+				<string><![CDATA[present tense third person singular]]></string>
 				<key>Feedback</key>
-				<string>imperative = used when giving an order </string>
+				<string><![CDATA[imperative = used when giving an order ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Prompt</key>
-				<string>&apos;in proelium ego festinare cupio&apos;</string>
+				<string><![CDATA['in proelium ego festinare cupio']]></string>
 				<key>Question</key>
-				<string>What gender is the word proelium?</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">What gender is the word <font color="F5C343">proelium</font>?</font>]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>neuter</string>
+				<string><![CDATA[neuter]]></string>
 				<key>Distractor1</key>
-				<string>masculine</string>
+				<string><![CDATA[masculine]]></string>
 				<key>Distractor2</key>
-				<string>feminine</string>
+				<string><![CDATA[feminine]]></string>
 				<key>Feedback</key>
-				<string>root word is proeli-um = neuter </string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">root word is <font color="#F5C343">proeli-<b><u>um</u></b></font> = neuter</font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Prompt</key>
-				<string>Achilles consilium (plan) non amavit sed tandem consentit (agreed)</string>
+				<string><![CDATA[Achilles consilium (plan) non amavit sed tandem consentit (agreed)]]></string>
 				<key>Question</key>
-				<string>What is the Latin object of the verb amavit?</string>
+				<string><![CDATA[What is the Latin object of the verb amavit?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>consilium</string>
+				<string><![CDATA[consilium]]></string>
 				<key>Distractor1</key>
-				<string>plan</string>
+				<string><![CDATA[plan]]></string>
 				<key>Distractor2</key>
-				<string>Achilles</string>
+				<string><![CDATA[Achilles]]></string>
 				<key>Feedback</key>
-				<string>Achilles didn&apos;t like the plan (object of the verb)</string>
+				<string><![CDATA[Achilles didn't like the plan (object of the verb)]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Prompt</key>
-				<string>Patroclus was holding Achilles&apos; sword.</string>
+				<string><![CDATA[Patroclus was holding Achilles' sword.]]></string>
 				<key>Question</key>
-				<string>Translate sword in this sentence.</string>
+				<string><![CDATA[Translate sword in this sentence.]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>gladium</string>
+				<string><![CDATA[gladium]]></string>
 				<key>Distractor1</key>
-				<string>gladius</string>
+				<string><![CDATA[gladius]]></string>
 				<key>Distractor2</key>
-				<string>gladios</string>
+				<string><![CDATA[gladios]]></string>
 				<key>Feedback</key>
-				<string>root word gladi-us; acc singular = gladi-um</string>
+				<string><![CDATA[<font color="#FFFFFF" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">root word <font color="#F5C343">gladi-<b><u>us;</u></b></font> acc singuler = <font color="#F5C343">gladi-<b><u>um</u></b></font></font>]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Three</string>
+				<string><![CDATA[The Anger of Achilles: Part Three]]></string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Prompt</key>
-				<string>The friends hurry to the place.</string>
+				<string><![CDATA[The friends hurry to the place.]]></string>
 				<key>Question</key>
-				<string>What is the correct Latin translation of this sentence?</string>
+				<string><![CDATA[What is the correct Latin translation of this sentence?]]></string>
 				<key>Marks</key>
 				<integer>3</integer>
 				<key>CorrectAns</key>
-				<string>amici ad locum festinant</string>
+				<string><![CDATA[amici ad locum festinant]]></string>
 				<key>Distractor1</key>
-				<string>amici ad locus festinant</string>
+				<string><![CDATA[amici ad locus festinant]]></string>
 				<key>Distractor2</key>
-				<string>amici ad locum festino</string>
+				<string><![CDATA[amici ad locum festino]]></string>
 				<key>Feedback</key>
-				<string>amici (nom plu)
-locum (acc sing after ad)
-festinant (they hurry)</string>
+				<string><![CDATA[<font style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><font color="#F5C343">amici</font> (<b><u>nom plu</u></b>)<br><font color="#F5C343">locum</font> (<b><u>acc sing after ad</u></b>)<br><font color="#F5C343">festinant</font> (<b><u>they</u></b> hurry)</font>]]></string>
 			</dict>
 		</array>
 		<array>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Prompt</key>
-				<string>Achilles in bello contra Troianos adhuc (still) non pugnabat</string>
+				<string><![CDATA[Achilles in bello contra Troianos adhuc (still) non pugnabat]]></string>
 				<key>Question</key>
-				<string>What case is Troianos and why?</string>
+				<string><![CDATA[What case is Troianos and why?]]></string>
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
-				<string>Accusative - after contra</string>
+				<string><![CDATA[Accusative - after contra]]></string>
 				<key>Distractor1</key>
-				<string>Ablative - after contra</string>
+				<string><![CDATA[Ablative - after contra]]></string>
 				<key>Distractor2</key>
-				<string>Accusative - object of verb</string>
+				<string><![CDATA[Accusative - object of verb]]></string>
 				<key>Feedback</key>
-				<string>preposition contra forces Troian-os into the accusative case </string>
+				<string><![CDATA[preposition contra forces Troian-os into the accusative case ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Prompt</key>
-				<string>Patroclus eum (him) rogavit: &apos;mitte me in proelium!&apos;</string>
+				<string><![CDATA[Patroclus eum (him) rogavit: 'mitte me in proelium!']]></string>
 				<key>Question</key>
-				<string>What is the imperative in this sentence?</string>
+				<string><![CDATA[What is the imperative in this sentence?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>mitte</string>
+				<string><![CDATA[mitte]]></string>
 				<key>Distractor1</key>
-				<string>rogavit</string>
+				<string><![CDATA[rogavit]]></string>
 				<key>Distractor2</key>
-				<string>in</string>
+				<string><![CDATA[in]]></string>
 				<key>Feedback</key>
-				<string>3rd conjugation imperative singular ends in -e</string>
+				<string><![CDATA[3rd conjugation imperative singular ends in -e]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Prompt</key>
-				<string>Achilles Patroclo gladium suum et scutum dedit.</string>
+				<string><![CDATA[Achilles Patroclo gladium suum et scutum dedit.]]></string>
 				<key>Question</key>
-				<string>What case is Patroclo and why?</string>
+				<string><![CDATA[What case is Patroclo and why?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>Dative - to</string>
+				<string><![CDATA[Dative - to]]></string>
 				<key>Distractor1</key>
-				<string>Ablative - to</string>
+				<string><![CDATA[Ablative - to]]></string>
 				<key>Distractor2</key>
-				<string>Accusative - object of verb</string>
+				<string><![CDATA[Accusative - object of verb]]></string>
 				<key>Feedback</key>
-				<string>he gave them to (dative) Patroclus </string>
+				<string><![CDATA[he gave them to (dative) Patroclus ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Prompt</key>
-				<string>Patroclus ad Troianos fortiter cucurrit</string>
+				<string><![CDATA[Patroclus ad Troianos fortiter cucurrit]]></string>
 				<key>Question</key>
-				<string>What type of word is fortiter?</string>
+				<string><![CDATA[What type of word is fortiter?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>adverb</string>
+				<string><![CDATA[adverb]]></string>
 				<key>Distractor1</key>
-				<string>adjective</string>
+				<string><![CDATA[adjective]]></string>
 				<key>Distractor2</key>
-				<string>verb</string>
+				<string><![CDATA[verb]]></string>
 				<key>Feedback</key>
-				<string>fortiter = brave-ly = adverb </string>
+				<string><![CDATA[fortiter = brave-ly = adverb ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Prompt</key>
-				<string>Hector, filius Priami (of Priam), fuit optimus (best) Troianorum</string>
+				<string><![CDATA[Hector, filius Priami (of Priam), fuit optimus (best) Troianorum]]></string>
 				<key>Question</key>
-				<string>What is the first person singular present tense of fuit?</string>
+				<string><![CDATA[What is the first person singular present tense of fuit?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>sum</string>
+				<string><![CDATA[sum]]></string>
 				<key>Distractor1</key>
-				<string>fui</string>
+				<string><![CDATA[fui]]></string>
 				<key>Distractor2</key>
-				<string>esse</string>
+				<string><![CDATA[esse]]></string>
 				<key>Feedback</key>
-				<string>root word of fuit is sum = I am </string>
+				<string><![CDATA[root word of fuit is sum = I am ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Prompt</key>
-				<string>ubi Hector Patroclum vidit, eum (him) Achillem esse credebat (he believed)</string>
+				<string><![CDATA[ubi Hector Patroclum vidit, eum (him) Achillem esse credebat (he believed)]]></string>
 				<key>Question</key>
-				<string>What is the present tense equivalent of vidit?</string>
+				<string><![CDATA[What is the present tense equivalent of vidit?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>videt</string>
+				<string><![CDATA[videt]]></string>
 				<key>Distractor1</key>
-				<string>videre</string>
+				<string><![CDATA[videre]]></string>
 				<key>Distractor2</key>
-				<string>video</string>
+				<string><![CDATA[video]]></string>
 				<key>Feedback</key>
-				<string>vid-et  = 2nd conjugation, 3rd person singular </string>
+				<string><![CDATA[vid-et  = 2nd conjugation, 3rd person singular ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Prompt</key>
-				<string>Hector ad Patroclum festinavit et statim necavit</string>
+				<string><![CDATA[Hector ad Patroclum festinavit et statim necavit]]></string>
 				<key>Question</key>
-				<string>What is the subject of the verb necavit?</string>
+				<string><![CDATA[What is the subject of the verb necavit?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>Hector</string>
+				<string><![CDATA[Hector]]></string>
 				<key>Distractor1</key>
-				<string>statim</string>
+				<string><![CDATA[statim]]></string>
 				<key>Distractor2</key>
-				<string>Patroclum</string>
+				<string><![CDATA[Patroclum]]></string>
 				<key>Feedback</key>
-				<string>Hector did the killing </string>
+				<string><![CDATA[Hector did the killing ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Prompt</key>
-				<string>Graeci corpus (body) Patrocli ad Achillem portaverunt</string>
+				<string><![CDATA[Graeci corpus (body) Patrocli ad Achillem portaverunt]]></string>
 				<key>Question</key>
-				<string>What tense is portaverunt?</string>
+				<string><![CDATA[What tense is portaverunt?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>perfect</string>
+				<string><![CDATA[perfect]]></string>
 				<key>Distractor1</key>
-				<string>present</string>
+				<string><![CDATA[present]]></string>
 				<key>Distractor2</key>
-				<string>imperfect</string>
+				<string><![CDATA[imperfect]]></string>
 				<key>Feedback</key>
-				<string>porta-v-erunt = perfect (they)</string>
+				<string><![CDATA[porta-v-erunt = perfect (they)]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Prompt</key>
-				<string>The Greeks attack the Trojans.</string>
+				<string><![CDATA[The Greeks attack the Trojans.]]></string>
 				<key>Question</key>
-				<string>Translate attack in this sentence.</string>
+				<string><![CDATA[Translate attack in this sentence.]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>oppugnant</string>
+				<string><![CDATA[oppugnant]]></string>
 				<key>Distractor1</key>
-				<string>oppugno</string>
+				<string><![CDATA[oppugno]]></string>
 				<key>Distractor2</key>
-				<string>pugnant</string>
+				<string><![CDATA[pugnant]]></string>
 				<key>Feedback</key>
-				<string>oppugna-nt = they</string>
+				<string><![CDATA[oppugna-nt = they]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Four</string>
+				<string><![CDATA[The Anger of Achilles: Part Four]]></string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Prompt</key>
-				<string>We are building a wall.</string>
+				<string><![CDATA[We are building a wall.]]></string>
 				<key>Question</key>
-				<string>Which is the correct Latin translation of this sentence?</string>
+				<string><![CDATA[Which is the correct Latin translation of this sentence?]]></string>
 				<key>Marks</key>
 				<integer>3</integer>
 				<key>CorrectAns</key>
-				<string>aedficamus murum</string>
+				<string><![CDATA[aedficamus murum]]></string>
 				<key>Distractor1</key>
-				<string>aedificatis murum</string>
+				<string><![CDATA[aedificatis murum]]></string>
 				<key>Distractor2</key>
-				<string>aedificamus muros</string>
+				<string><![CDATA[aedificamus muros]]></string>
 				<key>Feedback</key>
-				<string>aedifica-mus (1st person plural)
-mur-um (acc sing)</string>
+				<string><![CDATA[aedifica-mus (1st person plural)
+mur-um (acc sing)]]></string>
 			</dict>
 		</array>
 		<array>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Prompt</key>
-				<string>Achilles de morte (death) Patrocli mox audivit</string>
+				<string><![CDATA[Achilles de morte (death) Patrocli mox audivit]]></string>
 				<key>Question</key>
-				<string>Which word is the preposition in this sentence?</string>
+				<string><![CDATA[Which word is the preposition in this sentence?]]></string>
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
-				<string>de</string>
+				<string><![CDATA[de]]></string>
 				<key>Distractor1</key>
-				<string>mox</string>
+				<string><![CDATA[mox]]></string>
 				<key>Distractor2</key>
-				<string>audivit</string>
+				<string><![CDATA[audivit]]></string>
 				<key>Feedback</key>
-				<string>de (preposition) = about </string>
+				<string><![CDATA[de (preposition) = about ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Prompt</key>
-				<string>Achilles miser erat et diu flebat (cried)</string>
+				<string><![CDATA[Achilles miser erat et diu flebat (cried)]]></string>
 				<key>Question</key>
-				<string>What type of word is diu?</string>
+				<string><![CDATA[What type of word is diu?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>adverb</string>
+				<string><![CDATA[adverb]]></string>
 				<key>Distractor1</key>
-				<string>verb</string>
+				<string><![CDATA[verb]]></string>
 				<key>Distractor2</key>
-				<string>adjective</string>
+				<string><![CDATA[adjective]]></string>
 				<key>Feedback</key>
-				<string>diu = for a long time = time adverb </string>
+				<string><![CDATA[diu = for a long time = time adverb ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Prompt</key>
-				<string>Achilles, quod erat iratus, iterum pugnare constituit</string>
+				<string><![CDATA[Achilles, quod erat iratus, iterum pugnare constituit]]></string>
 				<key>Question</key>
-				<string>What part of the verb pugno is pugnare?</string>
+				<string><![CDATA[What part of the verb pugno is pugnare?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>infinitive</string>
+				<string><![CDATA[infinitive]]></string>
 				<key>Distractor1</key>
-				<string>imperative</string>
+				<string><![CDATA[imperative]]></string>
 				<key>Distractor2</key>
-				<string>imperfect tense</string>
+				<string><![CDATA[imperfect tense]]></string>
 				<key>Feedback</key>
-				<string>-re ending = infinitive = to</string>
+				<string><![CDATA[-re ending = infinitive = to]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Prompt</key>
-				<string>gladium et scutum cepit et e tabernaculo (tent) discessit</string>
+				<string><![CDATA[gladium et scutum cepit et e tabernaculo (tent) discessit]]></string>
 				<key>Question</key>
-				<string>What is the first person singular present tense of discessit?</string>
+				<string><![CDATA[What is the first person singular present tense of discessit?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>discedo</string>
+				<string><![CDATA[discedo]]></string>
 				<key>Distractor1</key>
-				<string>do</string>
+				<string><![CDATA[do]]></string>
 				<key>Distractor2</key>
-				<string>descendo</string>
+				<string><![CDATA[descendo]]></string>
 				<key>Feedback</key>
-				<string>root word of discessit is discedo </string>
+				<string><![CDATA[root word of discessit is discedo ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Prompt</key>
-				<string>Achilles Hectorem (Hector - acc) invenire (to find) magnopere cupiebat</string>
+				<string><![CDATA[Achilles Hectorem (Hector - acc) invenire (to find) magnopere cupiebat]]></string>
 				<key>Question</key>
-				<string>What is the subject of cupiebat?</string>
+				<string><![CDATA[What is the subject of cupiebat?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>Achilles</string>
+				<string><![CDATA[Achilles]]></string>
 				<key>Distractor1</key>
-				<string>Hectorem</string>
+				<string><![CDATA[Hectorem]]></string>
 				<key>Distractor2</key>
-				<string>magnopere</string>
+				<string><![CDATA[magnopere]]></string>
 				<key>Feedback</key>
-				<string>It was Achilles who wanted </string>
+				<string><![CDATA[It was Achilles who wanted ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Prompt</key>
-				<string>Hector erat validus et multos viros necabat</string>
+				<string><![CDATA[Hector erat validus et multos viros necabat]]></string>
 				<key>Question</key>
-				<string>What gender is the adjective validus in this sentence?</string>
+				<string><![CDATA[What gender is the adjective validus in this sentence?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>masculine</string>
+				<string><![CDATA[masculine]]></string>
 				<key>Distractor1</key>
-				<string>neuter</string>
+				<string><![CDATA[neuter]]></string>
 				<key>Distractor2</key>
-				<string>feminine</string>
+				<string><![CDATA[feminine]]></string>
 				<key>Feedback</key>
-				<string>Hector (masculine) so valid-us (masculine)</string>
+				<string><![CDATA[Hector (masculine) so valid-us (masculine)]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Prompt</key>
-				<string>Achilles Hectorem necavit et e proelio corpus (body) portavit</string>
+				<string><![CDATA[Achilles Hectorem necavit et e proelio corpus (body) portavit]]></string>
 				<key>Question</key>
-				<string>What case is proelio and why?</string>
+				<string><![CDATA[What case is proelio and why?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>ablative - after e</string>
+				<string><![CDATA[ablative - after e]]></string>
 				<key>Distractor1</key>
-				<string>dative - for</string>
+				<string><![CDATA[dative - for]]></string>
 				<key>Distractor2</key>
-				<string>accusative - object of verb</string>
+				<string><![CDATA[accusative - object of verb]]></string>
 				<key>Feedback</key>
-				<string>preposition e takes the ablative case</string>
+				<string><![CDATA[preposition e takes the ablative case]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Prompt</key>
-				<string>Achilles saevus circum muros oppidi Hectorem traxit (dragged)</string>
+				<string><![CDATA[Achilles saevus circum muros oppidi Hectorem traxit (dragged)]]></string>
 				<key>Question</key>
-				<string>What gender is the noun oppidi?</string>
+				<string><![CDATA[What gender is the noun oppidi?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>neuter</string>
+				<string><![CDATA[neuter]]></string>
 				<key>Distractor1</key>
-				<string>masculine</string>
+				<string><![CDATA[masculine]]></string>
 				<key>Distractor2</key>
-				<string>feminine</string>
+				<string><![CDATA[feminine]]></string>
 				<key>Feedback</key>
-				<string>root word is oppid-um, neuter </string>
+				<string><![CDATA[root word is oppid-um, neuter ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Prompt</key>
-				<string>The Trojans love me.</string>
+				<string><![CDATA[The Trojans love me.]]></string>
 				<key>Question</key>
-				<string>Translate me in this sentence.</string>
+				<string><![CDATA[Translate me in this sentence.]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>me</string>
+				<string><![CDATA[me]]></string>
 				<key>Distractor1</key>
-				<string>ego</string>
+				<string><![CDATA[ego]]></string>
 				<key>Distractor2</key>
-				<string>te</string>
+				<string><![CDATA[te]]></string>
 				<key>Feedback</key>
-				<string>me = accusative sing of ego </string>
+				<string><![CDATA[me = accusative sing of ego ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Anger of Achilles: Part Five</string>
+				<string><![CDATA[The Anger of Achilles: Part Five]]></string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Prompt</key>
-				<string>The farmer has a sword.</string>
+				<string><![CDATA[The farmer has a sword.]]></string>
 				<key>Question</key>
-				<string>What is the correct Latin translation of this sentence?</string>
+				<string><![CDATA[What is the correct Latin translation of this sentence?]]></string>
 				<key>Marks</key>
 				<integer>3</integer>
 				<key>CorrectAns</key>
-				<string>agricola habet gladium</string>
+				<string><![CDATA[agricola habet gladium]]></string>
 				<key>Distractor1</key>
-				<string>agricola habeo gladium</string>
+				<string><![CDATA[agricola habeo gladium]]></string>
 				<key>Distractor2</key>
-				<string>agricola habeat gladium</string>
+				<string><![CDATA[agricola habeat gladium]]></string>
 				<key>Feedback</key>
-				<string>agricola (nom sing)
+				<string><![CDATA[agricola (nom sing)
 hab-et (he has)
-gladi-um (acc sing)</string>
+gladi-um (acc sing)]]></string>
 			</dict>
 		</array>
 		<array>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Prompt</key>
-				<string>sic Troiani Graecos in bello superabant </string>
+				<string><![CDATA[sic Troiani Graecos in bello superabant ]]></string>
 				<key>Question</key>
-				<string>What is the Latin subject of superabant?</string>
+				<string><![CDATA[What is the Latin subject of superabant?]]></string>
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
-				<string>Troiani</string>
+				<string><![CDATA[Troiani]]></string>
 				<key>Distractor1</key>
-				<string>Trojans</string>
+				<string><![CDATA[Trojans]]></string>
 				<key>Distractor2</key>
-				<string>Graecos</string>
+				<string><![CDATA[Graecos]]></string>
 				<key>Feedback</key>
-				<string>Troian-i nominative plural </string>
+				<string><![CDATA[Troian-i nominative plural ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Prompt</key>
-				<string>Graeci, quod erant miseri, e Troia navigare cupiebant</string>
+				<string><![CDATA[Graeci, quod erant miseri, e Troia navigare cupiebant]]></string>
 				<key>Question</key>
-				<string>What is the conjunction in this sentence?</string>
+				<string><![CDATA[What is the conjunction in this sentence?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>quod</string>
+				<string><![CDATA[quod]]></string>
 				<key>Distractor1</key>
-				<string>e </string>
+				<string><![CDATA[e ]]></string>
 				<key>Distractor2</key>
-				<string>navigare</string>
+				<string><![CDATA[navigare]]></string>
 				<key>Feedback</key>
-				<string>quod = because = conjunction </string>
+				<string><![CDATA[quod = because = conjunction ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Prompt</key>
-				<string>Ulixes tamen consilium (plan) habuit</string>
+				<string><![CDATA[Ulixes tamen consilium (plan) habuit]]></string>
 				<key>Question</key>
-				<string>Put habuit in the present tense, keeping person and number</string>
+				<string><![CDATA[Put habuit in the present tense, keeping person and number]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>habet</string>
+				<string><![CDATA[habet]]></string>
 				<key>Distractor1</key>
-				<string>habebat</string>
+				<string><![CDATA[habebat]]></string>
 				<key>Distractor2</key>
-				<string>habeo</string>
+				<string><![CDATA[habeo]]></string>
 				<key>Feedback</key>
-				<string>hab-et, 3rd person singular, 2nd conjugation </string>
+				<string><![CDATA[hab-et, 3rd person singular, 2nd conjugation ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Prompt</key>
-				<string>equum ligneum (wooden) Ulixes aedificare constituit</string>
+				<string><![CDATA[equum ligneum (wooden) Ulixes aedificare constituit]]></string>
 				<key>Question</key>
-				<string>What is the Latin object of aedificare?</string>
+				<string><![CDATA[What is the Latin object of aedificare?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>equum</string>
+				<string><![CDATA[equum]]></string>
 				<key>Distractor1</key>
-				<string>horse</string>
+				<string><![CDATA[horse]]></string>
 				<key>Distractor2</key>
-				<string>Ulixes</string>
+				<string><![CDATA[Ulixes]]></string>
 				<key>Feedback</key>
-				<string>equ-um acc sing and object of aedificare </string>
+				<string><![CDATA[equ-um acc sing and object of aedificare ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Prompt</key>
-				<string>Graeci equum in ora prope Troiam posuerunt</string>
+				<string><![CDATA[Graeci equum in ora prope Troiam posuerunt]]></string>
 				<key>Question</key>
-				<string>What is the first person singular present tense of posuerunt?</string>
+				<string><![CDATA[What is the first person singular present tense of posuerunt?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>pono</string>
+				<string><![CDATA[pono]]></string>
 				<key>Distractor1</key>
-				<string>porto</string>
+				<string><![CDATA[porto]]></string>
 				<key>Distractor2</key>
-				<string>posui</string>
+				<string><![CDATA[posui]]></string>
 				<key>Feedback</key>
-				<string>pono - ponere - posui </string>
+				<string><![CDATA[pono - ponere - posui ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Prompt</key>
-				<string>Graeci discesserunt et ad insulam vicinam (nearby) navigaverunt</string>
+				<string><![CDATA[Graeci discesserunt et ad insulam vicinam (nearby) navigaverunt]]></string>
 				<key>Question</key>
-				<string>What case is insulam and why?</string>
+				<string><![CDATA[What case is insulam and why?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>accusative - after preposition ad</string>
+				<string><![CDATA[accusative - after preposition ad]]></string>
 				<key>Distractor1</key>
-				<string>accusative - object</string>
+				<string><![CDATA[accusative - object]]></string>
 				<key>Distractor2</key>
-				<string>nominative - subject</string>
+				<string><![CDATA[nominative - subject]]></string>
 				<key>Feedback</key>
-				<string>ad forces insul-am into the accusative </string>
+				<string><![CDATA[ad forces insul-am into the accusative ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Prompt</key>
-				<string>Troiani e muris spectabant</string>
+				<string><![CDATA[Troiani e muris spectabant]]></string>
 				<key>Question</key>
-				<string>Put spectabant into the present tense, keeping person and number</string>
+				<string><![CDATA[Put spectabant into the present tense, keeping person and number]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>spectant</string>
+				<string><![CDATA[spectant]]></string>
 				<key>Distractor1</key>
-				<string>spectat</string>
+				<string><![CDATA[spectat]]></string>
 				<key>Distractor2</key>
-				<string>specto</string>
+				<string><![CDATA[specto]]></string>
 				<key>Feedback</key>
-				<string>specta-nt, present tense, 3rd person plural </string>
+				<string><![CDATA[specta-nt, present tense, 3rd person plural ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Prompt</key>
-				<string>perterriti dicbebant: &apos;Graeci donum nobis (us) dederunt&apos;</string>
+				<string><![CDATA[perterriti dicbebant: 'Graeci donum nobis (us) dederunt']]></string>
 				<key>Question</key>
-				<string>What is the Latin object of dederunt?</string>
+				<string><![CDATA[What is the Latin object of dederunt?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>donum</string>
+				<string><![CDATA[donum]]></string>
 				<key>Distractor1</key>
-				<string>gift</string>
+				<string><![CDATA[gift]]></string>
 				<key>Distractor2</key>
-				<string>Graeci</string>
+				<string><![CDATA[Graeci]]></string>
 				<key>Feedback</key>
-				<string>they gave a donum (Latin object)</string>
+				<string><![CDATA[they gave a donum (Latin object)]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Prompt</key>
-				<string>We don&apos;t like the Greeks&apos; gifts </string>
+				<string><![CDATA[We don't like the Greeks' gifts ]]></string>
 				<key>Question</key>
-				<string>Translate gifts in this sentence</string>
+				<string><![CDATA[Translate gifts in this sentence]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>dona</string>
+				<string><![CDATA[dona]]></string>
 				<key>Distractor1</key>
-				<string>donum</string>
+				<string><![CDATA[donum]]></string>
 				<key>Distractor2</key>
-				<string>donorum</string>
+				<string><![CDATA[donorum]]></string>
 				<key>Feedback</key>
-				<string>don-a accusative plural of don-um</string>
+				<string><![CDATA[don-a accusative plural of don-um]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part One</string>
+				<string><![CDATA[The Wooden Horse: Part One]]></string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Prompt</key>
-				<string>Do you (s) like horses?</string>
+				<string><![CDATA[Do you (s) like horses?]]></string>
 				<key>Question</key>
-				<string>What is the correct Latin translation of this sentence?</string>
+				<string><![CDATA[What is the correct Latin translation of this sentence?]]></string>
 				<key>Marks</key>
 				<integer>3</integer>
 				<key>CorrectAns</key>
-				<string>amasne equos?</string>
+				<string><![CDATA[amasne equos?]]></string>
 				<key>Distractor1</key>
-				<string>amasne equum?</string>
+				<string><![CDATA[amasne equum?]]></string>
 				<key>Distractor2</key>
-				<string>amatisne equi? </string>
+				<string><![CDATA[amatisne equi? ]]></string>
 				<key>Feedback</key>
-				<string>am-as (you sg)
+				<string><![CDATA[am-as (you sg)
 ne (for a question)
-equ-os (acc plu)</string>
+equ-os (acc plu)]]></string>
 			</dict>
 		</array>
 		<array>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Prompt</key>
-				<string>Troiani, ubi in ora equum viderunt, perterriti steterunt</string>
+				<string><![CDATA[Troiani, ubi in ora equum viderunt, perterriti steterunt]]></string>
 				<key>Question</key>
-				<string>What is the first person singular present tense of steterunt?</string>
+				<string><![CDATA[What is the first person singular present tense of steterunt?]]></string>
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
-				<string>sto</string>
+				<string><![CDATA[sto]]></string>
 				<key>Distractor1</key>
-				<string>stare</string>
+				<string><![CDATA[stare]]></string>
 				<key>Distractor2</key>
-				<string>statim</string>
+				<string><![CDATA[statim]]></string>
 				<key>Feedback</key>
-				<string>sto - stare - steti (perfect)</string>
+				<string><![CDATA[sto - stare - steti (perfect)]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Prompt</key>
-				<string>unus vir, Laocoon, dixit: &apos;Graecos timeo quamquam (although) donum dederunt&apos;</string>
+				<string><![CDATA[unus vir, Laocoon, dixit: 'Graecos timeo quamquam (although) donum dederunt']]></string>
 				<key>Question</key>
-				<string>What tense is the verb dederunt?</string>
+				<string><![CDATA[What tense is the verb dederunt?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>perfect</string>
+				<string><![CDATA[perfect]]></string>
 				<key>Distractor1</key>
-				<string>present</string>
+				<string><![CDATA[present]]></string>
 				<key>Distractor2</key>
-				<string>imperfect</string>
+				<string><![CDATA[imperfect]]></string>
 				<key>Feedback</key>
-				<string>ded-erunt, 3rd person plural, perfect tense </string>
+				<string><![CDATA[ded-erunt, 3rd person plural, perfect tense ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Prompt</key>
-				<string>sed Troiani responderunt: &apos;equus est deae donum&apos;</string>
+				<string><![CDATA[sed Troiani responderunt: 'equus est deae donum']]></string>
 				<key>Question</key>
-				<string>What gender is the word equus?</string>
+				<string><![CDATA[What gender is the word equus?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>masculine</string>
+				<string><![CDATA[masculine]]></string>
 				<key>Distractor1</key>
-				<string>neuter</string>
+				<string><![CDATA[neuter]]></string>
 				<key>Distractor2</key>
-				<string>feminine</string>
+				<string><![CDATA[feminine]]></string>
 				<key>Feedback</key>
-				<string>equ-us 2nd declension masculine </string>
+				<string><![CDATA[equ-us 2nd declension masculine ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Prompt</key>
-				<string>&apos;equum in Troiam ducite! Graecos superavimus&apos;.</string>
+				<string><![CDATA['equum in Troiam ducite! Graecos superavimus'.]]></string>
 				<key>Question</key>
-				<string>What part of the verb duco is ducite?</string>
+				<string><![CDATA[What part of the verb duco is ducite?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>imperative (plural) </string>
+				<string><![CDATA[imperative (plural) ]]></string>
 				<key>Distractor1</key>
-				<string>imperative (singular)</string>
+				<string><![CDATA[imperative (singular)]]></string>
 				<key>Distractor2</key>
-				<string>infinitive</string>
+				<string><![CDATA[infinitive]]></string>
 				<key>Feedback</key>
-				<string>imperative used when giving an order </string>
+				<string><![CDATA[imperative used when giving an order ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Prompt</key>
-				<string>sed in equo erant multi Graeci viri </string>
+				<string><![CDATA[sed in equo erant multi Graeci viri ]]></string>
 				<key>Question</key>
-				<string>What type of word is multi?</string>
+				<string><![CDATA[What type of word is multi?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>adjective</string>
+				<string><![CDATA[adjective]]></string>
 				<key>Distractor1</key>
-				<string>noun</string>
+				<string><![CDATA[noun]]></string>
 				<key>Distractor2</key>
-				<string>adverb</string>
+				<string><![CDATA[adverb]]></string>
 				<key>Feedback</key>
-				<string>agrees with noun viri </string>
+				<string><![CDATA[agrees with noun viri ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Prompt</key>
-				<string>Troiani multum vinum biberunt (drank) et multum cibum consumpserunt</string>
+				<string><![CDATA[Troiani multum vinum biberunt (drank) et multum cibum consumpserunt]]></string>
 				<key>Question</key>
-				<string>What is the Latin subject of consumpserunt?</string>
+				<string><![CDATA[What is the Latin subject of consumpserunt?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>Troiani</string>
+				<string><![CDATA[Troiani]]></string>
 				<key>Distractor1</key>
-				<string>Trojans</string>
+				<string><![CDATA[Trojans]]></string>
 				<key>Distractor2</key>
-				<string>vinum</string>
+				<string><![CDATA[vinum]]></string>
 				<key>Feedback</key>
-				<string>The Trojans (in Latin, Troian-i) did the eating</string>
+				<string><![CDATA[The Trojans (in Latin, Troian-i) did the eating]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Prompt</key>
-				<string>dum (while) Troiani dormiebant, Graeci ex equo venerunt</string>
+				<string><![CDATA[dum (while) Troiani dormiebant, Graeci ex equo venerunt]]></string>
 				<key>Question</key>
-				<string>What case is equo and why?</string>
+				<string><![CDATA[What case is equo and why?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>ablative - after preposition</string>
+				<string><![CDATA[ablative - after preposition]]></string>
 				<key>Distractor1</key>
-				<string>dative - for</string>
+				<string><![CDATA[dative - for]]></string>
 				<key>Distractor2</key>
-				<string>accusative - object of verb</string>
+				<string><![CDATA[accusative - object of verb]]></string>
 				<key>Feedback</key>
-				<string>ex forces equ-o into the ablative case</string>
+				<string><![CDATA[ex forces equ-o into the ablative case]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Prompt</key>
-				<string>Graeci per vias cucurrerunt et multos Troianos necaverunt</string>
+				<string><![CDATA[Graeci per vias cucurrerunt et multos Troianos necaverunt]]></string>
 				<key>Question</key>
-				<string>What type of word is per?</string>
+				<string><![CDATA[What type of word is per?]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>preposition</string>
+				<string><![CDATA[preposition]]></string>
 				<key>Distractor1</key>
-				<string>adverb</string>
+				<string><![CDATA[adverb]]></string>
 				<key>Distractor2</key>
-				<string>conjunction</string>
+				<string><![CDATA[conjunction]]></string>
 				<key>Feedback</key>
-				<string>per = through/along = preposition</string>
+				<string><![CDATA[per = through/along = preposition]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Prompt</key>
-				<string>We love horses.</string>
+				<string><![CDATA[We love horses.]]></string>
 				<key>Question</key>
-				<string>Translate horses in this sentence.</string>
+				<string><![CDATA[Translate horses in this sentence.]]></string>
 				<key>Marks</key>
 				<integer>2</integer>
 				<key>CorrectAns</key>
-				<string>equos</string>
+				<string><![CDATA[equos]]></string>
 				<key>Distractor1</key>
-				<string>equus</string>
+				<string><![CDATA[equus]]></string>
 				<key>Distractor2</key>
-				<string>equum</string>
+				<string><![CDATA[equum]]></string>
 				<key>Feedback</key>
-				<string>horses, object of verb = equ-os, acc plu </string>
+				<string><![CDATA[horses, object of verb = equ-os, acc plu ]]></string>
 			</dict>
 			<dict>
 				<key>QnCat</key>
-				<string>The Wooden Horse: Part Two</string>
+				<string><![CDATA[The Wooden Horse: Part Two]]></string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Prompt</key>
-				<string>I terrify the slave girls</string>
+				<string><![CDATA[I terrify the slave girls]]></string>
 				<key>Question</key>
-				<string>What is the correct Latin translation of this sentence?</string>
+				<string><![CDATA[What is the correct Latin translation of this sentence?]]></string>
 				<key>Marks</key>
 				<integer>3</integer>
 				<key>CorrectAns</key>
-				<string>ancillas terreo</string>
+				<string><![CDATA[ancillas terreo]]></string>
 				<key>Distractor1</key>
-				<string>ancillam terreo </string>
+				<string><![CDATA[ancillam terreo ]]></string>
 				<key>Distractor2</key>
-				<string>ancillas timeo </string>
+				<string><![CDATA[ancillas timeo ]]></string>
 				<key>Feedback</key>
-				<string>ancill-as (acc plu, object)
-terre-o (I frighten)</string>
+				<string><![CDATA[ancill-as (acc plu, object)
+terre-o (I frighten)]]></string>
 			</dict>
 		</array>
 	</array>

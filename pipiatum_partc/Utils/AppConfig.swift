@@ -19,6 +19,7 @@ let maxSubMenuBtnHeight: CGFloat = 100
 //MC
 let yellow: String = "FFFD72"
 let green: String = "8BC45D"
+let black: UIColor = UIColor.black
 let testMCDelay: Int = 3
 let MCAnimationDuration: TimeInterval = 0.3
 let BtnAnimationDuration: TimeInterval = MCAnimationDuration

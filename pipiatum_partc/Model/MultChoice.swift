@@ -24,7 +24,7 @@ class MultChoice {
     var accuracy: Float = 0.0
     
     //For Practice/Test
-    var Prompt: String? = nil       //The text displayed before showing the question
+    var Prompt: String? = nil
     var Marks: Int? = nil
     var Feedback: String? = nil
     
@@ -59,9 +59,9 @@ class MultChoice {
             //print("Practice/Test questions")
         }
         else  {
-            self.Prompt = nil
-            self.Marks = nil
-            self.Feedback = nil
+            self.Prompt = ""
+            self.Marks = -1
+            self.Feedback = ""
             //print("GS questions")
         }
     }

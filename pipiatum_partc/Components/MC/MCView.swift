@@ -29,24 +29,25 @@ class MCView: UIView {
    
     weak var delegate: MCDelegate?
     var type: ListBtnType = ListBtnType.none
-    var isFirstTime = true
+    var isFirstQn = true
     
     //MARK: Utility Functions
-    func showMC(question: MultChoice) {
-        MCQuestion.showQuestion(question: question)
-        if isFirstTime {
-            showChoice(question: question)
-            isFirstTime = false
+    func displayMC(question: MultChoice) {
+        MCQuestion.displayQuestion(question: question)
+        if isFirstQn {
+            //No animation
+            displayChoice(question: question)
+            isFirstQn = false
         }
         else {
             UIView.animate(withDuration: (MCAnimationDuration / 2), animations: {
-                self.showChoice(question: question)
+                self.displayChoice(question: question)
                 self.MCStack.layoutIfNeeded()
             })
         }
     }
     
-    func showChoice(question: MultChoice) {
+    func displayChoice(question: MultChoice) {
         var choices = [String]()
         choices.append(question.CorrectAns)
         choices.append(question.Distractor1)
@@ -55,7 +56,7 @@ class MCView: UIView {
         
         for num in 0...2 {
             MCButtons[num].listButton.type = type
-            MCButtons[num].setUpButton(btnNum: num, title: choices[num])
+            MCButtons[num].setUpButton(btnNum: num, title: choices[num], isMC: true)
             MCButtons[num].delegate = delegate
             if choices[num] == question.CorrectAns {
                 MCButtons[num].listButton.tag = -1
@@ -91,7 +92,7 @@ class MCView: UIView {
                 
                 UIView.animate(withDuration: MCAnimationDuration, animations: {
                     button.listButton.backgroundColor = button.listButton.originalColor
-                    button.listButton.setTitleColor(.white, for: .normal)
+                    button.toggleSelection(setOriginal: true)
                 })
             }
         }

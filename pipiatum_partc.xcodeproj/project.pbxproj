@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8094F0322FD49E000B77798 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8094F0222FD49DF00B77798 /* TestMC.plist */; };
+		D8094F0422FD49E000B77798 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8094F0222FD49DF00B77798 /* TestMC.plist */; };
+		D8094F0522FD49E000B77798 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8094F0222FD49DF00B77798 /* TestMC.plist */; };
 		D8108D6922FA80E000C57147 /* ManagedObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */; };
 		D8108D6A22FA80E000C57147 /* ManagedObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */; };
 		D8108D6B22FA80E000C57147 /* ManagedObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */; };
@@ -203,9 +206,6 @@
 		D8A8F01A22E1B0C700BC1915 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */; };
 		D8A8F01B22E1B0C700BC1915 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */; };
 		D8A8F01C22E1B0C700BC1915 /* PracticeMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */; };
-		D8A8F01D22E1B0C700BC1915 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01822E1B0C600BC1915 /* TestMC.plist */; };
-		D8A8F01E22E1B0C700BC1915 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01822E1B0C600BC1915 /* TestMC.plist */; };
-		D8A8F01F22E1B0C700BC1915 /* TestMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F01822E1B0C600BC1915 /* TestMC.plist */; };
 		D8A8F02422E1B6E700BC1915 /* LBButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02322E1B6E700BC1915 /* LBButton.xib */; };
 		D8A8F02522E1B6E700BC1915 /* LBButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02322E1B6E700BC1915 /* LBButton.xib */; };
 		D8A8F02622E1B6E700BC1915 /* LBButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8F02322E1B6E700BC1915 /* LBButton.xib */; };
@@ -276,6 +276,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8094F0222FD49DF00B77798 /* TestMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestMC.plist; sourceTree = "<group>"; };
 		D8108D6822FA80E000C57147 /* ManagedObjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectManager.swift; sourceTree = "<group>"; };
 		D8295AA122FBBA1200439951 /* GSMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GSMC.plist; sourceTree = "<group>"; };
 		D845F2A022D31E8F000D6F1D /* SubMenuStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuStack.swift; sourceTree = "<group>"; };
@@ -349,7 +350,6 @@
 		D8A815EC22E18DCD0023A2E6 /* PracticeButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeButtons.xib; sourceTree = "<group>"; };
 		D8A815F422E1A7DF0023A2E6 /* UtilityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityButton.swift; sourceTree = "<group>"; };
 		D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PracticeMC.plist; sourceTree = "<group>"; };
-		D8A8F01822E1B0C600BC1915 /* TestMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestMC.plist; sourceTree = "<group>"; };
 		D8A8F02322E1B6E700BC1915 /* LBButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBButton.xib; sourceTree = "<group>"; };
 		D8A8F02722E1BEDD00BC1915 /* EggBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EggBar.xib; sourceTree = "<group>"; };
 		D8B3705122E55F3E00A77776 /* ListButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListButton.xib; path = pipiatum_partc/Layouts/ListButton.xib; sourceTree = SOURCE_ROOT; };
@@ -749,9 +749,9 @@
 		D8A7BAE622D844030054A570 /* Learning Materials */ = {
 			isa = PBXGroup;
 			children = (
+				D8094F0222FD49DF00B77798 /* TestMC.plist */,
 				D8295AA122FBBA1200439951 /* GSMC.plist */,
 				D8A8F01722E1B0C600BC1915 /* PracticeMC.plist */,
-				D8A8F01822E1B0C600BC1915 /* TestMC.plist */,
 			);
 			path = "Learning Materials";
 			sourceTree = "<group>";
@@ -920,6 +920,7 @@
 				D8D1D55622E07E450024AF8F /* LBResult.storyboard in Resources */,
 				D899BB3322D7182200BAF86D /* pbTable.xib in Resources */,
 				D8D1D55A22E07EAC0024AF8F /* Practice.storyboard in Resources */,
+				D8094F0322FD49E000B77798 /* TestMC.plist in Resources */,
 				D89C2D8622C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D8D1D56A22E081310024AF8F /* PersonalBest.storyboard in Resources */,
 				D8A8F02822E1BEDD00BC1915 /* EggBar.xib in Resources */,
@@ -929,7 +930,6 @@
 				D89ADECD22C5F0BB00810E23 /* MCView.xib in Resources */,
 				D89ADED022C5FFB600810E23 /* GSTest.storyboard in Resources */,
 				D8F0178D22E8074300AAF66A /* MCQuestion.xib in Resources */,
-				D8A8F01D22E1B0C700BC1915 /* TestMC.plist in Resources */,
 				D89933C822CEF3E500F8E760 /* ResultScreenView.xib in Resources */,
 				D8D1D56622E080620024AF8F /* TestResult.storyboard in Resources */,
 				D84CA71322BA3ECE00E7B16F /* Main.storyboard in Resources */,
@@ -952,6 +952,7 @@
 			files = (
 				D8D1D56F22E082330024AF8F /* AboutUs.storyboard in Resources */,
 				D8D1D55F22E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
+				D8094F0422FD49E000B77798 /* TestMC.plist in Resources */,
 				D84CA73722BA3F7300E7B16F /* LaunchScreen.storyboard in Resources */,
 				D84CA73822BA3F7300E7B16F /* Assets.xcassets in Resources */,
 				D895078E22C37D02006DB1B1 /* SubMenu.xib in Resources */,
@@ -962,7 +963,6 @@
 				D8A8F02922E1BEDD00BC1915 /* EggBar.xib in Resources */,
 				D899BB3422D7182200BAF86D /* pbTable.xib in Resources */,
 				D8891FE322E6B10D000103B0 /* LBReview.storyboard in Resources */,
-				D8A8F01E22E1B0C700BC1915 /* TestMC.plist in Resources */,
 				D89C2D8A22C1C28D00606571 /* PracticeMenu.storyboard in Resources */,
 				D89C2D8722C1C27F00606571 /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499222D5E682001A6663 /* PersonalBestView.xib in Resources */,
@@ -995,6 +995,7 @@
 			files = (
 				D8D1D57022E082330024AF8F /* AboutUs.storyboard in Resources */,
 				D8D1D56022E07EB60024AF8F /* PracticeResult.storyboard in Resources */,
+				D8094F0522FD49E000B77798 /* TestMC.plist in Resources */,
 				D8965DD022CDCDA9007D32BB /* LaunchScreen.storyboard in Resources */,
 				D8965DD122CDCDA9007D32BB /* Assets.xcassets in Resources */,
 				D8965DD322CDCDA9007D32BB /* SubMenu.xib in Resources */,
@@ -1005,7 +1006,6 @@
 				D8A8F02A22E1BEDD00BC1915 /* EggBar.xib in Resources */,
 				D899BB3522D7182200BAF86D /* pbTable.xib in Resources */,
 				D8891FE422E6B10D000103B0 /* LBReview.storyboard in Resources */,
-				D8A8F01F22E1B0C700BC1915 /* TestMC.plist in Resources */,
 				D8965DD622CDCDA9007D32BB /* PracticeMenu.storyboard in Resources */,
 				D8965DD722CDCDA9007D32BB /* GrammarSmartMenu.storyboard in Resources */,
 				D88C499322D5E682001A6663 /* PersonalBestView.xib in Resources */,

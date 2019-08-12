@@ -55,7 +55,6 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 GSquestions.append(MCquestions)
                 MCquestions.removeAll()
             }
-            print("Loaded GS MC")
             return
         }
         
@@ -67,8 +66,6 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 MCquestions.append(question)
             }
         }
-        //Debug Msg
-        print("Loaded Practice/Test MC")
     }
     
     //MARK: MC Handling
@@ -101,61 +98,90 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         setUpComponent(componentName: utilBarName, superView: mcView!.utilityBar)
         mcView!.utilityBar.initUtilBar()
         
+        setUpMC()
+    }
+    
+    func setUpMC() {
+        questionPool.removeAll()
+        var tempArray = [MultChoice]()
         switch currentType {
         case .gs:
+            //TBC
             break
-        case .practice, .test:
-            //Need a different one for Test MC?
-            //OR maybe all call setUpMC?
-            setUpMC()
+        case .practice:
+            //Qn 1: 1pt
+            setPracticeMC(mark: 1)
+            
+            //Qn 2-9: 2pts
+            tempArray = getQuestions(withMark: 2).shuffled()
+            tempArray = Array(tempArray[0..<8])                 //Right now the plist contains just enough (9) data
+            questionPool.append(contentsOf: tempArray)
+            
+            //Qn 10: 3pts
+            setPracticeMC(mark: 3)
+            break
+        case .test:
+            //TODO
+            //Qn 1: 1pt
+            questionPool.append(prepareTestMC(mark: 1).first!)
+            
+            //Qn 2-9: 2pts
+            //Right now the plist contains just enough (9) data
+            questionPool.append(contentsOf: Array(prepareTestMC(mark: 2)[0..<8]).shuffled())
+            
+            //Qn 10: 3pts
+            questionPool.append(prepareTestMC(mark: 3).first!)
             break
         default:
             break
         }
-    }
-    
-    func setUpGSMC() {
-        //TBC
-    }
-    
-    func setUpMC() {
-        
-        questionPool.removeAll()
-//        for mark in 1...3 {
-//            questionPool += load(withMark: mark)
-//        }
-        
-        //Right now the database don't have enough questions
-        //Qn1: 1pt
-        questionPool.append(load(withMark: 1).first!)
-        //Qn2-9: 2pts
-        questionPool += Array(load(withMark: 2)[0..<8])
-        //Qn10: 3pts
-        questionPool.append(load(withMark: 3).first!)
+        //Load data
         accessData(isSave: false)
         totalNumOfQns = questionPool.count
-        showMC()
+        displayMC()
     }
     
-    func load(withMark: Int) -> [MultChoice] {
+    func setPracticeMC(mark: Int) {
+        questionPool.append(getQuestions(withMark: mark).shuffled().first!)
+    }
+    
+    func prepareTestMC(mark:Int) -> [MultChoice] {
+        let tempArray = getQuestions(withMark: mark)
+        
+        //TODO
+        //var tempArray = getQuestions(withMark: mark).sorted(by: {$0.accuracy < $1.accuracy})
+        
+        //Ditch this in future build
+        return tempArray
+        
+        
+        //Temporarily ditched due to insufficient data in TestMC.plist
+        //Use the following code in future(beta) build:
+        /*
+        //TODO
+        return Array(tempArray[0..<19]).shuffled()
+         */
+    }
+    
+    func getQuestions(withMark: Int) -> [MultChoice] {
         var tempArray = [MultChoice]()
         for question in MCquestions {
             if question.Marks == withMark {
                 tempArray.append(question)
             }
         }
-        //Contains a shuffled array of questions of the given marks
-        return tempArray.shuffled()
+        //Contains an array of questions of the given marks
+        return tempArray
     }
     
-    func showMC() {
+    func displayMC() {
         self.navigationItem.title = "\(totalQnAnswered) of \(totalNumOfQns)"
         
         currentQn = questionPool[currentQnNum]
         if currentQn != nil && mcView != nil{
-            print("(\(currentQnNum)) Qn \(currentQn!.QnNum)")
+            print("\n(\(currentQnNum + 1)) Qn \(currentQn!.QnNum + 1)")
             print("Accuracy: \(currentQn!.corrTimes)/\(currentQn!.totalTimes) (\(currentQn!.accuracy))")
-            mcView!.showMC(question: currentQn!)
+            mcView!.displayMC(question: currentQn!)
         }
         else {
             print("Error: currentQn/mcView is nil")
@@ -174,11 +200,12 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         UIView.animate(withDuration: MCAnimationDuration, animations: {
             correctBtn.listButton.backgroundColor = UIColor(hexString: green)
         })
+        //Disable all MCButtons
         mcView!.toggleMCButtons()
-        if showFB {
-            mcView!.scrollTo(bottom: true)
-        }
-        mcView!.MCQuestion.showFeedback(show: showFB)
+        //Update the states of UILabel Feedback
+        mcView!.MCQuestion.toggleFeedback(show: showFB)
+        //Scroll to bottom if showing FB
+        mcView!.scrollTo(bottom: showFB)
     }
     
     func checkAns() {
@@ -227,7 +254,10 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 break
             }
         }
-        accessData(isSave: true)
+        
+        if currentType == .test {
+            accessData(isSave: true)
+        }
     }
     
     func getBtn(isCorrectBtn: Bool) -> ListButtonView {
@@ -248,6 +278,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func doNextMC(btn: ListButtonView) {
+/*******************************************************************************/
         //Debug: use MCAnimationDuration
         //DispatchQueue.main.asyncAfter(deadline: .now() + MCAnimationDuration) {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(testMCDelay)) {
@@ -261,11 +292,16 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func nextMC() {
-        //accessData(isSave: true)
         //Reset all subviews
+        //Reset the states of UtilBar
         updateView()
+        //Re-enable all MCButtons
         mcView!.toggleMCButtons()
+        //Scroll back to top
         mcView!.scrollTo(bottom: false)
+        //Hide the feedback
+        mcView!.MCQuestion.toggleFeedback(show: false)
+        //Reset the chosen attributes of all MCButtons
         for button in mcView!.MCButtons {
             button.listButton.chosen = false
         }
@@ -278,13 +314,17 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         nextBtnPressed = false
         
         totalQnAnswered += 1
-        currentQnNum += 1
-        //currentQnNum == next question num here
+        currentQnNum += 1   // <------------
+        //currentQnNum == next question num|
         if currentQnNum == questionPool.count - 1 {
             isEnd = true
         }
         currentQn = nil
-        showMC()
+        
+        //The duration here should be same as the duration of toggleFeedback(show: false)
+        DispatchQueue.main.asyncAfter(deadline: .now() + (MCAnimationDuration / 2)) {
+            self.displayMC()
+        }
     }
     
     func endMC(sender: BasicButtonComponent) {

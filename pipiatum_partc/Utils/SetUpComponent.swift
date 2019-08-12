@@ -39,3 +39,19 @@ func updateContentHeight(contentView: UIView, height: NSLayoutConstraint) {
     height.constant = abs(ceil(maxY - minY)) + 10
 }
 
+func convertToAttrString(string: String) -> NSMutableAttributedString {
+    let htmlData = NSString(string: string).data(using: String.Encoding.unicode.rawValue)
+    let options = [NSAttributedString.DocumentReadingOptionKey.documentType: NSAttributedString.DocumentType.html]
+    let attrString = (try? NSMutableAttributedString(data: htmlData ?? Data(), options: options, documentAttributes: nil)) ?? NSMutableAttributedString()
+    return attrString
+}
+
+func gethtmlWhiteString(string: String, isBold: Bool) -> String {
+    var htmlString = "<font color=\"#FFFFFF\" style=\" font-family: -apple-system;\">"
+    if isBold {
+        htmlString = htmlString + "<b>" + string + "</b></font>"
+    } else {
+        htmlString = htmlString + string + "</font>"
+    }
+    return htmlString
+}

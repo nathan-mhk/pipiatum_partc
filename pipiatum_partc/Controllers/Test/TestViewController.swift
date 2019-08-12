@@ -24,7 +24,7 @@ class TestViewController: BasicMCViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        //updateContentHeight(contentView: testMC.MCQuestion, height: testMC.MCQnHeight)
+        updateContentHeight(contentView: testMC.MCQuestion, height: testMC.MCQnHeight)
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {

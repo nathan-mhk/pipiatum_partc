@@ -30,23 +30,39 @@ class MCQuestion: UIView {
         setUpComponent(componentName: "MCQuestion", superView: self)
     }
     
-    var isFirstTime: Bool = true
-    var fb: String = ""
+    var isFirstQn: Bool = true
+    var htmlString: String = ""
     
-    func showQuestion(question: MultChoice) {
+    func displayQuestion(question: MultChoice) {
         ExCat.fadeTransition(MCAnimationDuration)
         ExCat.text = question.QnCat
         
+//        Prompt.fadeTransition(MCAnimationDuration)
+        htmlString = gethtmlWhiteString(string: question.Prompt ?? "", isBold: false)
         Prompt.fadeTransition(MCAnimationDuration)
-        Prompt.text = question.Prompt
+        Prompt.attributedText = convertToAttrString(string: htmlString)
         
         Question.fadeTransition(MCAnimationDuration)
-        Question.text = question.Question
+        htmlString = gethtmlWhiteString(string: question.Question, isBold: false)
+        Question.attributedText = convertToAttrString(string: htmlString)
         
-        //For Practice, always show feedback
-        //For Test, only show feedback when ANS is wrong
-        fb = question.Feedback!
-        showFeedback(show: false)
+        //Feedback
+        //Set alpha = 0 with no animation when displaying the first question
+        if isFirstQn {
+            Feedback.alpha = 0.0
+            isFirstQn = false
+        }
+        htmlString = gethtmlWhiteString(string: question.Feedback ?? "", isBold: false)
+        Feedback.attributedText = convertToAttrString(string: htmlString)
+        setFormatting(labels: [Prompt, Question, Feedback])
+    }
+    
+    func setFormatting(labels: [UILabel]) {
+        for label in labels {
+            label.textAlignment = .center
+            label.font = UIFont.systemFont(ofSize: 16)  //Works
+            label.layoutIfNeeded()
+        }
     }
     
     func updateMarks(marks: Int) {
@@ -54,20 +70,12 @@ class MCQuestion: UIView {
         Marks.text = String(marks)
     }
     
-    func showFeedback(show: Bool) {
-        if isFirstTime {
-            Feedback.alpha = 0.0
-            Feedback.text = fb
-            isFirstTime = false
-        }
-        else {
-            let alpha: CGFloat = show ? 1.0 : 0.0
-            let duration: TimeInterval = show ? MCAnimationDuration : (MCAnimationDuration / 2)
-            UIView.animate(withDuration: duration, animations: {
-                self.Feedback.alpha = alpha
-            }, completion: {_ in
-                self.Feedback.text = self.fb
-            })
-        }
+    func toggleFeedback(show: Bool) {
+        let alpha: CGFloat = show ? 1.0 : 0.0
+        let duration: TimeInterval = show ? MCAnimationDuration : (MCAnimationDuration / 2)
+      
+        UIView.animate(withDuration: duration, animations: {
+            self.Feedback.alpha = alpha
+        })
     }
 }

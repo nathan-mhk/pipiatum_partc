@@ -34,7 +34,7 @@ class PBMenuViewController: BasicSubMenuViewController {
         if segue.identifier == "PERSONALBEST" {
             if let destination = segue.destination as? PBViewController {
                 if let subMenuButton = sender as? ListButton {
-                    print("Going to PB View from button \(buttons[subMenuButton.tag].Name)")
+                    print("Going to \(destination) \(buttons[subMenuButton.tag].Name)")
                 }
             }
         }
