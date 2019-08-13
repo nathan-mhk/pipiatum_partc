@@ -17,7 +17,7 @@
 				<key>Marks</key>
 				<integer>1</integer>
 				<key>CorrectAns</key>
-                <string><![CDATA[<u>Im<font color="#F5C343">perfect</font></u>]]></string>
+                <string><![CDATA[<u>Im<font color="#F5C343">&#x2018;perfect&#x2019;</font></u>]]></string>
 				<key>Distractor1</key>
 				<string>Perfect</string>
 				<key>Distractor2</key>

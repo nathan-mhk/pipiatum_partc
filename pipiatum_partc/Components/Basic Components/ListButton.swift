@@ -24,7 +24,7 @@ class ListButton: BasicButtonComponent {
     var isPressed: Bool = false
     var chosen: Bool = false
     var originalColor: UIColor = .clear
-    var originalHtmlTitle: String = ""
+    var originalTitle: NSMutableAttributedString = NSMutableAttributedString()
     
     override func setUpButton() {
         //Prevent multitouch

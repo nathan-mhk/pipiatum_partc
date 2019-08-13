@@ -25,6 +25,7 @@ class ListButtonView: UIView {
     
     //MARK: MC
     weak var delegate: MCDelegate?
+    var htmlString: String = ""
     
     //Only appears when a wrong ANS is chosen
     func setRightImg(show: Bool) {
@@ -99,7 +100,9 @@ class ListButtonView: UIView {
         rightImg.alpha = 0.0
         
         if isMC {
-            listButton.originalHtmlTitle = gethtmlWhiteString(string: title, isBold: true)
+            htmlString = gethtmlWhiteString(string: title, isBold: true)
+            listButton.originalTitle = convertToAttrString(string: htmlString)
+ 
             toggleSelection(setOriginal: true)
         } else {
             listButton.setTitleColor(.white, for: .normal)
@@ -109,7 +112,7 @@ class ListButtonView: UIView {
     
     func toggleSelection(setOriginal: Bool) {
         if setOriginal {
-            let attrString = convertToAttrString(string: listButton.originalHtmlTitle)
+            let attrString = listButton.originalTitle.mutableCopy() as! NSMutableAttributedString
             listButton.setAttributedTitle(attrString, for: .normal)
         } else {
             if let currentTitle = listButton.currentAttributedTitle as? NSMutableAttributedString {
