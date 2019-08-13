@@ -235,7 +235,7 @@
 				<key>QnNum</key>
 				<integer>16</integer>
 				<key>Question</key>
-				<string>What part of speech is per?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;per&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>preposition</string>
 				<key>Distractor1</key>
@@ -249,7 +249,7 @@
 				<key>QnNum</key>
 				<integer>17</integer>
 				<key>Question</key>
-				<string>What part of speech is decimus?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;decimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adjective</string>
 				<key>Distractor1</key>
@@ -263,7 +263,7 @@
 				<key>QnNum</key>
 				<integer>18</integer>
 				<key>Question</key>
-				<string>What part of speech is iratus?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;iratus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adjective</string>
 				<key>Distractor1</key>
@@ -291,7 +291,7 @@
 				<key>QnNum</key>
 				<integer>20</integer>
 				<key>Question</key>
-				<string>What part of speech is ego?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;ego&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>pronoun</string>
 				<key>Distractor1</key>
@@ -361,7 +361,7 @@
 				<key>QnNum</key>
 				<integer>25</integer>
 				<key>Question</key>
-				<string>What part of speech is semper?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;semper&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adverb</string>
 				<key>Distractor1</key>
@@ -375,7 +375,7 @@
 				<key>QnNum</key>
 				<integer>26</integer>
 				<key>Question</key>
-				<string>What part of speech is subito?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;subito&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adverb</string>
 				<key>Distractor1</key>
@@ -403,7 +403,7 @@
 				<key>QnNum</key>
 				<integer>28</integer>
 				<key>Question</key>
-				<string>What part of speech is primus?</string>
+				<string>What part of speech is &lt;font color=&quot;#F5C343&quot;&gt;primus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adjective</string>
 				<key>Distractor1</key>
@@ -559,7 +559,7 @@
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Question</key>
-				<string>What person is iubeo?</string>
+				<string>What person is &lt;font color=&quot;#F5C343&quot;&gt;iubeo&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>1st</string>
 				<key>Distractor1</key>
@@ -573,7 +573,7 @@
 				<key>QnNum</key>
 				<integer>10</integer>
 				<key>Question</key>
-				<string>What person is navigabas?</string>
+				<string>What person is &lt;font color=&quot;#F5C343&quot;&gt;navigabas&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>2nd</string>
 				<key>Distractor1</key>
@@ -587,7 +587,7 @@
 				<key>QnNum</key>
 				<integer>11</integer>
 				<key>Question</key>
-				<string>What person is misit?</string>
+				<string>What person is &lt;font color=&quot;#F5C343&quot;&gt;misit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>3rd</string>
 				<key>Distractor1</key>
@@ -601,7 +601,7 @@
 				<key>QnNum</key>
 				<integer>12</integer>
 				<key>Question</key>
-				<string>What person and number is ostenderunt?</string>
+				<string>What person and number is &lt;font color=&quot;#F5C343&quot;&gt;ostenderunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>3rd person plural</string>
 				<key>Distractor1</key>
@@ -615,7 +615,7 @@
 				<key>QnNum</key>
 				<integer>13</integer>
 				<key>Question</key>
-				<string>What person and number is necabam?</string>
+				<string>What person and number is &lt;font color=&quot;#F5C343&quot;&gt;necabam&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>1st person singular</string>
 				<key>Distractor1</key>
@@ -629,7 +629,7 @@
 				<key>QnNum</key>
 				<integer>14</integer>
 				<key>Question</key>
-				<string>What person and number is fecisti?</string>
+				<string>What person and number is &lt;font color=&quot;#F5C343&quot;&gt;fecisti&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>2nd person singular</string>
 				<key>Distractor1</key>
@@ -643,7 +643,7 @@
 				<key>QnNum</key>
 				<integer>15</integer>
 				<key>Question</key>
-				<string>What person and number is habitamus?</string>
+				<string>What person and number is &lt;font color=&quot;#F5C343&quot;&gt;habitamus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>1st person plural</string>
 				<key>Distractor1</key>
@@ -657,7 +657,7 @@
 				<key>QnNum</key>
 				<integer>16</integer>
 				<key>Question</key>
-				<string>What person and number is ludebatis?</string>
+				<string>What person and number is &lt;font color=&quot;#F5C343&quot;&gt;ludebatis&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>2nd person plural</string>
 				<key>Distractor1</key>
@@ -671,7 +671,7 @@
 				<key>QnNum</key>
 				<integer>17</integer>
 				<key>Question</key>
-				<string>What person and number is est?</string>
+				<string>What person and number is &lt;font color=&quot;#F5C343&quot;&gt;est&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>3rd person singular</string>
 				<key>Distractor1</key>
@@ -855,8 +855,7 @@
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Question</key>
-				<string>inter amicos.
-What case is amicos and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;inter amicos.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;amicos&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>accusative after preposition</string>
 				<key>Distractor1</key>
@@ -870,10 +869,9 @@ What case is amicos and why?</string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Question</key>
-				<string>ad patriam.
-What case is patriam and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;ad patriam.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;patriam&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
-				<string>accusative because of ad</string>
+				<string>accusative because of &lt;font color=&quot;#F5C343&quot;&gt;ad&lt;/font&gt;</string>
 				<key>Distractor1</key>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
@@ -885,8 +883,7 @@ What case is patriam and why?</string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Question</key>
-				<string>cum filia.
-What case is filia and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;cum filia.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;filia&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>ablative after preposition</string>
 				<key>Distractor1</key>
@@ -900,8 +897,7 @@ What case is filia and why?</string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Question</key>
-				<string>contra me.
-What case is me and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;contra me.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;me&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>accusative after preposition</string>
 				<key>Distractor1</key>
@@ -915,8 +911,7 @@ What case is me and why?</string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Question</key>
-				<string>trans aquam.
-What case is aquam and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;trans aquam.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;aquam&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>ablative after preposition</string>
 				<key>Distractor1</key>
@@ -930,10 +925,9 @@ What case is aquam and why?</string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Question</key>
-				<string>de te.
-What case is te and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;de te.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;te&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
-				<string>ablative because of de</string>
+				<string>ablative because of &lt;font color=&quot;#F5C343&quot;&gt;de&lt;/font&gt;</string>
 				<key>Distractor1</key>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
@@ -945,10 +939,9 @@ What case is te and why?</string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Question</key>
-				<string>in oppidum.
-What case is oppidum and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;in oppidum.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;oppidum&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
-				<string>accusative because of in</string>
+				<string>accusative because of &lt;font color=&quot;#F5C343&quot;&gt;in&lt;/font&gt;</string>
 				<key>Distractor1</key>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
@@ -960,8 +953,7 @@ What case is oppidum and why?</string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Question</key>
-				<string>in oppido.
-What case is oppido and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;in oppido.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;oppido&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>ablative after preposition</string>
 				<key>Distractor1</key>
@@ -975,8 +967,7 @@ What case is oppido and why?</string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Question</key>
-				<string>ex ora.
-What case is ora and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;ex ora.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;ora&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>ablative after preposition</string>
 				<key>Distractor1</key>
@@ -990,8 +981,7 @@ What case is ora and why?</string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Question</key>
-				<string>a feminis.
-What case is feminis and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;a feminis.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;feminis&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
 				<string>ablative because of preposition</string>
 				<key>Distractor1</key>
@@ -1005,12 +995,11 @@ What case is feminis and why?</string>
 				<key>QnNum</key>
 				<integer>10</integer>
 				<key>Question</key>
-				<string>prope agros.
-What case is agros and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;prope agros.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;agros&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
-				<string>accusative because of prope</string>
+				<string>accusative because of &lt;font color=&quot;#F5C343&quot;&gt;prope&lt;/font&gt;</string>
 				<key>Distractor1</key>
-				<string>ablative because of prope</string>
+				<string>ablative because of &lt;font color=&quot;#F5C343&quot;&gt;prope&lt;/font&gt;</string>
 				<key>Distractor2</key>
 				<string>accusative object</string>
 			</dict>
@@ -1020,14 +1009,13 @@ What case is agros and why?</string>
 				<key>QnNum</key>
 				<integer>11</integer>
 				<key>Question</key>
-				<string>per vias.
-What case is vias and why?</string>
+				<string>&lt;font color=&quot;#F5C343&quot;&gt;per vias.&lt;/font&gt;&lt;br&gt;What case is &lt;font color=&quot;#F5C343&quot;&gt;vias&lt;/font&gt; and why?</string>
 				<key>CorrectAns</key>
-				<string>accusative after per</string>
+				<string>accusative after &lt;font color=&quot;#F5C343&quot;&gt;per&lt;/font&gt;</string>
 				<key>Distractor1</key>
 				<string>accusative object of verb</string>
 				<key>Distractor2</key>
-				<string>ablative after per</string>
+				<string>ablative after &lt;font color=&quot;#F5C343&quot;&gt;per&lt;/font&gt;</string>
 			</dict>
 		</array>
 		<array>
@@ -1037,7 +1025,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of cucurrerunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;cucurrerunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>curro</string>
 				<key>Distractor1</key>
@@ -1051,7 +1039,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of dixisti?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;dixisti&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>dico</string>
 				<key>Distractor1</key>
@@ -1065,7 +1053,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of duxerunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;duxerunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>duco</string>
 				<key>Distractor1</key>
@@ -1079,7 +1067,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of cepimus?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;cepimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>capio</string>
 				<key>Distractor1</key>
@@ -1093,7 +1081,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of cupivistis?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;cupivistis&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>cupio</string>
 				<key>Distractor1</key>
@@ -1107,7 +1095,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of consumpsit?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;consumpsit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>consumo</string>
 				<key>Distractor1</key>
@@ -1121,7 +1109,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of fuerunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;fuerunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>sum</string>
 				<key>Distractor1</key>
@@ -1135,7 +1123,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of adfuit?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;adfuit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adsum</string>
 				<key>Distractor1</key>
@@ -1149,7 +1137,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of afui?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;afui&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>absum</string>
 				<key>Distractor1</key>
@@ -1163,7 +1151,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of delevimus?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;delevimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>deleo</string>
 				<key>Distractor1</key>
@@ -1177,7 +1165,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>10</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of discesserunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;discesserunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>discedo</string>
 				<key>Distractor1</key>
@@ -1191,7 +1179,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>11</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of dederunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;dederunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>dormi</string>
 				<key>Distractor1</key>
@@ -1205,7 +1193,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>12</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of stetisti?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;stetisti&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>sto</string>
 				<key>Distractor1</key>
@@ -1219,7 +1207,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>13</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of movimus?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;movimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>moveo</string>
 				<key>Distractor1</key>
@@ -1233,7 +1221,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>14</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of mansit?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;mansit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>maneo</string>
 				<key>Distractor1</key>
@@ -1247,7 +1235,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>15</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of ieci?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;ieci&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>iacio</string>
 				<key>Distractor1</key>
@@ -1261,7 +1249,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>16</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of lusistis?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;lusistis&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>ludo</string>
 				<key>Distractor1</key>
@@ -1275,7 +1263,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>17</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of miserunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;miserunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>mitto</string>
 				<key>Distractor1</key>
@@ -1289,7 +1277,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>18</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of fecimus?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;fecimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>facio</string>
 				<key>Distractor1</key>
@@ -1303,7 +1291,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>19</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of iussit?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;iussit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>iubeo</string>
 				<key>Distractor1</key>
@@ -1317,7 +1305,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>20</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of reximus?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;reximus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>rego</string>
 				<key>Distractor1</key>
@@ -1331,7 +1319,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>21</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of posui?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;posui&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>pono</string>
 				<key>Distractor1</key>
@@ -1345,7 +1333,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>22</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of venisti?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;venisti&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>venio</string>
 				<key>Distractor1</key>
@@ -1359,7 +1347,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>23</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of riserunt?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;riserunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>rideo</string>
 				<key>Distractor1</key>
@@ -1373,7 +1361,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>24</integer>
 				<key>Question</key>
-				<string>What is the first person singular present tense of tenuimus?</string>
+				<string>What is the first person singular present tense of &lt;font color=&quot;#F5C343&quot;&gt;tenuimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>tenere</string>
 				<key>Distractor1</key>
@@ -1389,7 +1377,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of spectavit?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;spectavit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>spectat</string>
 				<key>Distractor1</key>
@@ -1403,7 +1391,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of vocavi?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;vocavi&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>voco</string>
 				<key>Distractor1</key>
@@ -1417,7 +1405,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of tenuisti?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;tenuisti&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>teneo</string>
 				<key>Distractor1</key>
@@ -1431,7 +1419,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of fuimus?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;fuimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>sumus</string>
 				<key>Distractor1</key>
@@ -1445,7 +1433,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>4</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of portavistis?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;portavistis&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>portatis</string>
 				<key>Distractor1</key>
@@ -1459,7 +1447,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>5</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of paraverunt?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;paraverunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>parant</string>
 				<key>Distractor1</key>
@@ -1473,7 +1461,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of aderam?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;aderam&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>adsum</string>
 				<key>Distractor1</key>
@@ -1487,7 +1475,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>7</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of aberas?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;aberas&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>es</string>
 				<key>Distractor1</key>
@@ -1501,7 +1489,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of superabat?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;superabat&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>superat</string>
 				<key>Distractor1</key>
@@ -1515,7 +1503,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of dabant?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;dabant&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>dant</string>
 				<key>Distractor1</key>
@@ -1529,7 +1517,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>10</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of dedit?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;dedit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>dat</string>
 				<key>Distractor1</key>
@@ -1543,7 +1531,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>11</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of steterunt?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;steterunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>stant</string>
 				<key>Distractor1</key>
@@ -1557,7 +1545,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>12</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of risimus?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;risimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>ridemus</string>
 				<key>Distractor1</key>
@@ -1571,7 +1559,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>13</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of posuisti?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;posuisti&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>ponis</string>
 				<key>Distractor1</key>
@@ -1585,7 +1573,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>14</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of terruerunt?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;terruerunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>terrent</string>
 				<key>Distractor1</key>
@@ -1599,7 +1587,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>15</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of venerunt?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;venerunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>veniunt</string>
 				<key>Distractor1</key>
@@ -1613,7 +1601,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>16</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of reximus?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;reximus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>regimus</string>
 				<key>Distractor1</key>
@@ -1627,7 +1615,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>17</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of respondit?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;respondit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>respondet</string>
 				<key>Distractor1</key>
@@ -1641,7 +1629,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>18</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of scripsistis?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;scripsistis&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>scribitis</string>
 				<key>Distractor1</key>
@@ -1655,7 +1643,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>19</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of vidit?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;vidit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>videt</string>
 				<key>Distractor1</key>
@@ -1669,7 +1657,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>20</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of mansimus?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;mansimus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>manemus</string>
 				<key>Distractor1</key>
@@ -1683,7 +1671,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>21</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of iecerunt?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;iecerunt&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>iaciunt</string>
 				<key>Distractor1</key>
@@ -1697,7 +1685,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>22</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of feci?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;feci&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>facio</string>
 				<key>Distractor1</key>
@@ -1711,7 +1699,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>23</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of habuit?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;habuit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>habet</string>
 				<key>Distractor1</key>
@@ -1725,7 +1713,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>24</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of iussi?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;iussi&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>iubeo</string>
 				<key>Distractor1</key>
@@ -1739,7 +1727,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>25</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of ludebat?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;ludebat&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>ludit</string>
 				<key>Distractor1</key>
@@ -1753,7 +1741,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>26</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of misi?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;misi&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>mitto</string>
 				<key>Distractor1</key>
@@ -1767,7 +1755,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>27</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of duximus?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;duximus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>ducimus</string>
 				<key>Distractor1</key>
@@ -1781,7 +1769,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>28</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of dixistis?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;dixistis&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>dicitis</string>
 				<key>Distractor1</key>
@@ -1795,7 +1783,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>29</integer>
 				<key>Question</key>
-				<string>What is the present tense equivalent of cucurrit?</string>
+				<string>What is the present tense equivalent of &lt;font color=&quot;#F5C343&quot;&gt;cucurrit&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>currit</string>
 				<key>Distractor1</key>
@@ -1811,7 +1799,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Question</key>
-				<string>Which English word is not derived from insula?</string>
+				<string>Which English word is &lt;b&gt;&lt;u&gt;not&lt;/u&gt;&lt;/b&gt; derived from &lt;font color=&quot;#F5C343&quot;&gt;insula&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>inoculate</string>
 				<key>Distractor1</key>
@@ -1825,7 +1813,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>1</integer>
 				<key>Question</key>
-				<string>Give an English word derived from ancilla.</string>
+				<string>Give an English word derived from &lt;font color=&quot;#F5C343&quot;&gt;ancilla&lt;/font&gt;.</string>
 				<key>CorrectAns</key>
 				<string>ancillary</string>
 				<key>Distractor1</key>
@@ -1839,7 +1827,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Question</key>
-				<string>Which English word is not derived from aqua.</string>
+				<string>Which English word is &lt;b&gt;&lt;u&gt;not&lt;/u&gt;&lt;/b&gt; derived from &lt;font color=&quot;#F5C343&quot;&gt;aqua&lt;/font&gt;.</string>
 				<key>CorrectAns</key>
 				<string>equal</string>
 				<key>Distractor1</key>
@@ -1853,7 +1841,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>3</integer>
 				<key>Question</key>
-				<string>Give an English word derived from deus.</string>
+				<string>Give an English word derived from &lt;font color=&quot;#F5C343&quot;&gt;deus&lt;/font&gt;.</string>
 				<key>CorrectAns</key>
 				<string>deity</string>
 				<key>Distractor1</key>
@@ -1895,7 +1883,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Question</key>
-				<string>Which English word is derived from iratus.</string>
+				<string>Which English word is derived from &lt;font color=&quot;#F5C343&quot;&gt;iratus&lt;/font&gt;.</string>
 				<key>CorrectAns</key>
 				<string>irate</string>
 				<key>Distractor1</key>
@@ -1923,7 +1911,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>8</integer>
 				<key>Question</key>
-				<string>Which English word derives from unda?</string>
+				<string>Which English word derives from &lt;font color=&quot;#F5C343&quot;&gt;unda&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>undulate</string>
 				<key>Distractor1</key>
@@ -1937,7 +1925,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>9</integer>
 				<key>Question</key>
-				<string>Which word does not derive from terra?</string>
+				<string>Which word does &lt;b&gt;&lt;u&gt;not&lt;/u&gt;&lt;/b&gt; derive from terra?</string>
 				<key>CorrectAns</key>
 				<string>terror</string>
 				<key>Distractor1</key>
@@ -1979,7 +1967,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>12</integer>
 				<key>Question</key>
-				<string>Which word does not derive from the Latin for many ...</string>
+				<string>Which word does &lt;b&gt;&lt;u&gt;not&lt;/u&gt;&lt;/b&gt; derive from the Latin for many ...</string>
 				<key>CorrectAns</key>
 				<string>magnify</string>
 				<key>Distractor1</key>
@@ -1993,7 +1981,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>13</integer>
 				<key>Question</key>
-				<string>Which English word derives from altus?</string>
+				<string>Which English word derives from &lt;font color=&quot;#F5C343&quot;&gt;altus&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>altitude</string>
 				<key>Distractor1</key>
@@ -2007,7 +1995,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>14</integer>
 				<key>Question</key>
-				<string>Which word does not derive from the Latin for ten?</string>
+				<string>Which word does &lt;b&gt;&lt;u&gt;not&lt;/u&gt;&lt;/b&gt; derive from the Latin for ten?</string>
 				<key>CorrectAns</key>
 				<string>decent</string>
 				<key>Distractor1</key>
@@ -2021,7 +2009,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>15</integer>
 				<key>Question</key>
-				<string>What sort of people show malice?</string>
+				<string>What sort of people show &lt;b&gt;mal&lt;/b&gt;ice?</string>
 				<key>CorrectAns</key>
 				<string>bad</string>
 				<key>Distractor1</key>
@@ -2049,7 +2037,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>17</integer>
 				<key>Question</key>
-				<string>A duet is performed by how many people?</string>
+				<string>A &lt;b&gt;du&lt;/b&gt;et is performed by how many people?</string>
 				<key>CorrectAns</key>
 				<string>two</string>
 				<key>Distractor1</key>
@@ -2063,7 +2051,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>18</integer>
 				<key>Question</key>
-				<string>Which word does not derive from the Latin for well known?</string>
+				<string>Which word does &lt;b&gt;&lt;u&gt;not&lt;/u&gt;&lt;/b&gt; derive from the Latin for well known?</string>
 				<key>CorrectAns</key>
 				<string>novel</string>
 				<key>Distractor1</key>
@@ -2077,7 +2065,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>19</integer>
 				<key>Question</key>
-				<string>A novice is ...</string>
+				<string>A &lt;b&gt;nov&lt;/b&gt;ice is ...</string>
 				<key>CorrectAns</key>
 				<string>new (to something)</string>
 				<key>Distractor1</key>
@@ -2091,7 +2079,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>20</integer>
 				<key>Question</key>
-				<string>An octet is performed by how many people?</string>
+				<string>An &lt;b&gt;oct&lt;/b&gt;et is performed by how many people?</string>
 				<key>CorrectAns</key>
 				<string>eight</string>
 				<key>Distractor1</key>
@@ -2119,7 +2107,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>22</integer>
 				<key>Question</key>
-				<string>Pulchritude is ...</string>
+				<string>&lt;b&gt;Pulchr&lt;/b&gt;itude is ...</string>
 				<key>CorrectAns</key>
 				<string>beauty</string>
 				<key>Distractor1</key>
@@ -2133,7 +2121,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>23</integer>
 				<key>Question</key>
-				<string>Diction is to do with quality of ...</string>
+				<string>&lt;b&gt;Dic&lt;/b&gt;tion is to do with quality of ...</string>
 				<key>CorrectAns</key>
 				<string>speech</string>
 				<key>Distractor1</key>
@@ -2163,7 +2151,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>0</integer>
 				<key>Question</key>
-				<string>Give the nominative plural of bellum</string>
+				<string>Give the nominative plural of &lt;font color=&quot;#F5C343&quot;&gt;bellum&lt;/font&gt;</string>
 				<key>CorrectAns</key>
 				<string>bella</string>
 				<key>Distractor1</key>
@@ -2191,7 +2179,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>2</integer>
 				<key>Question</key>
-				<string>Give the nominative plural of socius.</string>
+				<string>Give the nominative plural of &lt;font color=&quot;#F5C343&quot;&gt;socius&lt;/font&gt;.</string>
 				<key>CorrectAns</key>
 				<string>socii</string>
 				<key>Distractor1</key>
@@ -2247,7 +2235,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>6</integer>
 				<key>Question</key>
-				<string>Give the nominative plural of amicus.</string>
+				<string>Give the nominative plural of &lt;font color=&quot;#F5C343&quot;&gt;amicus&lt;/font&gt;.</string>
 				<key>CorrectAns</key>
 				<string>amici</string>
 				<key>Distractor1</key>
@@ -2331,7 +2319,7 @@ What case is vias and why?</string>
 				<key>QnNum</key>
 				<integer>12</integer>
 				<key>Question</key>
-				<string>What is the nominative plural of nauta?</string>
+				<string>What is the nominative plural of &lt;font color=&quot;#F5C343&quot;&gt;nauta&lt;/font&gt;?</string>
 				<key>CorrectAns</key>
 				<string>nautae</string>
 				<key>Distractor1</key>

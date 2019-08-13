@@ -52,6 +52,46 @@
 			<key>ImgName</key>
 			<string>settings</string>
 		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>6</integer>
+			<key>Name</key>
+			<string>The Anger of Achilles: Part Three</string>
+			<key>ImgName</key>
+			<string>pa</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>7</integer>
+			<key>Name</key>
+			<string>The Anger of Achilles: Part Four</string>
+			<key>ImgName</key>
+			<string>Supplementary Verbs</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>8</integer>
+			<key>Name</key>
+			<string>The Anger of Achilles: Part Five</string>
+			<key>ImgName</key>
+			<string>verbs</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>9</integer>
+			<key>Name</key>
+			<string>The Wooden Horse: Part One</string>
+			<key>ImgName</key>
+			<string>vocab</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<integer>10</integer>
+			<key>Name</key>
+			<string>The Wooden Horse: Part Two</string>
+			<key>ImgName</key>
+			<string>allin</string>
+		</dict>
 	</array>
 </dict>
 </plist>
