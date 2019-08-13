@@ -24,9 +24,9 @@ class MultChoice {
     var accuracy: Float = 0.0
     
     //For Practice/Test
-    var Prompt: String? = nil
-    var Marks: Int? = nil
-    var Feedback: String? = nil
+    var Prompt: String = ""
+    var Marks: Int = 0
+    var Feedback: String = ""
     
     //MARK: Init from plist
     init?(mcQn: NSDictionary) {
@@ -56,14 +56,12 @@ class MultChoice {
             self.Prompt = prompt
             self.Marks = marks
             self.Feedback = feedback
-            //print("Practice/Test questions")
         }
-        else  {
-            self.Prompt = ""
-            self.Marks = -1
-            self.Feedback = ""
-            //print("GS questions")
-        }
+//        else  {
+//            self.Prompt = ""
+//            self.Marks = 0
+//            self.Feedback = ""
+//        }
     }
     
     func calculateAccuracy() {

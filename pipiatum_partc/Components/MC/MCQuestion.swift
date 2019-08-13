@@ -38,7 +38,7 @@ class MCQuestion: UIView {
         ExCat.text = question.QnCat
         
 //        Prompt.fadeTransition(MCAnimationDuration)
-        htmlString = gethtmlWhiteString(string: question.Prompt ?? "", isBold: false)
+        htmlString = gethtmlWhiteString(string: question.Prompt, isBold: false)
         Prompt.fadeTransition(MCAnimationDuration)
         Prompt.attributedText = convertToAttrString(string: htmlString)
         
@@ -52,7 +52,7 @@ class MCQuestion: UIView {
             Feedback.alpha = 0.0
             isFirstQn = false
         }
-        htmlString = gethtmlWhiteString(string: question.Feedback ?? "", isBold: false)
+        htmlString = gethtmlWhiteString(string: question.Feedback , isBold: false)
         Feedback.attributedText = convertToAttrString(string: htmlString)
         setFormatting(labels: [Prompt, Question, Feedback])
     }
