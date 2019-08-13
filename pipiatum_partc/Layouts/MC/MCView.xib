@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="landscape">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,17 +23,17 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="RrY-S4-Mz8">
-            <rect key="frame" x="0.0" y="0.0" width="896" height="370"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zG-ph-t10" userLabel="Question Content">
-                    <rect key="frame" x="0.0" y="0.0" width="896" height="145"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
                     <subviews>
-                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztd-pN-vNY" userLabel="MCQn Scroll">
-                            <rect key="frame" x="0.0" y="0.0" width="896" height="145"/>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztd-pN-vNY" userLabel="MCQn Scroll">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-8L-pM5" userLabel="MCQuestion" customClass="MCQuestion" customModule="pipiatum_partc" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="896" height="700"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="700"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="700" id="Wzh-8T-Ae8"/>
                                     </constraints>
@@ -57,28 +57,28 @@
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q1a-MV-M8k" userLabel="MCStack">
-                    <rect key="frame" x="0.0" y="145" width="896" height="151"/>
+                    <rect key="frame" x="0.0" y="404" width="414" height="277.5"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksf-Ap-OGi" userLabel="ListButtonView A" customClass="ListButtonView" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="896" height="50.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="92.5"/>
                             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJo-gu-2AJ" userLabel="ListButtonView B" customClass="ListButtonView" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="50.5" width="896" height="50"/>
+                            <rect key="frame" x="0.0" y="92.5" width="414" height="92.5"/>
                             <color key="backgroundColor" red="0.098039215686274508" green="0.31372549019607843" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpB-9O-TQF" userLabel="ListButtonView C" customClass="ListButtonView" customModule="pipiatum_partc" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="100.5" width="896" height="50.5"/>
+                            <rect key="frame" x="0.0" y="185" width="414" height="92.5"/>
                             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                     </subviews>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w80-rD-Naz" userLabel="UtilityBarBackground">
-                    <rect key="frame" x="0.0" y="296" width="896" height="74"/>
+                    <rect key="frame" x="0.0" y="681.5" width="414" height="126.5"/>
                     <color key="backgroundColor" red="0.090196078431372548" green="0.30588235294117649" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMe-C1-EdN" userLabel="UtilBar" customClass="UtilityBar" customModule="pipiatum_partc" customModuleProvider="target">
-                    <rect key="frame" x="45" y="301" width="806" height="43"/>
+                    <rect key="frame" x="20.5" y="689.5" width="373" height="76.5"/>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
