@@ -103,75 +103,117 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     
     func setUpMC() {
         questionPool.removeAll()
-        var tempArray = [MultChoice]()
         switch currentType {
         case .gs:
             //TBC
             break
         case .practice:
-            //Qn 1: 1pt
-            setPracticeMC(mark: 1)
-            
-            //Qn 2-9: 2pts
-            tempArray = getQuestions(withMark: 2).shuffled()
-            tempArray = Array(tempArray[0..<8])                 //Right now the plist contains just enough (9) data
-            questionPool.append(contentsOf: tempArray)
-            
-            //Qn 10: 3pts
-            setPracticeMC(mark: 3)
+            for mark in 1...3 {
+                let tempQnPool = getQuestions(withMark: mark).shuffled()
+                if mark != 2 {
+                    //mark == 1 && mark == 3
+                    questionPool.append(tempQnPool.first!)
+                } else {
+                    questionPool.append(contentsOf: Array(tempQnPool[0..<8]))
+                }
+            }
             break
         case .test:
-            //TODO
-            //Qn 1: 1pt
-            questionPool.append(prepareTestMC(mark: 1).first!)
-            
-            //Qn 2-9: 2pts
-            //Right now the plist contains just enough (9) data
-            questionPool.append(contentsOf: Array(prepareTestMC(mark: 2)[0..<8]).shuffled())
-            
-            //Qn 10: 3pts
-            questionPool.append(prepareTestMC(mark: 3).first!)
+            accessData(isSave: false)
+            for mark in 1...3 {
+                questionPool.append(contentsOf: processTestMC(mark: mark))
+            }
             break
         default:
             break
         }
-        //Load data
-        accessData(isSave: false)
         totalNumOfQns = questionPool.count
         displayMC()
     }
     
-    func setPracticeMC(mark: Int) {
-        questionPool.append(getQuestions(withMark: mark).shuffled().first!)
-    }
-    
-    func prepareTestMC(mark:Int) -> [MultChoice] {
-        let tempArray = getQuestions(withMark: mark)
-        
-        //TODO
-        //var tempArray = getQuestions(withMark: mark).sorted(by: {$0.accuracy < $1.accuracy})
-        
-        //Ditch this in future build
-        return tempArray
-        
-        
-        //Temporarily ditched due to insufficient data in TestMC.plist
-        //Use the following code in future(beta) build:
-        /*
-        //TODO
-        return Array(tempArray[0..<19]).shuffled()
-         */
-    }
-    
     func getQuestions(withMark: Int) -> [MultChoice] {
-        var tempArray = [MultChoice]()
+        var tempQnPool = [MultChoice]()
         for question in MCquestions {
             if question.Marks == withMark {
-                tempArray.append(question)
+                tempQnPool.append(question)
             }
         }
         //Contains an array of questions of the given marks
-        return tempArray
+        return tempQnPool
+    }
+    
+    func processTestMC(mark: Int) -> [MultChoice] {
+        var qnPool = getQuestions(withMark: mark)
+        var tempQnPool = [MultChoice]()
+        var tempArray = [MultChoice]()
+        var count: Int = (mark == 2) ? numOf2MarksQn : numOf1MarkQn
+        
+        //Group C: Questions with accuracy < 50%, prioritizing the lower ones
+        tempArray = qnPool.filter({$0.totalTimes != 0 && $0.accuracy < mcScoreThreshold})
+        if tempArray.count >= count {
+            return weightedShuffle(questions: tempArray, count: count)
+        } else {
+            
+            //Group A: Questions that have never been answered before, don't need weighted shuffle
+            //Weighted shuffle and store the data from group C
+            if !tempArray.isEmpty {
+                tempQnPool = weightedShuffle(questions: tempArray, count: tempArray.count)
+                count -= tempArray.count
+            }
+            qnPool = qnPool.filter({$0.totalTimes == 0 || $0.accuracy >= mcScoreThreshold})
+            tempArray = qnPool.filter({$0.totalTimes == 0})
+            if tempArray.count >= count {
+                tempQnPool.append(contentsOf: Array(tempArray.shuffled()[0..<count]))
+                return tempQnPool
+            } else {
+                
+                //Group B: Questions with accuracy >= 50%, prioritizing the lower ones
+                //Shuffle and store the data from group A
+                if !tempArray.isEmpty {
+                    tempQnPool.append(contentsOf: tempArray.shuffled())
+                    count -= tempArray.count
+                }
+                tempArray = qnPool.filter({$0.accuracy >= mcScoreThreshold})
+                tempQnPool.append(contentsOf: weightedShuffle(questions: tempArray, count: count))
+                return tempQnPool
+            }
+        }
+    }
+    
+    func weightedShuffle(questions: [MultChoice], count: Int) -> [MultChoice] {
+        //Return an array of shuffled MC with size == count
+        
+        //Extract the accuracies of all of the given questions
+        var qnAccuracies = [Int]()
+        for question in questions {
+            if question.accuracy <= 0.1 {
+                print("Rounded \(question.accuracy) to 0.1")
+                qnAccuracies.append(1)
+            } else {
+                qnAccuracies.append(Int(floor(question.accuracy * 10)))
+            }
+        }
+        var weightedQnPool = [MultChoice]()
+        var tempQNPool = [MultChoice]()
+        
+        //Remove duplicants and multiply all of the remaining elements
+        //Get the common multiplier
+        let CM = Array(Set(qnAccuracies)).reduce(1, *)
+        
+        //Find the weighting of every questions and append them into weightedQnPool accordingly
+        for i in 0..<questions.count {
+            let weighting = CM / qnAccuracies[i]
+            //For more biased shuffling: 1...(weighting * 10)
+            for _ in 1...weighting {
+                weightedQnPool.append(questions[i])
+            }
+        }
+        for _ in 1...count {
+            let question = weightedQnPool.randomElement()!
+            tempQNPool.append(question)
+            weightedQnPool = weightedQnPool.filter({$0.QnNum != question.QnNum})
+        }
+        return tempQNPool
     }
     
     func displayMC() {
@@ -179,7 +221,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         
         currentQn = questionPool[currentQnNum]
         if currentQn != nil && mcView != nil{
-            print("\n(\(currentQnNum + 1)) Qn \(currentQn!.QnNum + 1)")
+            print("\n(\(currentQnNum)) Qn \(currentQn!.QnNum)")
             print("Accuracy: \(currentQn!.corrTimes)/\(currentQn!.totalTimes) (\(currentQn!.accuracy))")
             mcView!.displayMC(question: currentQn!)
         }
@@ -278,10 +320,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     }
     
     func doNextMC(btn: ListButtonView) {
-/*******************************************************************************/
-        //Debug: use MCAnimationDuration
-        //DispatchQueue.main.asyncAfter(deadline: .now() + MCAnimationDuration) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(testMCDelay)) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + testMCDelay) {
             if !self.isEnd {
                 self.nextMC()
             }
@@ -370,7 +409,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         
         let entity = NSEntityDescription.entity(forEntityName: entityName, in: managedContext)!
         
-        for question in questionPool {
+        for question in MCquestions {
             let performance = NSManagedObject(entity: entity, insertInto: managedContext)
             performance.setValue(question.QnCat, forKey: qnCategory)
             performance.setValue(question.QnNum, forKey: qnNumber)
@@ -395,7 +434,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         //WARNING: COULD FAILED(crash) IF questionPool.first!.QnCat DNE
         //Although supposedly questionPool.first!.QnCat should exist
         //Use the category to find the corresponding saved data of a question
-        fetchRequest.predicate = NSPredicate(format: "\(qnCategory) = %@", questionPool.first!.QnCat)
+        fetchRequest.predicate = NSPredicate(format: "\(qnCategory) = %@", MCquestions.first!.QnCat)
         
         do {
             let resultSet = try managedContext.fetch(fetchRequest)
@@ -413,8 +452,8 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                         }
                     } else {
                         //Retrieve data
-                        //Attempts to match each of the retrieved data with questionPool[]
-                        for question in questionPool {
+                        //Attempts to match each of the retrieved data with MCquestions[]
+                        for question in MCquestions {
                             if num == question.QnNum {
                                 question.totalTimes = record.value(forKey: totalTimes) as! Int
                                 question.corrTimes = record.value(forKey: corrTimes) as! Int

@@ -48,10 +48,7 @@ class MCView: UIView {
     }
     
     func displayChoice(question: MultChoice) {
-        var choices = [String]()
-        choices.append(question.CorrectAns)
-        choices.append(question.Distractor1)
-        choices.append(question.Distractor2)
+        var choices = [question.CorrectAns, question.Distractor1, question.Distractor2]
         choices.shuffle()
         
         for num in 0...2 {

@@ -17,11 +17,18 @@ let minSubMenuBtnHeight: CGFloat = 55
 let maxSubMenuBtnHeight: CGFloat = 100
 
 //MC
+let numOf1MarkQn: Int = 1
+let numOf2MarksQn: Int = 8
+let numOf3MarksQn: Int = 1
 let yellow: String = "FFFD72"
 let green: String = "8BC45D"
-let black: UIColor = UIColor.black
-let testMCDelay: Int = 3
+let mcScoreThreshold: Float = 0.5
+//The time delay before showing the next TestMC question
+//Reduce its value if needed for debug use
+let testMCDelay: TimeInterval = 3
+//The duration of the overall MC UI elements (changing questions, changing choice, updating the color of choice, etc)
 let MCAnimationDuration: TimeInterval = 0.3
+//The duration of the alpha-changing animation of buttons
 let BtnAnimationDuration: TimeInterval = MCAnimationDuration
 
 //Settings
