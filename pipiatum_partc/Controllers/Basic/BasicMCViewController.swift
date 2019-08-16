@@ -183,37 +183,41 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     func weightedShuffle(questions: [MultChoice], count: Int) -> [MultChoice] {
         //Return an array of shuffled MC with size == count
         
-        //Extract the accuracies of all of the given questions
         var qnAccuracies = [Int]()
-        for question in questions {
+        var qnPool = questions
+        
+        //Extract the accuracies of all of the given questions
+        for question in qnPool {
             if question.accuracy <= 0.1 {
                 print("Rounded \(question.accuracy) to 0.1")
                 qnAccuracies.append(1)
             } else {
+                print("Rounded \(question.accuracy) to \(Int(floor(question.accuracy * 10)))")
                 qnAccuracies.append(Int(floor(question.accuracy * 10)))
             }
         }
-        var weightedQnPool = [MultChoice]()
-        var tempQNPool = [MultChoice]()
         
+        var weightedQnPool = [MultChoice]()
         //Remove duplicants and multiply all of the remaining elements
         //Get the common multiplier
         let CM = Array(Set(qnAccuracies)).reduce(1, *)
         
-        //Find the weighting of every questions and append them into weightedQnPool accordingly
-        for i in 0..<questions.count {
-            let weighting = CM / qnAccuracies[i]
-            //For more biased shuffling: 1...(weighting * 10)
-            for _ in 1...weighting {
-                weightedQnPool.append(questions[i])
+        for i in stride(from: 0, to: qnPool.count, by: 1) {
+            qnPool[i].weighting = CM / qnAccuracies[i]
+        }
+        for _ in stride(from: 1, through: count, by: 1) {
+            let sum = qnPool.reduce(0, {$0 + $1.weighting})
+            var randValue = Int.random(in: 1...sum)
+            for question in qnPool {
+                randValue -= question.weighting
+                if randValue <= 0 {
+                    weightedQnPool.append(question)
+                    qnPool = qnPool.filter({$0.QnNum != question.QnNum})
+                    break
+                }
             }
         }
-        for _ in 1...count {
-            let question = weightedQnPool.randomElement()!
-            tempQNPool.append(question)
-            weightedQnPool = weightedQnPool.filter({$0.QnNum != question.QnNum})
-        }
-        return tempQNPool
+        return weightedQnPool
     }
     
     func displayMC() {

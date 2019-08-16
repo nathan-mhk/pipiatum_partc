@@ -23,6 +23,8 @@ class MultChoice {
     var corrTimes: Int = 0
     var accuracy: Float = 0.0
     
+    var weighting: Int = 0
+    
     //For Practice/Test
     var Prompt: String = ""
     var Marks: Int = 0
