@@ -31,7 +31,7 @@
             </objects>
             <point key="canvasLocation" x="-913" y="-25"/>
         </scene>
-        <!--Home-->
+        <!--Menu View Controller-->
         <scene sceneID="rBV-wQ-qh3">
             <objects>
                 <viewController id="q0M-ZU-il7" customClass="MenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
@@ -174,7 +174,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jyu-bn-rK7"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="Wkr-W2-QbE"/>
+                    <navigationItem key="navigationItem" id="Wkr-W2-QbE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q33-Kg-MS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

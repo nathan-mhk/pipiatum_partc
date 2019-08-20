@@ -16,7 +16,7 @@ class PracticeViewController: BasicMCViewController {
         super.viewDidLoad()
         practiceMC.delegate = self
         practiceMC.utilityBar.delegate = self
-        currentType = .practice
+        currentType = ListBtnType.practice
         practiceMC.type = currentType
         practiceMC.utilityBar.type = currentType
         mcView = practiceMC
@@ -41,7 +41,6 @@ class PracticeViewController: BasicMCViewController {
                 destination.marks = marks
                 destination.total = totalNumOfQns
                 destination.type = ListBtnType.practice.rawValue
-                self.navigationItem.title = "Practice"
             }
         }
     }

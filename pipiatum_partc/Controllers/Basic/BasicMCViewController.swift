@@ -104,12 +104,12 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     func setUpMC() {
         questionPool.removeAll()
         switch currentType {
-        case .gs:
+        case ListBtnType.gs:
             //TBC
             break
-        case .practice:
+        case ListBtnType.practice:
             for mark in 1...3 {
-                let tempQnPool = getQuestions(withMark: mark).shuffled()
+                let tempQnPool = MCquestions.filter({$0.Marks == mark}).shuffled()
                 if mark != 2 {
                     //mark == 1 && mark == 3
                     questionPool.append(tempQnPool.first!)
@@ -118,7 +118,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
                 }
             }
             break
-        case .test:
+        case ListBtnType.test:
             accessData(isSave: false)
             for mark in 1...3 {
                 questionPool.append(contentsOf: processTestMC(mark: mark))
@@ -131,19 +131,8 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         displayMC()
     }
     
-    func getQuestions(withMark: Int) -> [MultChoice] {
-        var tempQnPool = [MultChoice]()
-        for question in MCquestions {
-            if question.Marks == withMark {
-                tempQnPool.append(question)
-            }
-        }
-        //Contains an array of questions of the given marks
-        return tempQnPool
-    }
-    
     func processTestMC(mark: Int) -> [MultChoice] {
-        var qnPool = getQuestions(withMark: mark)
+        var qnPool = MCquestions.filter({$0.Marks == mark})
         var tempQnPool = [MultChoice]()
         var tempArray = [MultChoice]()
         var count: Int = (mark == 2) ? numOf2MarksQn : numOf1MarkQn
@@ -265,12 +254,12 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             mcView!.MCQuestion.updateMarks(marks: marks)
             
             switch currentType {
-            case .gs:
+            case ListBtnType.gs:
                 break
-            case .practice:
+            case ListBtnType.practice:
                 showAns(showFB: true)
                 break
-            case .test:
+            case ListBtnType.test:
                 showAns(showFB: false)
                 doNextMC(btn: chosenBtn)
                 break
@@ -281,13 +270,13 @@ class BasicMCViewController: BasicViewController, MCDelegate {
         else {
             chosenBtn.setRightImg(show: true)
             switch currentType {
-            case .gs:
+            case ListBtnType.gs:
                 //TBC
                 break
-            case .practice:
+            case ListBtnType.practice:
                 showAns(showFB: true)   //Always show feedback
                 break
-            case .test:
+            case ListBtnType.test:
                 //**Only show feedback when the ANS is wrong
                 //After calling showAns, wait for a while then call nextMC
                 UIView.animate(withDuration: MCAnimationDuration, animations: {
@@ -301,7 +290,7 @@ class BasicMCViewController: BasicViewController, MCDelegate {
             }
         }
         
-        if currentType == .test {
+        if currentType == ListBtnType.test {
             accessData(isSave: true)
         }
     }
@@ -373,13 +362,13 @@ class BasicMCViewController: BasicViewController, MCDelegate {
     func endMC(sender: BasicButtonComponent) {
         var segueID = ""
         switch currentType {
-        case .gs:
+        case ListBtnType.gs:
             segueID = "GS_RESULT"
             break
-        case .practice:
+        case ListBtnType.practice:
             segueID = "PRACTICE_RESULT"
             break
-        case .test:
+        case ListBtnType.test:
             segueID = "TEST_RESULT"
             break
         default:

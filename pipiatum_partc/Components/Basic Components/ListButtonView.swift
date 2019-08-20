@@ -39,16 +39,16 @@ class ListButtonView: UIView {
     //Test MC: don't allow changing MC Choice
     //GS MC: TBC
     @IBAction func MCButton(_ sender: ListButton) {
-        if sender.type != .submenu {
+        if sender.type != ListBtnType.submenu {
             toggleSelection(setOriginal: false)
             sender.chosen = true    //Preserved, only reset in updateView() (When another MCBtn is pressed) and in nextMC()
         }
         
-        if sender.type == .gs {
+        if sender.type == ListBtnType.gs {
             //TBC
         }
         
-        if sender.type == .practice {
+        if sender.type == ListBtnType.practice {
             //Mark the button pressed momentarily, notify updateView() about which MCBtn is pressed
             //Prevent the button BEING RESET by updateView()
             sender.isPressed = true
@@ -66,7 +66,7 @@ class ListButtonView: UIView {
             delegate?.firstMCSelected = true   //Only reset in nextMC()
         }
         
-        if sender.type == .test {
+        if sender.type == ListBtnType.test {
             delegate?.checkAns()
         }
     }
@@ -74,7 +74,7 @@ class ListButtonView: UIView {
     //MARK: SubMenu
     func setUpSubMenu(id: Int, title: String, imgName: String, btnHeight: CGFloat) {
         listButton.tag = id
-        listButton.type = .submenu
+        listButton.type = ListBtnType.submenu
         setUpButton(btnNum: id, title: title, isMC: false)
         
         listButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 75, bottom: 0, right: 35)

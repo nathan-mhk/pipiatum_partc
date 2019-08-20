@@ -9,6 +9,17 @@
 import UIKit
 import CoreData
 
+//enums
+enum ListBtnType: String {
+    case none
+    case submenu
+    
+    //MC
+    case gs = "grammar smart test"
+    case practice
+    case test
+}
+
 //Misc
 let btnCornerRadius: CGFloat = 5
 

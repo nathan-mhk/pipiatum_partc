@@ -37,9 +37,8 @@ class MCQuestion: UIView {
         ExCat.fadeTransition(MCAnimationDuration)
         ExCat.text = question.QnCat
         
-//        Prompt.fadeTransition(MCAnimationDuration)
-        htmlString = gethtmlWhiteString(string: question.Prompt, isBold: false)
         Prompt.fadeTransition(MCAnimationDuration)
+        htmlString = gethtmlWhiteString(string: question.Prompt, isBold: false)
         Prompt.attributedText = convertToAttrString(string: htmlString)
         
         Question.fadeTransition(MCAnimationDuration)
@@ -60,7 +59,7 @@ class MCQuestion: UIView {
     func setFormatting(labels: [UILabel]) {
         for label in labels {
             label.textAlignment = .center
-            label.font = UIFont.systemFont(ofSize: 16)  //Works
+            label.font = label.font.withSize(16)
             label.layoutIfNeeded()
         }
     }

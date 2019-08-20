@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,13 +12,16 @@
         <!--Test Menu-->
         <scene sceneID="bgg-SH-LAt">
             <objects>
-                <viewController title="Test" id="Qd6-PF-eUL" userLabel="Test Menu" customClass="TestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qd6-PF-eUL" userLabel="Test Menu" customClass="TestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dur-5t-ccN" customClass="SubMenu" customModule="pipiatum_partc" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vrl-kd-Cle"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Test" id="Qcl-ou-Lqi">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="dOU-jw-tI4"/>
+                    </navigationItem>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="itemsPlistName" value="TestMenu"/>
                     </userDefinedRuntimeAttributes>

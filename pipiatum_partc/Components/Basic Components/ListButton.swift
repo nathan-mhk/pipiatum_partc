@@ -8,16 +8,6 @@
 
 import UIKit
 
-enum ListBtnType: String {
-    case none
-    case submenu
-    
-    //MC
-    case gs = "grammar smart test"
-    case practice
-    case test
-}
-
 class ListButton: BasicButtonComponent {
     
     var type: ListBtnType = ListBtnType.none

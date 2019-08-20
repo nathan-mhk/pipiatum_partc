@@ -13,7 +13,7 @@
         <!--GS Test Menu-->
         <scene sceneID="t3k-al-WBO">
             <objects>
-                <viewController title="Grammar Smart" id="NrC-6O-QzF" userLabel="GS Test Menu" customClass="GSTestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NrC-6O-QzF" userLabel="GS Test Menu" customClass="GSTestMenuViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1C-mR-sOe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,6 +115,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D8S-qn-SHo"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Grammar Smart" id="CyR-Hb-Hws">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="lIu-4g-DRR"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3oH-6F-Viw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

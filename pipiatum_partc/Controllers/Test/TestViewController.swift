@@ -15,7 +15,7 @@ class TestViewController: BasicMCViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         testMC.delegate = self
-        currentType = .test
+        currentType = ListBtnType.test
         testMC.type = currentType
         testMC.utilityBar.type = currentType
         mcView = testMC
@@ -41,7 +41,6 @@ class TestViewController: BasicMCViewController {
                 destination.marks = marks
                 destination.total = totalNumOfQns
                 destination.type = ListBtnType.test.rawValue
-                self.navigationItem.title = "Test"
             }
         }
     }

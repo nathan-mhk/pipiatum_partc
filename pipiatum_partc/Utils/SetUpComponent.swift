@@ -47,7 +47,10 @@ func convertToAttrString(string: String) -> NSMutableAttributedString {
 }
 
 func gethtmlWhiteString(string: String, isBold: Bool) -> String {
-    var htmlString = "<font color=\"#FFFFFF\" style=\" font-family: -apple-system;\">"
+    var htmlString = "<font color=\"#FFFFFF\" style=\"font-family: -apple-system;\">"
+
+    //For Latin font
+//    var htmlString = "<font color=\"#FFFFFF\" style=\"font-family: BradleyHandITCTT-Bold;\">"
     if isBold {
         htmlString = htmlString + "<b>" + string + "</b></font>"
     } else {

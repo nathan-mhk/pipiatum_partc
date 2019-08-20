@@ -12,7 +12,7 @@
         <!--Settings View Controller-->
         <scene sceneID="pBG-cY-noM">
             <objects>
-                <viewController title="Settings" id="a2W-EH-Pfh" userLabel="Settings View Controller" customClass="SettingsViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a2W-EH-Pfh" userLabel="Settings View Controller" customClass="SettingsViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sHK-uZ-Wd0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,7 +190,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="muu-ah-X09"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Settings" id="r8h-Ww-9iz"/>
+                    <navigationItem key="navigationItem" title="Settings" id="r8h-Ww-9iz">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="8dl-Wj-aC9"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="scriptFontBtn" destination="iYm-J4-tpP" id="Xbm-xM-uOQ"/>
                         <outlet property="stdFontBtn" destination="0Jb-zu-GYG" id="JfV-ko-cpN"/>

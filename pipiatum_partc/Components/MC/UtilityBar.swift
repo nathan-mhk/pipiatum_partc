@@ -28,14 +28,14 @@ class UtilityBar: UIView {
     
     func initUtilBar() {
         switch type {
-        case .gs:
+        case ListBtnType.gs:
             break
-        case .practice:
+        case ListBtnType.practice:
             //Initially: show = T, check = F, next = F
             checkBtn.changeState()
             nextBtn.changeState()
             break
-        case .test:
+        case ListBtnType.test:
             //TODO
             break
         default:
@@ -81,13 +81,13 @@ class UtilityBar: UIView {
     
     func updateView() {
         switch type {
-        case .gs:
+        case ListBtnType.gs:
             updateGSUtilBar()
             break
-        case .practice:
+        case ListBtnType.practice:
             updatePracticeUtilBar()
             break
-        case .test:
+        case ListBtnType.test:
             updateTestUtilBar()
             break
         default:
