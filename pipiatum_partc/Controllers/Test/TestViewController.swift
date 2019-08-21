@@ -8,9 +8,10 @@
 
 import UIKit
 
-class TestViewController: BasicMCViewController {
+class TestViewController: BasicMCViewController, PopUpDelegate {
 
     @IBOutlet weak var testMC: MCView!
+    @IBOutlet weak var PopUp: PopUp!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,11 @@ class TestViewController: BasicMCViewController {
         mcView = testMC
         setUpMCView(utilBarName: "EggBar")
         //To be implemented: EggBar
+        
+        //Popup
+        PopUp.delegate = self
+        setUpNavBar()
+        setUpPopUp()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -45,4 +51,72 @@ class TestViewController: BasicMCViewController {
         }
     }
     
+    var isHome: Bool = false
+    
+    func setUpNavBar() {
+        //Quit button
+        self.navigationItem.hidesBackButton = true
+        let backBtn = UIBarButtonItem(title: "Quit", style: .plain, target: self, action: #selector(showQuitPopUp))
+        self.navigationItem.leftBarButtonItem = backBtn
+        
+        //Home Button
+        self.navigationItem.rightBarButtonItem = nil
+        setHomeButton(action: #selector(showHomePopUp))
+    }
+    
+    func setUpPopUp() {
+        view.sendSubviewToBack(PopUp)
+        PopUp.YesBtn.isEnabled = false
+        PopUp.NoBtn.isEnabled = false
+        PopUp.alpha = 0
+    }
+    
+    func backToMenu() {
+        let viewControllers: [UIViewController] = self.navigationController?.viewControllers.reversed() ?? [UIViewController]()
+        for vc in viewControllers {
+            if vc .isKind(of: BasicSubMenuViewController.self) {
+                self.navigationController?.popToViewController(vc, animated: true)
+                break
+            }
+        }
+    }
+    
+    func showPopUp() {
+        toggleNavBtns()
+        PopUp.toggleButtons()
+        
+        view.bringSubviewToFront(PopUp)
+        testMC.isUserInteractionEnabled = false
+        
+        UIView.animate(withDuration: MCAnimationDuration, animations: {
+            self.PopUp.alpha = 1
+        })
+    }
+    
+    @objc func showQuitPopUp() {
+        PopUp.isHome = false
+        showPopUp()
+    }
+    
+    @objc func showHomePopUp() {
+        PopUp.isHome = true
+        showPopUp()
+    }
+    
+    func hidePopUp() {
+        toggleNavBtns()
+        PopUp.toggleButtons()
+        
+        UIView.animate(withDuration: MCAnimationDuration, animations: {
+            self.PopUp.alpha = 0
+        }, completion: {_ in
+            self.view.sendSubviewToBack(self.PopUp)
+            self.testMC.isUserInteractionEnabled = true
+        })
+    }
+    
+    func toggleNavBtns() {
+        self.navigationItem.rightBarButtonItem!.isEnabled = !self.navigationItem.rightBarButtonItem!.isEnabled
+        self.navigationItem.leftBarButtonItem!.isEnabled = !self.navigationItem.leftBarButtonItem!.isEnabled
+    }
 }

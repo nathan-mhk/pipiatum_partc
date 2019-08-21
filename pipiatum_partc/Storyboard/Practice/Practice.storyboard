@@ -13,10 +13,22 @@
         <scene sceneID="17d-j0-gl8">
             <objects>
                 <viewController id="CeX-Cd-prT" userLabel="Practice" customClass="PracticeViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TNU-HZ-ynF" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="TNU-HZ-ynF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7z-Zq-uu7" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="s7z-Zq-uu7" secondAttribute="bottom" id="8oO-wI-HTy"/>
+                            <constraint firstItem="s7z-Zq-uu7" firstAttribute="leading" secondItem="TNU-HZ-ynF" secondAttribute="leading" id="Hh9-FP-4bJ"/>
+                            <constraint firstItem="s7z-Zq-uu7" firstAttribute="top" secondItem="II1-gx-byu" secondAttribute="top" id="dcb-MA-Zv4"/>
+                            <constraint firstAttribute="trailing" secondItem="s7z-Zq-uu7" secondAttribute="trailing" id="olT-Ag-Pxd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="II1-gx-byu"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -24,7 +36,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="PracticeMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <outlet property="practiceMC" destination="TNU-HZ-ynF" id="5FF-fW-ALB"/>
+                        <outlet property="practiceMC" destination="s7z-Zq-uu7" id="XjZ-7d-O0O"/>
                         <segue destination="c6h-Pi-ZDy" kind="show" identifier="PRACTICE_RESULT" id="s26-fm-p5D"/>
                     </connections>
                 </viewController>

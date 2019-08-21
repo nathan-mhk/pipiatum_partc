@@ -84,14 +84,17 @@
             <color key="backgroundColor" red="0.098039215686274508" green="0.33333333333333331" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="w80-rD-Naz" firstAttribute="top" secondItem="q1a-MV-M8k" secondAttribute="bottom" id="298-ip-z7s" userLabel="MCChoiceStack.bottom"/>
+                <constraint firstAttribute="trailing" secondItem="9zG-ph-t10" secondAttribute="trailing" id="4h4-ex-2lE"/>
                 <constraint firstItem="HMe-C1-EdN" firstAttribute="top" secondItem="w80-rD-Naz" secondAttribute="top" constant="8" id="7QG-Xw-5np" userLabel="UtilBar.top">
                     <variation key="heightClass=compact-widthClass=compact" constant="5"/>
                     <variation key="heightClass=compact-widthClass=regular" constant="5"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="20"/>
                 </constraint>
+                <constraint firstAttribute="trailing" secondItem="w80-rD-Naz" secondAttribute="trailing" id="C36-tD-AZQ"/>
                 <constraint firstItem="q1a-MV-M8k" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="FPg-pn-8co" userLabel="MC Choice Stack.width"/>
-                <constraint firstItem="w80-rD-Naz" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="GmB-RL-C2L" userLabel="UtilityBarBackground.width"/>
                 <constraint firstItem="9zG-ph-t10" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="I2W-6z-R23" userLabel="Question Content.centerX"/>
+                <constraint firstItem="w80-rD-Naz" firstAttribute="leading" secondItem="RrY-S4-Mz8" secondAttribute="leading" id="L5R-1l-gc7"/>
+                <constraint firstItem="9zG-ph-t10" firstAttribute="leading" secondItem="RrY-S4-Mz8" secondAttribute="leading" id="LEf-2T-pQF"/>
                 <constraint firstItem="q1a-MV-M8k" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="Qw5-fd-LuO" userLabel="MC Choice Stack.centerX"/>
                 <constraint firstItem="w80-rD-Naz" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.2" id="SWX-Lh-MKj" userLabel="UtilityBarBackground.height">
                     <variation key="heightClass=compact-widthClass=compact" constant="4"/>
@@ -99,15 +102,13 @@
                     <variation key="heightClass=regular-widthClass=compact" constant="-35"/>
                     <variation key="heightClass=regular-widthClass=regular" constant="-32"/>
                 </constraint>
-                <constraint firstItem="9zG-ph-t10" firstAttribute="width" secondItem="RrY-S4-Mz8" secondAttribute="width" id="Ti6-ey-7fT" userLabel="Question Content.width"/>
                 <constraint firstItem="HMe-C1-EdN" firstAttribute="width" secondItem="w80-rD-Naz" secondAttribute="width" multiplier="0.9" id="WKg-Zc-6ff" userLabel="UtilBar.width"/>
-                <constraint firstItem="9zG-ph-t10" firstAttribute="top" secondItem="RrY-S4-Mz8" secondAttribute="top" id="WZK-38-pbi" userLabel="Question Content.top"/>
+                <constraint firstItem="9zG-ph-t10" firstAttribute="top" secondItem="5DR-Qj-ctJ" secondAttribute="top" id="WZK-38-pbi" userLabel="Question Content.top"/>
                 <constraint firstItem="9zG-ph-t10" firstAttribute="height" secondItem="RrY-S4-Mz8" secondAttribute="height" multiplier="0.5" id="Y9F-nD-hHL" userLabel="Question Content.height">
                     <variation key="heightClass=compact-widthClass=compact" constant="-45"/>
                     <variation key="heightClass=compact-widthClass=regular" constant="-40"/>
                 </constraint>
                 <constraint firstAttribute="bottom" secondItem="w80-rD-Naz" secondAttribute="bottom" id="bcS-Am-Qkc" userLabel="UtilityBarBackground.bottom"/>
-                <constraint firstItem="w80-rD-Naz" firstAttribute="centerX" secondItem="RrY-S4-Mz8" secondAttribute="centerX" id="jKD-lj-Qun" userLabel="UtilityBarBackground.centerX"/>
                 <constraint firstItem="q1a-MV-M8k" firstAttribute="top" secondItem="9zG-ph-t10" secondAttribute="bottom" id="l2b-1j-cxF"/>
                 <constraint firstItem="HMe-C1-EdN" firstAttribute="centerX" secondItem="w80-rD-Naz" secondAttribute="centerX" id="pGM-Ok-toE" userLabel="UtilBar.centerX"/>
                 <constraint firstItem="5DR-Qj-ctJ" firstAttribute="bottom" secondItem="HMe-C1-EdN" secondAttribute="bottom" constant="8" id="t9A-b3-nOo" userLabel="UtilBar.bottom">

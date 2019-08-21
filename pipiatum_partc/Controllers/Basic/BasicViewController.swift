@@ -24,13 +24,13 @@ class BasicViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(hexString: "1955A2")
-        setHomeButton()
+        setHomeButton(action: #selector(backToHome))
     }
     
-    func setHomeButton() {
+    func setHomeButton(action: Selector) {
         let btn = UIButton(type: .custom)
         btn.setImage(UIImage(named: "home_icon"), for: .normal)
-        btn.addTarget(self, action: #selector(backToHome), for: .touchUpInside)
+        btn.addTarget(self, action: action, for: .touchUpInside)
         
         let homeBtn = UIBarButtonItem(customView: btn)
         self.navigationItem.rightBarButtonItem = homeBtn

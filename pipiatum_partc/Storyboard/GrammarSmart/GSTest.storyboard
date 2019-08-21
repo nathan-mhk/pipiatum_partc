@@ -13,17 +13,29 @@
         <scene sceneID="vdO-4z-h9Z">
             <objects>
                 <viewController id="C2y-Al-RMk" userLabel="GS Test" customClass="GSTestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HWp-lZ-4Q9" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="HWp-lZ-4Q9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKb-8e-hPv" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pKb-8e-hPv" secondAttribute="bottom" id="0Pu-C5-BXm"/>
+                            <constraint firstItem="pKb-8e-hPv" firstAttribute="leading" secondItem="HWp-lZ-4Q9" secondAttribute="leading" id="NSW-HO-3Fg"/>
+                            <constraint firstItem="pKb-8e-hPv" firstAttribute="top" secondItem="qeh-5J-KSR" secondAttribute="top" id="SX9-ss-bgD"/>
+                            <constraint firstAttribute="trailing" secondItem="pKb-8e-hPv" secondAttribute="trailing" id="pEQ-Np-2RN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qeh-5J-KSR"/>
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="GSMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <outlet property="gsMC" destination="HWp-lZ-4Q9" id="IXk-S9-gBb"/>
+                        <outlet property="gsMC" destination="pKb-8e-hPv" id="Kg9-n5-Jzo"/>
                         <segue destination="SlR-hi-vvJ" kind="show" identifier="GS_RESULT" id="wv3-GF-fWj"/>
                     </connections>
                 </viewController>

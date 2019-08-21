@@ -23,7 +23,7 @@ class BasicResultViewController: BasicViewController {
     
     //MARK: Set Up Functions
     //Back button
-    func setUpNavBar() {
+    private func setUpNavBar() {
         self.navigationItem.hidesBackButton = true
         let backBtn = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(backToMenu))
         self.navigationItem.leftBarButtonItem = backBtn
@@ -37,6 +37,5 @@ class BasicResultViewController: BasicViewController {
                 break
             }
         }
-        
     }
 }

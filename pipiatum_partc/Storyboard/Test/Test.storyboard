@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,17 +13,40 @@
         <scene sceneID="G4n-9r-bnf">
             <objects>
                 <viewController id="ckG-eI-4j8" userLabel="Test" customClass="TestViewController" customModule="pipiatum_partc" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XHL-x4-3mn" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" id="XHL-x4-3mn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gSr-D3-Qj9" userLabel="MCView" customClass="MCView" customModule="pipiatum_partc" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7V9-hn-5RX" userLabel="Pop Up" customClass="PopUp" customModule="pipiatum_partc" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gSr-D3-Qj9" firstAttribute="top" secondItem="Ide-ub-D4T" secondAttribute="top" id="0x2-J2-JZa"/>
+                            <constraint firstItem="7V9-hn-5RX" firstAttribute="leading" secondItem="XHL-x4-3mn" secondAttribute="leading" id="26X-75-qcy"/>
+                            <constraint firstAttribute="bottom" secondItem="7V9-hn-5RX" secondAttribute="bottom" id="DfV-1D-Jpz"/>
+                            <constraint firstAttribute="bottom" secondItem="gSr-D3-Qj9" secondAttribute="bottom" id="NrO-CM-N6T"/>
+                            <constraint firstAttribute="trailing" secondItem="gSr-D3-Qj9" secondAttribute="trailing" id="bjU-GV-fwG"/>
+                            <constraint firstAttribute="trailing" secondItem="7V9-hn-5RX" secondAttribute="trailing" id="hmO-Gm-bKm"/>
+                            <constraint firstItem="7V9-hn-5RX" firstAttribute="top" secondItem="Ide-ub-D4T" secondAttribute="top" id="o0K-Ro-eUb"/>
+                            <constraint firstItem="gSr-D3-Qj9" firstAttribute="leading" secondItem="XHL-x4-3mn" secondAttribute="leading" id="yR9-lu-kSY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ide-ub-D4T"/>
                     </view>
+                    <navigationItem key="navigationItem" id="lao-z2-DVT">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="a6u-mf-wat"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="mcPlistName" value="TestMC"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <outlet property="testMC" destination="XHL-x4-3mn" id="ZcB-uq-MOd"/>
+                        <outlet property="PopUp" destination="7V9-hn-5RX" id="mgf-bu-O4d"/>
+                        <outlet property="testMC" destination="gSr-D3-Qj9" id="hs4-K8-Of2"/>
                         <segue destination="TUA-He-aIP" kind="show" identifier="TEST_RESULT" id="niH-Ux-fMF"/>
                     </connections>
                 </viewController>
