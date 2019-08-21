@@ -116,7 +116,7 @@ class TestViewController: BasicMCViewController, PopUpDelegate {
     }
     
     func toggleNavBtns() {
-        let alpha: CGFloat = self.navigationItem.rightBarButtonItem!.isEnabled ? 0.5 : 1
+        let alpha: CGFloat = self.navigationItem.rightBarButtonItem!.isEnabled ? 0.75 : 1
         UIView.animate(withDuration: MCAnimationDuration, animations: {
             
             self.navigationItem.leftBarButtonItem!.isEnabled = !self.navigationItem.leftBarButtonItem!.isEnabled
