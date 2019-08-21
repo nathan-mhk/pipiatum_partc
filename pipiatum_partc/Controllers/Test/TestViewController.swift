@@ -116,7 +116,9 @@ class TestViewController: BasicMCViewController, PopUpDelegate {
     }
     
     func toggleNavBtns() {
-        self.navigationItem.rightBarButtonItem!.isEnabled = !self.navigationItem.rightBarButtonItem!.isEnabled
-        self.navigationItem.leftBarButtonItem!.isEnabled = !self.navigationItem.leftBarButtonItem!.isEnabled
+        UIView.animate(withDuration: MCAnimationDuration, animations: {
+            self.navigationItem.rightBarButtonItem!.isEnabled = !self.navigationItem.rightBarButtonItem!.isEnabled
+            self.navigationItem.leftBarButtonItem!.isEnabled = !self.navigationItem.leftBarButtonItem!.isEnabled
+        })
     }
 }
